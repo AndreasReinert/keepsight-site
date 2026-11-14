@@ -7,7 +7,7 @@
 <script>
 // Sprache: zuerst die gemerkte Wahl, dann die Sprachen des Browsers, sonst Englisch
 (function () {
-  var available = ['en', 'de', 'fr', 'it', 'es', 'pt-BR', 'nl'], chosen = null;
+  var available = ['en', 'de', 'fr', 'it', 'es', 'pt-BR', 'nl', 'sv', 'pl', 'ru', 'uk'], chosen = null;
   try { chosen = localStorage.getItem('ks-lang'); } catch (e) {}
   if (available.indexOf(chosen) < 0) {
     chosen = null;
@@ -25,5 +25,5 @@
 </script>
 <noscript><meta http-equiv="refresh" content="0; url=en/"></noscript>
 </head>
-<body><p>Keepsight: <a href="en/">English</a> · <a href="de/">Deutsch</a> · <a href="fr/">Français</a> · <a href="it/">Italiano</a> · <a href="es/">Español</a> · <a href="pt-BR/">Português (Brasil)</a> · <a href="nl/">Nederlands</a></p></body>
+<body><p>Keepsight: <a href="en/">English</a> · <a href="de/">Deutsch</a> · <a href="fr/">Français</a> · <a href="it/">Italiano</a> · <a href="es/">Español</a> · <a href="pt-BR/">Português (Brasil)</a> · <a href="nl/">Nederlands</a> · <a href="sv/">Svenska</a> · <a href="pl/">Polski</a> · <a href="ru/">Русский</a> · <a href="uk/">Українська</a></p></body>
 </html>
