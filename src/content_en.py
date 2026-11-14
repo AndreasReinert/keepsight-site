@@ -208,7 +208,7 @@ DOCS = [
 <h2>In the viewfinder</h2>
 <table>
 <tr><th>Element</th><th>Meaning</th></tr>
-<tr><td>Status, top left</td><td>Searching, Target locked, Predicting or Target lost.</td></tr>
+<tr><td>Status, top left</td><td>Searching, Target locked, Predicting or Target lost. “Detection off” means detection is switched off. A thermometer shows that the iPhone is hot.</td></tr>
 <tr><td>Format, top centre</td><td>Current resolution and frame rate, in photo mode file type and megapixels. Tap to open the format panel.</td></tr>
 <tr><td>Green frame</td><td>The target Keepsight follows. White frames are other detected subjects.</td></tr>
 <tr><td>Lenses</td><td><kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> and, in video mode, <kbd>A</kbd> for auto zoom.</td></tr>
@@ -251,6 +251,15 @@ DOCS = [
 <tr><td>Boat</td><td>Pro</td><td></td></tr>
 </table>
 <p>If several matching subjects are in the image, Keepsight takes the one nearest the centre. Tap another frame to switch.</p>
+
+<h2>Switching detection on and off</h2>
+<p>Detection takes computing power and warms the iPhone. Keepsight therefore only computes as much as needed:</p>
+<ul>
+<li><strong>Full rate:</strong> as long as tracking, auto zoom, the virtual gimbal, auto capture, gestures or a custom target need detection.</li>
+<li><strong>Preview:</strong> otherwise about five frames per second, so that you see the frames and can choose a target.</li>
+<li><strong>Off:</strong> the <kbd>Detection</kbd> switch at the top of the tracking panel turns it off completely. It starts by itself as soon as one of the functions above needs it.</li>
+</ul>
+<p>The green frame always stays inside the visible picture, even when the subject is larger than the view.</p>
 
 <h2>Custom target</h2>
 <p>If you drag a frame around an object, Keepsight follows exactly that object, whatever the subject type. The left panel then shows the button <kbd>Custom target</kbd>. Tap it to clear the selection.</p>
@@ -466,6 +475,7 @@ DOCS = [
 <li>The bin deletes the capture from the Photos app as well. The iPhone asks first.</li>
 </ul>
 <p>The gallery needs read access to Photos. With “Limited access”, Keepsight still sees its own captures.</p>
+<p>If a tile shows a cloud symbol, the original is in iCloud and is being downloaded. This happens when iCloud Photos is on with “Optimise iPhone Storage”. A warning sign means the file cannot be read; the large view then shows the file name.</p>
 """),
 
 ("pro", "Free and Pro", "What the free version does, what Pro unlocks, purchase and restore.", """
@@ -565,7 +575,7 @@ DOCS = [
 <li><strong>Thermometer in the status field:</strong> the iPhone is hot and detection only evaluates every second or third frame. Tracking continues but reacts a little more slowly.</li>
 <li><strong>Tracking stopped:</strong> at a critical temperature Keepsight ends tracking and recording and saves the video. Let the iPhone cool down in the shade.</li>
 </ul>
-<p>To keep it cooler: 1080p instead of 4K, 30 instead of 60 frames, switch off the overlay video and virtual gimbal, remove the case. For this reason the iPhone 12 and older models start with 1080p.</p>
+<p>To keep it cooler: switch off detection and gesture control when you do not need them, 1080p instead of 4K, 30 instead of 60 frames, switch off the overlay video and virtual gimbal, remove the case. For this reason the iPhone 12 and older models start with 1080p.</p>
 """),
 ]
 
@@ -592,7 +602,7 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Privacy Policy",
-    "lead": "Last updated: 13 November 2026. Applies to the Keepsight iOS app and this website.",
+    "lead": "Last updated: 14 November 2026. Applies to the Keepsight iOS app and this website.",
     "body": f"""
 <div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone.</p></div>
 <h2>1. Controller</h2>
@@ -601,6 +611,7 @@ PRIVACY = {
 <p>The app processes data only on your device and only to provide its features. I, as the provider, receive none of it.</p>
 <ul>
 <li><strong>Camera:</strong> The camera image is analysed on the iPhone to detect and follow subjects. Images do not leave the device.</li>
+<li><strong>Faces:</strong> to detect faces, smiles and where people look, the app analyses the camera image on the iPhone. It does not recognise who someone is and stores no facial features. Portrait photos contain depth data from the front camera; it exists only in the photo you save yourself.</li>
 <li><strong>Microphone:</strong> for the sound of your videos and, if you turn on voice control, for voice commands.</li>
 <li><strong>Speech recognition:</strong> Voice commands are recognised by Apple’s speech recognition. If your iPhone and the selected language support it, this happens on the device. Otherwise the audio is sent to Apple for recognition, subject to Apple’s privacy policy. Voice control is off by default.</li>
 <li><strong>Photos:</strong> The app saves your captures to the photo library and shows only captures made with Keepsight in its gallery. If you use iCloud Photos, Apple transfers them according to your iCloud settings.</li>
@@ -635,6 +646,8 @@ IMPRINT = {
 <p>Keepsight controls a motorised gimbal. Make sure the gimbal can move freely and nobody is put at risk. Use is at your own responsibility, to the extent permitted by law.</p>
 <h2>Trademarks</h2>
 <p>Apple, iPhone, App Store, TestFlight and DockKit are trademarks of Apple Inc. FeiyuTech, AK4500, Insta360, DJI and Belkin are trademarks of their respective owners. Keepsight is an independent product and is not affiliated with these companies.</p>
+<h2>Terms of use</h2>
+<p>The app is licensed under Apple’s standard licence agreement for apps: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.</p>
 <h2>Typeface</h2>
 <p>This website uses the Inter typeface (SIL Open Font License 1.1).</p>
 """,

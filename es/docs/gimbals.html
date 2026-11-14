@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gimbals compatibles – Keepsight</title>
+<meta name="description" content="Qué dispositivos controla Keepsight, cómo conectarlos y moverlos a mano.">
+<link rel="alternate" hreflang="en" href="../../en/docs/gimbals.html"><link rel="alternate" hreflang="de" href="../../de/docs/gimbals.html"><link rel="alternate" hreflang="fr" href="../../fr/docs/gimbals.html"><link rel="alternate" hreflang="it" href="../../it/docs/gimbals.html"><link rel="alternate" hreflang="es" href="../../es/docs/gimbals.html">
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<header class="top">
+<a class="brand" href="../index.html"><img src="../../icon.png" alt="">Keepsight</a>
+<nav><a href="../index.html">Resumen</a><a href="../docs/index.html" aria-current="page">Documentación</a><a href="../support.html">Soporte</a></nav>
+<select class="lang" aria-label="Idioma"><option value="../../en/docs/gimbals.html" data-lang="en">English</option><option value="../../de/docs/gimbals.html" data-lang="de">Deutsch</option><option value="../../fr/docs/gimbals.html" data-lang="fr">Français</option><option value="../../it/docs/gimbals.html" data-lang="it">Italiano</option><option value="../../es/docs/gimbals.html" data-lang="es" selected>Español</option></select>
+</header>
+<main class="wrap"><div class="docs"><details class="tocm"><summary><span>Capítulos</span><b>2 · Gimbals compatibles</b></summary><ol><li><a href="start.html">Primeros pasos</a></li><li><a href="gimbals.html" aria-current=page>Gimbals compatibles</a></li><li><a href="rig.html">Grabar con la cámara grande</a></li><li><a href="viewfinder.html">El visor</a></li><li><a href="tracking.html">Seguir sujetos</a></li><li><a href="camera.html">Cámara y formato</a></li><li><a href="zoom.html">Zoom automático</a></li><li><a href="virtual-gimbal.html">Estabilizador virtual</a></li><li><a href="photo.html">Fotos y disparo</a></li><li><a href="remote.html">Gestos, voz, cuenta atrás</a></li><li><a href="recording.html">Grabación y galería</a></li><li><a href="pro.html">Gratis y Pro</a></li><li><a href="settings.html">Ajustes y ayuda</a></li><li><a href="troubleshooting.html">Solución de problemas</a></li></ol></details><nav class="toc" aria-label="Documentación"><ol><li><a href="start.html">Primeros pasos</a></li><li><a href="gimbals.html" aria-current=page>Gimbals compatibles</a></li><li><a href="rig.html">Grabar con la cámara grande</a></li><li><a href="viewfinder.html">El visor</a></li><li><a href="tracking.html">Seguir sujetos</a></li><li><a href="camera.html">Cámara y formato</a></li><li><a href="zoom.html">Zoom automático</a></li><li><a href="virtual-gimbal.html">Estabilizador virtual</a></li><li><a href="photo.html">Fotos y disparo</a></li><li><a href="remote.html">Gestos, voz, cuenta atrás</a></li><li><a href="recording.html">Grabación y galería</a></li><li><a href="pro.html">Gratis y Pro</a></li><li><a href="settings.html">Ajustes y ayuda</a></li><li><a href="troubleshooting.html">Solución de problemas</a></li></ol></nav>
+<article class="doc"><h1>Gimbals compatibles</h1><p class="lead">Qué dispositivos controla Keepsight, cómo conectarlos y moverlos a mano.</p>
+<p>Keepsight controla gimbals y soportes mediante DockKit, la interfaz de Apple para soportes motorizados. Es la vía recomendada: los dispositivos se conectan solos y Apple se encarga de la conexión. Además, el control directo por Bluetooth del FeiyuTech AK4500 está disponible en versión beta.</p>
+<table>
+<tr><th>Dispositivo</th><th>Conexión</th></tr>
+<tr><td>Insta360 Flow Pro and Flow 2 Pro</td><td>Apple DockKit</td></tr>
+<tr><td>DJI Osmo Mobile 8</td><td>Apple DockKit</td></tr>
+<tr><td>Belkin Auto-Tracking Stand Pro</td><td>Apple DockKit</td></tr>
+<tr><td>Otros dispositivos con DockKit</td><td>Apple DockKit</td></tr>
+<tr><td>FeiyuTech AK4500 <span class="beta">Beta</span></td><td>Bluetooth, directamente desde Keepsight</td></tr>
+</table>
+<div class="tip"><p><strong>Qué significa beta aquí:</strong> el AK4500 no tiene una interfaz oficial para apps de terceros. Keepsight se comunica con él mediante el protocolo Bluetooth del fabricante. Funciona, pero puede cambiar con un firmware nuevo, y aún faltan algunas funciones del gimbal. En la app, esta vía lleva la marca «BETA».</p></div>
+<p>Si un dispositivo no responde como esperas, envíame un mensaje con el modelo exacto.</p>
+
+<h2>Gimbal con Apple DockKit</h2>
+<ol>
+<li>Enlaza el dispositivo una vez con tu iPhone. Normalmente acercas el iPhone al soporte y confirmas la solicitud. Las instrucciones del fabricante describen los pasos exactos.</li>
+<li>Acopla el iPhone y abre Keepsight. La app detecta el dispositivo por sí sola y el botón de abajo a la derecha muestra <kbd>Seguir</kbd>.</li>
+<li>Elige un sujeto y toca <kbd>Seguir</kbd>.</li>
+</ol>
+<p>Mientras Keepsight controla el dispositivo, el seguimiento propio de Apple queda desactivado para que no se estorben. Si te desconectas en el área <kbd>Manual</kbd>, el sistema vuelve a tomar el control.</p>
+<p>DockKit requiere iOS 17 o posterior. Keepsight no puede controlar dispositivos sin DockKit, como modelos anteriores de los mismos fabricantes.</p>
+
+<h2>FeiyuTech AK4500 <span class="beta">Beta</span></h2>
+<ol>
+<li>Enciende el gimbal. Cierra la app de Feiyu, porque el gimbal solo acepta una conexión.</li>
+<li>Toca <kbd>Conectar</kbd> abajo a la derecha en Keepsight.</li>
+<li>La primera vez, permite el acceso a Bluetooth.</li>
+</ol>
+<p>El AK4500 solo reacciona a partir de cierta intensidad de comando. Keepsight lo compensa con el ajuste <kbd>Velocidad mínima</kbd>; consulta el capítulo Ajustes.</p>
+
+<h2>Mover a mano</h2>
+<div class="shots n1"><figure><img src="../../img/manual-en.webp" width="600" height="1300" loading="lazy" alt="Sección Manual con joystick"><figcaption>Sección Manual con joystick</figcaption></figure></div>
+<p>El área <kbd>Manual</kbd>, en la parte inferior de la app, sirve para comprobar la conexión.</p>
+<ul>
+<li><strong>Joystick:</strong> mueve el gimbal a izquierda, derecha, arriba y abajo.</li>
+<li><strong>Velocidad:</strong> ajusta lo rápido que gira.</li>
+<li><strong>Conectar y desconectar</strong>, además del estado actual de la conexión.</li>
+</ul>
+<p>Si aquí el gimbal se mueve en el sentido equivocado, invierte el eje en <kbd>Todos los ajustes</kbd> → <kbd>Dirección</kbd>.</p>
+
+<h2>Sin gimbal</h2>
+<p>La cámara, las fotos, el disparo automático, los gestos, los comandos de voz y el gimbal virtual también funcionan sin gimbal, a pulso o sobre un trípode.</p>
+<nav class="pager"><a href="start.html"><small>Atrás</small>Primeros pasos</a><a href="rig.html" style="text-align:right"><small>Siguiente</small>Grabar con la cámara grande</a></nav></article></div></main>
+<footer class="foot"><span>© 2026 Andreas Reinert</span>
+<a href="../docs/index.html">Documentación</a><a href="../support.html">Soporte</a>
+<a href="../privacy.html">Privacidad</a><a href="../imprint.html">Aviso legal</a></footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

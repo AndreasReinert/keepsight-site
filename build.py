@@ -1,7 +1,10 @@
 """Erzeugt die Keepsight-Webseite aus src/content_<sprache>.py.
 
 Aufruf: python3 build.py
-Neue Sprache: src/content_xx.py anlegen (Aufbau wie content_en.py) und unten in LANGS eintragen.
+Englisch und Deutsch sind vollständige Module (src/content_en.py, src/content_de.py). Alle anderen
+Sprachen liegen als src/i18n/<code>.txt vor: eine Zeile `Nummer|Text` je Textstück des englischen
+Inhalts (siehe src/i18n.py). Namen von Knöpfen kommen aus den Texten der App (src/app_strings.json,
+eine Kopie von ios/Keepsight/Localizable.xcstrings).
 """
 import html
 import importlib
@@ -11,9 +14,23 @@ import shutil
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
-LANGS = ["de", "en"]
+import i18n  # noqa: E402
+
+FULL = ["de", "en"]
 FALLBACK = "en"
-C = {lang: importlib.import_module(f"content_{lang}") for lang in LANGS}
+C = {lang: importlib.import_module(f"content_{lang}") for lang in FULL}
+# Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse)
+KEEP = [39, 57, 60, 74, 99, 100, 101, 102, 150, 278, 388]
+ORDER = ["en", "de", "fr", "it", "es", "pt-BR", "nl", "sv", "pl", "ru", "uk", "tr", "ar", "hi", "id", "vi", "th",
+         "ja", "ko", "zh-Hans", "zh-Hant"]
+_app = i18n.app_strings(os.path.join(os.path.dirname(__file__), "src", "app_strings.json"))
+PROBLEMS = []
+for _code in ORDER:
+    if _code in FULL or not os.path.exists(os.path.join(os.path.dirname(__file__), "src", "i18n", f"{_code}.txt")):
+        continue
+    C[_code], _problems = i18n.load(_code, C["en"], _app, KEEP)
+    PROBLEMS += _problems
+LANGS = [code for code in ORDER if code in C]
 
 PLANE = ('<svg class="plane" viewBox="0 0 120 50" aria-hidden="true"><path fill="currentColor" d="M4 27l20-4 30-1 '
          '22-18h9l-12 18 30 1c8 0 13 3 13 5s-5 4-13 4l-30 1 12 14h-9L54 33l-30-1-10 9H8l5-11z"/></svg>')
@@ -35,7 +52,7 @@ def page(lang, rel, title, description, body, current):
         return f'<a href="{up}{href}"{mark}>{label}</a>'
 
     out = f"""<!DOCTYPE html>
-<html lang="{lang}">
+<html lang="{lang}"{' dir="rtl"' if lang in i18n.RTL else ""}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -173,8 +190,11 @@ def root_index():
     chosen = null;
     var wanted = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
     for (var i = 0; i < wanted.length && !chosen; i++) {{
-      var code = String(wanted[i]).toLowerCase().split('-')[0];
-      if (available.indexOf(code) >= 0) chosen = code;
+      var tag = String(wanted[i]).toLowerCase(), code = tag.split('-')[0];
+      if (code === 'zh') chosen = /hant|tw|hk|mo/.test(tag) ? 'zh-Hant' : 'zh-Hans';
+      else if (code === 'pt') chosen = 'pt-BR';
+      else if (available.indexOf(code) >= 0) chosen = code;
+      if (available.indexOf(chosen) < 0) chosen = null;
     }}
   }}
   location.replace((chosen || '{FALLBACK}') + '/' + location.hash);
@@ -229,6 +249,9 @@ def main():
     # Alte Adressen weiterleiten
     redirect("datenschutz.html", "de/privacy.html")
     redirect("impressum.html", "de/imprint.html")
+    for line in PROBLEMS:
+        print("Übersetzung:", line)
+    print("Sprachen:", len(LANGS))
     print("Seiten:", sum(len(files) for lang in LANGS for _, _, files in os.walk(lang)) + 3)
 
 

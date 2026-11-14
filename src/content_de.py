@@ -209,7 +209,7 @@ DOCS = [
 <h2>Im Sucher</h2>
 <table>
 <tr><th>Element</th><th>Bedeutung</th></tr>
-<tr><td>Status oben links</td><td>Suche Ziel, Ziel erfasst, Vorhersage oder Ziel verloren.</td></tr>
+<tr><td>Status oben links</td><td>Suche Ziel, Ziel erfasst, Vorhersage oder Ziel verloren. „Erkennung aus“ heisst: Die Erkennung ist ausgeschaltet. Ein Thermometer zeigt, dass das iPhone heiss ist.</td></tr>
 <tr><td>Format oben in der Mitte</td><td>Aktuelle Auflösung und Bildrate, im Foto-Modus Dateityp und Megapixel. Tippen öffnet die Format-Leiste.</td></tr>
 <tr><td>Grüner Rahmen</td><td>Das Ziel, dem Keepsight folgt. Weisse Rahmen sind weitere erkannte Motive.</td></tr>
 <tr><td>Objektive</td><td><kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> und im Video-Modus <kbd>A</kbd> für den Auto-Zoom.</td></tr>
@@ -252,6 +252,15 @@ DOCS = [
 <tr><td>Boot</td><td>Pro</td><td></td></tr>
 </table>
 <p>Sind mehrere passende Motive im Bild, nimmt Keepsight das nächste zur Bildmitte. Tippe auf einen anderen Rahmen, um zu wechseln.</p>
+
+<h2>Erkennung ein- und ausschalten</h2>
+<p>Die Erkennung kostet Rechenleistung und erwärmt das iPhone. Keepsight rechnet deshalb nur so viel wie nötig:</p>
+<ul>
+<li><strong>Volle Rate:</strong> solange Tracking, Auto-Zoom, virtueller Gimbal, automatisches Auslösen, Gesten oder ein eigenes Ziel die Erkennung brauchen.</li>
+<li><strong>Vorschau:</strong> sonst etwa fünf Bilder pro Sekunde, damit du die Rahmen siehst und ein Ziel wählen kannst.</li>
+<li><strong>Aus:</strong> Mit dem Schalter <kbd>Erkennung</kbd> oben in der Tracking-Leiste schaltest du sie ganz ab. Sie startet von selbst, sobald eine der genannten Funktionen sie braucht.</li>
+</ul>
+<p>Der grüne Rahmen bleibt immer im sichtbaren Bild, auch wenn das Motiv grösser ist als der Ausschnitt.</p>
 
 <h2>Eigenes Ziel</h2>
 <p>Ziehst du mit dem Finger einen Rahmen um ein Objekt, verfolgt Keepsight genau dieses, unabhängig von der Motivart. In der linken Leiste erscheint dann der Knopf <kbd>Eigenes Ziel</kbd>. Ein Tipp darauf hebt die Auswahl wieder auf.</p>
@@ -467,6 +476,7 @@ DOCS = [
 <li>Der Papierkorb löscht die Aufnahme auch aus der Fotos-App. Das iPhone fragt vorher nach.</li>
 </ul>
 <p>Die Galerie braucht Lesezugriff auf Fotos. Bei „Eingeschränkter Zugriff“ sieht Keepsight trotzdem die eigenen Aufnahmen.</p>
+<p>Zeigt eine Kachel ein Wolken-Symbol, liegt das Original in iCloud und wird gerade geladen. Das passiert, wenn iCloud-Fotos mit „iPhone-Speicher optimieren“ eingeschaltet ist. Ein Warnzeichen bedeutet, dass sich die Datei nicht lesen lässt; die Einzelansicht nennt dann den Dateinamen.</p>
 """),
 
 ("pro", "Gratis und Pro", "Was die Gratisversion kann, was Pro freischaltet, Kauf und Wiederherstellen.", """
@@ -566,7 +576,7 @@ DOCS = [
 <li><strong>Thermometer im Statusfeld:</strong> Das iPhone ist heiss, die Erkennung wertet nur noch jedes zweite oder dritte Bild aus. Das Tracking läuft weiter, reagiert aber etwas träger.</li>
 <li><strong>Tracking gestoppt:</strong> Bei kritischer Temperatur beendet Keepsight Tracking und Aufnahme und speichert das Video. Lass das iPhone im Schatten abkühlen.</li>
 </ul>
-<p>So bleibt es kühler: 1080p statt 4K, 30 statt 60 Bilder, Overlay-Video und virtuellen Gimbal ausschalten, Hülle abnehmen. Das iPhone 12 und ältere Modelle starten deshalb mit 1080p.</p>
+<p>So bleibt es kühler: Erkennung und Gestensteuerung ausschalten, wenn du sie nicht brauchst, 1080p statt 4K, 30 statt 60 Bilder, Overlay-Video und virtuellen Gimbal ausschalten, Hülle abnehmen. Das iPhone 12 und ältere Modelle starten deshalb mit 1080p.</p>
 """),
 ]
 
@@ -593,7 +603,7 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Datenschutzerklärung",
-    "lead": "Stand: 13. November 2026. Gilt für die iOS-App Keepsight und diese Webseite.",
+    "lead": "Stand: 14. November 2026. Gilt für die iOS-App Keepsight und diese Webseite.",
     "body": f"""
 <div class="tip"><p><strong>Kurz gesagt:</strong> Keepsight sammelt keine Daten über dich. Es gibt kein Konto, keine Werbung, kein Tracking und keine Analyse-Dienste. Kamerabilder, Erkennung, Fotos und Videos bleiben auf deinem iPhone.</p></div>
 <h2>1. Verantwortlicher</h2>
@@ -602,6 +612,7 @@ PRIVACY = {
 <p>Die App verarbeitet Daten nur auf deinem Gerät und nur für ihre Funktionen. Ich als Anbieter erhalte davon nichts.</p>
 <ul>
 <li><strong>Kamera:</strong> Das Kamerabild wird auf dem iPhone ausgewertet, um Motive zu erkennen und zu verfolgen. Die Bilder verlassen das Gerät nicht.</li>
+<li><strong>Gesichter:</strong> Um Gesichter, Lächeln und Blickrichtung zu erkennen, wertet die App das Kamerabild auf dem iPhone aus. Sie erkennt nicht, wer jemand ist, und speichert keine Gesichtsmerkmale. Porträtfotos enthalten Tiefendaten der Frontkamera; sie stecken nur im Foto, das du selbst speicherst.</li>
 <li><strong>Mikrofon:</strong> für den Ton deiner Videos und, wenn du die Sprachsteuerung einschaltest, für Sprachbefehle.</li>
 <li><strong>Spracherkennung:</strong> Die Sprachbefehle erkennt die Spracherkennung von Apple. Wenn dein iPhone und die gewählte Sprache es unterstützen, geschieht das auf dem Gerät. Andernfalls wird der Ton zur Erkennung an Apple übertragen. Dafür gelten die Datenschutzbestimmungen von Apple. Die Sprachsteuerung ist standardmässig ausgeschaltet.</li>
 <li><strong>Fotos:</strong> Die App speichert deine Aufnahmen in der Fotos-Mediathek und zeigt in ihrer Galerie nur die mit Keepsight gemachten Aufnahmen. Nutzt du iCloud-Fotos, überträgt Apple die Aufnahmen gemäss deinen iCloud-Einstellungen.</li>
@@ -636,6 +647,8 @@ IMPRINT = {
 <p>Keepsight steuert einen motorisierten Gimbal. Achte darauf, dass sich der Gimbal frei bewegen kann und niemand gefährdet wird. Die Nutzung erfolgt auf eigene Verantwortung, soweit gesetzlich zulässig.</p>
 <h2>Marken</h2>
 <p>Apple, iPhone, App Store, TestFlight und DockKit sind Marken von Apple Inc. FeiyuTech, AK4500, Insta360, DJI und Belkin sind Marken ihrer jeweiligen Inhaber. Keepsight ist ein unabhängiges Produkt und steht in keiner Verbindung zu diesen Unternehmen.</p>
+<h2>Nutzungsbedingungen</h2>
+<p>Für die App gilt der Standard-Lizenzvertrag von Apple für Apps: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.</p>
 <h2>Schrift</h2>
 <p>Diese Webseite verwendet die Schrift Inter (SIL Open Font License 1.1).</p>
 """,

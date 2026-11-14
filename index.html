@@ -7,14 +7,17 @@
 <script>
 // Sprache: zuerst die gemerkte Wahl, dann die Sprachen des Browsers, sonst Englisch
 (function () {
-  var available = ['de', 'en'], chosen = null;
+  var available = ['en', 'de', 'fr', 'it', 'es'], chosen = null;
   try { chosen = localStorage.getItem('ks-lang'); } catch (e) {}
   if (available.indexOf(chosen) < 0) {
     chosen = null;
     var wanted = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
     for (var i = 0; i < wanted.length && !chosen; i++) {
-      var code = String(wanted[i]).toLowerCase().split('-')[0];
-      if (available.indexOf(code) >= 0) chosen = code;
+      var tag = String(wanted[i]).toLowerCase(), code = tag.split('-')[0];
+      if (code === 'zh') chosen = /hant|tw|hk|mo/.test(tag) ? 'zh-Hant' : 'zh-Hans';
+      else if (code === 'pt') chosen = 'pt-BR';
+      else if (available.indexOf(code) >= 0) chosen = code;
+      if (available.indexOf(chosen) < 0) chosen = null;
     }
   }
   location.replace((chosen || 'en') + '/' + location.hash);
@@ -22,5 +25,5 @@
 </script>
 <noscript><meta http-equiv="refresh" content="0; url=en/"></noscript>
 </head>
-<body><p>Keepsight: <a href="de/">Deutsch</a> · <a href="en/">English</a></p></body>
+<body><p>Keepsight: <a href="en/">English</a> · <a href="de/">Deutsch</a> · <a href="fr/">Français</a> · <a href="it/">Italiano</a> · <a href="es/">Español</a></p></body>
 </html>
