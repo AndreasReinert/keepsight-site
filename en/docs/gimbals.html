@@ -17,16 +17,17 @@
 </header>
 <main class="wrap"><div class="docs"><nav class="toc" aria-label="Documentation"><ol><li><a href="start.html">Getting started</a></li><li><a href="gimbals.html" aria-current=page>Supported gimbals</a></li><li><a href="rig.html">Filming with the big camera</a></li><li><a href="viewfinder.html">The viewfinder</a></li><li><a href="tracking.html">Tracking subjects</a></li><li><a href="camera.html">Camera and format</a></li><li><a href="zoom.html">Auto zoom</a></li><li><a href="virtual-gimbal.html">Virtual gimbal</a></li><li><a href="photo.html">Photos and triggers</a></li><li><a href="remote.html">Gestures, voice, countdown</a></li><li><a href="recording.html">Recording and gallery</a></li><li><a href="pro.html">Free and Pro</a></li><li><a href="settings.html">Settings and help</a></li><li><a href="troubleshooting.html">Troubleshooting</a></li></ol></nav>
 <article class="doc"><h1>Supported gimbals</h1><p class="lead">Which devices Keepsight controls, how to connect them and move them by hand.</p>
-<p>Keepsight controls gimbals in two ways: through DockKit, Apple’s interface for motorised stands and gimbals, and directly over Bluetooth for the FeiyuTech AK4500.</p>
+<p>Keepsight controls gimbals and stands through DockKit, Apple’s interface for motorised mounts. This is the recommended way: devices connect by themselves and Apple looks after the connection. In addition, direct Bluetooth control of the FeiyuTech AK4500 is available as a beta.</p>
 <table>
 <tr><th>Device</th><th>Connection</th></tr>
 <tr><td>Insta360 Flow Pro and Flow 2 Pro</td><td>Apple DockKit</td></tr>
 <tr><td>DJI Osmo Mobile 8</td><td>Apple DockKit</td></tr>
 <tr><td>Belkin Auto-Tracking Stand Pro</td><td>Apple DockKit</td></tr>
 <tr><td>Other devices with DockKit</td><td>Apple DockKit</td></tr>
-<tr><td>FeiyuTech AK4500</td><td>Bluetooth, directly from Keepsight</td></tr>
+<tr><td>FeiyuTech AK4500 <span class="beta">Beta</span></td><td>Bluetooth, directly from Keepsight</td></tr>
 </table>
-<div class="tip"><p>Keepsight is developed and tested with the AK4500. DockKit support is new. If a device does not respond as expected, please send a message with the exact model.</p></div>
+<div class="tip"><p><strong>What beta means here:</strong> The AK4500 has no official interface for third-party apps. Keepsight talks to it through the maker’s Bluetooth protocol. This works, but it can change with new firmware, and some functions of the gimbal are still missing. In the app this route carries the “BETA” mark.</p></div>
+<p>If a device does not respond as expected, please send a message with the exact model.</p>
 
 <h2>Gimbal with Apple DockKit</h2>
 <ol>
@@ -37,7 +38,7 @@
 <p>While Keepsight controls the device, Apple’s own tracking is switched off so the two do not interfere. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
 <p>DockKit requires iOS 17 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
 
-<h2>FeiyuTech AK4500</h2>
+<h2>FeiyuTech AK4500 <span class="beta">Beta</span></h2>
 <ol>
 <li>Switch the gimbal on. Close the Feiyu app, because the gimbal accepts only one connection.</li>
 <li>Tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>

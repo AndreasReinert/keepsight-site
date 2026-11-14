@@ -41,7 +41,7 @@ HOME = {
         ("Follow", "Choose a subject: person, face, aircraft, bird, animal, vehicle, train or boat. Keepsight keeps it centred and steers the gimbal. If a cloud hides the aircraft, the app briefly keeps following its path."),
         ("Zoom", "Auto zoom keeps the subject at the size you set. It moves in tiny steps and stays within the selected lens, so the video never jumps."),
         ("Frame", "The virtual gimbal saves a second video whose frame follows the subject smoothly and zooms by itself. It works handheld too, without a gimbal."),
-        ("Shoot", "Keepsight takes the photo when everyone smiles, when everyone looks at the camera, or when the subject is large enough in the frame. Interval series, hand gestures and voice commands with a countdown are included."),
+        ("Shoot", "With Keepsight Pro the app takes the photo by itself when everyone smiles, when everyone looks at the camera, or when the subject is large enough in the frame. Interval series, hand gestures and voice commands with a countdown are already part of the free version."),
     ],
     "cam_h": "The full camera of your iPhone",
     "cam": [("4K", "Video at 24, 25, 30 or 60 frames per second"),
@@ -53,6 +53,9 @@ HOME = {
         ("Track person and face", True, True),
         ("Gestures, voice commands, countdown", True, True),
         ("Auto zoom and virtual gimbal", True, True),
+        ("Gimbal control with Apple DockKit", True, True),
+        ("4K video and 48 MP photos", True, True),
+        ("Auto capture: smile, look, subject", False, True),
         ("Aircraft, bird, animal, vehicle, train, boat", False, True),
         ("Drag a frame around any object", False, True),
         ("Recording without time limit or logo", False, True),
@@ -64,7 +67,7 @@ HOME = {
     "need_h": "What you need",
     "need": [
         ("iPhone", "An iPhone with iOS 17 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
-        ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro, or a FeiyuTech AK4500. Camera, auto capture, gestures, voice and the virtual gimbal also work without a gimbal."),
+        ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro. The FeiyuTech AK4500 for mirrorless cameras is supported as a beta. Camera, photo triggers, gestures, voice and the virtual gimbal also work without a gimbal."),
         ("Languages", "The app speaks 21 languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Swedish, Polish, Russian, Ukrainian, Turkish, Arabic, Hindi, Indonesian, Vietnamese, Thai, Japanese, Korean and Chinese (Simplified and Traditional)."),
     ],
 }
@@ -86,7 +89,7 @@ DOCS = [
 <h2>Connecting the gimbal</h2>
 <ul>
 <li><strong>Gimbal or stand with Apple DockKit:</strong> Pair the device with your iPhone once, as the manufacturer describes. After that, Keepsight connects by itself when you mount the iPhone.</li>
-<li><strong>FeiyuTech AK4500:</strong> Switch the gimbal on and tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
+<li><strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> Switch the gimbal on and tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
 </ul>
 <p>Once connected, the button changes to <kbd>Track</kbd>. Details are in the chapter <a href="gimbals.html">Supported gimbals</a>.</p>
 <div class="tip"><p>The gimbal must be able to turn freely. Keep fingers, cables and objects out of its range of movement.</p></div>
@@ -102,16 +105,17 @@ DOCS = [
 """),
 
 ("gimbals", "Supported gimbals", "Which devices Keepsight controls, how to connect them and move them by hand.", """
-<p>Keepsight controls gimbals in two ways: through DockKit, Apple’s interface for motorised stands and gimbals, and directly over Bluetooth for the FeiyuTech AK4500.</p>
+<p>Keepsight controls gimbals and stands through DockKit, Apple’s interface for motorised mounts. This is the recommended way: devices connect by themselves and Apple looks after the connection. In addition, direct Bluetooth control of the FeiyuTech AK4500 is available as a beta.</p>
 <table>
 <tr><th>Device</th><th>Connection</th></tr>
 <tr><td>Insta360 Flow Pro and Flow 2 Pro</td><td>Apple DockKit</td></tr>
 <tr><td>DJI Osmo Mobile 8</td><td>Apple DockKit</td></tr>
 <tr><td>Belkin Auto-Tracking Stand Pro</td><td>Apple DockKit</td></tr>
 <tr><td>Other devices with DockKit</td><td>Apple DockKit</td></tr>
-<tr><td>FeiyuTech AK4500</td><td>Bluetooth, directly from Keepsight</td></tr>
+<tr><td>FeiyuTech AK4500 <span class="beta">Beta</span></td><td>Bluetooth, directly from Keepsight</td></tr>
 </table>
-<div class="tip"><p>Keepsight is developed and tested with the AK4500. DockKit support is new. If a device does not respond as expected, please send a message with the exact model.</p></div>
+<div class="tip"><p><strong>What beta means here:</strong> The AK4500 has no official interface for third-party apps. Keepsight talks to it through the maker’s Bluetooth protocol. This works, but it can change with new firmware, and some functions of the gimbal are still missing. In the app this route carries the “BETA” mark.</p></div>
+<p>If a device does not respond as expected, please send a message with the exact model.</p>
 
 <h2>Gimbal with Apple DockKit</h2>
 <ol>
@@ -122,7 +126,7 @@ DOCS = [
 <p>While Keepsight controls the device, Apple’s own tracking is switched off so the two do not interfere. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
 <p>DockKit requires iOS 17 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
 
-<h2>FeiyuTech AK4500</h2>
+<h2>FeiyuTech AK4500 <span class="beta">Beta</span></h2>
 <ol>
 <li>Switch the gimbal on. Close the Feiyu app, because the gimbal accepts only one connection.</li>
 <li>Tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
@@ -155,7 +159,7 @@ DOCS = [
 
 <h2>What you need</h2>
 <ul>
-<li><strong>A camera gimbal that Keepsight controls.</strong> At present that is the FeiyuTech AK4500, rated by its maker for up to 4.6&nbsp;kg. Gimbals with Apple DockKit are built for the iPhone alone and do not carry a camera.</li>
+<li><strong>A camera gimbal that Keepsight controls.</strong> At present that is the FeiyuTech AK4500, whose control is still in beta. It is rated by its maker for up to 4.6&nbsp;kg. Gimbals with Apple DockKit are built for the iPhone alone and do not carry a camera.</li>
 <li><strong>A phone holder</strong> for the camera's hot shoe or a thread on the gimbal. It should tilt and lock firmly.</li>
 <li><strong>A camera and lens</strong> that stay below the payload limit together with the iPhone and holder.</li>
 </ul>
@@ -367,10 +371,11 @@ DOCS = [
 <tr><th>Type</th><th>What happens</th></tr>
 <tr><td>Single</td><td>One photo per press of the shutter.</td></tr>
 <tr><td>Interval</td><td>A series at a fixed interval until the maximum number is reached.</td></tr>
-<tr><td>Smile</td><td>Fires when all faces in the image are smiling with open eyes.</td></tr>
-<tr><td>Look</td><td>Fires when everyone is facing the camera.</td></tr>
-<tr><td>Subject</td><td>Fires when the selected subject is locked and large enough in the frame.</td></tr>
+<tr><td>Smile (Pro)</td><td>Fires when all faces in the image are smiling with open eyes.</td></tr>
+<tr><td>Look (Pro)</td><td>Fires when everyone is facing the camera.</td></tr>
+<tr><td>Subject (Pro)</td><td>Fires when the selected subject is locked and large enough in the frame.</td></tr>
 </table>
+<p>Single shot and interval are part of the free version. The three automatic types need Keepsight Pro; in the free version they show a lock.</p>
 
 <h2>Running a series</h2>
 <ol>
@@ -448,7 +453,9 @@ DOCS = [
 <tr><th>Feature</th><th>Free</th><th>Pro</th></tr>
 <tr><td>Track person and face</td><td class="y">Yes</td><td class="y">Yes</td></tr>
 <tr><td>Gestures, voice commands, countdown</td><td class="y">Yes</td><td class="y">Yes</td></tr>
-<tr><td>Auto zoom, virtual gimbal, auto capture</td><td class="y">Yes</td><td class="y">Yes</td></tr>
+<tr><td>Auto zoom and virtual gimbal</td><td class="y">Yes</td><td class="y">Yes</td></tr>
+<tr><td>Gimbal control, single shot and interval series</td><td class="y">Yes</td><td class="y">Yes</td></tr>
+<tr><td>Auto capture: smile, look, subject</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>All other subjects</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Drag a frame around any object</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Video length</td><td>10 seconds</td><td class="y">Unlimited</td></tr>

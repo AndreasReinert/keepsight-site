@@ -122,3 +122,4 @@ kbd{font:600 .88em var(--text);background:var(--surface);border:1px solid var(--
 .shots img{display:block;width:100%;height:auto;border-radius:22px;border:1px solid var(--line);background:#000}
 .shots figcaption{font-size:.85rem;line-height:1.4;color:var(--soft);margin-top:8px}
 @media(max-width:760px){.rigband{grid-template-columns:1fr;gap:28px}.shots{gap:12px}.shots.n1{grid-template-columns:minmax(0,200px)}}
+.beta{display:inline-block;font:600 .68em/1 var(--text);letter-spacing:.04em;text-transform:uppercase;padding:.3em .55em;border-radius:99px;background:var(--signal);color:#14202b;vertical-align:.15em;margin-left:.2em}
