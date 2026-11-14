@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Support – Keepsight</title>
-<link rel="icon" href="icon.png">
-<link rel="stylesheet" href="style.css">
+<title>Keepsight</title>
+<script>
+// Sprache: zuerst die gemerkte Wahl, dann die Sprachen des Browsers, sonst Englisch
+(function () {
+  var available = ['de', 'en'], chosen = null;
+  try { chosen = localStorage.getItem('ks-lang'); } catch (e) {}
+  if (available.indexOf(chosen) < 0) {
+    chosen = null;
+    var wanted = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    for (var i = 0; i < wanted.length && !chosen; i++) {
+      var code = String(wanted[i]).toLowerCase().split('-')[0];
+      if (available.indexOf(code) >= 0) chosen = code;
+    }
+  }
+  location.replace((chosen || 'en') + '/' + location.hash);
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=en/"></noscript>
 </head>
-<body>
-<header><img src="icon.png" alt=""><span class="name">Keepsight</span><nav><a href="index.html">Support</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><a href="en/index.html">English</a></nav></header>
-<main>
-
-<h1>Keepsight: Hilfe und Support</h1>
-<p class="lead">Keepsight behält dein Motiv im Blick: Die App erkennt Menschen, Flugzeuge, Tiere und mehr und steuert deinen Gimbal hinterher. Die ganze Erkennung läuft auf deinem iPhone.</p>
-<div class="card"><strong>Kontakt</strong><br>Fragen, Fehler oder Wünsche: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a><br>Bitte nenne dein iPhone-Modell, die iOS-Version und die Version von Keepsight (in der App unter Alle Einstellungen → Info und Lizenzen).</div>
-<h2>Häufige Fragen</h2>
-<h2>Welchen Gimbal brauche ich?</h2>
-<p>Keepsight steuert zurzeit den FeiyuTech AK4500 über Bluetooth. Kamera, Fotos, automatisches Auslösen, Sprach- und Gestensteuerung und der virtuelle Gimbal funktionieren auch ohne Gimbal.</p>
-<h2>Der Gimbal wird nicht gefunden</h2>
-<p>Schalte den Gimbal ein, schliesse die Feiyu-App und erlaube Keepsight Bluetooth (Einstellungen → Keepsight → Bluetooth). Tippe dann in Keepsight auf „Verbinden“.</p>
-<h2>Der Gimbal dreht in die falsche Richtung</h2>
-<p>Unter Alle Einstellungen → Richtung kannst du Schwenken und Neigen umkehren.</p>
-<h2>Wie ändere ich die Sprache?</h2>
-<p>In der App unter Alle Einstellungen → Sprache. Das öffnet die iPhone-Einstellungen für Keepsight, dort wählst du die Sprache.</p>
-<h2>Sprachbefehle funktionieren nicht</h2>
-<p>Erlaube Mikrofon und Spracherkennung (Einstellungen → Keepsight). Die Befehle sind „Foto“, „Video starten“ und „Stopp“ in der Sprache der App.</p>
-<h2>Wo sind meine Fotos und Videos?</h2>
-<p>In der Fotos-App deines iPhones und in der Galerie von Keepsight (Vorschaubild links unten im Sucher).</p>
-<h2>Ich habe Keepsight Pro gekauft, es ist aber nicht aktiv</h2>
-<p>Tippe auf PRO → „Kauf wiederherstellen“. Du musst mit demselben Apple Account angemeldet sein wie beim Kauf.</p>
-<h2>Rückerstattung</h2>
-<p>Käufe wickelt Apple ab. Eine Rückerstattung beantragst du unter <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
-
-</main>
-<footer><a href="index.html">Support</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><br>© 2026 Andreas Reinert</footer>
-</body>
+<body><p>Keepsight: <a href="de/">Deutsch</a> · <a href="en/">English</a></p></body>
 </html>
