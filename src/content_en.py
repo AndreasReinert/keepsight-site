@@ -295,14 +295,22 @@ DOCS = [
 </table>
 
 <h2>Front camera and selfies</h2>
-<p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Photos and videos are saved unmirrored, the way others see you.</p>
+<p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Captures are saved unmirrored, the way others see you; for photos you can change that.</p>
 <ul>
 <li><strong>Video and photo:</strong> video up to 4K, photos at the full resolution of the front camera.</li>
 <li><strong>Subject:</strong> when you switch, Keepsight changes to <kbd>Face</kbd> and aims at your eyes. With a gimbal it follows you in front of the front camera too.</li>
 <li><strong>Selfie bar in photo mode:</strong> above the shutter you choose <kbd>Single</kbd>, <kbd>Smile</kbd> or <kbd>Look</kbd>. Smile and Look are armed as soon as you tap them: Keepsight takes the photo by itself when everyone smiles or looks at the camera. Both are part of Keepsight Pro.</li>
 <li><strong>Countdown:</strong> with the front camera the screen flashes instead of the light.</li>
-<li><strong>Not available:</strong> lens selection and auto zoom, because the front camera has a single lens. Keepsight does not support Portrait mode or Center Stage yet.</li>
+<li><strong>Not available:</strong> lens selection and auto zoom, because the front camera has a single lens.</li>
 </ul>
+
+<h3>Portrait</h3>
+<p><kbd>Portrait</kbd> in the selfie bar or in the camera panel is part of Keepsight Pro.</p>
+<ul>
+<li><strong>Photo:</strong> Keepsight saves the picture with the front camera’s depth data. Afterwards you adjust the background blur in the Photos app. Portrait photos are HEIF at 12 MP; ProRAW is not possible here.</li>
+<li><strong>Video:</strong> Keepsight chooses a format that supports Apple’s Portrait effect, usually 1080p at 30 frames. You switch the effect itself on in Control Center under <kbd>Video effects</kbd>; Keepsight opens it for you. Depending on your iPhone you also find Studio Light and Center Stage there.</li>
+</ul>
+<p><kbd>Mirror selfies</kbd> in the camera panel saves selfie photos the way you see yourself in the viewfinder.</p>
 <p>The camera cannot be switched during a video recording.</p>
 
 <h2>Lenses and megapixels</h2>
