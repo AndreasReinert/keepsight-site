@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>故障排除 – Keepsight</title>
+<meta name="description" content="常见问题及其解决方法。">
+<link rel="alternate" hreflang="en" href="../../en/docs/troubleshooting.html"><link rel="alternate" hreflang="de" href="../../de/docs/troubleshooting.html"><link rel="alternate" hreflang="fr" href="../../fr/docs/troubleshooting.html"><link rel="alternate" hreflang="it" href="../../it/docs/troubleshooting.html"><link rel="alternate" hreflang="es" href="../../es/docs/troubleshooting.html"><link rel="alternate" hreflang="pt-BR" href="../../pt-BR/docs/troubleshooting.html"><link rel="alternate" hreflang="nl" href="../../nl/docs/troubleshooting.html"><link rel="alternate" hreflang="sv" href="../../sv/docs/troubleshooting.html"><link rel="alternate" hreflang="pl" href="../../pl/docs/troubleshooting.html"><link rel="alternate" hreflang="ru" href="../../ru/docs/troubleshooting.html"><link rel="alternate" hreflang="uk" href="../../uk/docs/troubleshooting.html"><link rel="alternate" hreflang="tr" href="../../tr/docs/troubleshooting.html"><link rel="alternate" hreflang="ja" href="../../ja/docs/troubleshooting.html"><link rel="alternate" hreflang="ko" href="../../ko/docs/troubleshooting.html"><link rel="alternate" hreflang="zh-Hans" href="../../zh-Hans/docs/troubleshooting.html"><link rel="alternate" hreflang="zh-Hant" href="../../zh-Hant/docs/troubleshooting.html">
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<header class="top">
+<a class="brand" href="../index.html"><img src="../../icon.png" alt="">Keepsight</a>
+<nav><a href="../index.html">概览</a><a href="../docs/index.html" aria-current="page">文档</a><a href="../support.html">支持</a></nav>
+<select class="lang" aria-label="语言"><option value="../../en/docs/troubleshooting.html" data-lang="en">English</option><option value="../../de/docs/troubleshooting.html" data-lang="de">Deutsch</option><option value="../../fr/docs/troubleshooting.html" data-lang="fr">Français</option><option value="../../it/docs/troubleshooting.html" data-lang="it">Italiano</option><option value="../../es/docs/troubleshooting.html" data-lang="es">Español</option><option value="../../pt-BR/docs/troubleshooting.html" data-lang="pt-BR">Português (Brasil)</option><option value="../../nl/docs/troubleshooting.html" data-lang="nl">Nederlands</option><option value="../../sv/docs/troubleshooting.html" data-lang="sv">Svenska</option><option value="../../pl/docs/troubleshooting.html" data-lang="pl">Polski</option><option value="../../ru/docs/troubleshooting.html" data-lang="ru">Русский</option><option value="../../uk/docs/troubleshooting.html" data-lang="uk">Українська</option><option value="../../tr/docs/troubleshooting.html" data-lang="tr">Türkçe</option><option value="../../ja/docs/troubleshooting.html" data-lang="ja">日本語</option><option value="../../ko/docs/troubleshooting.html" data-lang="ko">한국어</option><option value="../../zh-Hans/docs/troubleshooting.html" data-lang="zh-Hans" selected>简体中文</option><option value="../../zh-Hant/docs/troubleshooting.html" data-lang="zh-Hant">繁體中文</option></select>
+</header>
+<main class="wrap"><div class="docs"><details class="tocm"><summary><span>章节</span><b>15 · 故障排除</b></summary><ol><li><a href="start.html">入门</a></li><li><a href="gimbals.html">支持的云台</a></li><li><a href="rig.html">用大相机拍摄</a></li><li><a href="viewfinder.html">取景器</a></li><li><a href="tracking.html">追踪拍摄对象</a></li><li><a href="camera.html">相机与格式</a></li><li><a href="zoom.html">自动变焦</a></li><li><a href="virtual-gimbal.html">虚拟云台</a></li><li><a href="photo.html">拍照与触发</a></li><li><a href="remote.html">手势、语音、倒计时</a></li><li><a href="recording.html">录制与图库</a></li><li><a href="flight.html">航班数据</a></li><li><a href="pro.html">免费版与 Pro</a></li><li><a href="settings.html">设置与帮助</a></li><li><a href="troubleshooting.html" aria-current=page>故障排除</a></li></ol></details><nav class="toc" aria-label="文档"><ol><li><a href="start.html">入门</a></li><li><a href="gimbals.html">支持的云台</a></li><li><a href="rig.html">用大相机拍摄</a></li><li><a href="viewfinder.html">取景器</a></li><li><a href="tracking.html">追踪拍摄对象</a></li><li><a href="camera.html">相机与格式</a></li><li><a href="zoom.html">自动变焦</a></li><li><a href="virtual-gimbal.html">虚拟云台</a></li><li><a href="photo.html">拍照与触发</a></li><li><a href="remote.html">手势、语音、倒计时</a></li><li><a href="recording.html">录制与图库</a></li><li><a href="flight.html">航班数据</a></li><li><a href="pro.html">免费版与 Pro</a></li><li><a href="settings.html">设置与帮助</a></li><li><a href="troubleshooting.html" aria-current=page>故障排除</a></li></ol></nav>
+<article class="doc"><h1>故障排除</h1><p class="lead">常见问题及其解决方法。</p>
+<h2>找不到云台</h2>
+<ul>
+<li><strong>支持 DockKit 的设备：</strong>它是否已在 iPhone 设置中配对？iPhone 是否正确装在支架上？可打开 Apple 的“相机”App 作对比。如果设备在那里也不跟随你，问题就出在配对上。</li>
+<li><strong>AK4500：</strong>云台是否已开机并在附近？请完全关闭 Feiyu 的 App，并在<kbd>设置</kbd> → <kbd>Keepsight</kbd>中允许蓝牙。</li>
+<li>把云台关机再开机，然后再次轻点 <kbd>连接</kbd>。</li>
+</ul>
+<h2>云台背离拍摄对象</h2>
+<p>在 <kbd>所有设置</kbd> → <kbd>方向</kbd> 中反转相应的轴。</p>
+<h2>云台反应迟钝或抖动</h2>
+<ul>
+<li>迟钝：选择 Sport 配置。对 AK4500，调高最小速度也有帮助。</li>
+<li>抖动或摆动：选择 Smooth 配置。焦距较长时，细小的移动会显得更大。</li>
+</ul>
+<h2>检测不到拍摄对象</h2>
+<ul>
+<li>是否选择了正确的对象类型？</li>
+<li>很小的对象检测不够可靠。请选择焦距更长的镜头。</li>
+<li>在弱光和强逆光下，检测效果会下降。</li>
+</ul>
+<h2>语音指令无法识别</h2>
+<ul>
+<li>请在<kbd>设置</kbd> → <kbd>Keepsight</kbd>中允许麦克风和语音识别。</li>
+<li>请用 App 的语言说出指令。</li>
+<li>风声和嘈杂环境会干扰识别。这时手势更可靠。</li>
+</ul>
+<h2>手势不触发</h2>
+<ul>
+<li>拍摄对象必须设为“人物”或“面部”。</li>
+<li>保持手部静止且清晰可见，直到进度条填满。</li>
+</ul>
+<h2>无法选择 48 MP 或 RAW</h2>
+<p>两者只在拍照模式下使用主摄 <kbd>1×</kbd> 时可用。RAW 还需要 Keepsight Pro。</p>
+<h2>图库是空的</h2>
+<p>请允许 Keepsight 访问“照片”。App 旧版本拍摄的内容不会出现在图库中，但它们在“照片”App 里。</p>
+<h2>购买后 Keepsight Pro 未激活</h2>
+<p>轻点 <kbd>PRO</kbd> → <kbd>恢复购买</kbd>，并确认你已使用正确的 Apple 账户登录。</p>
+<h2>更多帮助</h2>
+<p>请写信至 <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>，并注明你的 iPhone 型号、iOS 版本和 Keepsight 版本。</p>
+<h2>iPhone 发热</h2>
+<p>检测、4K 录制和云台控制负荷较大，在阳光下尤其如此。Keepsight 会自动保护设备：</p>
+<ul>
+<li><strong>状态栏中的温度计：</strong>iPhone 过热，检测只处理每两到三帧中的一帧。追踪继续进行，但反应略慢。</li>
+<li><strong>追踪已停止：</strong>达到临界温度时，Keepsight 会结束追踪和录制并保存视频。请让 iPhone 在阴凉处降温。</li>
+</ul>
+<p>想让它更凉：不需要时关闭检测和手势控制，用 1080p 代替 4K、30 帧代替 60 帧，关闭叠加视频和虚拟云台，取下保护壳。出于这个原因，iPhone 12 及更早机型默认使用 1080p。</p>
+<nav class="pager"><a href="settings.html"><small>返回</small>设置与帮助</a><span></span></nav></article></div></main>
+<footer class="foot"><span>© 2026 Andreas Reinert</span>
+<a href="../docs/index.html">文档</a><a href="../support.html">支持</a>
+<a href="../privacy.html">隐私</a><a href="../imprint.html">运营者信息</a></footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
