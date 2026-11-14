@@ -106,3 +106,19 @@ kbd{font:600 .88em var(--text);background:var(--surface);border:1px solid var(--
   .toc ol{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px}
   .toc a{white-space:nowrap;background:var(--surface);border:1px solid var(--line)}
 }
+
+/* Aufbau mit grosser Kamera */
+.rigband{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:center}
+.rigband p{max-width:58ch;color:var(--soft)}
+.rigband p:first-of-type{color:var(--ink);font-size:1.1rem}
+.rigfig{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.rig{display:block;width:100%;height:auto;color:var(--ink)}
+.rigfig figcaption{display:grid;gap:4px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:.92rem;color:var(--soft)}
+/* Bildschirmfotos */
+.shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:26px 0 30px;max-width:780px}
+.shots.n1{grid-template-columns:minmax(0,240px)}
+.shots.n2{grid-template-columns:repeat(2,minmax(0,240px))}
+.shots figure{margin:0}
+.shots img{display:block;width:100%;height:auto;border-radius:22px;border:1px solid var(--line);background:#000}
+.shots figcaption{font-size:.85rem;line-height:1.4;color:var(--soft);margin-top:8px}
+@media(max-width:760px){.rigband{grid-template-columns:1fr;gap:28px}.shots{gap:12px}.shots.n1{grid-template-columns:minmax(0,200px)}}

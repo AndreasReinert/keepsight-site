@@ -6,6 +6,7 @@ Neue Sprache: src/content_xx.py anlegen (Aufbau wie content_en.py) und unten in 
 import html
 import importlib
 import os
+import re
 import shutil
 import sys
 
@@ -75,6 +76,10 @@ def home(lang):
     price = "".join(
         f'<tr><td>{name}</td><td{" class=y" if free else ""}>{yes if free else no}</td><td class="y">{yes}</td></tr>'
         for name, free, _ in c["price_rows"])
+    rig_p = "".join(f"<p>{p}</p>" for p in c["rig_p"])
+    lab = c["rig_labels"]
+    rig_svg = ('<figure class="rigfig">' + RIG_SVG.format(alt=html.escape(c["rig_alt"]))
+               + "<figcaption>" + "".join(f"<span>{t}</span>" for t in lab) + "</figcaption></figure>")
     body = f"""<main class="wrap">
 <section class="hero">
 <div><h1>{c["h1"]}</h1><p class="lead">{c["lead"]}</p>
@@ -89,8 +94,11 @@ def home(lang):
 <div class="chips"><span>A</span><span>.5×</span><span>1×</span><span class="on">5×</span></div>
 </figure>
 </section>
+<section class="band rigband"><div><h2>{c["rig_h"]}</h2>{rig_p}
+<p><a href="docs/rig.html">{c["rig_link"]}</a></p></div>{rig_svg}</section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>
 <section class="band"><h2>{c["cam_h"]}</h2><div class="lens">{cam}</div></section>
+<section class="band"><h2>{c["shots_h"]}</h2>{shots(lang, ["tracking-help", "camera", "format-video"], "../")}</section>
 <section class="band"><h2>{c["price_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["price_p"]}</p>
 <table><tr><th>{cols[0]}</th><th>{cols[1]}</th><th>{cols[2]}</th></tr>{price}</table>
 <p style="color:var(--soft)">{c["price_note"]}</p></section>
@@ -125,7 +133,7 @@ def docs(lang):
                   if nxt else "<span></span>")
         pager += "</nav>"
         body = f"""<main class="wrap"><div class="docs">{toc(slug)}
-<article class="doc"><h1>{title}</h1><p class="lead">{short}</p>{text}{pager}</article></div></main>"""
+<article class="doc"><h1>{title}</h1><p class="lead">{short}</p>{expand(lang, text, "../../")}{pager}</article></div></main>"""
         page(lang, f"docs/{slug}.html", f"{title} – Keepsight", short, body, "docs")
 
 
@@ -172,6 +180,36 @@ def root_index():
 <body><p>Keepsight: {links}</p></body>
 </html>
 """)
+
+
+RIG_SVG = '''<svg class="rig" viewBox="0 0 420 300" role="img" aria-label="{alt}">
+<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M96 292V214"/><rect x="84" y="214" width="24" height="70" rx="8"/>
+<path d="M96 214v-22h112v-16"/><circle cx="96" cy="192" r="9"/><circle cx="208" cy="176" r="9"/>
+<rect x="150" y="96" width="116" height="78" rx="10"/><path d="M176 96l8-14h34l8 14"/>
+<rect x="266" y="108" width="62" height="54" rx="6"/><path d="M328 114v42"/>
+<rect x="170" y="34" width="76" height="38" rx="7"/><path d="M208 72v10"/><circle cx="232" cy="53" r="6"/>
+</g>
+<g stroke="var(--lock)" stroke-width="2" stroke-dasharray="5 6" fill="none"><path d="M246 53L392 60"/><path d="M330 135L392 66"/></g>
+<rect x="374" y="42" width="38" height="38" rx="6" fill="none" stroke="var(--lock)" stroke-width="2.5"/>
+<path fill="currentColor" d="M384 62l6-1 5-6h2l-2 6 6 0c2 0 3 1 3 1s-1 1-3 1l-6 0 2 5h-2l-5-5-6 0z"/>
+</svg>'''
+
+
+def shots(lang, names, up):
+    """Bildschirmfotos nebeneinander. Bild der Sprache, wenn vorhanden, sonst das englische."""
+    caps = C[lang].SHOTS
+    out = []
+    for name in names:
+        file = f"{name}-{lang}.webp" if os.path.exists(f"img/{name}-{lang}.webp") else f"{name}-en.webp"
+        cap = html.escape(caps[name])
+        out.append(f'<figure><img src="{up}img/{file}" width="600" height="1300" loading="lazy" alt="{cap}">'
+                   f"<figcaption>{cap}</figcaption></figure>")
+    return f'<div class="shots n{len(names)}">' + "".join(out) + "</div>"
+
+
+def expand(lang, text, up):
+    return re.sub(r"\[\[shots ([^\]]+)\]\]", lambda m: shots(lang, m.group(1).split(), up), text)
 
 
 def main():

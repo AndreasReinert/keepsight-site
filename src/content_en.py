@@ -26,6 +26,16 @@ HOME = {
     "lead": "Keepsight recognises what you are filming and steers your gimbal to follow it. All detection runs on your iPhone.",
     "cta": "Read the documentation",
     "note": "Keepsight is currently in beta testing and not yet available on the App Store.",
+    "rig_h": "Built for the big camera",
+    "rig_p": [
+        "Keepsight was made for one particular rig: a strong gimbal carries a mirrorless camera, for example a Lumix S1RII filming in 8K. The iPhone sits on top. It detects the subject and steers the gimbal, while the camera underneath takes the actual footage.",
+        "You get a tracked shot in the quality of your best camera, through your own lenses, without panning by hand and without a second person on the gimbal.",
+        "Photos and videos from the iPhone itself are a bonus: a second angle, a reference picture, or for the days the big camera stays at home.",
+    ],
+    "rig_link": "Set up the rig step by step",
+    "rig_labels": ("iPhone: detects and steers", "Camera: records", "Gimbal: follows"),
+    "rig_alt": "Gimbal carrying a mirrorless camera with the iPhone on top; both look at the same aircraft",
+    "shots_h": "What the app looks like",
     "what_h": "What Keepsight does for you",
     "what": [
         ("Follow", "Choose a subject: person, face, aircraft, bird, animal, vehicle, train or boat. Keepsight keeps it centred and steers the gimbal. If a cloud hides the aircraft, the app briefly keeps following its path."),
@@ -55,7 +65,7 @@ HOME = {
     "need": [
         ("iPhone", "An iPhone with iOS 17 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
         ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro, or a FeiyuTech AK4500. Camera, auto capture, gestures, voice and the virtual gimbal also work without a gimbal."),
-        ("Languages", "English, German, French, Italian, Spanish, Portuguese, Dutch, Japanese, Korean and Chinese."),
+        ("Languages", "The app speaks 21 languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Swedish, Polish, Russian, Ukrainian, Turkish, Arabic, Hindi, Indonesian, Vietnamese, Thai, Japanese, Korean and Chinese (Simplified and Traditional)."),
     ],
 }
 
@@ -121,6 +131,7 @@ DOCS = [
 <p>The AK4500 only reacts above a certain command strength. Keepsight compensates for this with the <kbd>Minimum speed</kbd> setting, see the Settings chapter.</p>
 
 <h2>Moving by hand</h2>
+[[shots manual]]
 <p>The <kbd>Manual</kbd> area at the bottom of the app is for checking the connection.</p>
 <ul>
 <li><strong>Joystick:</strong> moves the gimbal left, right, up and down.</li>
@@ -133,7 +144,61 @@ DOCS = [
 <p>Camera, photos, auto capture, gestures, voice commands and the virtual gimbal also work without a gimbal, handheld or on a tripod.</p>
 """),
 
+("rig", "Filming with the big camera", "The rig Keepsight is meant for: the camera records, the iPhone does the tracking.", """
+<p>A strong gimbal carries your mirrorless camera. The iPhone sits on top, looks in the same direction and acts as the eye: it detects the subject and drives the motors. The camera underneath takes the footage, with its sensor, its lenses and its resolution, for example 8K on a Lumix S1RII.</p>
+<table>
+<tr><th>Part</th><th>Job</th></tr>
+<tr><td>Camera</td><td>Records the video or photos you will use later.</td></tr>
+<tr><td>iPhone with Keepsight</td><td>Detects the subject, keeps it centred and steers the gimbal.</td></tr>
+<tr><td>Gimbal</td><td>Carries both and follows.</td></tr>
+</table>
+
+<h2>What you need</h2>
+<ul>
+<li><strong>A camera gimbal that Keepsight controls.</strong> At present that is the FeiyuTech AK4500, rated by its maker for up to 4.6&nbsp;kg. Gimbals with Apple DockKit are built for the iPhone alone and do not carry a camera.</li>
+<li><strong>A phone holder</strong> for the camera's hot shoe or a thread on the gimbal. It should tilt and lock firmly.</li>
+<li><strong>A camera and lens</strong> that stay below the payload limit together with the iPhone and holder.</li>
+</ul>
+
+<h2>Mounting and aligning</h2>
+<ol>
+<li>Mount the camera with the lens you plan to use and put the iPhone into the holder, rear cameras facing forward.</li>
+<li>Balance the gimbal with everything that rides on it, including the iPhone. Switch it on only afterwards.</li>
+<li>Point the camera at a distant, distinct point such as the top of a church tower, so that it sits in the centre of the camera's image.</li>
+<li>Open Keepsight and adjust the holder until the same point lies on the cross in the middle of the viewfinder. Lock the holder.</li>
+<li>Connect the gimbal, see the chapter Supported gimbals.</li>
+</ol>
+<div class="tip"><p>The iPhone sits a few centimetres above the lens. For distant subjects such as aircraft this does not matter. For subjects a few metres away, the subject appears slightly higher in the camera than in the iPhone. In that case, align on a point at your typical working distance.</p></div>
+
+<h2>Choosing the iPhone lens</h2>
+<p>Keepsight keeps the subject in the centre of the iPhone's image. The narrower the iPhone's angle of view, the more precisely the centre is held, and the harder it is for the app to find a subject that is not in the picture yet.</p>
+<table>
+<tr><th>Focal length on the camera (full frame)</th><th>Lens on the iPhone</th></tr>
+<tr><td>Up to about 35 mm</td><td>1× (24 mm)</td></tr>
+<tr><td>About 35 to 100 mm</td><td>1× or the telephoto</td></tr>
+<tr><td>Above 100 mm</td><td>Telephoto (5× on iPhone 15 Pro Max, 120 mm)</td></tr>
+</table>
+<p>Leave auto zoom off in this rig. It only changes the iPhone's picture, not the camera's.</p>
+
+<h2>Recording</h2>
+<ol>
+<li>Choose the subject in Keepsight and tap <kbd>Track</kbd>.</li>
+<li>Start recording on the camera itself. Keepsight does not trigger the camera.</li>
+<li>Set focus and exposure on the camera, ideally with its own subject-detection autofocus.</li>
+</ol>
+<p>To film with the iPhone as well, press its shutter too. The overlay video with frames and gimbal data is a good way to check afterwards how cleanly the tracking worked.</p>
+
+<h2>Speed with a heavy load</h2>
+<ul>
+<li>Start with <kbd>Smooth</kbd> or <kbd>Standard</kbd>. A heavy camera keeps swinging longer after hard commands.</li>
+<li>For fast subjects such as low-flying aircraft choose <kbd>Sport</kbd> and check that the gimbal stays calm.</li>
+<li>If the gimbal swings around the subject, lower the gain under <kbd>Custom</kbd> or widen the calm zone.</li>
+<li>The longer the camera's focal length, the more every correction shows in the picture. Long lenses call for a softer setting.</li>
+</ul>
+"""),
+
 ("viewfinder", "The viewfinder", "The controls in the camera image and the three panels.", """
+[[shots tracking-help camera format-video]]
 <p>The viewfinder shows the camera image with almost no controls. Everything else sits in three panels that you bring in when needed.</p>
 <h2>In the viewfinder</h2>
 <table>
@@ -165,6 +230,7 @@ DOCS = [
 """),
 
 ("tracking", "Tracking subjects", "Subject types, custom target, speed and behaviour when the subject is hidden.", """
+[[shots tracking-help]]
 <h2>Choosing a subject</h2>
 <p>In the left panel you choose what Keepsight should look for.</p>
 <table>
@@ -200,6 +266,7 @@ DOCS = [
 """),
 
 ("camera", "Camera and format", "Video and photo mode, resolution, frame rate, lenses.", """
+[[shots format-video format-photo]]
 <h2>Video or photo</h2>
 <p>The switch to the left of the shutter changes the mode. The camera reconfigures itself, as in Apple’s Camera app.</p>
 <ul>
@@ -294,6 +361,7 @@ DOCS = [
 """),
 
 ("photo", "Photos and triggers", "Single shot, interval series and automatic capture at the right moment.", """
+[[shots camera]]
 <p>In photo mode, the right panel under <kbd>Photo trigger</kbd> sets how Keepsight takes pictures.</p>
 <table>
 <tr><th>Type</th><th>What happens</th></tr>
@@ -320,6 +388,7 @@ DOCS = [
 """),
 
 ("remote", "Gestures, voice, countdown", "Operating the camera when you are in front of it yourself.", """
+[[shots settings-gestures]]
 <p>You find all three in the left panel under <kbd>Remote control</kbd>.</p>
 <h2>Hand gestures</h2>
 <p>Gestures work when the subject is set to Person or Face. Hold the gesture still for about half a second. A bar fills at the top centre while you do.</p>
@@ -399,6 +468,7 @@ DOCS = [
 """),
 
 ("settings", "Settings and help", "Language, help mode and the controls for advanced users.", """
+[[shots settings settings-models settings-gestures]]
 <p>The most important switches are in the two side panels. Everything else is in the left panel under <kbd>All settings</kbd>.</p>
 <h2>Help mode</h2>
 <p>The question mark at the top of each side panel switches help mode on. Yellow hints with a short explanation then appear under the menu items, with a diagram for the important ones.</p>
@@ -534,3 +604,6 @@ IMPRINT = {
 <p>This website uses the Inter typeface (SIL Open Font License 1.1).</p>
 """,
 }
+
+# Bildunterschriften der Bildschirmfotos
+SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick'}
