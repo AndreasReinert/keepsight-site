@@ -559,6 +559,13 @@ DOCS = [
 <p>Tippe auf <kbd>PRO</kbd> → <kbd>Kauf wiederherstellen</kbd> und prüfe, ob du mit dem richtigen Apple Account angemeldet bist.</p>
 <h2>Weitere Hilfe</h2>
 <p>Schreib an <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> und nenne dein iPhone-Modell, die iOS-Version und die Version von Keepsight.</p>
+<h2>Das iPhone wird heiss</h2>
+<p>Erkennung, 4K-Aufnahme und Gimbal-Steuerung fordern das iPhone, besonders in der Sonne. Keepsight schützt das Gerät selbst:</p>
+<ul>
+<li><strong>Thermometer im Statusfeld:</strong> Das iPhone ist heiss, die Erkennung wertet nur noch jedes zweite oder dritte Bild aus. Das Tracking läuft weiter, reagiert aber etwas träger.</li>
+<li><strong>Tracking gestoppt:</strong> Bei kritischer Temperatur beendet Keepsight Tracking und Aufnahme und speichert das Video. Lass das iPhone im Schatten abkühlen.</li>
+</ul>
+<p>So bleibt es kühler: 1080p statt 4K, 30 statt 60 Bilder, Overlay-Video und virtuellen Gimbal ausschalten, Hülle abnehmen. Das iPhone 12 und ältere Modelle starten deshalb mit 1080p.</p>
 """),
 ]
 
