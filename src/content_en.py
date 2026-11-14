@@ -213,6 +213,7 @@ DOCS = [
 <tr><td>Lenses</td><td><kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> and, in video mode, <kbd>A</kbd> for auto zoom.</td></tr>
 <tr><td>Shutter</td><td>Red in video mode, white in photo mode.</td></tr>
 <tr><td>Switch on the left</td><td>Changes between video and photo.</td></tr>
+<tr><td>Switch camera</td><td>The round button next to the thumbnail changes between rear and front camera.</td></tr>
 <tr><td>Thumbnail</td><td>The latest capture. Tap to open the gallery.</td></tr>
 <tr><td>Button on the right</td><td>Connect, Track or Stop.</td></tr>
 </table>
@@ -240,7 +241,7 @@ DOCS = [
 <table>
 <tr><th>Subject</th><th>Version</th><th>Note</th></tr>
 <tr><td>Person</td><td>Free</td><td>The whole body. Good for sports and movement.</td></tr>
-<tr><td>Face</td><td>Free</td><td>For close-ups and vlogs.</td></tr>
+<tr><td>Face</td><td>Free</td><td>For close-ups, vlogs and selfies. Keepsight aims at the eyes: the eye line sits in the centre of the picture, not the nose.</td></tr>
 <tr><td>Aircraft</td><td>Pro</td><td>Works best in the sky with the telephoto lens.</td></tr>
 <tr><td>Bird</td><td>Pro</td><td></td></tr>
 <tr><td>Animal</td><td>Pro</td><td>Dogs, cats, horses and more.</td></tr>
@@ -292,6 +293,17 @@ DOCS = [
 <tr><td>Format</td><td>HEIF or RAW (Apple ProRAW, with Keepsight Pro)</td></tr>
 <tr><td>Resolution</td><td>Whatever the lens delivers, see below</td></tr>
 </table>
+
+<h2>Front camera and selfies</h2>
+<p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Photos and videos are saved unmirrored, the way others see you.</p>
+<ul>
+<li><strong>Video and photo:</strong> video up to 4K, photos at the full resolution of the front camera.</li>
+<li><strong>Subject:</strong> when you switch, Keepsight changes to <kbd>Face</kbd> and aims at your eyes. With a gimbal it follows you in front of the front camera too.</li>
+<li><strong>Selfie bar in photo mode:</strong> above the shutter you choose <kbd>Single</kbd>, <kbd>Smile</kbd> or <kbd>Look</kbd>. Smile and Look are armed as soon as you tap them: Keepsight takes the photo by itself when everyone smiles or looks at the camera. Both are part of Keepsight Pro.</li>
+<li><strong>Countdown:</strong> with the front camera the screen flashes instead of the light.</li>
+<li><strong>Not available:</strong> lens selection and auto zoom, because the front camera has a single lens. Keepsight does not support Portrait mode or Center Stage yet.</li>
+</ul>
+<p>The camera cannot be switched during a video recording.</p>
 
 <h2>Lenses and megapixels</h2>
 <table>

@@ -214,6 +214,7 @@ DOCS = [
 <tr><td>Objektive</td><td><kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> und im Video-Modus <kbd>A</kbd> für den Auto-Zoom.</td></tr>
 <tr><td>Auslöser</td><td>Rot im Video-Modus, weiss im Foto-Modus.</td></tr>
 <tr><td>Umschalter links</td><td>Wechselt zwischen Video und Foto.</td></tr>
+<tr><td>Kamera wechseln</td><td>Der runde Knopf neben dem Vorschaubild schaltet zwischen Rück- und Frontkamera um.</td></tr>
 <tr><td>Vorschaubild</td><td>Die letzte Aufnahme. Tippen öffnet die Galerie.</td></tr>
 <tr><td>Knopf rechts</td><td>Verbinden, Tracken oder Stopp.</td></tr>
 </table>
@@ -241,7 +242,7 @@ DOCS = [
 <table>
 <tr><th>Motiv</th><th>Version</th><th>Hinweis</th></tr>
 <tr><td>Person</td><td>Gratis</td><td>Der ganze Körper. Gut für Sport und Bewegung.</td></tr>
-<tr><td>Gesicht</td><td>Gratis</td><td>Für Nahaufnahmen und Vlogs.</td></tr>
+<tr><td>Gesicht</td><td>Gratis</td><td>Für Nahaufnahmen, Vlogs und Selfies. Keepsight zielt auf die Augen: Die Augenlinie liegt in der Bildmitte, nicht die Nase.</td></tr>
 <tr><td>Flugzeug</td><td>Pro</td><td>Am Himmel mit dem Tele am besten.</td></tr>
 <tr><td>Vogel</td><td>Pro</td><td></td></tr>
 <tr><td>Tier</td><td>Pro</td><td>Hunde, Katzen, Pferde und weitere.</td></tr>
@@ -293,6 +294,17 @@ DOCS = [
 <tr><td>Format</td><td>HEIF oder RAW (Apple ProRAW, mit Keepsight Pro)</td></tr>
 <tr><td>Auflösung</td><td>Was das Objektiv liefert, siehe unten</td></tr>
 </table>
+
+<h2>Frontkamera und Selfies</h2>
+<p>Der Knopf mit den zwei Pfeilen neben dem Vorschaubild wechselt zur Frontkamera. Du siehst dich selbst, gespiegelt wie in der Kamera-App. Gespeichert werden Fotos und Videos ungespiegelt, so wie andere dich sehen.</p>
+<ul>
+<li><strong>Video und Foto:</strong> Video bis 4K, Fotos in der vollen Auflösung der Frontkamera.</li>
+<li><strong>Motiv:</strong> Beim Wechsel stellt Keepsight auf <kbd>Gesicht</kbd> um und zielt auf deine Augen. Mit einem Gimbal folgt er dir auch vor der Frontkamera.</li>
+<li><strong>Selfie-Leiste im Foto-Modus:</strong> Über dem Auslöser wählst du <kbd>Einzeln</kbd>, <kbd>Lächeln</kbd> oder <kbd>Blick</kbd>. Lächeln und Blick sind nach dem Tippen sofort scharf: Keepsight fotografiert von selbst, sobald alle lächeln oder zur Kamera schauen. Beide gehören zu Keepsight Pro.</li>
+<li><strong>Countdown:</strong> Statt der Leuchte blitzt bei der Frontkamera der Bildschirm.</li>
+<li><strong>Nicht verfügbar:</strong> Objektivwahl und Auto-Zoom, weil die Frontkamera nur ein Objektiv hat. Porträt-Modus und Center Stage unterstützt Keepsight noch nicht.</li>
+</ul>
+<p>Während einer Videoaufnahme lässt sich die Kamera nicht wechseln.</p>
 
 <h2>Objektive und Megapixel</h2>
 <table>
