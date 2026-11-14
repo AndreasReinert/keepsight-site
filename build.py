@@ -7,6 +7,7 @@ Inhalts (siehe src/i18n.py). Namen von Knöpfen kommen aus den Texten der App (s
 eine Kopie von ios/Keepsight/Localizable.xcstrings).
 """
 import html
+import json
 import importlib
 import os
 import re
@@ -20,7 +21,7 @@ FULL = ["de", "en"]
 FALLBACK = "en"
 C = {lang: importlib.import_module(f"content_{lang}") for lang in FULL}
 # Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse)
-KEEP = [39, 57, 60, 74, 99, 100, 101, 102, 150, 278, 388]
+KEEP = [39, 59, 93, 107, 132, 133, 134, 135, 183, 311, 421]
 ORDER = ["en", "de", "fr", "it", "es", "pt-BR", "nl", "sv", "pl", "ru", "uk", "tr", "ar", "hi", "id", "vi", "th",
          "ja", "ko", "zh-Hans", "zh-Hant"]
 _app = i18n.app_strings(os.path.join(os.path.dirname(__file__), "src", "app_strings.json"))
@@ -82,6 +83,38 @@ def page(lang, rel, title, description, body, current):
         f.write(out)
 
 
+with open(os.path.join(os.path.dirname(__file__), "campaign.json"), encoding="utf-8") as _f:
+    CAMPAIGN = json.load(_f)
+
+
+def campaign(c):
+    """Preisauftritt nach Zustand: PRELAUNCH, UNVERIFIED, INTRO_ACTIVE oder REGULAR.
+
+    Eine Stelle (campaign.json). Der Wechsel vom Einführungs- zum Normalpreis geschieht beim Aufruf
+    der Seite nach Schweizer Datum, ohne neuen Build. Kein Countdown, kein durchgestrichener Preis,
+    keine Ersparnis in Prozent. Ohne geprüften Preis steht nur, dass der App Store den Preis zeigt.
+    """
+    t = c["campaign"]
+    url = CAMPAIGN.get("appStoreUrl")
+    swiss = f'<p class="fine">{t["swiss"]}</p>'
+    if not url:
+        planned = f'<p>{t["prelaunch"]}</p>{swiss}' if CAMPAIGN.get("announcePlannedPrice") else ""
+        return f'<div class="offer" data-campaign="PRELAUNCH"><p><strong>{c["note"]}</strong></p>{planned}</div>'
+    button = f'<p><a class="cta" href="{html.escape(url)}">{t["store"]}</a></p>'
+    if not CAMPAIGN.get("priceVerified"):
+        return f'<div class="offer" data-campaign="UNVERIFIED"><p>{t["unverified"]}</p>{button}</div>'
+    intro = t["intro"]
+    return (f'<div class="offer" data-campaign="DATED" data-intro-ends="{CAMPAIGN["introEndsInclusive"]}" '
+            f'data-zone="{CAMPAIGN["timeZone"]}">'
+            f'<div data-state="none"><p>{t["unverified"]}</p></div>'
+            f'<div data-state="INTRO_ACTIVE" hidden><p><strong>{intro[0]}</strong></p><p>{intro[1]} {intro[2]}</p>{swiss}</div>'
+            f'<div data-state="REGULAR" hidden><p><strong>{t["regular"]}</strong></p>{swiss}</div>{button}</div>'
+            """<script>(function(){var e=document.querySelector('[data-campaign="DATED"]');if(!e)return;
+try{var d=new Intl.DateTimeFormat('en-CA',{timeZone:e.dataset.zone}).format(new Date());
+var s=d<=e.dataset.introEnds?'INTRO_ACTIVE':'REGULAR';
+e.querySelectorAll('[data-state]').forEach(function(n){n.hidden=n.dataset.state!==s});}catch(x){}})();</script>""")
+
+
 def home(lang):
     c, ui = C[lang].HOME, C[lang].UI
     rows = "".join(f'<div class="row"><h3>{t}</h3><p>{p}</p></div>' for t, p in c["what"])
@@ -93,6 +126,8 @@ def home(lang):
     price = "".join(
         f'<tr><td>{name}</td><td{" class=y" if free else ""}>{yes if free else no}</td><td class="y">{yes}</td></tr>'
         for name, free, _ in c["price_rows"])
+    tries = "".join(f"<li>{t}</li>" for t in c["try"])
+    faq = "".join(f'<div class="row"><h3>{q}</h3><p>{a}</p></div>' for q, a in c["faq"])
     rig_p = "".join(f"<p>{p}</p>" for p in c["rig_p"])
     lab = c["rig_labels"]
     rig_svg = ('<figure class="rigfig">' + RIG_SVG.format(alt=html.escape(c["rig_alt"]))
@@ -100,7 +135,7 @@ def home(lang):
     body = f"""<main class="wrap">
 <section class="hero">
 <div><h1>{c["h1"]}</h1><p class="lead">{c["lead"]}</p>
-<a class="cta" href="docs/index.html">{c["cta"]}</a><span class="note">{c["note"]}</span></div>
+<a class="cta" href="docs/index.html">{c["cta"]}</a><span class="note">{c["free_line"]} {c["note"]}</span></div>
 <figure class="finder" style="margin:0">
 <div class="cloud" style="left:8%;top:18%;width:30%;height:9%"></div>
 <div class="cloud" style="left:55%;top:62%;width:38%;height:11%"></div>
@@ -118,7 +153,10 @@ def home(lang):
 <section class="band"><h2>{c["shots_h"]}</h2>{shots(lang, ["tracking-help", "camera", "format-video"], "../")}</section>
 <section class="band"><h2>{c["price_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["price_p"]}</p>
 <table><tr><th>{cols[0]}</th><th>{cols[1]}</th><th>{cols[2]}</th></tr>{price}</table>
-<p style="color:var(--soft)">{c["price_note"]}</p></section>
+<p style="color:var(--soft)">{c["price_note"]}</p>
+<div class="plans"><div class="plan"><h3>{c["try_h"]}</h3><ul>{tries}</ul></div>
+<div class="plan pro"><h3>Keepsight Pro</h3><p>{c["pro_card"]}</p>{campaign(c)}</div></div></section>
+<section class="band"><h2>{c["faq_h"]}</h2><div class="rows">{faq}</div></section>
 <section class="band"><h2>{c["need_h"]}</h2><div class="rows">{need}</div></section>
 </main>"""
     page(lang, "index.html", c["title"], c["description"], body, "home")

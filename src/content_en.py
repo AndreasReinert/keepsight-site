@@ -59,12 +59,41 @@ HOME = {
         ("Auto capture: smile, look, subject", False, True),
         ("Aircraft, bird, animal, vehicle, train, boat", False, True),
         ("Drag a frame around any object", False, True),
+        ("Video up to 60 seconds, with logo", True, True),
+        ("Pro tracking preview: 3 × 60 seconds", True, True),
         ("Recording without time limit or logo", False, True),
         ("Second video with frames and data", False, True),
         ("Photos in ProRAW", False, True),
     ],
     "price_cols": ("Feature", "Free", "Pro"),
-    "price_note": "In the free version, videos are limited to 10 seconds and carry the Keepsight logo.",
+    "price_note": "In the free version, videos are limited to 60 seconds and carry the Keepsight logo.",
+    "free_line": "Up to 60 seconds of free filming.",
+    "try_h": "Try Keepsight for free",
+    "try": [
+        "Videos of up to 60 seconds with the Keepsight logo, as often as you like.",
+        "Pro tracking preview: 3 sessions of 60 seconds each, with a Pro subject of your choice.",
+        "Test your subject and your gimbal before you buy.",
+    ],
+    "pro_card": "Buy once. Unlock for good. No recurring subscription costs.",
+    "campaign": {
+        "prelaunch": "Planned for the launch in the Swiss App Store: CHF 14.90 as a one-time purchase until 31 March 2027 inclusive, CHF 19.90 from 1 April 2027.",
+        "intro": ("Launch price: CHF 14.90 – one-time, no subscription.", "Only until 31 March 2027 inclusive.", "From 1 April 2027: CHF 19.90."),
+        "regular": "Keepsight Pro – CHF 19.90 one-time. No subscription.",
+        "unverified": "The App Store shows the current price in your currency.",
+        "swiss": "Prices in Swiss francs apply to the Swiss App Store. In other countries the App Store shows the price in your currency.",
+        "store": "Download on the App Store",
+    },
+    "faq_h": "Questions and answers",
+    "faq": [
+        ("Do I pay once or regularly?", "Once. Keepsight Pro is a one-time purchase, with no subscription and no recurring costs."),
+        ("What can I do for free?", "Follow people and faces, use gestures, voice commands, auto zoom and the virtual gimbal, and film videos of up to 60 seconds with the Keepsight logo. You can also try Pro tracking three times for 60 seconds."),
+        ("How do I restore my purchase?", "In the app, open the Pro screen and choose to restore the purchase. You must be signed in with the Apple Account you bought with."),
+        ("Why does the price differ in my country?", "Apple sets the price per country and currency, including taxes. The price shown in your App Store is the one that applies."),
+        ("Does Keepsight work without internet?", "Yes. Detection and tracking run on the iPhone. Internet is needed only for the purchase and for the optional flight data."),
+        ("What happens to my pictures?", "They stay on your iPhone. Keepsight has no account, no advertising and no analytics."),
+        ("Does Keepsight record with my big camera?", "No. Keepsight steers the gimbal; the camera on it records on its own. Keepsight's own photos and videos come from the iPhone camera."),
+        ("Is live flight data available where I live?", "Only in supported countries and regions, and it needs location access and internet. At present no region is approved."),
+    ],
     "need_h": "What you need",
     "need": [
         ("iPhone", "An iPhone with iOS 17 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
@@ -478,6 +507,33 @@ DOCS = [
 <p>If a tile shows a cloud symbol, the original is in iCloud and is being downloaded. This happens when iCloud Photos is on with “Optimise iPhone Storage”. A warning sign means the file cannot be read; the large view then shows the file name.</p>
 """),
 
+("flight", "Flight data", "Live flight data in the video: where it is available, consent, sources.", """
+<div class="tip"><p><strong>Availability:</strong> Live flight data is available only in supported countries and regions; location access and internet are required. At present no region is approved, so the feature stays switched off everywhere.</p></div>
+<p>With the flight data overlay, Keepsight shows the callsign, aircraft type, altitude and speed of the aircraft you are following, in the viewfinder and in the recorded video. The data comes from adsb.lol, a community network of ADS-B receivers.</p>
+
+<h2>Switching it on</h2>
+<ol>
+<li>Open the settings and switch on <kbd>Flight data overlay (ADS-B)</kbd>.</li>
+<li>Read the notice and tap <kbd>Agree and enable</kbd>. Only then does iOS ask for your location.</li>
+<li>Choose <kbd>Aircraft</kbd> as the subject and point the camera at the aircraft.</li>
+</ol>
+<p>If several aircraft fit the direction the camera is looking, Keepsight does not guess: tap <kbd>Aircraft selection required</kbd> and choose the right one.</p>
+
+<h2>Where it works</h2>
+<p>Keepsight determines the country on your iPhone from your current location. Your App Store country, language or internet address play no part. Near a border and at sea the feature stays off.</p>
+<p>Every country is reviewed individually before it is approved. Until then the app tells you that live flight data is unavailable in your region. Tracking and recording work as usual.</p>
+
+<h2>What is sent</h2>
+<p>Only while the feature is active does Keepsight send your location, rounded to about one kilometre, to adsb.lol to find nearby aircraft. Nothing is sent before you agree, and nothing in regions that are not approved.</p>
+
+<h2>Display</h2>
+<p>Choose the corner, compact or detailed, and metric or imperial units. Data older than 15 seconds is hidden. Every video with flight data carries the credit “Data: adsb.lol · ODbL 1.0”.</p>
+<p>The overlay is written into videos recorded with the iPhone. A camera on the gimbal records on its own and gets no overlay.</p>
+
+<h2>Accuracy</h2>
+<p>Flight data may be delayed, incomplete or wrong. It is for information only and not suitable for navigation, flight safety or operational decisions.</p>
+"""),
+
 ("pro", "Free and Pro", "What the free version does, what Pro unlocks, purchase and restore.", """
 <p>The free version is for trying things out: you test following, gestures and the camera on people before paying anything.</p>
 <table>
@@ -489,11 +545,16 @@ DOCS = [
 <tr><td>Auto capture: smile, look, subject</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>All other subjects</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Drag a frame around any object</td><td>No</td><td class="y">Yes</td></tr>
-<tr><td>Video length</td><td>10 seconds</td><td class="y">Unlimited</td></tr>
+<tr><td>Video length</td><td>60 seconds</td><td class="y">Unlimited</td></tr>
+<tr><td>Pro tracking preview</td><td>3 × 60 seconds</td><td class="y">Unlimited</td></tr>
 <tr><td>Keepsight logo in photos and videos</td><td>Yes</td><td class="y">No</td></tr>
 <tr><td>Overlay video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Photos in ProRAW</td><td>No</td><td class="y">Yes</td></tr>
 </table>
+
+<h2>Trying Pro tracking</h2>
+<p>Tap a locked subject in the tracking panel and choose <kbd>Start preview</kbd>. For 60 seconds Keepsight follows this subject exactly as the Pro version does. You have three such sessions; one that fails within the first seconds does not count.</p>
+<p>In the free version a video ends by itself after 60 seconds. A note appears 10 seconds before the end.</p>
 
 <h2>Buying Pro</h2>
 <p>Tap <kbd>PRO</kbd> at the top right and then <kbd>Unlock</kbd>. Pro is a one-time purchase without a subscription. The App Store shows the price in your currency and Apple handles the payment.</p>
@@ -604,7 +665,7 @@ PRIVACY = {
     "title": "Privacy Policy",
     "lead": "Last updated: 14 November 2026. Applies to the Keepsight iOS app and this website.",
     "body": f"""
-<div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone.</p></div>
+<div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone. The one exception is the optional flight data feature, which sends an approximate location to a data provider (see section 2).</p></div>
 <h2>1. Controller</h2>
 <p>{ADDRESS}<br>Email: <a href="mailto:{MAIL}">{MAIL}</a></p>
 <h2>2. What the app processes</h2>
@@ -616,6 +677,7 @@ PRIVACY = {
 <li><strong>Speech recognition:</strong> Voice commands are recognised by Apple’s speech recognition. If your iPhone and the selected language support it, this happens on the device. Otherwise the audio is sent to Apple for recognition, subject to Apple’s privacy policy. Voice control is off by default.</li>
 <li><strong>Photos:</strong> The app saves your captures to the photo library and shows only captures made with Keepsight in its gallery. If you use iCloud Photos, Apple transfers them according to your iCloud settings.</li>
 <li><strong>Bluetooth:</strong> to control your gimbal. Only control commands and status values are exchanged with the gimbal.</li>
+<li><strong>Location and flight data:</strong> only if you switch on the flight data overlay and agree to it. Keepsight then uses your location on the iPhone to determine the region and, where the feature is approved, sends the location rounded to about one kilometre to the provider adsb.lol to find nearby aircraft. I cannot say whether or how long adsb.lol keeps such requests; its own terms apply. The transmission stops when you switch the feature off. Without this feature the app does not use your location.</li>
 <li><strong>Settings:</strong> Your in-app settings are stored locally on the iPhone only.</li>
 </ul>
 <h2>3. Purchases</h2>

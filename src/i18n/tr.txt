@@ -37,427 +37,482 @@
 41|Lensler: ultra geniş, ana kamera ve telefoto
 42|Ücretsiz deneyin, bir kez satın alın
 43|Ücretsiz sürümle her şeyi insanlar üzerinde denersiniz. Keepsight Pro tek bir satın almayla açılır, abonelik yoktur. App Store fiyatı kendi para biriminizde gösterir.
-52|Süre sınırı ve logo olmadan kayıt
-59|Gerekenler
-61|iOS 17 veya sonraki bir sürümü çalıştıran bir iPhone. Keepsight, üç kameralı iPhone 15 Pro Max üzerinde geliştirilir ve test edilir.
-63|Takip için Apple DockKit’li bir gimbal veya stand; örneğin Insta360 Flow 2 Pro, DJI Osmo Mobile 8 veya Belkin Auto-Tracking Stand Pro. Aynasız kameralar için FeiyuTech AK4500 beta olarak desteklenir. Kamera, otomatik çekim, hareketler, ses ve sanal gimbal, gimbal olmadan da çalışır.
-64|Diller
-65|Uygulama 21 dil konuşur: İngilizce, Almanca, Fransızca, İtalyanca, İspanyolca, Portekizce, Felemenkçe, İsveççe, Lehçe, Rusça, Ukraynaca, Türkçe, Arapça, Hintçe, Endonezce, Vietnamca, Tayca, Japonca, Korece ve Çince (Basitleştirilmiş ve Geleneksel).
-66|Başlarken
-67|İzinler, gimbal bağlantısı, ilk takibiniz.
-68|İzinler
-69|İlk açılışta iPhone erişim izni ister. Keepsight her izni yalnızca gerektiğinde sorar.
-70|Erişim
-71|Ne için
-73|Konuları algılamak ve çekmek. Kamera olmadan uygulama çalışmaz.
-75|Gimbal’ı kontrol etmek.
-76|Fotoğraflar
-77|Çekimleri kaydetmek ve galeride göstermek. “Sınırlı erişim” yeterlidir.
-78|Mikrofon
-79|Videoların sesi ve sesli komutlar.
-80|Konuşma tanıma
-81|Yalnızca sesli komutlar.
-82|Bir erişimi reddettiyseniz, sonradan <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında izin verebilirsiniz.
-83|Gimbal’ı bağlama
-84|<strong>Apple DockKit’li gimbal veya stand:</strong> cihazı, üreticinin anlattığı gibi iPhone’unuzla bir kez eşleyin. Bundan sonra iPhone’u yerleştirdiğinizde Keepsight kendiliğinden bağlanır.
-85|<strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> gimbal’ı açın ve Keepsight’ta sağ alttaki <kbd>Connect</kbd> düğmesine dokunun.
-86|Bağlandıktan sonra düğme <kbd>Track</kbd> olarak değişir. Ayrıntılar <a href="gimbals.html">Desteklenen gimbal’lar</a> bölümündedir.
-87|Gimbal serbestçe dönebilmelidir. Parmakları, kabloları ve nesneleri hareket alanından uzak tutun.
-88|İlk takibiniz
-89|Sol paneli açın ve <kbd>Person</kbd> konusunu seçin.
-90|Kameranın önüne geçin. Çevrenizde bir çerçeve belirir ve sol üstteki durum “Hedef kilitlendi” yazar.
-91|<kbd>Track</kbd> düğmesine dokunun. Gimbal sizi takip eder.
-92|<kbd>Stop</kbd> takibi bitirir.
-93|Gimbal konuya doğru dönmek yerine ondan uzaklaşıyorsa, ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
-94|Desteklenen gimbal’lar
-95|Keepsight hangi cihazları kontrol eder, nasıl bağlanır ve elle nasıl hareket ettirilir.
-96|Keepsight, gimbal’ları ve standları Apple’ın motorlu tutucular için arayüzü olan DockKit üzerinden kontrol eder. Önerilen yol budur: cihazlar kendiliğinden bağlanır ve bağlantıyla Apple ilgilenir. Buna ek olarak, FeiyuTech AK4500’ün Bluetooth üzerinden doğrudan kontrolü beta olarak sunulur.
-97|Cihaz
-98|Bağlantı
-103|DockKit’li diğer cihazlar
-104|FeiyuTech AK4500 <span class="beta">Beta</span>
-105|Bluetooth, doğrudan Keepsight’tan
-106|<strong>Burada beta ne anlama gelir:</strong> AK4500’ün üçüncü taraf uygulamalar için resmî bir arayüzü yoktur. Keepsight onunla üreticinin Bluetooth protokolü üzerinden konuşur. Bu çalışır, ancak yeni bir yazılımla değişebilir ve gimbal’ın bazı işlevleri henüz eksiktir. Uygulamada bu yol “BETA” işaretini taşır.
-107|Bir cihaz beklendiği gibi tepki vermezse, tam modeliyle birlikte bana yazın.
-108|Apple DockKit’li gimbal
-109|Cihazı iPhone’unuzla bir kez eşleyin. Genellikle iPhone’u tutucuya yaklaştırır ve isteği onaylarsınız. Tam adımlar üreticinin kılavuzunda anlatılır.
-110|iPhone’u yerleştirin ve Keepsight’ı açın. Uygulama cihazı kendiliğinden algılar ve sağ alttaki düğme <kbd>Track</kbd> gösterir.
-111|Bir konu seçin ve <kbd>Track</kbd> düğmesine dokunun.
-112|Keepsight cihazı kontrol ederken, ikisi birbirini engellemesin diye Apple’ın kendi takibi kapatılır. <kbd>Manual</kbd> alanında bağlantıyı keserseniz kontrol yeniden sisteme geçer.
-113|DockKit için iOS 17 veya sonrası gerekir. Keepsight, aynı üreticilerin eski modelleri gibi DockKit’siz cihazları kontrol edemez.
-114|Gimbal’ı açın. Gimbal yalnızca tek bir bağlantı kabul ettiği için Feiyu uygulamasını kapatın.
-115|Keepsight’ta sağ alttaki <kbd>Connect</kbd> düğmesine dokunun.
-116|İlk seferde Bluetooth erişimine izin verin.
-117|AK4500 yalnızca belirli bir komut gücünün üzerinde tepki verir. Keepsight bunu <kbd>En düşük hız</kbd> ayarıyla dengeler; Ayarlar bölümüne bakın.
-118|Elle hareket ettirme
-119|Uygulamanın altındaki <kbd>Manual</kbd> alanı, bağlantıyı denetlemek içindir.
-120|<strong>Joystick:</strong> gimbal’ı sola, sağa, yukarı ve aşağı hareket ettirir.
-121|<strong>Hız:</strong> ne kadar hızlı döneceğini belirler.
-122|<strong>Bağlan ve bağlantıyı kes</strong> ile bağlantının güncel durumu.
-123|Gimbal burada yanlış yöne hareket ediyorsa, ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
-124|Gimbal olmadan
-125|Kamera, fotoğraflar, otomatik çekim, hareketler, sesli komutlar ve sanal gimbal; gimbal olmadan, elde veya tripod üzerinde de çalışır.
-126|Büyük kamerayla çekim
-127|Keepsight’ın tasarlandığı düzenek: kamera kaydeder, iPhone takibi yapar.
-128|Güçlü bir gimbal aynasız kameranızı taşır. iPhone üstte durur, aynı yöne bakar ve göz görevi görür: konuyu algılar ve motorları sürer. Çekimi alttaki kamera yapar; kendi sensörü, lensleri ve çözünürlüğüyle, örneğin Lumix S1RII ile 8K olarak.
-129|Parça
-130|Görev
-131|Daha sonra kullanacağınız videoyu veya fotoğrafları kaydeder.
-132|Keepsight’lı iPhone
-133|Konuyu algılar, ortada tutar ve gimbal’ı yönlendirir.
-134|İkisini de taşır ve takip eder.
-135|<strong>Keepsight’ın kontrol ettiği bir kamera gimbal’ı.</strong> Şu anda bu, kontrolü hâlâ beta aşamasında olan FeiyuTech AK4500’dür. Üreticisine göre 4,6&nbsp;kg’a kadar taşır. Apple DockKit’li gimbal’lar yalnızca iPhone için yapılmıştır ve kamera taşımaz.
-136|<strong>Bir telefon tutucu</strong>; kameranın flaş kızağına veya gimbal üzerindeki bir vida dişine takılır. Eğilebilmeli ve sağlam kilitlenmelidir.
-137|<strong>Kamera ve lens</strong>; iPhone ve tutucuyla birlikte taşıma kapasitesinin altında kalmalıdır.
-138|Takma ve hizalama
-139|Kamerayı kullanacağınız lensle takın ve iPhone’u arka kameraları öne bakacak şekilde tutucuya yerleştirin.
-140|Gimbal’ı, iPhone dahil üzerindeki her şeyle birlikte dengeleyin. Ancak bundan sonra açın.
-141|Kamerayı uzak ve belirgin bir noktaya, örneğin bir kilise kulesinin ucuna çevirin; nokta kameranın görüntüsünün ortasında olsun.
-142|Keepsight’ı açın ve aynı nokta vizörün ortasındaki artının üzerine gelene kadar tutucuyu ayarlayın. Tutucuyu kilitleyin.
-143|Gimbal’ı bağlayın; Desteklenen gimbal’lar bölümüne bakın.
-144|iPhone, lensin birkaç santimetre üstünde durur. Uçak gibi uzak konularda bunun önemi yoktur. Birkaç metre uzaktaki konularda konu, kamerada iPhone’dakinden biraz daha yukarıda görünür. Bu durumda, alışılmış çalışma mesafenizdeki bir noktaya göre hizalayın.
-145|iPhone lensini seçme
-146|Keepsight konuyu iPhone görüntüsünün ortasında tutar. iPhone’un görüş açısı ne kadar darsa orta o kadar hassas tutulur ve uygulamanın henüz karede olmayan bir konuyu bulması o kadar zorlaşır.
-147|Kameradaki odak uzaklığı (tam kare)
-148|iPhone’daki lens
-149|Yaklaşık 35 mm’ye kadar
-151|Yaklaşık 35–100 mm
-152|1× veya telefoto
-153|100 mm’nin üzeri
-154|Telefoto (iPhone 15 Pro Max’te 5×, 120 mm)
-155|Bu düzenekte otomatik zoom’u kapalı bırakın. Yalnızca iPhone’un görüntüsünü değiştirir, kameranınkini değil.
-157|Keepsight’ta konuyu seçin ve <kbd>Track</kbd> düğmesine dokunun.
-158|Kaydı kameranın kendisinde başlatın. Keepsight kamerayı tetiklemez.
-159|Netliği ve pozlamayı kamerada ayarlayın; en iyisi kameranın kendi konu algılamalı otomatik netlemesiyle.
-160|iPhone’la da çekmek isterseniz onun deklanşörüne de basın. Çerçeveleri ve gimbal verilerini gösteren bilgi katmanlı video, takibin ne kadar temiz çalıştığını sonradan denetlemek için uygundur.
-161|Ağır yükte hız
-162|<kbd>Smooth</kbd> veya <kbd>Standard</kbd> ile başlayın. Ağır bir kamera, sert komutlardan sonra daha uzun süre sallanır.
-163|Alçaktan uçan uçaklar gibi hızlı konular için <kbd>Sport</kbd> seçin ve gimbal’ın sakin kalıp kalmadığını denetleyin.
-164|Gimbal konunun çevresinde salınıyorsa, <kbd>Custom</kbd> altında kazancı düşürün veya durgunluk bölgesini genişletin.
-165|Kameranın odak uzaklığı ne kadar uzunsa, her düzeltme görüntüde o kadar belirgin olur. Uzun odak uzaklıkları daha yumuşak bir ayar ister.
-166|Vizör
-167|Görüntüdeki kontroller ve üç panel.
-168|Vizör, kamera görüntüsünü neredeyse hiç kontrol olmadan gösterir. Geri kalan her şey, gerektiğinde açtığınız üç paneldedir.
-169|Vizörde
-170|Öğe
-171|Anlamı
-172|Durum, sol üstte
-173|Aranıyor, Hedef kilitlendi, Tahmin ediliyor veya Hedef kayboldu. “Algılama kapalı”, algılamanın kapatıldığı anlamına gelir. Termometre, iPhone’un ısındığını gösterir.
-174|Biçim, üstte ortada
-175|Geçerli çözünürlük ve kare hızı; fotoğraf modunda dosya türü ve megapiksel. Biçim panelini açmak için dokunun.
-176|Yeşil çerçeve
-177|Keepsight’ın takip ettiği hedef. Beyaz çerçeveler algılanan diğer konulardır.
-178|Lensler
-179|<kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> ve video modunda otomatik zoom için <kbd>A</kbd>.
-180|Deklanşör
-181|Video modunda kırmızı, fotoğraf modunda beyaz.
-182|Soldaki anahtar
-183|Video ile fotoğraf arasında geçiş yapar.
-185|Küçük resmin yanındaki yuvarlak düğme arka ve ön kamera arasında geçiş yapar.
-186|Küçük resim
-187|Son çekim. Galeriyi açmak için dokunun.
-188|Sağdaki düğme
-189|Bağlan, Takip et veya Dur.
-190|Üç panel
-191|<strong>Sol, Takip:</strong> konu, hız, hareketler, sesle kontrol, geri sayım ve gimbal bağlantısı.
-192|<strong>Sağ, Kamera:</strong> biçim, otomatik zoom, sanal gimbal, fotoğraf tetikleme ve bilgi katmanlı video.
-193|<strong>Alt, Biçim:</strong> video için çözünürlük ve kare hızı, fotoğraf için dosya türü ve megapiksel.
-194|Yan panelleri, görüntünün kenarındaki dar tutamaklara dokunarak veya kaydırarak açın. Yatay konumda kamera panelinin tutamağı, sağ sütunun üstündeki bir düğmedir. Kapatmak için panelin yanına dokunun.
-195|Hedefi görüntüde seçme
-196|O konuyu hedef yapmak için beyaz bir çerçeveye <strong>dokunun</strong>.
-197|Keepsight’ın tanımadığı bir nesne bile olsa, herhangi bir nesneyi takip etmek için parmağınızla <strong>bir çerçeve çizin</strong>. Bunun için Keepsight Pro gerekir.
-198|iPhone’u yatay çevirdiğinizde Keepsight arayüzünü döndürür. Video kaydı sırasında görüntü biçimi sabit kalır.
-199|Konuları takip etme
-200|Konu türleri, özel hedef, hız ve konu gizlendiğinde olanlar.
-201|Konu seçme
-202|Sol panelde Keepsight’ın neyi arayacağını seçersiniz.
-205|Not
-207|Tüm vücut. Spor ve hareket için uygundur.
-209|Yakın çekimler, vloglar ve selfie’ler için. Keepsight gözlere nişan alır: görüntünün ortasında burun değil, göz hizası durur.
-211|En iyi gökyüzünde, telefoto lensle çalışır.
-214|Köpekler, kediler, atlar ve diğerleri.
-216|Otomobiller, motosikletler, otobüsler, kamyonlar.
-219|Görüntüde uygun birden çok konu varsa Keepsight ortaya en yakın olanı alır. Değiştirmek için başka bir çerçeveye dokunun.
-220|Algılamayı açma ve kapatma
-221|Algılama işlem gücü ister ve iPhone’u ısıtır. Bu yüzden Keepsight yalnızca gerektiği kadar hesaplar:
-222|<strong>Tam hız:</strong> takip, otomatik zoom, sanal gimbal, otomatik çekim, hareketler veya özel bir hedef algılamaya ihtiyaç duyduğu sürece.
-223|<strong>Önizleme:</strong> diğer durumlarda saniyede yaklaşık beş kare; böylece çerçeveleri görür ve bir hedef seçebilirsiniz.
-224|<strong>Kapalı:</strong> takip panelinin üstündeki <kbd>Detection</kbd> anahtarı onu tamamen kapatır. Yukarıdaki işlevlerden biri gerektirdiği anda kendiliğinden başlar.
-225|Konu görünümden büyük olsa bile yeşil çerçeve her zaman görünen görüntünün içinde kalır.
-227|Bir nesnenin çevresine çerçeve çizerseniz Keepsight, konu türü ne olursa olsun tam olarak o nesneyi takip eder. Sol panelde o zaman <kbd>Custom target</kbd> düğmesi görünür. Seçimi kaldırmak için ona dokunun.
-229|Profil
-230|Davranış
-232|Yumuşak kalkış, en yüksek hızın yarısı, küçük hareketler yok sayılır. Sakin çekimler için.
-234|Dengeli. Çoğu konu için doğru başlangıç.
-236|En hızlı tepki verir. Ani yön değişiklikleri için.
-238|Tüm denetleyici değerlerini kendiniz ayarlarsınız; Ayarlar bölümüne bakın.
-239|Konu kaybolduğunda
-240|<strong>Tahmin ediliyor:</strong> konu kısa süre gizlenirse gimbal aynı yönde dönmeyi sürdürür. Süreyi <kbd>All settings</kbd> altında ayarlarsınız; varsayılan 1,5 saniyedir.
-241|<strong>Hedef kayboldu:</strong> bundan sonra gimbal, konu yeniden algılanana kadar durur.
-242|Kamera ve biçim
-243|Video ve fotoğraf modu, çözünürlük, kare hızı, lensler.
-244|Video veya fotoğraf
-245|Deklanşörün solundaki anahtar modu değiştirir. Kamera, Apple’ın Kamera uygulamasındaki gibi kendini yeniden yapılandırır.
-246|<strong>Video modu:</strong> üç lens boyunca kesintisiz zoom ve otomatik zoom.
-247|<strong>Fotoğraf modu:</strong> seçili lensin tam fotoğraf çözünürlüğü. Vizör görüntüsü 4:3’tür.
-248|Biçimi ayarlama
-249|Üstte ortadaki biçim göstergesine dokunun. Kayıt sırasında panel kilitlidir.
-251|Ayar
-252|Seçenekler
-254|HD (1920 × 1080) veya 4K (3840 × 2160)
-256|Saniyede 24, 30 veya 60 kare; PAL için 25
-259|HEIF veya RAW (Apple ProRAW, Keepsight Pro ile)
-260|Lensin sunduğu değerler; aşağıya bakın
-261|Ön kamera ve selfie’ler
-262|Küçük resmin yanındaki iki oklu düğme ön kameraya geçer. Kendinizi Apple’ın Kamera uygulamasındaki gibi aynalanmış görürsünüz. Çekimler, başkalarının sizi gördüğü gibi aynalanmadan kaydedilir; fotoğraflar için bunu değiştirebilirsiniz.
-263|<strong>Video ve fotoğraf:</strong> 4K’ya kadar video, ön kameranın tam çözünürlüğünde fotoğraflar.
-264|<strong>Konu:</strong> geçiş yaptığınızda Keepsight <kbd>Face</kbd> konusuna geçer ve gözlerinize nişan alır. Gimbal varsa ön kameranın önünde de sizi takip eder.
-265|<strong>Fotoğraf modunda selfie çubuğu:</strong> deklanşörün üstünde <kbd>Single</kbd>, <kbd>Smile</kbd> veya <kbd>Look</kbd> seçersiniz. Gülümseme ve Bakış, dokunduğunuz anda kurulur: herkes gülümsediğinde veya kameraya baktığında Keepsight fotoğrafı kendisi çeker. İkisi de Keepsight Pro’nun parçasıdır.
-266|<strong>Geri sayım:</strong> ön kamerada ışık yerine ekran yanıp söner.
-267|<strong>Kullanılamaz:</strong> lens seçimi ve otomatik zoom, çünkü ön kameranın tek bir lensi vardır.
-269|Selfie çubuğundaki veya kamera panelindeki <kbd>Portrait</kbd>, Keepsight Pro’nun parçasıdır.
-270|<strong>Fotoğraf:</strong> Keepsight görüntüyü ön kameranın derinlik verileriyle kaydeder. Ardından arka plan bulanıklığını Fotoğraflar uygulamasında ayarlarsınız. Portre fotoğrafları 12 MP HEIF’tir; burada ProRAW mümkün değildir.
-271|<strong>Video:</strong> Keepsight, Apple’ın Portre efektini destekleyen bir biçim seçer; genellikle 30 karede 1080p. Efektin kendisini Denetim Merkezi’nde <kbd>Video effects</kbd> altında açarsınız; Keepsight onu sizin için açar. iPhone’unuza bağlı olarak orada Stüdyo Işığı ve Sahnede Ortala da bulunur.
-272|Kamera panelindeki <kbd>Mirror selfies</kbd>, selfie’leri kendinizi vizörde gördüğünüz gibi kaydeder.
-273|Video kaydı sırasında kamera değiştirilemez.
-274|Lensler ve megapiksel
-275|Lens
-276|Fotoğraf çözünürlüğü
-277|<kbd>.5×</kbd> ultra geniş
-279|<kbd>1×</kbd> ana kamera
-280|12, 24 veya 48 MP; RAW’da 12 veya 48 MP
-281|<kbd>5×</kbd> telefoto
-282|Bu değerler iPhone 15 Pro Max için geçerlidir. Biçim paneli her zaman yalnızca geçerli lensin gerçekten sunduğunu gösterir.
-283|Video modunda hareketle veya sesle tetiklenen bir fotoğraf yaklaşık 10 MP’dir. Tam çözünürlük için fotoğraf moduna geçin.
-285|Video sıçramadan konuyu aynı boyutta tutar.
-286|Otomatik zoom, konuyu ayarladığınız boyutta tutar. Konu uzaklaşırsa kamera yavaşça yakınlaştırır. Yaklaşırsa kamera uzaklaştırır.
-287|Açma
-288|Video moduna geçin.
-289|Aralığı kullanılacak lensi seçin.
-290|<kbd>A</kbd> düğmesine dokunun. Düğme geçerli zoom’u gösterir, örneğin “A 2,3×”.
-291|Video neden sıçramaz
-292|Bir iPhone kamerası zoom sırasında lens değiştirdiğinde görüntü gözle görülür biçimde kayar. Bu yüzden otomatik zoom seçili lenste kalır ve her karede yalnızca çok az hareket eder.
-293|Seçili lens
-294|Zoom aralığı
-295|0,5× ile 1×’in hemen altı
-296|1× ile 4×’ün hemen altı
-297|5× ile 10×
-299|<strong>Konu boyutu:</strong> konunun görüntünün ne kadarını dolduracağı, yüzde 15 ile 60 arası.
-300|<strong>Zoom hızı:</strong> zoom’un ne kadar hızlı hareket edebileceği, saniyede yüzde 8 ile 60 arası. Küçük değerler daha sakin görünür.
-301|Özel durumlarda davranış
-302|Zoom, konu bir saniyeden biraz kısa bir süre kararlı biçimde algılandıktan sonra başlar.
-303|Konu görüntünün kenarına ulaşırsa kamera yakınlaştırmak yerine uzaklaştırır.
-304|Konu kısa süre gizlenirse zoom yerinde kalır. Ancak konu olmadan bir buçuk saniye geçtikten sonra yavaşça geri döner.
-306|Yumuşakça takip eden ve zoom yapan çerçeveli ikinci bir video.
-307|Sanal gimbal, tam kamera görüntüsünden konuyu takip eden ve kendiliğinden zoom yapan bir çerçeve keser. Sonuç, kayıttan hemen sonra hazır olan bitmiş ve sakin bir videodur.
-308|Sağ paneli açın ve <kbd>Virtual gimbal</kbd> seçeneğini açın.
-309|Bir konu seçin. Vizörde çerçeveyi açık renkli bir kontur olarak görürsünüz; dışındaki alan karartılır.
-310|Kaydı başlatın.
-311|Gerçek bir gimbal gerekmez. iPhone’u elinizde tutabilir veya tripoda koyabilirsiniz. Bir gimbal ve otomatik zoom ile birlikte görüntü daha da sakinleşir.
-312|Kontrol
-313|Etki
-315|Yüzde 10 ile 40 arası. Daha fazla boşluk daha sakin görünür, daha azı konuyu yakınlaştırır.
-317|1,5× ile 4× arası. 4K kayıtta tam keskinlik 2×’e kadar korunur.
-319|Çerçevenin ne kadar ağırdan takip ettiği. Büyük değerler daha çok yumuşatır.
-321|Kırpılmış videonun yanında tam videoyu da kaydeder.
-322|Neler kaydedilir
-323|1080p kırpılmış video.
-324|İsteğe bağlı olarak seçili çözünürlükte orijinal.
-325|Keepsight konuyu kaybederse çerçeve yavaşça tam görüntüye döner.
-326|Sanal gimbal konuyu çerçevede sabit tutar. Arka plandaki güçlü sarsıntıyı dengelemez.
-327|Fotoğraflar ve tetikleme
-328|Tek çekim, aralıklı seri ve doğru anda otomatik çekim.
-329|Fotoğraf modunda sağ paneldeki <kbd>Photo trigger</kbd>, Keepsight’ın nasıl fotoğraf çekeceğini belirler.
-330|Tür
-331|Ne olur
-333|Deklanşöre her basışta bir fotoğraf.
-335|En fazla sayıya ulaşana kadar sabit aralıklı bir seri.
-336|Gülümseme (Pro)
-337|Görüntüdeki tüm yüzler gözleri açık gülümsediğinde çeker.
-338|Bakış (Pro)
-339|Herkes kameraya döndüğünde çeker.
-340|Konu (Pro)
-341|Seçilen konu kilitlendiğinde ve karede yeterince büyük olduğunda çeker.
-342|Tek çekim ve aralık ücretsiz sürümün parçasıdır. Üç otomatik tür Keepsight Pro gerektirir; ücretsiz sürümde kilit simgesi gösterirler.
-343|Seri çekme
-344|Tetikleme türünü seçin.
-345|<kbd>Interval</kbd> ve <kbd>Maximum photos</kbd> değerlerini ayarlayın.
-346|Deklanşöre basın. Otomatik türlerde Keepsight artık kuruludur ve anı bekler.
-347|Üstte ortadaki gösterge sayar, örneğin “3 / 30”. Deklanşöre ikinci kez basmak seriyi bitirir.
-348|<strong>Aralık:</strong> 1 ile 30 saniye arası. Otomatik türlerde iki fotoğraf arasındaki en kısa süredir.
-349|<strong>En fazla fotoğraf:</strong> 2 ile 100 arası.
-350|Kuşlar ve diğer hayvanlar için kısa aralıklı “Konu” iyi çalışır: Keepsight, hayvan karede büyüdüğü anda çeker ve orada kaldığı sürece çekmeyi sürdürür. Uygulama bir hayvanın nereye baktığını algılamaz.
-351|48 MP ve ProRAW fotoğrafların kaydedilmesi daha uzun sürer. Çok kısa bir aralıkta gerçek süre bu yüzden daha uzun olabilir.
-352|Hareketler, ses, geri sayım
-353|Kameranın önünde kendiniz dururken kamerayı kullanma.
-354|Üçünü de sol panelde <kbd>Remote control</kbd> altında bulursunuz.
-355|El hareketleri
-356|Hareketler, konu Kişi veya Yüz olarak ayarlandığında çalışır. Hareketi yaklaşık yarım saniye sabit tutun. Bu sırada üstte ortada bir çubuk dolar.
-357|Hareket
-358|Açık el
-359|Video kaydını başlatır veya durdurur.
-360|OK işareti
-361|Bu kişiyi hedef olarak seçer ve takibi başlatır.
-362|Zafer işareti
-363|Fotoğraf çeker.
-364|İki açık el
-365|Takibi durdurur.
-366|Sesli komutlar
-367|<kbd>Voice control</kbd> seçeneğini açın ve mikrofona ve konuşma tanımaya izin verin. Komutları uygulamanın dilinde söyleyin.
-368|Siz dersiniz
-369|“Fotoğraf”
-370|“Videoyu başlat” veya “Kaydı başlat”
-371|Video kaydını başlatır.
-372|“Dur”
-373|Kaydı, seriyi veya süren bir geri sayımı bitirir.
-374|Sesle kontrol açıkken mikrofon etkin kalır. iPhone bunu turuncu noktayla gösterir.
-375|Geri sayım, flaş ve ses
-376|Hareketle veya sesle tetiklediğinizde, yerinize geçebilmeniz için önce bir geri sayım çalışır.
-377|<strong>Geri sayım:</strong> kapalı, 3, 5 veya 10 saniye. Saniyeler görüntüde büyük gösterilir.
-378|<strong>Onay flaşı:</strong> LED, çekime kadar giderek kısalan aralıklarla yanıp söner.
-379|<strong>Onay sesi:</strong> her yanıp sönmede kısa bir tık.
-380|Geri sayım yoksa onay olarak tek bir yanıp sönme ve tek bir tık olur. Ekrandaki deklanşör her zaman hemen çeker.
-381|Kayıt ve galeri
-382|Hangi videolar oluşur, nerededirler ve nasıl izlenirler.
-383|Video kaydetme
-384|Video modunda kırmızı deklanşör kaydı başlatır ve durdurur. Süre üstte ortada akar. Videolar seslidir ve Fotoğraflar uygulamasına kaydedilir.
-385|Hangi videolar oluşur
-386|İçerik
-387|Ne zaman
-389|Seçili çözünürlükte temiz kamera görüntüsü.
-390|Her zaman; sanal gimbal için kapatmadığınız sürece.
-391|1080p olarak takip eden çerçeve.
-392|Sanal gimbal açıkken.
-394|Çerçeveler, süre, konu, durum ve gimbal verileriyle 1080p görüntü.
-395|Keepsight Pro ile, <kbd>Overlay video</kbd> açıkken.
-397|Mod anahtarının üstündeki küçük resim son çekimi gösterir. Keepsight ile çektiğiniz tüm fotoğraf ve videoların yer aldığı galeriyi, en yeniler önce olacak şekilde açmak için ona dokunun.
-398|Büyük görünüm için bir resme dokunun ve gezinmek için kaydırın.
-399|Üstte tarih, megapiksel ve görüntü boyutu yazar.
-400|Çöp kutusu çekimi Fotoğraflar uygulamasından da siler. iPhone önce sorar.
-401|Galerinin Fotoğraflar’a okuma erişimi olması gerekir. “Sınırlı erişim”de de Keepsight kendi çekimlerini görür.
-402|Bir kutucuk bulut simgesi gösteriyorsa orijinal iCloud’dadır ve indirilmektedir. Bu, iCloud Fotoğrafları “iPhone Saklama Alanını En İyile” seçeneğiyle açıkken olur. Uyarı işareti, dosyanın okunamadığı anlamına gelir; büyük görünüm o zaman dosya adını gösterir.
-403|Ücretsiz ve Pro
-404|Ücretsiz sürüm ne yapar, Pro neyi açar, satın alma ve geri yükleme.
-405|Ücretsiz sürüm denemek içindir: herhangi bir ödeme yapmadan önce takibi, hareketleri ve kamerayı insanlar üzerinde test edersiniz.
-406|Evet
-407|Gimbal kontrolü, tek çekim ve aralıklı seri
-408|Hayır
-409|Diğer tüm konular
-410|Video süresi
-411|10 saniye
-412|Sınırsız
-413|Fotoğraf ve videolarda Keepsight logosu
-414|Pro’yu satın alma
-415|Sağ üstteki <kbd>PRO</kbd> düğmesine, ardından <kbd>Kilidi aç</kbd> düğmesine dokunun. Pro, aboneliksiz tek seferlik bir satın almadır. App Store fiyatı kendi para biriminizde gösterir ve ödemeyi Apple yürütür.
-416|Satın almayı geri yükleme
-417|Yeni bir iPhone’da veya yeniden yüklemeden sonra <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun. Satın almada kullandığınız Apple Hesabı ile giriş yapmış olmalısınız.
-418|İadeler
-419|İadeyi Apple’dan <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> adresinden isteyin.
-420|Ayarlar ve yardım
-421|Dil, yardım modu ve ileri düzey kullanıcılar için ayarlar.
-422|En önemli anahtarlar iki yan paneldedir. Geri kalan her şey sol panelde <kbd>All settings</kbd> altındadır.
-424|Her yan panelin üstündeki soru işareti yardım modunu açar. Menü öğelerinin altında kısa açıklamalı sarı ipuçları, önemli olanlarda bir de çizim görünür.
-425|Keepsight, iPhone’unuzun dilini kullanır. Yalnızca Keepsight için başka bir dil seçmek isterseniz <kbd>All settings</kbd> altındaki <kbd>Language</kbd> öğesine dokunun. Bu, Keepsight için iPhone ayarlarını açar. Sesli komutlar da dille birlikte değişir.
-426|İleri düzey kullanıcılar için ayarlar
-427|“Özel” hız
-428|Takibin kazancı, sönümlemesi, en yüksek hızı, ivmesi ve durgunluk bölgesi.
-429|En düşük hız
-430|Yalnızca AK4500 için: gimbal’ın hâlâ tepki verdiği en küçük komut. Gimbal küçük sapmalarda duruyorsa bu değeri yükseltin.
-431|Kayıptan sonra tahmin
-432|Konu gizlendiğinde gimbal’ın ne kadar süre dönmeyi sürdüreceği.
-434|Yatay veya dikey ekseni ters çevirir.
-436|Bir konuyu hangi modelin algılayacağı. RF-DETR Small ve YOLOX-S kullanılabilir.
-438|Vizörde kare hızını, gimbal komutlarını ve modelin hesaplama süresini gösterir.
-440|Takip ayarlarını varsayılana döndürür.
-442|Burada uygulamanın sürümünü, bu web sitesine bağlantıları ve kullanılan algılama modellerinin lisanslarını bulursunuz.
-443|Sorun giderme
-444|Sık karşılaşılan sorunlar ve çözümleri.
-445|Gimbal bulunamıyor
-446|<strong>DockKit’li cihaz:</strong> iPhone ayarlarında eşlenmiş mi ve iPhone tutucuya düzgün oturuyor mu? Karşılaştırmak için Apple’ın Kamera uygulamasını açın. Cihaz orada da sizi takip etmiyorsa sorun eşlemededir.
-447|<strong>AK4500:</strong> gimbal açık ve yakında mı? Feiyu uygulamasını tamamen kapatın ve <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında Bluetooth’a izin verin.
-448|Gimbal’ı kapatıp yeniden açın ve <kbd>Connect</kbd> düğmesine bir kez daha dokunun.
-449|Gimbal konudan uzaklaşıyor
-450|İlgili ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
-451|Gimbal ağır tepki veriyor veya titriyor
-452|Ağır tepki: Spor profilini seçin. AK4500’de daha yüksek bir en düşük hız da yardımcı olur.
-453|Titreme veya salınım: Yumuşak profilini seçin. Uzun odak uzaklığında küçük hareketler daha büyük görünür.
-454|Konu algılanmıyor
-455|Doğru konu türü seçili mi?
-456|Çok küçük konular daha az güvenilir algılanır. Daha uzun bir lens seçin.
-457|Düşük ışıkta ve güçlü ters ışıkta algılama zayıflar.
-458|Sesli komutlar anlaşılmıyor
-459|<kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında mikrofona ve konuşma tanımaya izin verin.
-460|Komutları uygulamanın dilinde söyleyin.
-461|Rüzgâr ve gürültülü ortam tanımayı bozar. O zaman hareketler daha güvenilirdir.
-462|Hareketler tetiklemiyor
-463|Konu, Kişi veya Yüz olarak ayarlanmalıdır.
-464|Çubuk dolana kadar elinizi sabit ve açıkça görünür tutun.
-465|48 MP veya RAW seçilemiyor
-466|İkisi de yalnızca fotoğraf modunda ana kamerayla <kbd>1×</kbd> kullanılabilir. RAW için ayrıca Keepsight Pro gerekir.
-467|Galeri boş
-468|Keepsight’ın Fotoğraflar’a erişmesine izin verin. Uygulamanın eski sürümleriyle yapılan çekimler galeride görünmez, ancak Fotoğraflar uygulamasında durur.
-469|Keepsight Pro satın almadan sonra etkin değil
-470|<kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun ve doğru Apple Hesabı ile giriş yaptığınızı denetleyin.
-471|Daha fazla yardım
-472|<a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın; iPhone modelinizi, iOS sürümünü ve Keepsight sürümünü belirtin.
-473|iPhone ısınıyor
-474|Algılama, 4K kayıt ve gimbal kontrolü, özellikle güneşte, iPhone’u zorlar. Keepsight cihazı kendiliğinden korur:
-475|<strong>Durum alanında termometre:</strong> iPhone ısınmıştır ve algılama yalnızca her ikinci veya üçüncü kareyi değerlendirir. Takip sürer, ancak biraz daha yavaş tepki verir.
-476|<strong>Takip durduruldu:</strong> kritik sıcaklıkta Keepsight takibi ve kaydı bitirir ve videoyu kaydeder. iPhone’u gölgede soğumaya bırakın.
-477|Daha serin kalması için: gerekmediğinde algılamayı ve hareketle kontrolü kapatın, 4K yerine 1080p, 60 yerine 30 kare kullanın, bilgi katmanlı videoyu ve sanal gimbal’ı kapatın, kılıfı çıkarın. Bu nedenle iPhone 12 ve daha eski modeller 1080p ile başlar.
-478|Belgeler çoğu soruyu yanıtlar. Takılırsanız bana yazın.
-479|İletişim
-480|Hızlı yardımcı olabilmem için lütfen şunları ekleyin:
-481|iPhone modeliniz ve iOS sürümü
-482|Keepsight sürümü (uygulamada Tüm ayarlar → Hakkında ve lisanslar altında)
-483|ne yaptığınız ve bunun yerine ne olduğu; mümkünse bir ekran görüntüsü veya kısa bir videoyla
-484|Hızlı yardım
-485|<a href="docs/start.html">Başlarken</a>: izinler ve gimbal bağlantısı
-486|<a href="docs/troubleshooting.html">Sorun giderme</a>: sık karşılaşılan sorunlar ve çözümleri
-487|<a href="docs/pro.html">Ücretsiz ve Pro</a>: satın alma, geri yükleme, iadeler
-488|Gizlilik Politikası
-489|Son güncelleme: 14 Kasım 2026. Keepsight iOS uygulaması ve bu web sitesi için geçerlidir.
-490|<strong>Kısaca:</strong> Keepsight sizinle ilgili veri toplamaz. Hesap, reklam, izleme ve analiz hizmeti yoktur. Kamera görüntüleri, algılama, fotoğraflar ve videolar iPhone’unuzda kalır.
-491|1. Veri sorumlusu
-492|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>İsviçre<br>E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-493|2. Uygulamanın işlediği veriler
-494|Uygulama verileri yalnızca cihazınızda ve yalnızca kendi işlevleri için işler. Sağlayıcı olarak ben bunlardan hiçbirini almam.
-495|<strong>Kamera:</strong> kamera görüntüsü, konuları algılamak ve takip etmek için iPhone’da analiz edilir. Görüntüler cihazdan çıkmaz.
-496|<strong>Yüzler:</strong> yüzleri, gülümsemeleri ve bakış yönünü algılamak için uygulama kamera görüntüsünü iPhone’da analiz eder. Kimin kim olduğunu tanımaz ve yüz özelliklerini saklamaz. Portre fotoğrafları ön kameranın derinlik verilerini içerir; bu veriler yalnızca kendi kaydettiğiniz fotoğrafta bulunur.
-497|<strong>Mikrofon:</strong> videolarınızın sesi ve, sesle kontrolü açarsanız, sesli komutlar için.
-498|<strong>Konuşma tanıma:</strong> sesli komutları Apple’ın konuşma tanıması tanır. iPhone’unuz ve seçili dil destekliyorsa bu, cihazda gerçekleşir. Aksi halde ses, Apple’ın gizlilik politikasına tabi olarak tanıma için Apple’a gönderilir. Sesle kontrol varsayılan olarak kapalıdır.
-499|<strong>Fotoğraflar:</strong> uygulama çekimlerinizi fotoğraf arşivine kaydeder ve galerisinde yalnızca Keepsight ile yapılan çekimleri gösterir. iCloud Fotoğrafları kullanıyorsanız Apple bunları iCloud ayarlarınıza göre aktarır.
-500|<strong>Bluetooth:</strong> gimbal’ınızı kontrol etmek için. Gimbal ile yalnızca kontrol komutları ve durum değerleri alışverişi yapılır.
-501|<strong>Ayarlar:</strong> uygulama içi ayarlarınız yalnızca iPhone’da yerel olarak saklanır.
-502|3. Satın almalar
-503|“Keepsight Pro” satın alma işlemini Apple, App Store üzerinden yürütür. Ödeme bilgisi, ad veya e-posta adresi almam; yalnızca Apple’dan toplu satış rakamlarını alırım.
-504|4. Test sürümleri (TestFlight)
-505|TestFlight üzerinden bir test sürümü kullanırsanız Apple, davet için e-posta adresinizi ve onay verirseniz çökme raporlarını ve geri bildiriminizi işler. Hataları gidermek için geri bildirimleri ve çökme raporlarını, ayrıca kendim davet ettiğim test kullanıcılarının e-posta adreslerini görürüm.
-506|5. E-postayla iletişim
-507|Bana yazarsanız e-posta adresinizi ve iletinizin içeriğini yalnızca size yanıt vermek için kullanırım. İletileri konu çözüldüğünde, en geç iki yıl sonra silerim.
-508|6. Bu web sitesi
-509|Bu web sitesi çerez kullanmaz ve izleme yapmaz. Yazı tipleri ve betikler aynı siteden sunulur; üçüncü taraf içerik yüklenmez. Dil seçiminiz yalnızca tarayıcınızda saklanır. Site GitHub Pages’te (GitHub, Inc., ABD) barındırılır. Ziyaretiniz sırasında GitHub, IP adresiniz gibi teknik olarak gerekli verileri sunucu günlüklerinde işler. Ayrıntılar için GitHub’ın gizlilik bildirimine bakın.
-510|7. Haklarınız
-511|İsviçre Veri Koruma Yasası ve geçerli olduğu ölçüde GDPR uyarınca erişim, düzeltme, silme, işlemenin kısıtlanması ve veri taşınabilirliği haklarına, ayrıca bir denetim makamına (İsviçre’de FDPIC) şikâyette bulunma hakkına sahipsiniz. Uygulama bana veri göndermediği için bu, uygulamada yalnızca bana gönderdiğiniz e-postaları ilgilendirir. <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın.
-512|8. Çocuklar
-513|Uygulama özellikle çocuklara yönelik değildir ve onlardan veri toplamaz.
-514|9. Değişiklikler
-515|Uygulama bu politikanın değişmesini gerektirecek biçimde değişirse politika burada güncellenir. Bu sayfadaki sürüm geçerlidir.
-516|Sağlayıcı
-517|E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-518|Sorumluluk
-519|Keepsight motorlu bir gimbal’ı kontrol eder. Gimbal’ın serbestçe hareket edebildiğinden ve kimsenin tehlikeye girmediğinden emin olun. Kullanım, yasaların izin verdiği ölçüde kendi sorumluluğunuzdadır.
-520|Ticari markalar
-521|Apple, iPhone, App Store, TestFlight ve DockKit, Apple Inc.’in ticari markalarıdır. FeiyuTech, AK4500, Insta360, DJI ve Belkin, ilgili sahiplerinin ticari markalarıdır. Keepsight bağımsız bir üründür ve bu şirketlerle bağlantılı değildir.
-522|Kullanım koşulları
-523|Uygulama, Apple’ın uygulamalar için standart lisans sözleşmesi kapsamında lisanslanır: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-524|Yazı tipi
-525|Bu web sitesi Inter yazı tipini kullanır (SIL Open Font License 1.1).
-526|Kamera paneli: biçim, zoom, sanal gimbal, fotoğraf tetikleme
-527|Video modunda biçim
-528|Fotoğraf modunda biçim
-529|Ayarlar: hız, gimbal, kalite
-530|Ayarlar: algılama modeli ve yön
-531|Ayarlar: hareketler, kayıt, dil
-532|Konu, hız ve uzaktan kumanda içeren takip paneli; burada yardım moduyla
-533|Joystick’li Manuel alanı
+53|Pro takip denemesi: 3 × 60 saniye
+54|Süre sınırı ve logo olmadan kayıt
+61|60 saniyeye kadar ücretsiz çekim.
+62|Keepsight'ı ücretsiz deneyin
+63|Keepsight logolu, 60 saniyeye kadar videolar; istediğiniz kadar.
+64|Pro takip denemesi: seçtiğiniz bir Pro konusuyla, her biri 60 saniyelik 3 oturum.
+66|Bir kez satın alın. Kalıcı olarak açın. Yinelenen abonelik ücreti yok.
+67|İsviçre App Store'daki çıkış için planlanan: 31 Mart 2027 dahil olmak üzere o tarihe kadar tek seferlik satın alma olarak CHF 14.90, 1 Nisan 2027'den itibaren CHF 19.90.
+68|Tanıtım fiyatı: CHF 14.90 – tek seferlik, abonelik yok.
+69|Yalnızca 31 Mart 2027 dahil o tarihe kadar.
+70|1 Nisan 2027'den itibaren: CHF 19.90.
+71|Keepsight Pro – tek seferlik CHF 19.90. Abonelik yok.
+72|App Store güncel fiyatı kendi para biriminizde gösterir.
+73|İsviçre frangı cinsinden fiyatlar İsviçre App Store için geçerlidir. Diğer ülkelerde App Store fiyatı kendi para biriminizde gösterir.
+74|App Store'dan indirin
+75|Sorular ve yanıtlar
+76|Bir kez mi öderim, düzenli mi?
+77|Bir kez. Keepsight Pro tek seferlik bir satın almadır; abonelik ve yinelenen ücret yoktur.
+78|Ücretsiz olarak neler yapabilirim?
+79|Kişileri ve yüzleri takip edebilir, hareketleri, sesli komutları, otomatik zumu ve sanal gimbalı kullanabilir, Keepsight logolu 60 saniyeye kadar videolar çekebilirsiniz. Ayrıca Pro takibi üç kez 60 saniye boyunca deneyebilirsiniz.
+80|Satın alımımı nasıl geri yüklerim?
+81|Uygulamada Pro ekranını açın ve satın alımı geri yüklemeyi seçin. Satın alırken kullandığınız Apple Hesabı ile giriş yapmış olmanız gerekir.
+82|Fiyat ülkemde neden farklı?
+83|Apple, fiyatı vergiler dahil olmak üzere ülkeye ve para birimine göre belirler. App Store'unuzda gösterilen fiyat geçerlidir.
+84|Keepsight internet olmadan çalışır mı?
+85|Evet. Algılama ve takip iPhone'da çalışır. İnternet yalnızca satın alma ve isteğe bağlı uçuş verileri için gerekir.
+86|Görüntülerime ne oluyor?
+87|iPhone'unuzda kalır. Keepsight'ta hesap, reklam ve analiz yoktur.
+88|Keepsight büyük kameramla kayıt yapar mı?
+89|Hayır. Keepsight gimbalı yönetir; üzerindeki kamera kendi başına kaydeder. Keepsight'ın kendi fotoğraf ve videoları iPhone kamerasından gelir.
+90|Yaşadığım yerde canlı uçuş verileri var mı?
+91|Yalnızca desteklenen ülke ve bölgelerde; konum erişimi ve internet gerekir. Şu anda onaylı bölge yok.
+92|Gerekenler
+94|iOS 17 veya sonraki bir sürümü çalıştıran bir iPhone. Keepsight, üç kameralı iPhone 15 Pro Max üzerinde geliştirilir ve test edilir.
+96|Takip için Apple DockKit’li bir gimbal veya stand; örneğin Insta360 Flow 2 Pro, DJI Osmo Mobile 8 veya Belkin Auto-Tracking Stand Pro. Aynasız kameralar için FeiyuTech AK4500 beta olarak desteklenir. Kamera, otomatik çekim, hareketler, ses ve sanal gimbal, gimbal olmadan da çalışır.
+97|Diller
+98|Uygulama 21 dil konuşur: İngilizce, Almanca, Fransızca, İtalyanca, İspanyolca, Portekizce, Felemenkçe, İsveççe, Lehçe, Rusça, Ukraynaca, Türkçe, Arapça, Hintçe, Endonezce, Vietnamca, Tayca, Japonca, Korece ve Çince (Basitleştirilmiş ve Geleneksel).
+99|Başlarken
+100|İzinler, gimbal bağlantısı, ilk takibiniz.
+101|İzinler
+102|İlk açılışta iPhone erişim izni ister. Keepsight her izni yalnızca gerektiğinde sorar.
+103|Erişim
+104|Ne için
+106|Konuları algılamak ve çekmek. Kamera olmadan uygulama çalışmaz.
+108|Gimbal’ı kontrol etmek.
+109|Fotoğraflar
+110|Çekimleri kaydetmek ve galeride göstermek. “Sınırlı erişim” yeterlidir.
+111|Mikrofon
+112|Videoların sesi ve sesli komutlar.
+113|Konuşma tanıma
+114|Yalnızca sesli komutlar.
+115|Bir erişimi reddettiyseniz, sonradan <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında izin verebilirsiniz.
+116|Gimbal’ı bağlama
+117|<strong>Apple DockKit’li gimbal veya stand:</strong> cihazı, üreticinin anlattığı gibi iPhone’unuzla bir kez eşleyin. Bundan sonra iPhone’u yerleştirdiğinizde Keepsight kendiliğinden bağlanır.
+118|<strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> gimbal’ı açın ve Keepsight’ta sağ alttaki <kbd>Connect</kbd> düğmesine dokunun.
+119|Bağlandıktan sonra düğme <kbd>Track</kbd> olarak değişir. Ayrıntılar <a href="gimbals.html">Desteklenen gimbal’lar</a> bölümündedir.
+120|Gimbal serbestçe dönebilmelidir. Parmakları, kabloları ve nesneleri hareket alanından uzak tutun.
+121|İlk takibiniz
+122|Sol paneli açın ve <kbd>Person</kbd> konusunu seçin.
+123|Kameranın önüne geçin. Çevrenizde bir çerçeve belirir ve sol üstteki durum “Hedef kilitlendi” yazar.
+124|<kbd>Track</kbd> düğmesine dokunun. Gimbal sizi takip eder.
+125|<kbd>Stop</kbd> takibi bitirir.
+126|Gimbal konuya doğru dönmek yerine ondan uzaklaşıyorsa, ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
+127|Desteklenen gimbal’lar
+128|Keepsight hangi cihazları kontrol eder, nasıl bağlanır ve elle nasıl hareket ettirilir.
+129|Keepsight, gimbal’ları ve standları Apple’ın motorlu tutucular için arayüzü olan DockKit üzerinden kontrol eder. Önerilen yol budur: cihazlar kendiliğinden bağlanır ve bağlantıyla Apple ilgilenir. Buna ek olarak, FeiyuTech AK4500’ün Bluetooth üzerinden doğrudan kontrolü beta olarak sunulur.
+130|Cihaz
+131|Bağlantı
+136|DockKit’li diğer cihazlar
+137|FeiyuTech AK4500 <span class="beta">Beta</span>
+138|Bluetooth, doğrudan Keepsight’tan
+139|<strong>Burada beta ne anlama gelir:</strong> AK4500’ün üçüncü taraf uygulamalar için resmî bir arayüzü yoktur. Keepsight onunla üreticinin Bluetooth protokolü üzerinden konuşur. Bu çalışır, ancak yeni bir yazılımla değişebilir ve gimbal’ın bazı işlevleri henüz eksiktir. Uygulamada bu yol “BETA” işaretini taşır.
+140|Bir cihaz beklendiği gibi tepki vermezse, tam modeliyle birlikte bana yazın.
+141|Apple DockKit’li gimbal
+142|Cihazı iPhone’unuzla bir kez eşleyin. Genellikle iPhone’u tutucuya yaklaştırır ve isteği onaylarsınız. Tam adımlar üreticinin kılavuzunda anlatılır.
+143|iPhone’u yerleştirin ve Keepsight’ı açın. Uygulama cihazı kendiliğinden algılar ve sağ alttaki düğme <kbd>Track</kbd> gösterir.
+144|Bir konu seçin ve <kbd>Track</kbd> düğmesine dokunun.
+145|Keepsight cihazı kontrol ederken, ikisi birbirini engellemesin diye Apple’ın kendi takibi kapatılır. <kbd>Manual</kbd> alanında bağlantıyı keserseniz kontrol yeniden sisteme geçer.
+146|DockKit için iOS 17 veya sonrası gerekir. Keepsight, aynı üreticilerin eski modelleri gibi DockKit’siz cihazları kontrol edemez.
+147|Gimbal’ı açın. Gimbal yalnızca tek bir bağlantı kabul ettiği için Feiyu uygulamasını kapatın.
+148|Keepsight’ta sağ alttaki <kbd>Connect</kbd> düğmesine dokunun.
+149|İlk seferde Bluetooth erişimine izin verin.
+150|AK4500 yalnızca belirli bir komut gücünün üzerinde tepki verir. Keepsight bunu <kbd>En düşük hız</kbd> ayarıyla dengeler; Ayarlar bölümüne bakın.
+151|Elle hareket ettirme
+152|Uygulamanın altındaki <kbd>Manual</kbd> alanı, bağlantıyı denetlemek içindir.
+153|<strong>Joystick:</strong> gimbal’ı sola, sağa, yukarı ve aşağı hareket ettirir.
+154|<strong>Hız:</strong> ne kadar hızlı döneceğini belirler.
+155|<strong>Bağlan ve bağlantıyı kes</strong> ile bağlantının güncel durumu.
+156|Gimbal burada yanlış yöne hareket ediyorsa, ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
+157|Gimbal olmadan
+158|Kamera, fotoğraflar, otomatik çekim, hareketler, sesli komutlar ve sanal gimbal; gimbal olmadan, elde veya tripod üzerinde de çalışır.
+159|Büyük kamerayla çekim
+160|Keepsight’ın tasarlandığı düzenek: kamera kaydeder, iPhone takibi yapar.
+161|Güçlü bir gimbal aynasız kameranızı taşır. iPhone üstte durur, aynı yöne bakar ve göz görevi görür: konuyu algılar ve motorları sürer. Çekimi alttaki kamera yapar; kendi sensörü, lensleri ve çözünürlüğüyle, örneğin Lumix S1RII ile 8K olarak.
+162|Parça
+163|Görev
+164|Daha sonra kullanacağınız videoyu veya fotoğrafları kaydeder.
+165|Keepsight’lı iPhone
+166|Konuyu algılar, ortada tutar ve gimbal’ı yönlendirir.
+167|İkisini de taşır ve takip eder.
+168|<strong>Keepsight’ın kontrol ettiği bir kamera gimbal’ı.</strong> Şu anda bu, kontrolü hâlâ beta aşamasında olan FeiyuTech AK4500’dür. Üreticisine göre 4,6&nbsp;kg’a kadar taşır. Apple DockKit’li gimbal’lar yalnızca iPhone için yapılmıştır ve kamera taşımaz.
+169|<strong>Bir telefon tutucu</strong>; kameranın flaş kızağına veya gimbal üzerindeki bir vida dişine takılır. Eğilebilmeli ve sağlam kilitlenmelidir.
+170|<strong>Kamera ve lens</strong>; iPhone ve tutucuyla birlikte taşıma kapasitesinin altında kalmalıdır.
+171|Takma ve hizalama
+172|Kamerayı kullanacağınız lensle takın ve iPhone’u arka kameraları öne bakacak şekilde tutucuya yerleştirin.
+173|Gimbal’ı, iPhone dahil üzerindeki her şeyle birlikte dengeleyin. Ancak bundan sonra açın.
+174|Kamerayı uzak ve belirgin bir noktaya, örneğin bir kilise kulesinin ucuna çevirin; nokta kameranın görüntüsünün ortasında olsun.
+175|Keepsight’ı açın ve aynı nokta vizörün ortasındaki artının üzerine gelene kadar tutucuyu ayarlayın. Tutucuyu kilitleyin.
+176|Gimbal’ı bağlayın; Desteklenen gimbal’lar bölümüne bakın.
+177|iPhone, lensin birkaç santimetre üstünde durur. Uçak gibi uzak konularda bunun önemi yoktur. Birkaç metre uzaktaki konularda konu, kamerada iPhone’dakinden biraz daha yukarıda görünür. Bu durumda, alışılmış çalışma mesafenizdeki bir noktaya göre hizalayın.
+178|iPhone lensini seçme
+179|Keepsight konuyu iPhone görüntüsünün ortasında tutar. iPhone’un görüş açısı ne kadar darsa orta o kadar hassas tutulur ve uygulamanın henüz karede olmayan bir konuyu bulması o kadar zorlaşır.
+180|Kameradaki odak uzaklığı (tam kare)
+181|iPhone’daki lens
+182|Yaklaşık 35 mm’ye kadar
+184|Yaklaşık 35–100 mm
+185|1× veya telefoto
+186|100 mm’nin üzeri
+187|Telefoto (iPhone 15 Pro Max’te 5×, 120 mm)
+188|Bu düzenekte otomatik zoom’u kapalı bırakın. Yalnızca iPhone’un görüntüsünü değiştirir, kameranınkini değil.
+190|Keepsight’ta konuyu seçin ve <kbd>Track</kbd> düğmesine dokunun.
+191|Kaydı kameranın kendisinde başlatın. Keepsight kamerayı tetiklemez.
+192|Netliği ve pozlamayı kamerada ayarlayın; en iyisi kameranın kendi konu algılamalı otomatik netlemesiyle.
+193|iPhone’la da çekmek isterseniz onun deklanşörüne de basın. Çerçeveleri ve gimbal verilerini gösteren bilgi katmanlı video, takibin ne kadar temiz çalıştığını sonradan denetlemek için uygundur.
+194|Ağır yükte hız
+195|<kbd>Smooth</kbd> veya <kbd>Standard</kbd> ile başlayın. Ağır bir kamera, sert komutlardan sonra daha uzun süre sallanır.
+196|Alçaktan uçan uçaklar gibi hızlı konular için <kbd>Sport</kbd> seçin ve gimbal’ın sakin kalıp kalmadığını denetleyin.
+197|Gimbal konunun çevresinde salınıyorsa, <kbd>Custom</kbd> altında kazancı düşürün veya durgunluk bölgesini genişletin.
+198|Kameranın odak uzaklığı ne kadar uzunsa, her düzeltme görüntüde o kadar belirgin olur. Uzun odak uzaklıkları daha yumuşak bir ayar ister.
+199|Vizör
+200|Görüntüdeki kontroller ve üç panel.
+201|Vizör, kamera görüntüsünü neredeyse hiç kontrol olmadan gösterir. Geri kalan her şey, gerektiğinde açtığınız üç paneldedir.
+202|Vizörde
+203|Öğe
+204|Anlamı
+205|Durum, sol üstte
+206|Aranıyor, Hedef kilitlendi, Tahmin ediliyor veya Hedef kayboldu. “Algılama kapalı”, algılamanın kapatıldığı anlamına gelir. Termometre, iPhone’un ısındığını gösterir.
+207|Biçim, üstte ortada
+208|Geçerli çözünürlük ve kare hızı; fotoğraf modunda dosya türü ve megapiksel. Biçim panelini açmak için dokunun.
+209|Yeşil çerçeve
+210|Keepsight’ın takip ettiği hedef. Beyaz çerçeveler algılanan diğer konulardır.
+211|Lensler
+212|<kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> ve video modunda otomatik zoom için <kbd>A</kbd>.
+213|Deklanşör
+214|Video modunda kırmızı, fotoğraf modunda beyaz.
+215|Soldaki anahtar
+216|Video ile fotoğraf arasında geçiş yapar.
+218|Küçük resmin yanındaki yuvarlak düğme arka ve ön kamera arasında geçiş yapar.
+219|Küçük resim
+220|Son çekim. Galeriyi açmak için dokunun.
+221|Sağdaki düğme
+222|Bağlan, Takip et veya Dur.
+223|Üç panel
+224|<strong>Sol, Takip:</strong> konu, hız, hareketler, sesle kontrol, geri sayım ve gimbal bağlantısı.
+225|<strong>Sağ, Kamera:</strong> biçim, otomatik zoom, sanal gimbal, fotoğraf tetikleme ve bilgi katmanlı video.
+226|<strong>Alt, Biçim:</strong> video için çözünürlük ve kare hızı, fotoğraf için dosya türü ve megapiksel.
+227|Yan panelleri, görüntünün kenarındaki dar tutamaklara dokunarak veya kaydırarak açın. Yatay konumda kamera panelinin tutamağı, sağ sütunun üstündeki bir düğmedir. Kapatmak için panelin yanına dokunun.
+228|Hedefi görüntüde seçme
+229|O konuyu hedef yapmak için beyaz bir çerçeveye <strong>dokunun</strong>.
+230|Keepsight’ın tanımadığı bir nesne bile olsa, herhangi bir nesneyi takip etmek için parmağınızla <strong>bir çerçeve çizin</strong>. Bunun için Keepsight Pro gerekir.
+231|iPhone’u yatay çevirdiğinizde Keepsight arayüzünü döndürür. Video kaydı sırasında görüntü biçimi sabit kalır.
+232|Konuları takip etme
+233|Konu türleri, özel hedef, hız ve konu gizlendiğinde olanlar.
+234|Konu seçme
+235|Sol panelde Keepsight’ın neyi arayacağını seçersiniz.
+238|Not
+240|Tüm vücut. Spor ve hareket için uygundur.
+242|Yakın çekimler, vloglar ve selfie’ler için. Keepsight gözlere nişan alır: görüntünün ortasında burun değil, göz hizası durur.
+244|En iyi gökyüzünde, telefoto lensle çalışır.
+247|Köpekler, kediler, atlar ve diğerleri.
+249|Otomobiller, motosikletler, otobüsler, kamyonlar.
+252|Görüntüde uygun birden çok konu varsa Keepsight ortaya en yakın olanı alır. Değiştirmek için başka bir çerçeveye dokunun.
+253|Algılamayı açma ve kapatma
+254|Algılama işlem gücü ister ve iPhone’u ısıtır. Bu yüzden Keepsight yalnızca gerektiği kadar hesaplar:
+255|<strong>Tam hız:</strong> takip, otomatik zoom, sanal gimbal, otomatik çekim, hareketler veya özel bir hedef algılamaya ihtiyaç duyduğu sürece.
+256|<strong>Önizleme:</strong> diğer durumlarda saniyede yaklaşık beş kare; böylece çerçeveleri görür ve bir hedef seçebilirsiniz.
+257|<strong>Kapalı:</strong> takip panelinin üstündeki <kbd>Detection</kbd> anahtarı onu tamamen kapatır. Yukarıdaki işlevlerden biri gerektirdiği anda kendiliğinden başlar.
+258|Konu görünümden büyük olsa bile yeşil çerçeve her zaman görünen görüntünün içinde kalır.
+260|Bir nesnenin çevresine çerçeve çizerseniz Keepsight, konu türü ne olursa olsun tam olarak o nesneyi takip eder. Sol panelde o zaman <kbd>Custom target</kbd> düğmesi görünür. Seçimi kaldırmak için ona dokunun.
+262|Profil
+263|Davranış
+265|Yumuşak kalkış, en yüksek hızın yarısı, küçük hareketler yok sayılır. Sakin çekimler için.
+267|Dengeli. Çoğu konu için doğru başlangıç.
+269|En hızlı tepki verir. Ani yön değişiklikleri için.
+271|Tüm denetleyici değerlerini kendiniz ayarlarsınız; Ayarlar bölümüne bakın.
+272|Konu kaybolduğunda
+273|<strong>Tahmin ediliyor:</strong> konu kısa süre gizlenirse gimbal aynı yönde dönmeyi sürdürür. Süreyi <kbd>All settings</kbd> altında ayarlarsınız; varsayılan 1,5 saniyedir.
+274|<strong>Hedef kayboldu:</strong> bundan sonra gimbal, konu yeniden algılanana kadar durur.
+275|Kamera ve biçim
+276|Video ve fotoğraf modu, çözünürlük, kare hızı, lensler.
+277|Video veya fotoğraf
+278|Deklanşörün solundaki anahtar modu değiştirir. Kamera, Apple’ın Kamera uygulamasındaki gibi kendini yeniden yapılandırır.
+279|<strong>Video modu:</strong> üç lens boyunca kesintisiz zoom ve otomatik zoom.
+280|<strong>Fotoğraf modu:</strong> seçili lensin tam fotoğraf çözünürlüğü. Vizör görüntüsü 4:3’tür.
+281|Biçimi ayarlama
+282|Üstte ortadaki biçim göstergesine dokunun. Kayıt sırasında panel kilitlidir.
+284|Ayar
+285|Seçenekler
+287|HD (1920 × 1080) veya 4K (3840 × 2160)
+289|Saniyede 24, 30 veya 60 kare; PAL için 25
+292|HEIF veya RAW (Apple ProRAW, Keepsight Pro ile)
+293|Lensin sunduğu değerler; aşağıya bakın
+294|Ön kamera ve selfie’ler
+295|Küçük resmin yanındaki iki oklu düğme ön kameraya geçer. Kendinizi Apple’ın Kamera uygulamasındaki gibi aynalanmış görürsünüz. Çekimler, başkalarının sizi gördüğü gibi aynalanmadan kaydedilir; fotoğraflar için bunu değiştirebilirsiniz.
+296|<strong>Video ve fotoğraf:</strong> 4K’ya kadar video, ön kameranın tam çözünürlüğünde fotoğraflar.
+297|<strong>Konu:</strong> geçiş yaptığınızda Keepsight <kbd>Face</kbd> konusuna geçer ve gözlerinize nişan alır. Gimbal varsa ön kameranın önünde de sizi takip eder.
+298|<strong>Fotoğraf modunda selfie çubuğu:</strong> deklanşörün üstünde <kbd>Single</kbd>, <kbd>Smile</kbd> veya <kbd>Look</kbd> seçersiniz. Gülümseme ve Bakış, dokunduğunuz anda kurulur: herkes gülümsediğinde veya kameraya baktığında Keepsight fotoğrafı kendisi çeker. İkisi de Keepsight Pro’nun parçasıdır.
+299|<strong>Geri sayım:</strong> ön kamerada ışık yerine ekran yanıp söner.
+300|<strong>Kullanılamaz:</strong> lens seçimi ve otomatik zoom, çünkü ön kameranın tek bir lensi vardır.
+302|Selfie çubuğundaki veya kamera panelindeki <kbd>Portrait</kbd>, Keepsight Pro’nun parçasıdır.
+303|<strong>Fotoğraf:</strong> Keepsight görüntüyü ön kameranın derinlik verileriyle kaydeder. Ardından arka plan bulanıklığını Fotoğraflar uygulamasında ayarlarsınız. Portre fotoğrafları 12 MP HEIF’tir; burada ProRAW mümkün değildir.
+304|<strong>Video:</strong> Keepsight, Apple’ın Portre efektini destekleyen bir biçim seçer; genellikle 30 karede 1080p. Efektin kendisini Denetim Merkezi’nde <kbd>Video effects</kbd> altında açarsınız; Keepsight onu sizin için açar. iPhone’unuza bağlı olarak orada Stüdyo Işığı ve Sahnede Ortala da bulunur.
+305|Kamera panelindeki <kbd>Mirror selfies</kbd>, selfie’leri kendinizi vizörde gördüğünüz gibi kaydeder.
+306|Video kaydı sırasında kamera değiştirilemez.
+307|Lensler ve megapiksel
+308|Lens
+309|Fotoğraf çözünürlüğü
+310|<kbd>.5×</kbd> ultra geniş
+312|<kbd>1×</kbd> ana kamera
+313|12, 24 veya 48 MP; RAW’da 12 veya 48 MP
+314|<kbd>5×</kbd> telefoto
+315|Bu değerler iPhone 15 Pro Max için geçerlidir. Biçim paneli her zaman yalnızca geçerli lensin gerçekten sunduğunu gösterir.
+316|Video modunda hareketle veya sesle tetiklenen bir fotoğraf yaklaşık 10 MP’dir. Tam çözünürlük için fotoğraf moduna geçin.
+318|Video sıçramadan konuyu aynı boyutta tutar.
+319|Otomatik zoom, konuyu ayarladığınız boyutta tutar. Konu uzaklaşırsa kamera yavaşça yakınlaştırır. Yaklaşırsa kamera uzaklaştırır.
+320|Açma
+321|Video moduna geçin.
+322|Aralığı kullanılacak lensi seçin.
+323|<kbd>A</kbd> düğmesine dokunun. Düğme geçerli zoom’u gösterir, örneğin “A 2,3×”.
+324|Video neden sıçramaz
+325|Bir iPhone kamerası zoom sırasında lens değiştirdiğinde görüntü gözle görülür biçimde kayar. Bu yüzden otomatik zoom seçili lenste kalır ve her karede yalnızca çok az hareket eder.
+326|Seçili lens
+327|Zoom aralığı
+328|0,5× ile 1×’in hemen altı
+329|1× ile 4×’ün hemen altı
+330|5× ile 10×
+332|<strong>Konu boyutu:</strong> konunun görüntünün ne kadarını dolduracağı, yüzde 15 ile 60 arası.
+333|<strong>Zoom hızı:</strong> zoom’un ne kadar hızlı hareket edebileceği, saniyede yüzde 8 ile 60 arası. Küçük değerler daha sakin görünür.
+334|Özel durumlarda davranış
+335|Zoom, konu bir saniyeden biraz kısa bir süre kararlı biçimde algılandıktan sonra başlar.
+336|Konu görüntünün kenarına ulaşırsa kamera yakınlaştırmak yerine uzaklaştırır.
+337|Konu kısa süre gizlenirse zoom yerinde kalır. Ancak konu olmadan bir buçuk saniye geçtikten sonra yavaşça geri döner.
+339|Yumuşakça takip eden ve zoom yapan çerçeveli ikinci bir video.
+340|Sanal gimbal, tam kamera görüntüsünden konuyu takip eden ve kendiliğinden zoom yapan bir çerçeve keser. Sonuç, kayıttan hemen sonra hazır olan bitmiş ve sakin bir videodur.
+341|Sağ paneli açın ve <kbd>Virtual gimbal</kbd> seçeneğini açın.
+342|Bir konu seçin. Vizörde çerçeveyi açık renkli bir kontur olarak görürsünüz; dışındaki alan karartılır.
+343|Kaydı başlatın.
+344|Gerçek bir gimbal gerekmez. iPhone’u elinizde tutabilir veya tripoda koyabilirsiniz. Bir gimbal ve otomatik zoom ile birlikte görüntü daha da sakinleşir.
+345|Kontrol
+346|Etki
+348|Yüzde 10 ile 40 arası. Daha fazla boşluk daha sakin görünür, daha azı konuyu yakınlaştırır.
+350|1,5× ile 4× arası. 4K kayıtta tam keskinlik 2×’e kadar korunur.
+352|Çerçevenin ne kadar ağırdan takip ettiği. Büyük değerler daha çok yumuşatır.
+354|Kırpılmış videonun yanında tam videoyu da kaydeder.
+355|Neler kaydedilir
+356|1080p kırpılmış video.
+357|İsteğe bağlı olarak seçili çözünürlükte orijinal.
+358|Keepsight konuyu kaybederse çerçeve yavaşça tam görüntüye döner.
+359|Sanal gimbal konuyu çerçevede sabit tutar. Arka plandaki güçlü sarsıntıyı dengelemez.
+360|Fotoğraflar ve tetikleme
+361|Tek çekim, aralıklı seri ve doğru anda otomatik çekim.
+362|Fotoğraf modunda sağ paneldeki <kbd>Photo trigger</kbd>, Keepsight’ın nasıl fotoğraf çekeceğini belirler.
+363|Tür
+364|Ne olur
+366|Deklanşöre her basışta bir fotoğraf.
+368|En fazla sayıya ulaşana kadar sabit aralıklı bir seri.
+369|Gülümseme (Pro)
+370|Görüntüdeki tüm yüzler gözleri açık gülümsediğinde çeker.
+371|Bakış (Pro)
+372|Herkes kameraya döndüğünde çeker.
+373|Konu (Pro)
+374|Seçilen konu kilitlendiğinde ve karede yeterince büyük olduğunda çeker.
+375|Tek çekim ve aralık ücretsiz sürümün parçasıdır. Üç otomatik tür Keepsight Pro gerektirir; ücretsiz sürümde kilit simgesi gösterirler.
+376|Seri çekme
+377|Tetikleme türünü seçin.
+378|<kbd>Interval</kbd> ve <kbd>Maximum photos</kbd> değerlerini ayarlayın.
+379|Deklanşöre basın. Otomatik türlerde Keepsight artık kuruludur ve anı bekler.
+380|Üstte ortadaki gösterge sayar, örneğin “3 / 30”. Deklanşöre ikinci kez basmak seriyi bitirir.
+381|<strong>Aralık:</strong> 1 ile 30 saniye arası. Otomatik türlerde iki fotoğraf arasındaki en kısa süredir.
+382|<strong>En fazla fotoğraf:</strong> 2 ile 100 arası.
+383|Kuşlar ve diğer hayvanlar için kısa aralıklı “Konu” iyi çalışır: Keepsight, hayvan karede büyüdüğü anda çeker ve orada kaldığı sürece çekmeyi sürdürür. Uygulama bir hayvanın nereye baktığını algılamaz.
+384|48 MP ve ProRAW fotoğrafların kaydedilmesi daha uzun sürer. Çok kısa bir aralıkta gerçek süre bu yüzden daha uzun olabilir.
+385|Hareketler, ses, geri sayım
+386|Kameranın önünde kendiniz dururken kamerayı kullanma.
+387|Üçünü de sol panelde <kbd>Remote control</kbd> altında bulursunuz.
+388|El hareketleri
+389|Hareketler, konu Kişi veya Yüz olarak ayarlandığında çalışır. Hareketi yaklaşık yarım saniye sabit tutun. Bu sırada üstte ortada bir çubuk dolar.
+390|Hareket
+391|Açık el
+392|Video kaydını başlatır veya durdurur.
+393|OK işareti
+394|Bu kişiyi hedef olarak seçer ve takibi başlatır.
+395|Zafer işareti
+396|Fotoğraf çeker.
+397|İki açık el
+398|Takibi durdurur.
+399|Sesli komutlar
+400|<kbd>Voice control</kbd> seçeneğini açın ve mikrofona ve konuşma tanımaya izin verin. Komutları uygulamanın dilinde söyleyin.
+401|Siz dersiniz
+402|“Fotoğraf”
+403|“Videoyu başlat” veya “Kaydı başlat”
+404|Video kaydını başlatır.
+405|“Dur”
+406|Kaydı, seriyi veya süren bir geri sayımı bitirir.
+407|Sesle kontrol açıkken mikrofon etkin kalır. iPhone bunu turuncu noktayla gösterir.
+408|Geri sayım, flaş ve ses
+409|Hareketle veya sesle tetiklediğinizde, yerinize geçebilmeniz için önce bir geri sayım çalışır.
+410|<strong>Geri sayım:</strong> kapalı, 3, 5 veya 10 saniye. Saniyeler görüntüde büyük gösterilir.
+411|<strong>Onay flaşı:</strong> LED, çekime kadar giderek kısalan aralıklarla yanıp söner.
+412|<strong>Onay sesi:</strong> her yanıp sönmede kısa bir tık.
+413|Geri sayım yoksa onay olarak tek bir yanıp sönme ve tek bir tık olur. Ekrandaki deklanşör her zaman hemen çeker.
+414|Kayıt ve galeri
+415|Hangi videolar oluşur, nerededirler ve nasıl izlenirler.
+416|Video kaydetme
+417|Video modunda kırmızı deklanşör kaydı başlatır ve durdurur. Süre üstte ortada akar. Videolar seslidir ve Fotoğraflar uygulamasına kaydedilir.
+418|Hangi videolar oluşur
+419|İçerik
+420|Ne zaman
+422|Seçili çözünürlükte temiz kamera görüntüsü.
+423|Her zaman; sanal gimbal için kapatmadığınız sürece.
+424|1080p olarak takip eden çerçeve.
+425|Sanal gimbal açıkken.
+427|Çerçeveler, süre, konu, durum ve gimbal verileriyle 1080p görüntü.
+428|Keepsight Pro ile, <kbd>Overlay video</kbd> açıkken.
+430|Mod anahtarının üstündeki küçük resim son çekimi gösterir. Keepsight ile çektiğiniz tüm fotoğraf ve videoların yer aldığı galeriyi, en yeniler önce olacak şekilde açmak için ona dokunun.
+431|Büyük görünüm için bir resme dokunun ve gezinmek için kaydırın.
+432|Üstte tarih, megapiksel ve görüntü boyutu yazar.
+433|Çöp kutusu çekimi Fotoğraflar uygulamasından da siler. iPhone önce sorar.
+434|Galerinin Fotoğraflar’a okuma erişimi olması gerekir. “Sınırlı erişim”de de Keepsight kendi çekimlerini görür.
+435|Bir kutucuk bulut simgesi gösteriyorsa orijinal iCloud’dadır ve indirilmektedir. Bu, iCloud Fotoğrafları “iPhone Saklama Alanını En İyile” seçeneğiyle açıkken olur. Uyarı işareti, dosyanın okunamadığı anlamına gelir; büyük görünüm o zaman dosya adını gösterir.
+437|Videoda canlı uçuş verileri: nerede kullanılabilir, onay, kaynaklar.
+438|<strong>Kullanılabilirlik:</strong> canlı uçuş verileri yalnızca desteklenen ülke ve bölgelerde kullanılabilir; konum erişimi ve internet gerekir. Şu anda onaylı bölge yok, bu nedenle özellik her yerde kapalıdır.
+439|Uçuş verisi kaplamasıyla Keepsight, takip ettiğiniz uçağın çağrı adını, uçak tipini, irtifasını ve hızını vizörde ve kaydedilen videoda gösterir. Veriler, topluluk tarafından işletilen bir ADS-B alıcı ağı olan adsb.lol'den gelir.
+440|Açma
+441|Ayarları açın ve <kbd>Flight data overlay (ADS-B)</kbd> seçeneğini açın.
+442|Bildirimi okuyun ve <kbd>Agree and enable</kbd> düğmesine dokunun. iOS konumunuzu ancak bundan sonra sorar.
+443|Konu olarak <kbd>Aircraft</kbd> seçin ve kamerayı uçağa doğrultun.
+444|Kameranın baktığı yöne birden fazla uçak uyuyorsa Keepsight tahmin yürütmez: <kbd>Aircraft selection required</kbd> düğmesine dokunun ve doğru olanı seçin.
+445|Nerede çalışır
+446|Keepsight, ülkeyi iPhone'unuzda geçerli konumunuzdan belirler. App Store ülkeniz, diliniz veya internet adresiniz rol oynamaz. Sınıra yakın yerlerde ve denizde özellik kapalı kalır.
+447|Her ülke onaylanmadan önce ayrı ayrı incelenir. O zamana kadar uygulama, canlı uçuş verilerinin bölgenizde kullanılamadığını bildirir. Takip ve kayıt her zamanki gibi çalışır.
+448|Ne gönderilir
+449|Keepsight, yalnızca özellik etkinken, yakındaki uçakları bulmak için yaklaşık bir kilometreye yuvarlanmış konumunuzu adsb.lol'e gönderir. Siz onaylamadan ve onaylanmamış bölgelerde hiçbir şey gönderilmez.
+450|Görünüm
+451|Köşeyi, kompakt ya da ayrıntılı görünümü ve metrik ya da İngiliz birimlerini seçin. 15 saniyeden eski veriler gizlenir. Uçuş verisi içeren her video “Data: adsb.lol · ODbL 1.0” ibaresini taşır.
+452|Kaplama, iPhone ile kaydedilen videolara yazılır. Gimbal üzerindeki kamera kendi başına kaydeder ve kaplama almaz.
+453|Doğruluk
+454|Uçuş verileri gecikmeli, eksik veya hatalı olabilir. Yalnızca bilgi amaçlıdır; seyrüsefer, uçuş emniyeti veya operasyonel kararlar için uygun değildir.
+455|Ücretsiz ve Pro
+456|Ücretsiz sürüm ne yapar, Pro neyi açar, satın alma ve geri yükleme.
+457|Ücretsiz sürüm denemek içindir: herhangi bir ödeme yapmadan önce takibi, hareketleri ve kamerayı insanlar üzerinde test edersiniz.
+458|Evet
+459|Gimbal kontrolü, tek çekim ve aralıklı seri
+460|Hayır
+461|Diğer tüm konular
+462|Video süresi
+463|60 saniye
+464|Sınırsız
+465|Pro takip denemesi
+466|3 × 60 saniye
+467|Fotoğraf ve videolarda Keepsight logosu
+468|Pro takibi deneme
+469|Takip panelinde kilitli bir konuya dokunun ve <kbd>Start preview</kbd> seçeneğini seçin. Keepsight bu konuyu 60 saniye boyunca tam olarak Pro sürümündeki gibi takip eder. Böyle üç oturumunuz vardır; ilk saniyelerde başarısız olan oturum sayılmaz.
+470|Ücretsiz sürümde video 60 saniye sonra kendiliğinden biter. Bitmeden 10 saniye önce bir bildirim görünür.
+471|Pro’yu satın alma
+472|Sağ üstteki <kbd>PRO</kbd> düğmesine, ardından <kbd>Kilidi aç</kbd> düğmesine dokunun. Pro, aboneliksiz tek seferlik bir satın almadır. App Store fiyatı kendi para biriminizde gösterir ve ödemeyi Apple yürütür.
+473|Satın almayı geri yükleme
+474|Yeni bir iPhone’da veya yeniden yüklemeden sonra <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun. Satın almada kullandığınız Apple Hesabı ile giriş yapmış olmalısınız.
+475|İadeler
+476|İadeyi Apple’dan <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> adresinden isteyin.
+477|Ayarlar ve yardım
+478|Dil, yardım modu ve ileri düzey kullanıcılar için ayarlar.
+479|En önemli anahtarlar iki yan paneldedir. Geri kalan her şey sol panelde <kbd>All settings</kbd> altındadır.
+481|Her yan panelin üstündeki soru işareti yardım modunu açar. Menü öğelerinin altında kısa açıklamalı sarı ipuçları, önemli olanlarda bir de çizim görünür.
+482|Keepsight, iPhone’unuzun dilini kullanır. Yalnızca Keepsight için başka bir dil seçmek isterseniz <kbd>All settings</kbd> altındaki <kbd>Language</kbd> öğesine dokunun. Bu, Keepsight için iPhone ayarlarını açar. Sesli komutlar da dille birlikte değişir.
+483|İleri düzey kullanıcılar için ayarlar
+484|“Özel” hız
+485|Takibin kazancı, sönümlemesi, en yüksek hızı, ivmesi ve durgunluk bölgesi.
+486|En düşük hız
+487|Yalnızca AK4500 için: gimbal’ın hâlâ tepki verdiği en küçük komut. Gimbal küçük sapmalarda duruyorsa bu değeri yükseltin.
+488|Kayıptan sonra tahmin
+489|Konu gizlendiğinde gimbal’ın ne kadar süre dönmeyi sürdüreceği.
+491|Yatay veya dikey ekseni ters çevirir.
+493|Bir konuyu hangi modelin algılayacağı. RF-DETR Small ve YOLOX-S kullanılabilir.
+495|Vizörde kare hızını, gimbal komutlarını ve modelin hesaplama süresini gösterir.
+497|Takip ayarlarını varsayılana döndürür.
+499|Burada uygulamanın sürümünü, bu web sitesine bağlantıları ve kullanılan algılama modellerinin lisanslarını bulursunuz.
+500|Sorun giderme
+501|Sık karşılaşılan sorunlar ve çözümleri.
+502|Gimbal bulunamıyor
+503|<strong>DockKit’li cihaz:</strong> iPhone ayarlarında eşlenmiş mi ve iPhone tutucuya düzgün oturuyor mu? Karşılaştırmak için Apple’ın Kamera uygulamasını açın. Cihaz orada da sizi takip etmiyorsa sorun eşlemededir.
+504|<strong>AK4500:</strong> gimbal açık ve yakında mı? Feiyu uygulamasını tamamen kapatın ve <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında Bluetooth’a izin verin.
+505|Gimbal’ı kapatıp yeniden açın ve <kbd>Connect</kbd> düğmesine bir kez daha dokunun.
+506|Gimbal konudan uzaklaşıyor
+507|İlgili ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altında ters çevirin.
+508|Gimbal ağır tepki veriyor veya titriyor
+509|Ağır tepki: Spor profilini seçin. AK4500’de daha yüksek bir en düşük hız da yardımcı olur.
+510|Titreme veya salınım: Yumuşak profilini seçin. Uzun odak uzaklığında küçük hareketler daha büyük görünür.
+511|Konu algılanmıyor
+512|Doğru konu türü seçili mi?
+513|Çok küçük konular daha az güvenilir algılanır. Daha uzun bir lens seçin.
+514|Düşük ışıkta ve güçlü ters ışıkta algılama zayıflar.
+515|Sesli komutlar anlaşılmıyor
+516|<kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında mikrofona ve konuşma tanımaya izin verin.
+517|Komutları uygulamanın dilinde söyleyin.
+518|Rüzgâr ve gürültülü ortam tanımayı bozar. O zaman hareketler daha güvenilirdir.
+519|Hareketler tetiklemiyor
+520|Konu, Kişi veya Yüz olarak ayarlanmalıdır.
+521|Çubuk dolana kadar elinizi sabit ve açıkça görünür tutun.
+522|48 MP veya RAW seçilemiyor
+523|İkisi de yalnızca fotoğraf modunda ana kamerayla <kbd>1×</kbd> kullanılabilir. RAW için ayrıca Keepsight Pro gerekir.
+524|Galeri boş
+525|Keepsight’ın Fotoğraflar’a erişmesine izin verin. Uygulamanın eski sürümleriyle yapılan çekimler galeride görünmez, ancak Fotoğraflar uygulamasında durur.
+526|Keepsight Pro satın almadan sonra etkin değil
+527|<kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun ve doğru Apple Hesabı ile giriş yaptığınızı denetleyin.
+528|Daha fazla yardım
+529|<a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın; iPhone modelinizi, iOS sürümünü ve Keepsight sürümünü belirtin.
+530|iPhone ısınıyor
+531|Algılama, 4K kayıt ve gimbal kontrolü, özellikle güneşte, iPhone’u zorlar. Keepsight cihazı kendiliğinden korur:
+532|<strong>Durum alanında termometre:</strong> iPhone ısınmıştır ve algılama yalnızca her ikinci veya üçüncü kareyi değerlendirir. Takip sürer, ancak biraz daha yavaş tepki verir.
+533|<strong>Takip durduruldu:</strong> kritik sıcaklıkta Keepsight takibi ve kaydı bitirir ve videoyu kaydeder. iPhone’u gölgede soğumaya bırakın.
+534|Daha serin kalması için: gerekmediğinde algılamayı ve hareketle kontrolü kapatın, 4K yerine 1080p, 60 yerine 30 kare kullanın, bilgi katmanlı videoyu ve sanal gimbal’ı kapatın, kılıfı çıkarın. Bu nedenle iPhone 12 ve daha eski modeller 1080p ile başlar.
+535|Belgeler çoğu soruyu yanıtlar. Takılırsanız bana yazın.
+536|İletişim
+537|Hızlı yardımcı olabilmem için lütfen şunları ekleyin:
+538|iPhone modeliniz ve iOS sürümü
+539|Keepsight sürümü (uygulamada Tüm ayarlar → Hakkında ve lisanslar altında)
+540|ne yaptığınız ve bunun yerine ne olduğu; mümkünse bir ekran görüntüsü veya kısa bir videoyla
+541|Hızlı yardım
+542|<a href="docs/start.html">Başlarken</a>: izinler ve gimbal bağlantısı
+543|<a href="docs/troubleshooting.html">Sorun giderme</a>: sık karşılaşılan sorunlar ve çözümleri
+544|<a href="docs/pro.html">Ücretsiz ve Pro</a>: satın alma, geri yükleme, iadeler
+545|Gizlilik Politikası
+546|Son güncelleme: 14 Kasım 2026. Keepsight iOS uygulaması ve bu web sitesi için geçerlidir.
+547|<strong>Kısaca:</strong> Keepsight sizinle ilgili veri toplamaz. Hesap, reklam, izleme ve analiz yoktur. Kamera görüntüleri, algılama, fotoğraflar ve videolar iPhone'unuzda kalır. Tek istisna, bir veri sağlayıcısına yaklaşık konum gönderen isteğe bağlı uçuş verisi özelliğidir (bkz. bölüm 2).
+548|1. Veri sorumlusu
+549|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>İsviçre<br>E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+550|2. Uygulamanın işlediği veriler
+551|Uygulama verileri yalnızca cihazınızda ve yalnızca kendi işlevleri için işler. Sağlayıcı olarak ben bunlardan hiçbirini almam.
+552|<strong>Kamera:</strong> kamera görüntüsü, konuları algılamak ve takip etmek için iPhone’da analiz edilir. Görüntüler cihazdan çıkmaz.
+553|<strong>Yüzler:</strong> yüzleri, gülümsemeleri ve bakış yönünü algılamak için uygulama kamera görüntüsünü iPhone’da analiz eder. Kimin kim olduğunu tanımaz ve yüz özelliklerini saklamaz. Portre fotoğrafları ön kameranın derinlik verilerini içerir; bu veriler yalnızca kendi kaydettiğiniz fotoğrafta bulunur.
+554|<strong>Mikrofon:</strong> videolarınızın sesi ve, sesle kontrolü açarsanız, sesli komutlar için.
+555|<strong>Konuşma tanıma:</strong> sesli komutları Apple’ın konuşma tanıması tanır. iPhone’unuz ve seçili dil destekliyorsa bu, cihazda gerçekleşir. Aksi halde ses, Apple’ın gizlilik politikasına tabi olarak tanıma için Apple’a gönderilir. Sesle kontrol varsayılan olarak kapalıdır.
+556|<strong>Fotoğraflar:</strong> uygulama çekimlerinizi fotoğraf arşivine kaydeder ve galerisinde yalnızca Keepsight ile yapılan çekimleri gösterir. iCloud Fotoğrafları kullanıyorsanız Apple bunları iCloud ayarlarınıza göre aktarır.
+557|<strong>Bluetooth:</strong> gimbal’ınızı kontrol etmek için. Gimbal ile yalnızca kontrol komutları ve durum değerleri alışverişi yapılır.
+558|<strong>Konum ve uçuş verileri:</strong> yalnızca uçuş verisi kaplamasını açıp onay verirseniz. Keepsight bu durumda bölgeyi belirlemek için konumunuzu iPhone'da kullanır ve özelliğin onaylandığı yerlerde, yakındaki uçakları bulmak için yaklaşık bir kilometreye yuvarlanmış konumu adsb.lol sağlayıcısına gönderir. adsb.lol'ün bu istekleri saklayıp saklamadığını veya ne kadar süre sakladığını söyleyemem; kendi koşulları geçerlidir. Özelliği kapattığınızda iletim durur. Bu özellik olmadan uygulama konumunuzu kullanmaz.
+559|<strong>Ayarlar:</strong> uygulama içi ayarlarınız yalnızca iPhone’da yerel olarak saklanır.
+560|3. Satın almalar
+561|“Keepsight Pro” satın alma işlemini Apple, App Store üzerinden yürütür. Ödeme bilgisi, ad veya e-posta adresi almam; yalnızca Apple’dan toplu satış rakamlarını alırım.
+562|4. Test sürümleri (TestFlight)
+563|TestFlight üzerinden bir test sürümü kullanırsanız Apple, davet için e-posta adresinizi ve onay verirseniz çökme raporlarını ve geri bildiriminizi işler. Hataları gidermek için geri bildirimleri ve çökme raporlarını, ayrıca kendim davet ettiğim test kullanıcılarının e-posta adreslerini görürüm.
+564|5. E-postayla iletişim
+565|Bana yazarsanız e-posta adresinizi ve iletinizin içeriğini yalnızca size yanıt vermek için kullanırım. İletileri konu çözüldüğünde, en geç iki yıl sonra silerim.
+566|6. Bu web sitesi
+567|Bu web sitesi çerez kullanmaz ve izleme yapmaz. Yazı tipleri ve betikler aynı siteden sunulur; üçüncü taraf içerik yüklenmez. Dil seçiminiz yalnızca tarayıcınızda saklanır. Site GitHub Pages’te (GitHub, Inc., ABD) barındırılır. Ziyaretiniz sırasında GitHub, IP adresiniz gibi teknik olarak gerekli verileri sunucu günlüklerinde işler. Ayrıntılar için GitHub’ın gizlilik bildirimine bakın.
+568|7. Haklarınız
+569|İsviçre Veri Koruma Yasası ve geçerli olduğu ölçüde GDPR uyarınca erişim, düzeltme, silme, işlemenin kısıtlanması ve veri taşınabilirliği haklarına, ayrıca bir denetim makamına (İsviçre’de FDPIC) şikâyette bulunma hakkına sahipsiniz. Uygulama bana veri göndermediği için bu, uygulamada yalnızca bana gönderdiğiniz e-postaları ilgilendirir. <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın.
+570|8. Çocuklar
+571|Uygulama özellikle çocuklara yönelik değildir ve onlardan veri toplamaz.
+572|9. Değişiklikler
+573|Uygulama bu politikanın değişmesini gerektirecek biçimde değişirse politika burada güncellenir. Bu sayfadaki sürüm geçerlidir.
+574|Sağlayıcı
+575|E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+576|Sorumluluk
+577|Keepsight motorlu bir gimbal’ı kontrol eder. Gimbal’ın serbestçe hareket edebildiğinden ve kimsenin tehlikeye girmediğinden emin olun. Kullanım, yasaların izin verdiği ölçüde kendi sorumluluğunuzdadır.
+578|Ticari markalar
+579|Apple, iPhone, App Store, TestFlight ve DockKit, Apple Inc.’in ticari markalarıdır. FeiyuTech, AK4500, Insta360, DJI ve Belkin, ilgili sahiplerinin ticari markalarıdır. Keepsight bağımsız bir üründür ve bu şirketlerle bağlantılı değildir.
+580|Kullanım koşulları
+581|Uygulama, Apple’ın uygulamalar için standart lisans sözleşmesi kapsamında lisanslanır: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+582|Yazı tipi
+583|Bu web sitesi Inter yazı tipini kullanır (SIL Open Font License 1.1).
+584|Kamera paneli: biçim, zoom, sanal gimbal, fotoğraf tetikleme
+585|Video modunda biçim
+586|Fotoğraf modunda biçim
+587|Ayarlar: hız, gimbal, kalite
+588|Ayarlar: algılama modeli ve yön
+589|Ayarlar: hareketler, kayıt, dil
+590|Konu, hız ve uzaktan kumanda içeren takip paneli; burada yardım moduyla
+591|Joystick’li Manuel alanı
