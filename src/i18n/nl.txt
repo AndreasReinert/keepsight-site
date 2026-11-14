@@ -1,0 +1,463 @@
+0|Overzicht
+1|Documentatie
+3|Privacy
+4|Colofon
+6|Terug
+7|Verder
+8|Alles wat Keepsight kan, stap voor stap uitgelegd. De hoofdstukken bouwen op elkaar voort, maar je kunt overal beginnen.
+9|Hoofdstukken
+11|Kader van de virtuele gimbal
+12|Keepsight: je onderwerp blijft in beeld
+13|Keepsight herkent mensen, vliegtuigen, vogels en meer en stuurt je gimbal om ze te volgen. De herkenning draait op de iPhone.
+14|Je onderwerp blijft in beeld.
+15|Keepsight herkent wat je filmt en stuurt je gimbal om het te volgen. Alle herkenning draait op je iPhone.
+16|Lees de documentatie
+17|Keepsight zit momenteel in de bètatest en is nog niet beschikbaar in de App Store.
+18|Gemaakt voor de grote camera
+19|Keepsight is ontstaan voor één bepaalde opstelling: een stevige gimbal draagt een systeemcamera, bijvoorbeeld een Lumix S1RII die in 8K filmt. De iPhone zit erbovenop. Die herkent het onderwerp en stuurt de gimbal, terwijl de camera eronder de eigenlijke opname maakt.
+20|Zo krijg je een gevolgd shot in de kwaliteit van je beste camera en met je eigen objectieven, zonder zelf te pannen en zonder tweede persoon aan de gimbal.
+21|Foto’s en video’s van de iPhone zelf zijn een extraatje: een tweede hoek, een controlebeeld, of voor de dagen dat de grote camera thuisblijft.
+22|De opstelling stap voor stap opbouwen
+23|iPhone: herkent en stuurt
+24|Camera: neemt op
+25|Gimbal: volgt
+26|Gimbal met een systeemcamera en daarboven de iPhone; beide kijken naar hetzelfde vliegtuig
+27|Zo ziet de app eruit
+28|Wat Keepsight voor je doet
+29|Volgen
+30|Kies een onderwerp: persoon, gezicht, vliegtuig, vogel, dier, voertuig, trein of boot. Keepsight houdt het in het midden en stuurt de gimbal. Verdwijnt het vliegtuig achter een wolk, dan volgt de app kort de baan verder.
+32|De automatische zoom houdt het onderwerp op de grootte die je instelt. Hij beweegt in minieme stapjes en blijft binnen het gekozen objectief, zodat de video nooit verspringt.
+33|Kadreren
+34|De virtuele gimbal bewaart een tweede video waarvan het kader het onderwerp soepel volgt en vanzelf zoomt. Dat werkt ook uit de hand, zonder gimbal.
+35|Afdrukken
+36|Met Keepsight Pro maakt de app zelf de foto als iedereen lacht, als iedereen in de camera kijkt of als het onderwerp groot genoeg in beeld is. Intervalseries, handgebaren en spraakopdrachten met aftellen horen al bij de gratis versie.
+37|De volledige camera van je iPhone
+38|Video met 24, 25, 30 of 60 beelden per seconde
+40|Foto’s met de hoofdcamera, als HEIF of ProRAW
+41|Objectieven: ultragroothoek, hoofdcamera en tele
+42|Gratis proberen, één keer kopen
+43|Met de gratis versie test je alles op mensen. Keepsight Pro ontgrendel je met één aankoop, zonder abonnement. De App Store toont de prijs in jouw valuta.
+52|Opnemen zonder tijdslimiet en zonder logo
+59|Wat je nodig hebt
+61|Een iPhone met iOS 17 of nieuwer. Keepsight wordt ontwikkeld en getest op de iPhone 15 Pro Max met drie camera’s.
+63|Voor het volgen een gimbal of standaard met Apple DockKit, zoals de Insta360 Flow 2 Pro, DJI Osmo Mobile 8 of Belkin Auto-Tracking Stand Pro. De FeiyuTech AK4500 voor systeemcamera’s wordt als bèta ondersteund. Camera, automatisch afdrukken, gebaren, spraak en de virtuele gimbal werken ook zonder gimbal.
+64|Talen
+65|De app spreekt 21 talen: Engels, Duits, Frans, Italiaans, Spaans, Portugees, Nederlands, Zweeds, Pools, Russisch, Oekraïens, Turks, Arabisch, Hindi, Indonesisch, Vietnamees, Thai, Japans, Koreaans en Chinees (vereenvoudigd en traditioneel).
+66|Aan de slag
+67|Toestemmingen, gimbal verbinden, je eerste keer volgen.
+68|Toestemmingen
+69|Bij de eerste start vraagt de iPhone om toegang. Keepsight vraagt elke toestemming pas als die nodig is.
+70|Toegang
+71|Waarvoor
+73|Onderwerpen herkennen en filmen. Zonder camera werkt de app niet.
+75|De gimbal besturen.
+76|Foto’s
+77|Opnamen bewaren en in de galerij tonen. ‘Beperkte toegang’ is genoeg.
+78|Microfoon
+79|Geluid bij video’s en spraakopdrachten.
+80|Spraakherkenning
+81|Alleen voor spraakopdrachten.
+82|Heb je een toegang geweigerd, dan kun je die later toestaan onder <kbd>Instellingen</kbd> → <kbd>Keepsight</kbd>.
+83|De gimbal verbinden
+84|<strong>Gimbal of standaard met Apple DockKit:</strong> koppel het apparaat één keer met je iPhone, zoals de fabrikant beschrijft. Daarna maakt Keepsight vanzelf verbinding zodra je de iPhone plaatst.
+85|<strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> zet de gimbal aan en tik rechtsonder in Keepsight op <kbd>Connect</kbd>.
+86|Na het verbinden verandert de knop in <kbd>Track</kbd>. Details staan in het hoofdstuk <a href="gimbals.html">Ondersteunde gimbals</a>.
+87|De gimbal moet vrij kunnen draaien. Houd vingers, kabels en voorwerpen uit het bewegingsbereik.
+88|Je eerste keer volgen
+89|Open het linkerpaneel en kies het onderwerp <kbd>Person</kbd>.
+90|Ga voor de camera staan. Er verschijnt een kader om je heen en de status linksboven toont ‘Doel vergrendeld’.
+91|Tik op <kbd>Track</kbd>. De gimbal volgt je.
+92|<kbd>Stop</kbd> beëindigt het volgen.
+93|Draait de gimbal van het onderwerp weg in plaats van ernaartoe, keer dan de as om onder <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+94|Ondersteunde gimbals
+95|Welke apparaten Keepsight bestuurt, hoe je ze verbindt en met de hand beweegt.
+96|Keepsight bestuurt gimbals en standaards via DockKit, de interface van Apple voor gemotoriseerde houders. Dat is de aanbevolen weg: de apparaten maken vanzelf verbinding en Apple regelt de verbinding. Daarnaast is de directe besturing van de FeiyuTech AK4500 via Bluetooth beschikbaar als bèta.
+97|Apparaat
+98|Verbinding
+103|Andere apparaten met DockKit
+104|FeiyuTech AK4500 <span class="beta">Beta</span>
+105|Bluetooth, rechtstreeks vanuit Keepsight
+106|<strong>Wat bèta hier betekent:</strong> de AK4500 heeft geen officiële interface voor apps van derden. Keepsight praat ermee via het Bluetooth-protocol van de fabrikant. Dat werkt, maar het kan met nieuwe firmware veranderen, en enkele functies van de gimbal ontbreken nog. In de app herken je deze weg aan het teken ‘BETA’.
+107|Reageert een apparaat niet zoals verwacht, stuur me dan een bericht met het exacte model.
+108|Gimbal met Apple DockKit
+109|Koppel het apparaat één keer met je iPhone. Meestal houd je de iPhone tegen de houder en bevestig je het verzoek. De handleiding van de fabrikant beschrijft de precieze stappen.
+110|Plaats de iPhone en open Keepsight. De app herkent het apparaat vanzelf en de knop rechtsonder toont <kbd>Track</kbd>.
+111|Kies een onderwerp en tik op <kbd>Track</kbd>.
+112|Zolang Keepsight het apparaat bestuurt, is het eigen volgen van Apple uitgeschakeld, zodat de twee elkaar niet storen. Verbreek je de verbinding in het gedeelte <kbd>Manual</kbd>, dan neemt het systeem het weer over.
+113|DockKit vereist iOS 17 of nieuwer. Apparaten zonder DockKit, zoals oudere modellen van dezelfde fabrikanten, kan Keepsight niet besturen.
+114|Zet de gimbal aan. Sluit de Feiyu-app, want de gimbal accepteert maar één verbinding.
+115|Tik rechtsonder in Keepsight op <kbd>Connect</kbd>.
+116|Sta de eerste keer Bluetooth-toegang toe.
+117|De AK4500 reageert pas vanaf een bepaalde commandosterkte. Keepsight compenseert dat met de instelling <kbd>Minimumsnelheid</kbd>, zie het hoofdstuk Instellingen.
+118|Met de hand bewegen
+119|Het gedeelte <kbd>Manual</kbd> onder in de app is bedoeld om de verbinding te controleren.
+120|<strong>Joystick:</strong> beweegt de gimbal naar links, rechts, omhoog en omlaag.
+121|<strong>Snelheid:</strong> bepaalt hoe snel hij draait.
+122|<strong>Verbinden en verbreken</strong>, plus de huidige status van de verbinding.
+123|Beweegt de gimbal hier de verkeerde kant op, keer dan de as om onder <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+124|Zonder gimbal
+125|Camera, foto’s, automatisch afdrukken, gebaren, spraakopdrachten en de virtuele gimbal werken ook zonder gimbal, uit de hand of op statief.
+126|Filmen met de grote camera
+127|De opstelling waarvoor Keepsight bedoeld is: de camera neemt op, de iPhone volgt.
+128|Een stevige gimbal draagt je systeemcamera. De iPhone zit erbovenop, kijkt in dezelfde richting en dient als oog: hij herkent het onderwerp en stuurt de motoren. De camera eronder maakt de opname, met zijn sensor, zijn objectieven en zijn resolutie, bijvoorbeeld 8K met een Lumix S1RII.
+129|Onderdeel
+130|Taak
+131|Neemt de video of foto’s op die je later gebruikt.
+132|iPhone met Keepsight
+133|Herkent het onderwerp, houdt het in het midden en stuurt de gimbal.
+134|Draagt beide en volgt.
+135|<strong>Een cameragimbal die Keepsight bestuurt.</strong> Op dit moment is dat de FeiyuTech AK4500, waarvan de besturing nog in bèta is. Volgens de fabrikant draagt hij tot 4,6&nbsp;kg. Gimbals met Apple DockKit zijn alleen voor de iPhone gebouwd en dragen geen camera.
+136|<strong>Een telefoonhouder</strong> voor de flitsschoen van de camera of voor schroefdraad op de gimbal. Hij moet kunnen kantelen en stevig vastzitten.
+137|<strong>Camera en objectief</strong> die samen met iPhone en houder onder het draagvermogen blijven.
+138|Monteren en uitlijnen
+139|Monteer de camera met het objectief dat je wilt gebruiken en zet de iPhone in de houder, met de camera’s aan de achterkant naar voren.
+140|Balanceer de gimbal met alles wat meedraait, dus ook met de iPhone. Zet hem pas daarna aan.
+141|Richt de camera op een ver, duidelijk punt, bijvoorbeeld de spits van een kerktoren, zodat het in het midden van het camerabeeld ligt.
+142|Open Keepsight en stel de houder zo af dat hetzelfde punt op het kruis in het midden van de zoeker ligt. Zet de houder vast.
+143|Verbind de gimbal, zie het hoofdstuk Ondersteunde gimbals.
+144|De iPhone zit een paar centimeter boven het objectief. Bij verre onderwerpen zoals vliegtuigen maakt dat niets uit. Bij onderwerpen op enkele meters afstand ligt het onderwerp in de camera iets hoger dan in de iPhone. Lijn in dat geval uit op een punt op je gebruikelijke werkafstand.
+145|Het juiste iPhone-objectief
+146|Keepsight houdt het onderwerp in het midden van het iPhone-beeld. Hoe smaller de beeldhoek van de iPhone, hoe nauwkeuriger het midden wordt vastgehouden, en hoe moeilijker de app een onderwerp vindt dat nog niet in beeld is.
+147|Brandpuntsafstand op de camera (kleinbeeld)
+148|Objectief op de iPhone
+149|Tot ongeveer 35 mm
+151|Ongeveer 35 tot 100 mm
+152|1× of de tele
+153|Boven 100 mm
+154|Tele (5× op de iPhone 15 Pro Max, 120 mm)
+155|Laat de automatische zoom in deze opstelling uit. Die verandert alleen het beeld van de iPhone, niet dat van de camera.
+157|Kies in Keepsight het onderwerp en tik op <kbd>Track</kbd>.
+158|Start de opname op de camera zelf. Keepsight bedient de camera niet.
+159|Stel scherpte en belichting in op de camera, het liefst met de eigen autofocus met onderwerpherkenning.
+160|Wil je ook met de iPhone filmen, druk dan daar ook op de ontspanknop. De overlay-video met kaders en gimbalgegevens is handig om achteraf te controleren hoe strak het volgen was.
+161|Snelheid bij zware belasting
+162|Begin met <kbd>Smooth</kbd> of <kbd>Standard</kbd>. Een zware camera slingert langer na bij harde commando’s.
+163|Kies voor snelle onderwerpen zoals laagvliegende vliegtuigen <kbd>Sport</kbd> en controleer of de gimbal rustig blijft.
+164|Slingert de gimbal om het onderwerp heen, verlaag dan onder <kbd>Custom</kbd> de versterking of vergroot de rustzone.
+165|Hoe langer de brandpuntsafstand van de camera, hoe sterker elke correctie in beeld opvalt. Lange brandpuntsafstanden vragen een zachtere instelling.
+166|De zoeker
+167|De bediening in het camerabeeld en de drie panelen.
+168|De zoeker toont het camerabeeld met bijna geen bedieningselementen. Al het andere zit in drie panelen die je tevoorschijn haalt wanneer je ze nodig hebt.
+169|In de zoeker
+170|Element
+171|Betekenis
+172|Status linksboven
+173|Zoeken, Doel vergrendeld, Voorspelling of Doel kwijt. ‘Herkenning uit’ betekent dat de herkenning is uitgeschakeld. Een thermometer geeft aan dat de iPhone heet is.
+174|Formaat, boven in het midden
+175|Huidige resolutie en beeldfrequentie, in de fotomodus bestandstype en megapixels. Tik om het formaatpaneel te openen.
+176|Groen kader
+177|Het doel dat Keepsight volgt. Witte kaders zijn andere herkende onderwerpen.
+178|Objectieven
+179|<kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> en in de videomodus <kbd>A</kbd> voor de automatische zoom.
+180|Ontspanknop
+181|Rood in de videomodus, wit in de fotomodus.
+182|Schakelaar links
+183|Wisselt tussen video en foto.
+185|De ronde knop naast de miniatuur wisselt tussen de camera aan de achterkant en die aan de voorkant.
+186|Miniatuur
+187|De laatste opname. Tik om de galerij te openen.
+188|Knop rechts
+189|Verbinden, Volgen of Stop.
+190|De drie panelen
+191|<strong>Links, Volgen:</strong> onderwerp, snelheid, gebaren, spraakbesturing, aftellen en de verbinding met de gimbal.
+192|<strong>Rechts, Camera:</strong> formaat, automatische zoom, virtuele gimbal, afdrukken en overlay-video.
+193|<strong>Onder, Formaat:</strong> resolutie en beeldfrequentie voor video, bestandstype en megapixels voor foto’s.
+194|Open de zijpanelen met de smalle grepen aan de rand van het beeld, door te tikken of te vegen. In liggende stand is de greep van het camerapaneel een knop boven in de rechterkolom. Tik naast een paneel om het te sluiten.
+195|Het doel in beeld kiezen
+196|<strong>Tik</strong> op een wit kader om dat onderwerp tot doel te maken.
+197|<strong>Trek een kader</strong> met je vinger om een willekeurig voorwerp te volgen, ook een dat Keepsight niet kent. Hiervoor is Keepsight Pro nodig.
+198|Keepsight draait zijn interface mee als je de iPhone in liggende stand houdt. Tijdens een video-opname blijft het beeldformaat vast.
+199|Onderwerpen volgen
+200|Soorten onderwerpen, eigen doel, snelheid en gedrag als het onderwerp verdwijnt.
+201|Een onderwerp kiezen
+202|In het linkerpaneel kies je waar Keepsight naar moet zoeken.
+205|Opmerking
+207|Het hele lichaam. Goed voor sport en beweging.
+209|Voor close-ups, vlogs en selfies. Keepsight richt op de ogen: de ooglijn ligt in het midden van het beeld, niet de neus.
+211|Werkt het best in de lucht met het teleobjectief.
+214|Honden, katten, paarden en meer.
+216|Auto’s, motoren, bussen, vrachtwagens.
+219|Staan er meerdere passende onderwerpen in beeld, dan neemt Keepsight het onderwerp dat het dichtst bij het midden ligt. Tik op een ander kader om te wisselen.
+220|Herkenning in- en uitschakelen
+221|Herkenning kost rekenkracht en maakt de iPhone warm. Keepsight rekent daarom alleen zoveel als nodig is:
+222|<strong>Volle snelheid:</strong> zolang volgen, automatische zoom, virtuele gimbal, automatisch afdrukken, gebaren of een eigen doel de herkenning nodig hebben.
+223|<strong>Voorvertoning:</strong> anders ongeveer vijf beelden per seconde, zodat je de kaders ziet en een doel kunt kiezen.
+224|<strong>Uit:</strong> met de schakelaar <kbd>Detection</kbd> boven in het volgpaneel zet je de herkenning helemaal uit. Ze start vanzelf zodra een van de genoemde functies haar nodig heeft.
+225|Het groene kader blijft altijd binnen het zichtbare beeld, ook als het onderwerp groter is dan de uitsnede.
+227|Trek je een kader om een voorwerp, dan volgt Keepsight precies dat voorwerp, ongeacht het soort onderwerp. Het linkerpaneel toont dan de knop <kbd>Custom target</kbd>. Tik erop om de keuze te wissen.
+229|Profiel
+230|Gedrag
+232|Zachte aanloop, halve topsnelheid, kleine bewegingen worden genegeerd. Voor rustige beelden.
+234|Evenwichtig. Het juiste begin voor de meeste onderwerpen.
+236|Reageert het snelst. Voor snelle richtingsveranderingen.
+238|Je stelt alle regelwaarden zelf in, zie het hoofdstuk Instellingen.
+239|Als het onderwerp verdwijnt
+240|<strong>Voorspelling:</strong> is het onderwerp even uit beeld, dan draait de gimbal in dezelfde richting door. De duur stel je in onder <kbd>All settings</kbd>; standaard is dat 1,5 seconde.
+241|<strong>Doel kwijt:</strong> daarna stopt de gimbal tot het onderwerp weer herkend wordt.
+242|Camera en formaat
+243|Video- en fotomodus, resolutie, beeldfrequentie, objectieven.
+244|Video of foto
+245|De schakelaar links van de ontspanknop wisselt de modus. De camera stelt zich daarbij opnieuw in, zoals in de Camera-app van Apple.
+246|<strong>Videomodus:</strong> traploze zoom over alle drie de objectieven, en automatische zoom.
+247|<strong>Fotomodus:</strong> de volledige fotoresolutie van het gekozen objectief. Het zoekerbeeld is 4:3.
+248|Het formaat instellen
+249|Tik op de formaatweergave boven in het midden. Tijdens een opname is het paneel vergrendeld.
+251|Instelling
+252|Keuze
+254|HD (1920 × 1080) of 4K (3840 × 2160)
+256|24, 30 of 60 beelden per seconde, 25 voor PAL
+259|HEIF of RAW (Apple ProRAW, met Keepsight Pro)
+260|Wat het objectief levert, zie hieronder
+261|Camera aan de voorkant en selfies
+262|De knop met de twee pijlen naast de miniatuur schakelt naar de camera aan de voorkant. Je ziet jezelf gespiegeld, zoals in de Camera-app van Apple. Opnamen worden ongespiegeld bewaard, zoals anderen je zien; voor foto’s kun je dat aanpassen.
+263|<strong>Video en foto:</strong> video tot 4K, foto’s in de volledige resolutie van de camera aan de voorkant.
+264|<strong>Onderwerp:</strong> bij het wisselen schakelt Keepsight naar <kbd>Face</kbd> en richt op je ogen. Met een gimbal volgt hij je ook voor de camera aan de voorkant.
+265|<strong>Selfiebalk in de fotomodus:</strong> boven de ontspanknop kies je <kbd>Single</kbd>, <kbd>Smile</kbd> of <kbd>Look</kbd>. Glimlach en Blik staan meteen na het tikken op scherp: Keepsight maakt zelf de foto zodra iedereen lacht of in de camera kijkt. Beide horen bij Keepsight Pro.
+266|<strong>Aftellen:</strong> bij de camera aan de voorkant flitst het scherm in plaats van het lampje.
+267|<strong>Niet beschikbaar:</strong> objectiefkeuze en automatische zoom, omdat de camera aan de voorkant maar één objectief heeft.
+269|<kbd>Portrait</kbd> in de selfiebalk of in het camerapaneel hoort bij Keepsight Pro.
+270|<strong>Foto:</strong> Keepsight bewaart het beeld met de dieptegegevens van de camera aan de voorkant. Daarna stel je in de Foto’s-app de achtergrondonscherpte in. Portretfoto’s zijn HEIF met 12 MP; ProRAW is hier niet mogelijk.
+271|<strong>Video:</strong> Keepsight kiest een formaat dat het portreteffect van Apple ondersteunt, meestal 1080p met 30 beelden. Het effect zelf zet je aan in het bedieningspaneel onder <kbd>Video effects</kbd>; Keepsight opent het voor je. Afhankelijk van je iPhone vind je daar ook Studiolicht en Middelpunt.
+272|<kbd>Mirror selfies</kbd> in het camerapaneel bewaart selfies zoals je jezelf in de zoeker ziet.
+273|Tijdens een video-opname kun je niet van camera wisselen.
+274|Objectieven en megapixels
+275|Objectief
+276|Fotoresolutie
+277|<kbd>.5×</kbd> ultragroothoek
+279|<kbd>1×</kbd> hoofdcamera
+280|12, 24 of 48 MP; in RAW 12 of 48 MP
+281|<kbd>5×</kbd> tele
+282|Deze waarden gelden voor de iPhone 15 Pro Max. Het formaatpaneel toont altijd alleen wat het huidige objectief echt levert.
+283|Een foto die je in de videomodus met een gebaar of je stem maakt, heeft ongeveer 10 MP. Schakel naar de fotomodus voor de volledige resolutie.
+285|Houdt het onderwerp even groot zonder dat de video verspringt.
+286|De automatische zoom houdt het onderwerp op de grootte die je instelt. Gaat het verder weg, dan zoomt de camera langzaam in. Komt het dichterbij, dan zoomt de camera uit.
+287|Inschakelen
+288|Schakel naar de videomodus.
+289|Kies het objectief waarvan het bereik gebruikt moet worden.
+290|Tik op <kbd>A</kbd>. De knop toont de huidige zoom, bijvoorbeeld ‘A 2,3×’.
+291|Waarom de video niet verspringt
+292|Als een iPhone-camera tijdens het zoomen van objectief wisselt, verschuift het beeld zichtbaar. De automatische zoom blijft daarom op het gekozen objectief en beweegt bij elk afzonderlijk beeld maar minimaal.
+293|Gekozen objectief
+294|Zoombereik
+295|0,5× tot net onder 1×
+296|1× tot net onder 4×
+297|5× tot 10×
+299|<strong>Grootte van het onderwerp:</strong> hoeveel van het beeld het onderwerp moet vullen, 15 tot 60 procent.
+300|<strong>Zoomsnelheid:</strong> hoe snel de zoom mag bewegen, 8 tot 60 procent per seconde. Kleine waarden ogen rustiger.
+301|Gedrag in bijzondere gevallen
+302|Zoomen begint pas als het onderwerp net geen seconde lang stabiel herkend is.
+303|Komt het onderwerp bij de rand van het beeld, dan zoomt de camera uit in plaats van in.
+304|Is het onderwerp even uit beeld, dan blijft de zoom staan. Pas na anderhalve seconde zonder onderwerp gaat hij langzaam terug.
+306|Een tweede video met een soepel volgend, zoomend kader.
+307|De virtuele gimbal snijdt uit het volledige camerabeeld een kader dat het onderwerp volgt en vanzelf zoomt. Het resultaat is een kant-en-klare, rustige video, direct na de opname beschikbaar.
+308|Open het rechterpaneel en zet <kbd>Virtual gimbal</kbd> aan.
+309|Kies een onderwerp. In de zoeker zie je het kader als een lichte rand; het gebied erbuiten is verduisterd.
+310|Start de opname.
+311|Een echte gimbal is niet nodig. Je kunt de iPhone in je hand houden of op een statief zetten. Samen met een gimbal en automatische zoom wordt het beeld nog rustiger.
+312|Regelaar
+313|Effect
+315|10 tot 40 procent. Meer ruimte oogt rustiger, minder ruimte haalt het onderwerp dichterbij.
+317|1,5× tot 4×. Bij opnemen in 4K blijft de volle scherpte behouden tot 2×.
+319|Hoe bedaard het kader volgt. Grotere waarden maken het vloeiender.
+321|Bewaart de volledige video naast de uitgesneden video.
+322|Wat er bewaard wordt
+323|De uitgesneden video in 1080p.
+324|Naar keuze het origineel in de gekozen resolutie.
+325|Raakt Keepsight het onderwerp kwijt, dan gaat het kader langzaam terug naar het volledige beeld.
+326|De virtuele gimbal houdt het onderwerp rustig in het kader. Sterk schudden van de achtergrond compenseert hij niet.
+327|Foto’s en afdrukken
+328|Enkele foto, intervalserie en automatisch afdrukken op het juiste moment.
+329|In de fotomodus bepaalt het rechterpaneel onder <kbd>Photo trigger</kbd> hoe Keepsight foto’s maakt.
+330|Soort
+331|Wat er gebeurt
+333|Eén foto per druk op de ontspanknop.
+335|Een serie met vast interval tot het maximale aantal is bereikt.
+336|Glimlach (Pro)
+337|Drukt af als alle gezichten in beeld lachen met open ogen.
+338|Blik (Pro)
+339|Drukt af als iedereen naar de camera kijkt.
+340|Onderwerp (Pro)
+341|Drukt af als het gekozen onderwerp vergrendeld is en groot genoeg in beeld staat.
+342|Enkele foto en interval horen bij de gratis versie. Voor de drie automatische soorten is Keepsight Pro nodig; in de gratis versie tonen ze een slotje.
+343|Zo bedien je een serie
+344|Kies de soort.
+345|Stel <kbd>Interval</kbd> en <kbd>Maximum photos</kbd> in.
+346|Druk op de ontspanknop. Bij de automatische soorten staat Keepsight nu op scherp en wacht op het moment.
+347|De weergave boven in het midden telt mee, bijvoorbeeld ‘3 / 30’. Een tweede druk op de ontspanknop beëindigt de serie.
+348|<strong>Interval:</strong> 1 tot 30 seconden. Bij de automatische soorten is het de minimale tijd tussen twee foto’s.
+349|<strong>Maximumaantal foto’s:</strong> 2 tot 100.
+350|Voor vogels en andere dieren werkt ‘Onderwerp’ met een kort interval goed: Keepsight drukt af zodra het dier groot in beeld is en blijft foto’s maken zolang het daar blijft. De app herkent niet waar een dier naar kijkt.
+351|Foto’s in 48 MP en ProRAW hebben meer tijd nodig om te bewaren. Bij een heel kort interval kan de werkelijke tussentijd daardoor langer zijn.
+352|Gebaren, spraak, aftellen
+353|De camera bedienen als je er zelf voor staat.
+354|Alle drie vind je in het linkerpaneel onder <kbd>Remote control</kbd>.
+355|Handgebaren
+356|Gebaren werken als het onderwerp op Persoon of Gezicht staat. Houd het gebaar ongeveer een halve seconde stil. Intussen vult zich boven in het midden een balk.
+357|Gebaar
+358|Open hand
+359|Video-opname starten of stoppen.
+360|OK-teken
+361|Deze persoon als doel kiezen en het volgen starten.
+362|Vredesteken
+363|Een foto maken.
+364|Twee open handen
+365|Het volgen stoppen.
+366|Spraakopdrachten
+367|Zet <kbd>Voice control</kbd> aan en sta microfoon en spraakherkenning toe. Spreek de opdrachten uit in de taal van de app.
+368|Je zegt
+369|‘Foto’
+370|‘Start video’ of ‘Start opname’
+371|Video-opname starten.
+372|‘Stop’
+373|De opname, de serie of een lopende aftelling beëindigen.
+374|Zolang de spraakbesturing aanstaat, blijft de microfoon actief. De iPhone toont dat met de oranje stip.
+375|Aftellen, flits en geluid
+376|Als je met een gebaar of je stem afdrukt, loopt er eerst een aftelling, zodat je in positie kunt gaan staan.
+377|<strong>Aftellen:</strong> uit, 3, 5 of 10 seconden. De seconden staan groot in beeld.
+378|<strong>Bevestigingsflits:</strong> de led knippert met steeds kortere tussenpozen tot de opname.
+379|<strong>Bevestigingsgeluid:</strong> een korte tik bij elke flits.
+380|Zonder aftellen is er één flits en één tik als bevestiging. De ontspanknop op het scherm drukt altijd meteen af.
+381|Opname en galerij
+382|Welke video’s ontstaan, waar ze staan en hoe je ze bekijkt.
+383|Video opnemen
+384|In de videomodus start en stopt de rode ontspanknop de opname. De tijd loopt boven in het midden mee. Video’s hebben geluid en worden in de Foto’s-app bewaard.
+385|Welke video’s ontstaan
+386|Inhoud
+387|Wanneer
+389|Het schone camerabeeld in de gekozen resolutie.
+390|Altijd, tenzij je het voor de virtuele gimbal uitzet.
+391|Het volgende kader in 1080p.
+392|Als de virtuele gimbal aanstaat.
+394|Het beeld met kaders, tijd, onderwerp, status en gimbalgegevens in 1080p.
+395|Met Keepsight Pro, als <kbd>Overlay video</kbd> aanstaat.
+397|De miniatuur boven de modusschakelaar toont de laatste opname. Tik erop om de galerij te openen met alle foto’s en video’s die je met Keepsight hebt gemaakt, de nieuwste eerst.
+398|Tik op een beeld voor de grote weergave en veeg om te bladeren.
+399|Bovenaan staan datum, megapixels en beeldgrootte.
+400|De prullenbak verwijdert de opname ook uit de Foto’s-app. De iPhone vraagt het eerst.
+401|De galerij heeft leestoegang tot Foto’s nodig. Met ‘Beperkte toegang’ ziet Keepsight toch zijn eigen opnamen.
+402|Toont een tegel een wolkje, dan staat het origineel in iCloud en wordt het gedownload. Dat gebeurt als iCloud-foto’s aanstaat met ‘Optimaliseer iPhone-opslag’. Een waarschuwingsteken betekent dat het bestand niet te lezen is; de grote weergave toont dan de bestandsnaam.
+403|Gratis en Pro
+404|Wat de gratis versie kan, wat Pro ontgrendelt, kopen en herstellen.
+405|De gratis versie is om te proberen: je test volgen, gebaren en de camera op mensen voordat je iets betaalt.
+406|Ja
+407|Gimbalbesturing, enkele foto en intervalserie
+408|Nee
+409|Alle andere onderwerpen
+410|Videolengte
+411|10 seconden
+412|Onbeperkt
+413|Keepsight-logo in foto’s en video’s
+414|Pro kopen
+415|Tik rechtsboven op <kbd>PRO</kbd> en daarna op <kbd>Ontgrendel</kbd>. Pro is een eenmalige aankoop zonder abonnement. De App Store toont de prijs in jouw valuta en Apple regelt de betaling.
+416|Aankoop herstellen
+417|Tik op een nieuwe iPhone of na opnieuw installeren op <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Je moet ingelogd zijn met hetzelfde Apple Account als bij de aankoop.
+418|Terugbetaling
+419|Vraag een terugbetaling aan bij Apple via <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+420|Instellingen en hulp
+421|Taal, hulpmodus en de regelaars voor gevorderden.
+422|De belangrijkste schakelaars zitten in de twee zijpanelen. Al het andere staat in het linkerpaneel onder <kbd>All settings</kbd>.
+424|Het vraagteken boven in elk zijpaneel zet de hulpmodus aan. Onder de menu-onderdelen verschijnen dan gele aanwijzingen met een korte uitleg, bij de belangrijke ook met een tekening.
+425|Keepsight gebruikt de taal van je iPhone. Wil je alleen voor Keepsight een andere kiezen, tik dan onder <kbd>All settings</kbd> op <kbd>Language</kbd>. Dat opent de iPhone-instellingen voor Keepsight. De spraakopdrachten veranderen mee.
+426|Regelaars voor gevorderden
+427|Snelheid ‘Aangepast’
+428|Versterking, demping, topsnelheid, versnelling en rustzone van het volgen.
+429|Minimumsnelheid
+430|Alleen voor de AK4500: het kleinste commando waarop de gimbal nog reageert. Verhoog het als de gimbal bij kleine afwijkingen stil blijft staan.
+431|Voorspelling na verlies
+432|Hoe lang de gimbal doordraait als het onderwerp uit beeld is.
+434|Pannen of kantelen omkeren.
+436|Welk model een onderwerp herkent. Beschikbaar zijn RF-DETR Small en YOLOX-S.
+438|Toont beeldfrequentie, gimbalcommando’s en rekentijd van het model in de zoeker.
+440|Zet de regelaars van het volgen terug.
+442|Hier vind je de versie van de app, links naar deze website en de licenties van de gebruikte herkenningsmodellen.
+443|Problemen oplossen
+444|Veelvoorkomende problemen en hoe je ze oplost.
+445|De gimbal wordt niet gevonden
+446|<strong>Apparaat met DockKit:</strong> is het gekoppeld in de iPhone-instellingen en zit de iPhone goed in de houder? Open ter vergelijking de Camera-app van Apple. Volgt het apparaat je daar ook niet, dan ligt het aan de koppeling.
+447|<strong>AK4500:</strong> staat de gimbal aan en is hij in de buurt? Sluit de Feiyu-app helemaal af en sta Bluetooth toe onder <kbd>Instellingen</kbd> → <kbd>Keepsight</kbd>.
+448|Zet de gimbal uit en weer aan en tik opnieuw op <kbd>Connect</kbd>.
+449|De gimbal draait van het onderwerp weg
+450|Keer de betreffende as om onder <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+451|De gimbal reageert traag of trilt
+452|Traag: kies het profiel Sport. Bij de AK4500 helpt ook een hogere minimumsnelheid.
+453|Trillen of slingeren: kies het profiel Vloeiend. Bij een lange brandpuntsafstand lijken kleine bewegingen groter.
+454|Het onderwerp wordt niet herkend
+455|Is het juiste soort onderwerp gekozen?
+456|Heel kleine onderwerpen worden minder betrouwbaar herkend. Kies een langer objectief.
+457|Bij weinig licht en sterk tegenlicht neemt de herkenning af.
+458|Spraakopdrachten worden niet begrepen
+459|Sta microfoon en spraakherkenning toe onder <kbd>Instellingen</kbd> → <kbd>Keepsight</kbd>.
+460|Spreek de opdrachten uit in de taal van de app.
+461|Wind en een luide omgeving verstoren de herkenning. Gebaren zijn dan betrouwbaarder.
+462|Gebaren werken niet
+463|Het onderwerp moet op Persoon of Gezicht staan.
+464|Houd je hand stil en goed zichtbaar tot de balk vol is.
+465|48 MP of RAW is niet te kiezen
+466|Beide zijn alleen beschikbaar in de fotomodus met de hoofdcamera <kbd>1×</kbd>. Voor RAW is bovendien Keepsight Pro nodig.
+467|De galerij is leeg
+468|Geef Keepsight toegang tot Foto’s. Opnamen uit oudere versies van de app verschijnen niet in de galerij, maar staan wel in de Foto’s-app.
+469|Keepsight Pro is na de aankoop niet actief
+470|Tik op <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> en controleer of je met het juiste Apple Account bent ingelogd.
+471|Meer hulp
+472|Schrijf naar <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> en vermeld je iPhone-model, de iOS-versie en de versie van Keepsight.
+473|De iPhone wordt heet
+474|Herkenning, 4K-opname en gimbalbesturing vragen veel van de iPhone, vooral in de zon. Keepsight beschermt het toestel zelf:
+475|<strong>Thermometer in het statusveld:</strong> de iPhone is heet en de herkenning bekijkt nog maar elk tweede of derde beeld. Het volgen gaat door, maar reageert iets trager.
+476|<strong>Volgen gestopt:</strong> bij een kritieke temperatuur beëindigt Keepsight het volgen en de opname en bewaart de video. Laat de iPhone in de schaduw afkoelen.
+477|Zo blijft hij koeler: zet herkenning en gebarenbesturing uit als je ze niet nodig hebt, 1080p in plaats van 4K, 30 in plaats van 60 beelden, zet overlay-video en virtuele gimbal uit, haal het hoesje eraf. Daarom starten de iPhone 12 en oudere modellen met 1080p.
+478|De documentatie beantwoordt de meeste vragen. Kom je er niet uit, schrijf me dan.
+479|Contact
+480|Om snel te kunnen helpen heb ik dit nodig:
+481|je iPhone-model en de iOS-versie
+482|de versie van Keepsight (in de app onder Alle instellingen → Info en licenties)
+483|wat je deed en wat er in plaats daarvan gebeurde, het liefst met een schermafbeelding of korte video
+484|Snelle hulp
+485|<a href="docs/start.html">Aan de slag</a>: toestemmingen en de gimbal verbinden
+486|<a href="docs/troubleshooting.html">Problemen oplossen</a>: veelvoorkomende problemen en oplossingen
+487|<a href="docs/pro.html">Gratis en Pro</a>: kopen, herstellen, terugbetaling
+488|Privacyverklaring
+489|Laatst bijgewerkt: 14 november 2026. Geldt voor de iOS-app Keepsight en deze website.
+490|<strong>Kort gezegd:</strong> Keepsight verzamelt geen gegevens over jou. Er is geen account, geen reclame, geen tracking en geen analysedienst. Camerabeelden, herkenning, foto’s en video’s blijven op je iPhone.
+491|1. Verantwoordelijke
+492|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Zwitserland<br>E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+493|2. Welke gegevens de app verwerkt
+494|De app verwerkt gegevens alleen op je toestel en alleen voor haar functies. Ik als aanbieder ontvang daar niets van.
+495|<strong>Camera:</strong> het camerabeeld wordt op de iPhone geanalyseerd om onderwerpen te herkennen en te volgen. De beelden verlaten het toestel niet.
+496|<strong>Gezichten:</strong> om gezichten, glimlachen en kijkrichting te herkennen, analyseert de app het camerabeeld op de iPhone. Ze herkent niet wie iemand is en slaat geen gezichtskenmerken op. Portretfoto’s bevatten dieptegegevens van de camera aan de voorkant; die zitten alleen in de foto die je zelf bewaart.
+497|<strong>Microfoon:</strong> voor het geluid van je video’s en, als je de spraakbesturing aanzet, voor spraakopdrachten.
+498|<strong>Spraakherkenning:</strong> de spraakopdrachten worden herkend door de spraakherkenning van Apple. Als je iPhone en de gekozen taal het ondersteunen, gebeurt dat op het toestel. Anders wordt het geluid voor de herkenning naar Apple gestuurd; daarvoor geldt het privacybeleid van Apple. De spraakbesturing staat standaard uit.
+499|<strong>Foto’s:</strong> de app bewaart je opnamen in de fotobibliotheek en toont in haar galerij alleen de opnamen die met Keepsight zijn gemaakt. Gebruik je iCloud-foto’s, dan draagt Apple de opnamen over volgens je iCloud-instellingen.
+500|<strong>Bluetooth:</strong> om je gimbal te besturen. Er worden alleen stuurcommando’s en statuswaarden met de gimbal uitgewisseld.
+501|<strong>Instellingen:</strong> je instellingen in de app worden alleen lokaal op de iPhone bewaard.
+502|3. Aankopen
+503|De aankoop van ‘Keepsight Pro’ wordt door Apple via de App Store afgehandeld. Ik ontvang geen betaalgegevens, naam of e-mailadres, alleen samengevatte verkoopcijfers van Apple.
+504|4. Testversies (TestFlight)
+505|Gebruik je een testversie via TestFlight, dan verwerkt Apple je e-mailadres voor de uitnodiging en, als je daarmee instemt, crashrapporten en je feedback. Ik zie feedback en crashrapporten om fouten op te lossen, en de e-mailadressen van testers die ik zelf heb uitgenodigd.
+506|5. Contact per e-mail
+507|Als je me schrijft, gebruik ik je e-mailadres en de inhoud van je bericht alleen om je te antwoorden. Ik verwijder berichten als de vraag is afgehandeld, uiterlijk na twee jaar.
+508|6. Deze website
+509|Deze website plaatst geen cookies en gebruikt geen tracking. Lettertypen en scripts staan op dezelfde site; er wordt geen inhoud van derden geladen. Je taalkeuze wordt alleen in je browser bewaard. De site wordt gehost bij GitHub Pages (GitHub, Inc., VS). Bij een bezoek verwerkt GitHub technisch noodzakelijke gegevens zoals je IP-adres in serverlogboeken. Meer staat in de privacyverklaring van GitHub.
+510|7. Je rechten
+511|Volgens de Zwitserse wet op de gegevensbescherming en, voor zover van toepassing, de AVG heb je recht op inzage, rectificatie, verwijdering, beperking van de verwerking en gegevensoverdraagbaarheid, en het recht om een klacht in te dienen bij een toezichthouder (in Zwitserland de FDPIC). Omdat de app geen gegevens naar mij stuurt, gaat het in de praktijk alleen om e-mails die je me hebt gestuurd. Schrijf daarvoor naar <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
+512|8. Kinderen
+513|De app richt zich niet specifiek op kinderen en verzamelt geen gegevens van hen.
+514|9. Wijzigingen
+515|Verandert de app zo dat deze verklaring moet worden aangepast, dan wordt ze hier bijgewerkt. De versie op deze pagina geldt.
+516|Aanbieder
+517|E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+518|Aansprakelijkheid
+519|Keepsight bestuurt een gemotoriseerde gimbal. Zorg dat de gimbal vrij kan bewegen en dat niemand in gevaar komt. Gebruik is op eigen verantwoordelijkheid, voor zover de wet dat toelaat.
+520|Merken
+521|Apple, iPhone, App Store, TestFlight en DockKit zijn merken van Apple Inc. FeiyuTech, AK4500, Insta360, DJI en Belkin zijn merken van hun respectieve eigenaren. Keepsight is een onafhankelijk product en is niet verbonden aan deze bedrijven.
+522|Gebruiksvoorwaarden
+523|Voor de app geldt de standaardlicentieovereenkomst van Apple voor apps: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+524|Lettertype
+525|Deze website gebruikt het lettertype Inter (SIL Open Font License 1.1).
+526|Camerapaneel: formaat, zoom, virtuele gimbal, afdrukken
+527|Formaat in de videomodus
+528|Formaat in de fotomodus
+529|Instellingen: snelheid, gimbal, kwaliteit
+530|Instellingen: herkenningsmodel en richting
+531|Instellingen: gebaren, opname, taal
+532|Volgpaneel met onderwerp, snelheid en afstandsbediening, hier met de hulpmodus
+533|Gedeelte Handmatig met joystick
