@@ -101,10 +101,9 @@ kbd{font:600 .88em var(--text);background:var(--surface);border:1px solid var(--
   .finder figcaption{display:none}
   .hero{grid-template-columns:1fr;padding-top:16px}
   .row{grid-template-columns:1fr;gap:8px}
-  .docs{grid-template-columns:1fr;gap:20px}
-  .toc{position:static}
-  .toc ol{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px}
-  .toc a{white-space:nowrap;background:var(--surface);border:1px solid var(--line)}
+  .docs{grid-template-columns:minmax(0,1fr);gap:20px}
+  .toc{display:none}
+  .tocm{display:block}
 }
 
 /* Aufbau mit grosser Kamera */
@@ -123,3 +122,20 @@ kbd{font:600 .88em var(--text);background:var(--surface);border:1px solid var(--
 .shots figcaption{font-size:.85rem;line-height:1.4;color:var(--soft);margin-top:8px}
 @media(max-width:760px){.rigband{grid-template-columns:1fr;gap:28px}.shots{gap:12px}.shots.n1{grid-template-columns:minmax(0,200px)}}
 .beta{display:inline-block;font:600 .68em/1 var(--text);letter-spacing:.04em;text-transform:uppercase;padding:.3em .55em;border-radius:99px;background:var(--signal);color:#14202b;vertical-align:.15em;margin-left:.2em}
+/* Kapitelliste auf schmalen Bildschirmen */
+.tocm{display:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;min-width:0}
+.tocm summary{display:flex;align-items:center;gap:10px;padding:13px 14px;cursor:pointer;list-style:none;min-height:44px}
+.tocm summary::-webkit-details-marker{display:none}
+.tocm summary span{color:var(--soft);font-size:.85rem}
+.tocm summary b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.tocm summary::after{content:"";width:9px;height:9px;border-right:2px solid var(--soft);border-bottom:2px solid var(--soft);transform:rotate(45deg);margin:-4px 4px 0 0;transition:transform .15s}
+.tocm[open] summary::after{transform:rotate(-135deg);margin-top:4px}
+.tocm ol{list-style:none;margin:0;padding:4px 6px 8px;counter-reset:ch;border-top:1px solid var(--line)}
+.tocm li{counter-increment:ch}
+.tocm a{display:flex;gap:10px;padding:11px 10px;border-radius:8px;text-decoration:none}
+.tocm a::before{content:counter(ch);color:var(--soft);font-feature-settings:"tnum";min-width:1.4em}
+.tocm a[aria-current]{background:var(--paper);box-shadow:inset 3px 0 0 var(--signal);font-weight:600}
+.doc{min-width:0}
+.doc table{display:block;overflow-x:auto}
+@media(max-width:560px){.shots,.shots.n2{grid-template-columns:repeat(2,minmax(0,1fr))}.shots.n1{grid-template-columns:minmax(0,62%)}.shots.n3 figure:nth-child(3){display:none}}
+@media(max-width:860px){.tocm{display:block}}

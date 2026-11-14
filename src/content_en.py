@@ -15,6 +15,7 @@ UI = {
     "next": "Next",
     "docs_title": "Documentation",
     "docs_lead": "Everything Keepsight can do, explained step by step. The chapters build on each other, but you can start anywhere.",
+    "chapters": "Chapters",
     "finder_status": "Target locked",
     "finder_caption": "Virtual gimbal frame",
 }

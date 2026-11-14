@@ -115,7 +115,12 @@ def docs(lang):
         items = "".join(
             f'<li><a href="{slug}.html"{" aria-current=page" if slug == active else ""}>{title}</a></li>'
             for slug, title, _, _ in chapters)
-        return f'<nav class="toc" aria-label="{ui["docs_title"]}"><ol>{items}</ol></nav>'
+        number = next((i for i, ch in enumerate(chapters, 1) if ch[0] == active), None)
+        current = f"{number} · {chapters[number - 1][1]}" if number else ui["chapters"]
+        # Schmale Bildschirme: aufklappbare Kapitelliste; breite: feste Spalte
+        return (f'<details class="tocm"><summary><span>{ui["chapters"]}</span><b>{current}</b></summary>'
+                f'<ol>{items}</ol></details>'
+                f'<nav class="toc" aria-label="{ui["docs_title"]}"><ol>{items}</ol></nav>')
 
     overview = "".join(f'<li><a href="{slug}.html"><span><b>{title}</b><span>{short}</span></span></a></li>'
                        for slug, title, short, _ in chapters)
