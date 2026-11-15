@@ -20,8 +20,13 @@ import i18n  # noqa: E402
 FULL = ["de", "en"]
 FALLBACK = "en"
 C = {lang: importlib.import_module(f"content_{lang}") for lang in FULL}
-# Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse)
-KEEP = [39, 59, 93, 107, 132, 133, 134, 135, 137, 183, 311, 421]
+# Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse, Pfade und Bildnamen)
+KEEP_TEXTS = {"48 MP", "Pro", "iPhone", "Bluetooth", "Insta360 Flow Pro and Flow 2 Pro", "Apple DockKit",
+              "DJI Osmo Mobile 8", "Belkin Auto-Tracking Stand Pro", "FeiyuTech AK4500", "1× (24 mm)", "12 MP",
+              "Original", "Stratux (JSON)", "GDL90 (UDP)"}
+KEEP = [i for i, text in enumerate(i18n.segments(C["en"]))
+        if text in KEEP_TEXTS or text.startswith("docs/") or text.startswith("story-")]
+SITE = "https://andreasreinert.github.io/keepsight-site/"
 ORDER = ["en", "de", "fr", "it", "es", "pt-BR", "nl", "sv", "pl", "ru", "uk", "tr", "ar", "hi", "id", "vi", "th",
          "ja", "ko", "zh-Hans", "zh-Hant"]
 _app = i18n.app_strings(os.path.join(os.path.dirname(__file__), "src", "app_strings.json"))
@@ -33,9 +38,17 @@ for _code in ORDER:
     PROBLEMS += _problems
 LANGS = [code for code in ORDER if code in C]
 
-PLANE = ('<svg class="plane" viewBox="0 0 120 50" aria-hidden="true"><path fill="currentColor" d="M4 27l20-4 30-1 '
-         '22-18h9l-12 18 30 1c8 0 13 3 13 5s-5 4-13 4l-30 1 12 14h-9L54 33l-30-1-10 9H8l5-11z"/></svg>')
 
+def _app_buttons(lang):
+    """Deutsch ist ein eigenes Inhaltsmodul: Knopfnamen, die dort englisch stehen, kommen aus der App."""
+    def button(m):
+        return f"<kbd>{_app.get(m.group(1), {}).get(lang) or m.group(1)}</kbd>"
+    C[lang].DOCS = [(slug, title, short, i18n.KBD.sub(button, text)) for slug, title, short, text in C[lang].DOCS]
+
+
+for _code in FULL:
+    if _code != "en":
+        _app_buttons(_code)
 
 def page(lang, rel, title, description, body, current):
     """Schreibt eine Seite. `rel` ist der Pfad innerhalb des Sprachordners."""
@@ -59,6 +72,17 @@ def page(lang, rel, title, description, body, current):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(description)}">
+<link rel="canonical" href="{SITE}{lang}/{rel}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keepsight">
+<meta property="og:title" content="{html.escape(title)}">
+<meta property="og:description" content="{html.escape(description)}">
+<meta property="og:url" content="{SITE}{lang}/{rel}">
+<meta property="og:image" content="{SITE}img/social.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{html.escape(C[lang].SHOTS["hero"])}">
+<meta name="twitter:card" content="summary_large_image">
 {alternates}
 <link rel="icon" href="{root}icon.png">
 <link rel="stylesheet" href="{root}assets/site.css">
@@ -115,6 +139,15 @@ var s=d<=e.dataset.introEnds?'INTRO_ACTIVE':'REGULAR';
 e.querySelectorAll('[data-state]').forEach(function(n){n.hidden=n.dataset.state!==s});}catch(x){}})();</script>""")
 
 
+def picture(lang, name, up, sizes, eager=False):
+    """Ein Bild im Querformat in drei Breiten. Feste Masse, damit beim Laden nichts springt."""
+    alt = html.escape(C[lang].SHOTS[name])
+    srcset = ", ".join(f"{up}img/{name}-{w}.webp {w}w" for w in (640, 1100, 1672))
+    load = 'fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    return (f'<img src="{up}img/{name}-1100.webp" srcset="{srcset}" sizes="{sizes}" width="1672" height="941" '
+            f'{load} alt="{alt}">')
+
+
 def home(lang):
     c, ui = C[lang].HOME, C[lang].UI
     rows = "".join(f'<div class="row"><h3>{t}</h3><p>{p}</p></div>' for t, p in c["what"])
@@ -128,26 +161,22 @@ def home(lang):
         for name, free, _ in c["price_rows"])
     tries = "".join(f"<li>{t}</li>" for t in c["try"])
     faq = "".join(f'<div class="row"><h3>{q}</h3><p>{a}</p></div>' for q, a in c["faq"])
-    rig_p = "".join(f"<p>{p}</p>" for p in c["rig_p"])
-    lab = c["rig_labels"]
-    rig_svg = ('<figure class="rigfig">' + RIG_SVG.format(alt=html.escape(c["rig_alt"]))
-               + "<figcaption>" + "".join(f"<span>{t}</span>" for t in lab) + "</figcaption></figure>")
+    how = "".join(f"<li><h3>{t}</h3><p>{p}</p></li>" for t, p in c["how"])
+    stories = ""
+    for image, title, text, href, label in c["stories"]:
+        figure = (f'<figure>{picture(lang, image, "../", "(max-width: 860px) 100vw, 560px")}</figure>'
+                  if image else "")
+        stories += (f'<article class="story{"" if image else " lead"}">{figure}<div><h3>{title}</h3><p>{text}</p>'
+                    f'<p><a href="{href}">{label}</a></p></div></article>')
     body = f"""<main class="wrap">
 <section class="hero">
 <div><h1>{c["h1"]}</h1><p class="lead">{c["lead"]}</p>
 <a class="cta" href="docs/index.html">{c["cta"]}</a><span class="note">{c["free_line"]} {c["note"]}</span></div>
-<figure class="finder" style="margin:0">
-<div class="cloud" style="left:8%;top:18%;width:30%;height:9%"></div>
-<div class="cloud" style="left:55%;top:62%;width:38%;height:11%"></div>
-<div class="cloud" style="left:62%;top:12%;width:20%;height:7%"></div>
-{PLANE}<div class="crop"></div><div class="box"></div>
-<div class="pill">{ui["finder_status"]}</div>
-<figcaption>{ui["finder_caption"]}</figcaption>
-<div class="chips"><span>A</span><span>.5×</span><span>1×</span><span class="on">5×</span></div>
-</figure>
+<figure class="heroimg">{picture(lang, "hero", "../", "(max-width: 860px) 100vw, 640px", eager=True)}</figure>
 </section>
-<section class="band rigband"><div><h2>{c["rig_h"]}</h2>{rig_p}
-<p><a href="docs/rig.html">{c["rig_link"]}</a></p></div>{rig_svg}</section>
+<section class="band"><h2>{c["how_h"]}</h2><ol class="steps">{how}</ol></section>
+<section class="band"><h2>{c["stories_h"]}</h2><div class="stories">{stories}</div>
+<p class="fine">{c["stories_note"]}</p></section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>
 <section class="band"><h2>{c["cam_h"]}</h2><div class="lens">{cam}</div></section>
 <section class="band"><h2>{c["shots_h"]}</h2>{shots(lang, ["tracking-help", "camera", "format-video"], "../")}</section>
@@ -245,20 +274,6 @@ def root_index():
 """)
 
 
-RIG_SVG = '''<svg class="rig" viewBox="0 0 420 300" role="img" aria-label="{alt}">
-<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-<path d="M96 292V214"/><rect x="84" y="214" width="24" height="70" rx="8"/>
-<path d="M96 214v-22h112v-16"/><circle cx="96" cy="192" r="9"/><circle cx="208" cy="176" r="9"/>
-<rect x="150" y="96" width="116" height="78" rx="10"/><path d="M176 96l8-14h34l8 14"/>
-<rect x="266" y="108" width="62" height="54" rx="6"/><path d="M328 114v42"/>
-<rect x="170" y="34" width="76" height="38" rx="7"/><path d="M208 72v10"/><circle cx="232" cy="53" r="6"/>
-</g>
-<g stroke="var(--lock)" stroke-width="2" stroke-dasharray="5 6" fill="none"><path d="M246 53L392 60"/><path d="M330 135L392 66"/></g>
-<rect x="374" y="42" width="38" height="38" rx="6" fill="none" stroke="var(--lock)" stroke-width="2.5"/>
-<path fill="currentColor" d="M384 62l6-1 5-6h2l-2 6 6 0c2 0 3 1 3 1s-1 1-3 1l-6 0 2 5h-2l-5-5-6 0z"/>
-</svg>'''
-
-
 def shots(lang, names, up):
     """Bildschirmfotos nebeneinander. Bild der Sprache, wenn vorhanden, sonst das englische."""
     caps = C[lang].SHOTS
@@ -272,11 +287,23 @@ def shots(lang, names, up):
 
 
 def wide(lang, name, up):
-    """Ein Bild im Querformat über die Textbreite, für alle Sprachen dasselbe (englische Fassung)."""
-    file = f"{name}-{lang}.webp" if os.path.exists(f"img/{name}-{lang}.webp") else f"{name}-en.webp"
+    """Ein Bild im Querformat über die Textbreite.
+
+    Bilder mit eingebettetem englischem Text gibt es als `<name>-en`; alle anderen Sprachen bekommen
+    dann die Fassung ohne Text (`<name>-intl`). Illustrationen liegen in drei Breiten vor.
+    """
     cap = html.escape(C[lang].SHOTS[name])
-    return (f'<figure class="wide"><img src="{up}img/{file}" width="1672" height="941" loading="lazy" alt="{cap}">'
-            f"<figcaption>{cap}</figcaption></figure>")
+    variant = name
+    if os.path.exists(f"img/{name}-en-1100.webp"):
+        variant = f"{name}-en" if lang == "en" else f"{name}-intl"
+    if os.path.exists(f"img/{variant}-1100.webp"):
+        srcset = ", ".join(f"{up}img/{variant}-{w}.webp {w}w" for w in (640, 1100, 1672))
+        img = (f'<img src="{up}img/{variant}-1100.webp" srcset="{srcset}" sizes="(max-width: 860px) 100vw, 760px" '
+               f'width="1672" height="941" loading="lazy" decoding="async" alt="{cap}">')
+    else:
+        file = f"{name}-{lang}.webp" if os.path.exists(f"img/{name}-{lang}.webp") else f"{name}-en.webp"
+        img = f'<img src="{up}img/{file}" width="1672" height="941" loading="lazy" alt="{cap}">'
+    return f'<figure class="wide">{img}<figcaption>{cap}</figcaption></figure>'
 
 
 def expand(lang, text, up):

@@ -16,26 +16,31 @@ UI = {
     "docs_title": "Documentation",
     "docs_lead": "Everything Keepsight can do, explained step by step. The chapters build on each other, but you can start anywhere.",
     "chapters": "Chapters",
-    "finder_status": "Target locked",
-    "finder_caption": "Virtual gimbal frame",
 }
 
 HOME = {
-    "title": "Keepsight: your subject stays in frame",
-    "description": "Keepsight detects people, aircraft, birds and more, and steers your gimbal to follow them. Detection runs on the iPhone.",
-    "h1": "Your subject stays in frame.",
-    "lead": "Keepsight recognises what you are filming and steers your gimbal to follow it. All detection runs on your iPhone.",
+    "title": "Keepsight: stay in the moment, keep the shot",
+    "description": "Make cool videos and memorable snapshots with smart subject tracking and easy controls. Detection runs on your iPhone.",
+    "h1": "Stay in the moment. Keep the shot.",
+    "lead": "Make cool videos and memorable snapshots with smart subject tracking, easy controls and supported gimbals.",
     "cta": "Read the documentation",
     "note": "Keepsight is currently in beta testing and not yet available on the App Store.",
-    "rig_h": "Built for the big camera",
-    "rig_p": [
-        "Keepsight was made for one particular rig: a strong gimbal carries a mirrorless camera, for example a Lumix S1RII filming in 8K. The iPhone sits on top. It detects the subject and steers the gimbal, while the camera underneath takes the actual footage.",
-        "You get a tracked shot in the quality of your best camera, through your own lenses, without panning by hand and without a second person on the gimbal.",
-        "Photos and videos from the iPhone itself are a bonus: a second angle, a reference picture, or for the days the big camera stays at home.",
+    "how_h": "How it works",
+    "how": [
+        ("Pick a subject", "Choose who or what to follow: a person or a face, and with Pro also animals, vehicles or aircraft."),
+        ("Start tracking", "Keepsight keeps your subject in the frame. A supported gimbal turns the iPhone along; without one, the virtual gimbal follows inside the picture."),
+        ("Capture what matters", "Film or take photos with a tap, a hand gesture or your voice."),
     ],
-    "rig_link": "Set up the rig step by step",
-    "rig_labels": ("iPhone: detects and steers", "Camera: records", "Gimbal: follows"),
-    "rig_alt": "Gimbal carrying a mirrorless camera with the iPhone on top; both look at the same aircraft",
+    "stories_h": "Made for your moments",
+    "stories": [
+        ("", "Creators and friends", "From your first vlog to spontaneous moments with friends, Keepsight helps keep the action in the frame. Choose what matters, film naturally and make your everyday videos more fun, without turning every shot into a technical project.", "docs/start.html", "Your first tracking"),
+        ("story-family", "Families and travel", "The moments worth keeping happen quickly: a family trip, laughter together, a day outside. Keepsight makes videos and spontaneous snapshots easier, so you can stay in the moment while tracking helps with the framing. With Keepsight Pro the app can even take the photo by itself when everyone smiles.", "docs/photo.html", "Photos and triggers"),
+        ("story-sport", "Sport and action", "Moving subjects make memorable clips. Follow a cyclist or a runner with a supported gimbal and choose how quickly the camera reacts. How well it works depends on the speed, the distance, the light and your gimbal.", "docs/tracking.html", "Tracking subjects"),
+        ("story-pets", "Pets and wildlife", "Pets and wild animals rarely stay still. Keepsight follows moving animals and captures the action. Very fast or erratic birds, however, can be quicker than your gimbal can turn or than the iPhone can recognise them.", "docs/tracking.html#fast", "Fast animals and birds"),
+        ("story-pro", "Photo and video enthusiasts", "Get more out of a camera on a gimbal. On a supported DockKit gimbal or the FeiyuTech AK4500, the iPhone works as a smart tracking assistant while your camera keeps recording the actual footage on its own.", "docs/rig.html", "Set up the rig step by step"),
+        ("story-aviation", "Plane spotters", "Bring more context to the aircraft you film. Keepsight follows aircraft by sight. With your own local ADS-B receiver it can also add flight data to the iPhone video, in countries where this feature is approved. At present no region is approved.", "docs/flight.html", "Flight data"),
+    ],
+    "stories_note": "The photos on this page are illustrations. They are not screenshots of the app and no proof of compatible devices.",
     "shots_h": "What the app looks like",
     "what_h": "What Keepsight does for you",
     "what": [
@@ -89,10 +94,11 @@ HOME = {
         ("What can I do for free?", "Follow people and faces, use gestures, voice commands, auto zoom and the virtual gimbal, and film videos of up to 60 seconds with the Keepsight logo. You can also try Pro tracking three times for 60 seconds."),
         ("How do I restore my purchase?", "In the app, open the Pro screen and choose to restore the purchase. You must be signed in with the Apple Account you bought with."),
         ("Why does the price differ in my country?", "Apple sets the price per country and currency, including taxes. The price shown in your App Store is the one that applies."),
-        ("Does Keepsight work without internet?", "Yes. Detection and tracking run on the iPhone. Internet is needed only for the purchase and for the optional flight data."),
+        ("Does Keepsight work without internet?", "Yes. Detection and tracking run on the iPhone. Internet is needed only for the purchase."),
         ("What happens to my pictures?", "They stay on your iPhone. Keepsight has no account, no advertising and no analytics."),
         ("Does Keepsight record with my big camera?", "No. Keepsight steers the gimbal; the camera on it records on its own. Keepsight's own photos and videos come from the iPhone camera."),
-        ("Is live flight data available where I live?", "Only in supported countries and regions, and it needs location access and internet. At present no region is approved."),
+        ("Is live flight data available where I live?", "Only in approved countries and regions, and it needs your own ADS-B receiver and location access. At present no region is approved."),
+        ("Can Keepsight follow fast birds?", "Not always. Very fast or erratic animals can be quicker than the gimbal can turn or than the iPhone can recognise them."),
     ],
     "need_h": "What you need",
     "need": [
@@ -113,6 +119,8 @@ DOCS = [
 <tr><td>Photos</td><td>Saving captures and showing them in the gallery. “Limited access” is enough.</td></tr>
 <tr><td>Microphone</td><td>Sound for videos and voice commands.</td></tr>
 <tr><td>Speech recognition</td><td>Voice commands only.</td></tr>
+<tr><td>Location</td><td>Live flight data only: checking your region and recognising the aircraft. Stays on the iPhone.</td></tr>
+<tr><td>Local network</td><td>Live flight data only: connecting to your own ADS-B receiver.</td></tr>
 </table>
 <p>If you declined an access, you can allow it later under <kbd>Settings</kbd> → <kbd>Keepsight</kbd>.</p>
 
@@ -131,7 +139,7 @@ DOCS = [
 <li>Tap <kbd>Track</kbd>. The gimbal follows you.</li>
 <li><kbd>Stop</kbd> ends the tracking.</li>
 </ol>
-<p>If the gimbal turns away from the subject instead of towards it, invert the axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>
+<p>If the gimbal turns away from the subject instead of towards it, Keepsight notices it after a moment and reverses the direction by itself. You can also invert an axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>
 """),
 
 ("gimbals", "Supported gimbals", "Which devices Keepsight controls, how to connect them and move them by hand.", """
@@ -306,6 +314,17 @@ DOCS = [
 <ul>
 <li><strong>Predicting:</strong> If the subject is hidden briefly, the gimbal keeps panning in the same direction. You set the duration under <kbd>All settings</kbd>; the default is 1.5 seconds.</li>
 <li><strong>Target lost:</strong> After that the gimbal stops until the subject is detected again.</li>
+</ul>
+
+<h2 id="fast">Fast animals and birds</h2>
+[[wide story-birds]]
+<p>Very fast or erratic animals, especially small, fast birds, cannot always be followed reliably.</p>
+<p>How well tracking works depends on how fast the subject moves across the picture, on its distance and size, on the light and on how steadily the iPhone recognises it. Above all it depends on your gimbal: its highest pan and tilt speed, its acceleration and its delay.</p>
+<p>The <kbd>Sport</kbd> speed cannot push a gimbal beyond its mechanical limits. Without a gimbal only the virtual gimbal follows, inside the picture the camera already sees.</p>
+<ul>
+<li>Keep more distance or zoom out: the subject then crosses the picture more slowly.</li>
+<li>Choose <kbd>Sport</kbd> for quick changes of direction.</li>
+<li>Good light and a calm background help the detection.</li>
 </ul>
 """),
 
@@ -507,24 +526,46 @@ DOCS = [
 <p>If a tile shows a cloud symbol, the original is in iCloud and is being downloaded. This happens when iCloud Photos is on with “Optimise iPhone Storage”. A warning sign means the file cannot be read; the large view then shows the file name.</p>
 """),
 
-("flight", "Flight data", "Live flight data in the video: where it is available, consent, sources.", """
-<div class="tip"><p><strong>Availability:</strong> Live flight data is available only in supported countries and regions; location access and internet are required. At present no region is approved, so the feature stays switched off everywhere.</p></div>
-<p>With the flight data overlay, Keepsight shows the callsign, aircraft type, altitude and speed of the aircraft you are following, in the viewfinder and in the recorded video. The data comes from adsb.lol, a community network of ADS-B receivers.</p>
-[[wide flight-demo]]
+("flight", "Flight data", "Live flight data in the video from your own ADS-B receiver: what you need, where it works, privacy.", """
+<div class="tip"><p><strong>Availability:</strong> Live flight data is available only in approved countries and regions and needs your own ADS-B receiver. At present no region is approved, so the feature stays switched off everywhere.</p></div>
+<p>With the flight data overlay, Keepsight shows the flight number, altitude and speed of the airliner you are following, in the viewfinder and in the video recorded by the iPhone. The data comes from your own ADS-B receiver on the same Wi-Fi. No internet and no flight data provider are involved.</p>
+<p>Keepsight follows aircraft by sight without any receiver. The receiver is needed only for the overlay, and it is not part of the app: you buy or build it separately.</p>
+[[wide plane-spotting]]
+
+<h2>What you need</h2>
+<ul>
+<li><strong>A receiver:</strong> a Stratux, for example a Raspberry Pi 3 with a 1090 MHz USB receiver stick and antenna, or another device that sends GDL90 over Wi-Fi.</li>
+<li><strong>Not a stick alone:</strong> a USB receiver stick such as the FlightAware Pro Stick needs a host, for example a Raspberry Pi running Stratux. A standard PiAware installation sends data to FlightAware and is not suitable.</li>
+<li><strong>The same Wi-Fi:</strong> the iPhone joins the receiver’s Wi-Fi. This network usually has no internet; that is fine.</li>
+<li><strong>An approved region:</strong> receiving the data yourself does not by itself mean the feature is permitted in a country.</li>
+</ul>
+
+<h2>Stratux or GDL90</h2>
+<table>
+<tr><th>Receiver</th><th>Connection</th><th>Tested with Keepsight</th></tr>
+<tr><td>Stratux (JSON)</td><td>WebSocket to the receiver, usually at 192.168.10.1</td><td>Not yet</td></tr>
+<tr><td>GDL90 (UDP)</td><td>The receiver sends to port 4000 on the iPhone</td><td>Not yet</td></tr>
+</table>
+<p>Both are supported by protocol. No receiver has been tested with Keepsight on real hardware so far; individual devices, such as the SkyEcho 2, may behave differently. Traffic that is only sent by FLARM is not supported.</p>
 
 <h2>Switching it on</h2>
 <ol>
 <li>Open the settings and switch on <kbd>Flight data overlay (ADS-B)</kbd>.</li>
 <li>Read the notice and tap <kbd>Agree and enable</kbd>. Only then does iOS ask for your location.</li>
+<li>Join the receiver’s Wi-Fi, choose the receiver type and enter its address. iOS asks once for access to the local network.</li>
+<li>Tap <kbd>Connect receiver</kbd>. Keepsight never connects by itself.</li>
 <li>Choose <kbd>Aircraft</kbd> as the subject and point the camera at the aircraft.</li>
 </ol>
 <p>If several aircraft fit the direction the camera is looking, Keepsight does not guess: tap <kbd>Aircraft selection required</kbd> and choose the right one.</p>
+<p>You always choose the aircraft yourself, from the list of airliners currently received. The list shows the age of each position in seconds.</p>
+<p>The settings show the state of the connection: connecting, connected without aircraft, receiving, or data out of date. <kbd>Reconnect</kbd> starts the connection again.</p>
+<p>The flight data settings appear only while <kbd>Aircraft</kbd> is the selected subject.</p>
+[[wide flight-demo]]
 
 <h2>Why Keepsight needs your location</h2>
-<p>iOS asks for your location only when you switch the flight data overlay on and agree. Keepsight needs it for three reasons:</p>
+<p>iOS asks for your location only when you switch the flight data overlay on and agree. Keepsight needs it for two reasons:</p>
 <ul>
 <li><strong>Checking the region:</strong> whether flight data may be shown depends on the country you are in. Keepsight determines it from where the iPhone actually is, on the device itself.</li>
-<li><strong>Finding aircraft nearby:</strong> the data provider answers the question “which aircraft are around this point?”. Without your position there is no point to ask about.</li>
 <li><strong>Recognising the aircraft in the picture:</strong> Keepsight calculates the direction and the angle above the horizon from you to each aircraft and compares them with where the camera is pointing. The compass also needs the location to find true north.</li>
 </ul>
 <p>Entering a place by hand is not offered, because the regional check would then no longer be reliable. If you do not use flight data, Keepsight never asks for your location.</p>
@@ -533,13 +574,16 @@ DOCS = [
 <p>Keepsight determines the country on your iPhone from your current location. Your App Store country, language or internet address play no part. Near a border and at sea the feature stays off.</p>
 <p>Every country is reviewed individually before it is approved. Until then the app tells you that live flight data is unavailable in your region. Tracking and recording work as usual.</p>
 
-<h2>What is sent</h2>
-<p>Only while the feature is active does Keepsight send your location, rounded to about one kilometre, to adsb.lol to find nearby aircraft. Nothing is sent before you agree, and nothing in regions that are not approved.</p>
+<h2>What leaves your iPhone</h2>
+<p>Nothing. Keepsight only listens to the receiver and never changes its settings. Neither your location nor flight data is sent to a server.</p>
+<p>Flight data exists only in the iPhone’s memory while the receiver is connected. It is deleted when you disconnect, choose another subject or leave the app. Nothing is stored or backed up.</p>
 
 <h2>Display</h2>
 <p>Flight data is shown only for scheduled passenger and cargo flights of known airlines. Private, business, military and government aircraft are never shown, and neither the registration nor the ICAO address of an aircraft appears.</p>
-<p>Choose the corner, compact or detailed, and metric or imperial units. Data older than 15 seconds is hidden. Every video with flight data carries the credit “Data: adsb.lol · ODbL 1.0”.</p>
+<p>The aircraft type is not part of ADS-B and is therefore not shown. Data that a receiver merely passes on, such as OGN, FLARM or TIS-B, is never shown either.</p>
+<p>Choose the corner, compact or detailed, and metric or imperial units. Data older than 15 seconds is hidden instead of standing still. Every video with flight data carries the note “Flight data: Local ADS-B”.</p>
 <p>The overlay is written into videos recorded with the iPhone. A camera on the gimbal records on its own and gets no overlay.</p>
+<p>Optionally, Keepsight turns the gimbal towards the reported position of the selected aircraft while it is not yet visible in the picture. The compass limits the accuracy.</p>
 
 <h2>Accuracy</h2>
 <p>Flight data may be delayed, incomplete or wrong. It is for information only and not suitable for navigation, flight safety or operational decisions.</p>
@@ -610,7 +654,7 @@ DOCS = [
 <li>Switch the gimbal off and on again and tap <kbd>Connect</kbd> once more.</li>
 </ul>
 <h2>The gimbal turns away from the subject</h2>
-<p>Invert the affected axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>
+<p>Keepsight normally corrects this by itself after a moment. If not, invert the affected axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>
 <h2>The gimbal reacts sluggishly or shakes</h2>
 <ul>
 <li>Sluggish: choose the Sport profile. With the AK4500 a higher minimum speed also helps.</li>
@@ -674,7 +718,7 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Privacy Policy",
-    "lead": "Last updated: 14 November 2026. Applies to the Keepsight iOS app and this website.",
+    "lead": "Last updated: 15 November 2026. Applies to the Keepsight iOS app and this website.",
     "body": f"""
 <div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone. The one exception is the optional flight data feature, which sends an approximate location to a data provider (see section 2).</p></div>
 <h2>1. Controller</h2>
@@ -688,7 +732,8 @@ PRIVACY = {
 <li><strong>Speech recognition:</strong> Voice commands are recognised by Apple’s speech recognition. If your iPhone and the selected language support it, this happens on the device. Otherwise the audio is sent to Apple for recognition, subject to Apple’s privacy policy. Voice control is off by default.</li>
 <li><strong>Photos:</strong> The app saves your captures to the photo library and shows only captures made with Keepsight in its gallery. If you use iCloud Photos, Apple transfers them according to your iCloud settings.</li>
 <li><strong>Bluetooth:</strong> to control your gimbal. Only control commands and status values are exchanged with the gimbal.</li>
-<li><strong>Location and flight data:</strong> only if you switch on the flight data overlay and agree to it. Keepsight then uses your location on the iPhone to determine the region and, where the feature is approved, sends the location rounded to about one kilometre to the provider adsb.lol to find nearby aircraft. I cannot say whether or how long adsb.lol keeps such requests; its own terms apply. The transmission stops when you switch the feature off. Without this feature the app does not use your location.</li>
+<li><strong>Location and flight data:</strong> only if you switch on the flight data overlay and agree to it. Keepsight then uses your location on the iPhone to determine the region and to recognise the aircraft in the picture. The flight data comes from your own ADS-B receiver on the local network. Neither your location nor flight data leaves the iPhone. Without this feature the app does not use your location.</li>
+<li><strong>Local network:</strong> only for the flight data overlay, to reach your own ADS-B receiver. Keepsight only receives data from it.</li>
 <li><strong>Settings:</strong> Your in-app settings are stored locally on the iPhone only.</li>
 </ul>
 <h2>3. Purchases</h2>
@@ -727,4 +772,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Flight data overlay (ADS-B)'}
+SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Example of the overlay (illustration). With a local receiver the aircraft type is not shown.', 'hero': 'A young woman films herself and her friends with a phone on a gimbal at sunset', 'story-family': 'A family on a picnic blanket by a lake, filmed by a phone on a small gimbal', 'story-sport': 'A woman films a passing cyclist with a phone on a gimbal', 'story-pets': 'A man films a running dog and a child with a phone on a gimbal', 'story-birds': 'A photographer follows a bird of prey in flight with a camera on a gimbal', 'story-pro': 'A woman with a camera on a gimbal and a phone in her hand while an aircraft passes overhead', 'story-aviation': 'Plane spotters at an airport fence film an airliner with a phone on a gimbal', 'plane-spotting': 'Plane spotting with a phone on a gimbal (illustration)'}

@@ -4,7 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Uçuş verileri – Keepsight</title>
-<meta name="description" content="Videoda canlı uçuş verileri: nerede kullanılabilir, onay, kaynaklar.">
+<meta name="description" content="Kendi ADS-B alıcınızdan videoya canlı uçuş verileri: neye ihtiyacınız var, nerede çalışır, gizlilik.">
+<link rel="canonical" href="https://andreasreinert.github.io/keepsight-site/tr/docs/flight.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keepsight">
+<meta property="og:title" content="Uçuş verileri – Keepsight">
+<meta property="og:description" content="Kendi ADS-B alıcınızdan videoya canlı uçuş verileri: neye ihtiyacınız var, nerede çalışır, gizlilik.">
+<meta property="og:url" content="https://andreasreinert.github.io/keepsight-site/tr/docs/flight.html">
+<meta property="og:image" content="https://andreasreinert.github.io/keepsight-site/img/social.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Genç bir kadın gün batımında gimbal üzerindeki telefonla kendisini ve arkadaşlarını çekiyor">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" hreflang="en" href="../../en/docs/flight.html"><link rel="alternate" hreflang="de" href="../../de/docs/flight.html"><link rel="alternate" hreflang="fr" href="../../fr/docs/flight.html"><link rel="alternate" hreflang="it" href="../../it/docs/flight.html"><link rel="alternate" hreflang="es" href="../../es/docs/flight.html"><link rel="alternate" hreflang="pt-BR" href="../../pt-BR/docs/flight.html"><link rel="alternate" hreflang="nl" href="../../nl/docs/flight.html"><link rel="alternate" hreflang="sv" href="../../sv/docs/flight.html"><link rel="alternate" hreflang="pl" href="../../pl/docs/flight.html"><link rel="alternate" hreflang="ru" href="../../ru/docs/flight.html"><link rel="alternate" hreflang="uk" href="../../uk/docs/flight.html"><link rel="alternate" hreflang="tr" href="../../tr/docs/flight.html"><link rel="alternate" hreflang="ar" href="../../ar/docs/flight.html"><link rel="alternate" hreflang="hi" href="../../hi/docs/flight.html"><link rel="alternate" hreflang="id" href="../../id/docs/flight.html"><link rel="alternate" hreflang="vi" href="../../vi/docs/flight.html"><link rel="alternate" hreflang="th" href="../../th/docs/flight.html"><link rel="alternate" hreflang="ja" href="../../ja/docs/flight.html"><link rel="alternate" hreflang="ko" href="../../ko/docs/flight.html"><link rel="alternate" hreflang="zh-Hans" href="../../zh-Hans/docs/flight.html"><link rel="alternate" hreflang="zh-Hant" href="../../zh-Hant/docs/flight.html">
 <link rel="icon" href="../../icon.png">
 <link rel="stylesheet" href="../../assets/site.css">
@@ -16,24 +27,46 @@
 <select class="lang" aria-label="Dil"><option value="../../en/docs/flight.html" data-lang="en">English</option><option value="../../de/docs/flight.html" data-lang="de">Deutsch</option><option value="../../fr/docs/flight.html" data-lang="fr">Français</option><option value="../../it/docs/flight.html" data-lang="it">Italiano</option><option value="../../es/docs/flight.html" data-lang="es">Español</option><option value="../../pt-BR/docs/flight.html" data-lang="pt-BR">Português (Brasil)</option><option value="../../nl/docs/flight.html" data-lang="nl">Nederlands</option><option value="../../sv/docs/flight.html" data-lang="sv">Svenska</option><option value="../../pl/docs/flight.html" data-lang="pl">Polski</option><option value="../../ru/docs/flight.html" data-lang="ru">Русский</option><option value="../../uk/docs/flight.html" data-lang="uk">Українська</option><option value="../../tr/docs/flight.html" data-lang="tr" selected>Türkçe</option><option value="../../ar/docs/flight.html" data-lang="ar">العربية</option><option value="../../hi/docs/flight.html" data-lang="hi">हिन्दी</option><option value="../../id/docs/flight.html" data-lang="id">Bahasa Indonesia</option><option value="../../vi/docs/flight.html" data-lang="vi">Tiếng Việt</option><option value="../../th/docs/flight.html" data-lang="th">ไทย</option><option value="../../ja/docs/flight.html" data-lang="ja">日本語</option><option value="../../ko/docs/flight.html" data-lang="ko">한국어</option><option value="../../zh-Hans/docs/flight.html" data-lang="zh-Hans">简体中文</option><option value="../../zh-Hant/docs/flight.html" data-lang="zh-Hant">繁體中文</option></select>
 </header>
 <main class="wrap"><div class="docs"><details class="tocm"><summary><span>Bölümler</span><b>12 · Uçuş verileri</b></summary><ol><li><a href="start.html">Başlarken</a></li><li><a href="gimbals.html">Desteklenen gimbal’lar</a></li><li><a href="rig.html">Büyük kamerayla çekim</a></li><li><a href="viewfinder.html">Vizör</a></li><li><a href="tracking.html">Konuları takip etme</a></li><li><a href="camera.html">Kamera ve biçim</a></li><li><a href="zoom.html">Otomatik zoom</a></li><li><a href="virtual-gimbal.html">Sanal gimbal</a></li><li><a href="photo.html">Fotoğraflar ve tetikleme</a></li><li><a href="remote.html">Hareketler, ses, geri sayım</a></li><li><a href="recording.html">Kayıt ve galeri</a></li><li><a href="flight.html" aria-current=page>Uçuş verileri</a></li><li><a href="pro.html">Ücretsiz ve Pro</a></li><li><a href="settings.html">Ayarlar ve yardım</a></li><li><a href="troubleshooting.html">Sorun giderme</a></li></ol></details><nav class="toc" aria-label="Belgeler"><ol><li><a href="start.html">Başlarken</a></li><li><a href="gimbals.html">Desteklenen gimbal’lar</a></li><li><a href="rig.html">Büyük kamerayla çekim</a></li><li><a href="viewfinder.html">Vizör</a></li><li><a href="tracking.html">Konuları takip etme</a></li><li><a href="camera.html">Kamera ve biçim</a></li><li><a href="zoom.html">Otomatik zoom</a></li><li><a href="virtual-gimbal.html">Sanal gimbal</a></li><li><a href="photo.html">Fotoğraflar ve tetikleme</a></li><li><a href="remote.html">Hareketler, ses, geri sayım</a></li><li><a href="recording.html">Kayıt ve galeri</a></li><li><a href="flight.html" aria-current=page>Uçuş verileri</a></li><li><a href="pro.html">Ücretsiz ve Pro</a></li><li><a href="settings.html">Ayarlar ve yardım</a></li><li><a href="troubleshooting.html">Sorun giderme</a></li></ol></nav>
-<article class="doc"><h1>Uçuş verileri</h1><p class="lead">Videoda canlı uçuş verileri: nerede kullanılabilir, onay, kaynaklar.</p>
-<div class="tip"><p><strong>Kullanılabilirlik:</strong> canlı uçuş verileri yalnızca desteklenen ülke ve bölgelerde kullanılabilir; konum erişimi ve internet gerekir. Şu anda onaylı bölge yok, bu nedenle özellik her yerde kapalıdır.</p></div>
-<p>Uçuş verisi kaplamasıyla Keepsight, takip ettiğiniz uçağın çağrı adını, uçak tipini, irtifasını ve hızını vizörde ve kaydedilen videoda gösterir. Veriler, topluluk tarafından işletilen bir ADS-B alıcı ağı olan adsb.lol'den gelir.</p>
-<figure class="wide"><img src="../../img/flight-demo-en.webp" width="1672" height="941" loading="lazy" alt="Uçuş verisi kaplaması (ADS-B)"><figcaption>Uçuş verisi kaplaması (ADS-B)</figcaption></figure>
+<article class="doc"><h1>Uçuş verileri</h1><p class="lead">Kendi ADS-B alıcınızdan videoya canlı uçuş verileri: neye ihtiyacınız var, nerede çalışır, gizlilik.</p>
+<div class="tip"><p><strong>Kullanılabilirlik:</strong> canlı uçuş verileri yalnızca onaylanmış ülke ve bölgelerde kullanılabilir ve kendi ADS-B alıcınızı gerektirir. Şu anda onaylanmış bir bölge olmadığından özellik her yerde kapalı kalır.</p></div>
+<p>Uçuş verisi kaplamasıyla Keepsight, takip ettiğiniz yolcu uçağının uçuş numarasını, irtifasını ve hızını vizörde ve iPhone'un kaydettiği videoda gösterir. Veriler aynı Wi-Fi ağındaki kendi ADS-B alıcınızdan gelir. İşin içinde ne internet ne de bir uçuş verisi sağlayıcısı vardır.</p>
+<p>Keepsight uçakları herhangi bir alıcı olmadan, görüntüye bakarak takip eder. Alıcı yalnızca kaplama için gerekir ve uygulamanın parçası değildir: onu ayrıca satın alır veya kendiniz kurarsınız.</p>
+<figure class="wide"><img src="../../img/plane-spotting-intl-1100.webp" srcset="../../img/plane-spotting-intl-640.webp 640w, ../../img/plane-spotting-intl-1100.webp 1100w, ../../img/plane-spotting-intl-1672.webp 1672w" sizes="(max-width: 860px) 100vw, 760px" width="1672" height="941" loading="lazy" decoding="async" alt="Gimbal üzerindeki telefonla uçak gözlemi (illüstrasyon)"><figcaption>Gimbal üzerindeki telefonla uçak gözlemi (illüstrasyon)</figcaption></figure>
+
+<h2>Gerekenler</h2>
+<ul>
+<li><strong>Bir alıcı:</strong> bir Stratux, örneğin 1090 MHz USB alıcı çubuğu ve anteni olan bir Raspberry Pi 3 veya Wi-Fi üzerinden GDL90 gönderen başka bir cihaz.</li>
+<li><strong>Tek başına USB alıcı yetmez:</strong> FlightAware Pro Stick gibi bir USB alıcı çubuğu bir ana cihaza ihtiyaç duyar; örneğin Stratux çalıştıran bir Raspberry Pi. Standart bir PiAware kurulumu verileri FlightAware'e gönderir ve uygun değildir.</li>
+<li><strong>Aynı Wi-Fi ağı:</strong> iPhone alıcının Wi-Fi ağına bağlanır. Bu ağda genellikle internet yoktur; sorun değil.</li>
+<li><strong>Onaylanmış bir bölge:</strong> verileri kendiniz almanız, özelliğin bir ülkede izinli olduğu anlamına tek başına gelmez.</li>
+</ul>
+
+<h2>Stratux mu, GDL90 mı</h2>
+<table>
+<tr><th>Alıcı</th><th>Bağlantı</th><th>Keepsight ile test edildi</th></tr>
+<tr><td>Stratux (JSON)</td><td>Alıcıya WebSocket, genellikle 192.168.10.1 adresinde</td><td>Henüz değil</td></tr>
+<tr><td>GDL90 (UDP)</td><td>Alıcı, iPhone'daki 4000 numaralı porta gönderir</td><td>Henüz değil</td></tr>
+</table>
+<p>İkisi de protokol düzeyinde desteklenir. Şimdiye kadar hiçbir alıcı gerçek donanımda Keepsight ile test edilmedi; SkyEcho 2 gibi cihazlar farklı davranabilir. Yalnızca FLARM ile yayınlanan trafik desteklenmez.</p>
 
 <h2>Açma</h2>
 <ol>
 <li>Ayarları açın ve <kbd>Uçuş verisi kaplaması (ADS-B)</kbd> seçeneğini açın.</li>
 <li>Bildirimi okuyun ve <kbd>Kabul et ve etkinleştir</kbd> düğmesine dokunun. iOS konumunuzu ancak bundan sonra sorar.</li>
+<li>Alıcının Wi-Fi ağına bağlanın, alıcı türünü seçin ve adresini girin. iOS yerel ağ erişimini bir kez sorar.</li>
+<li><kbd>Alıcıyı bağla</kbd> öğesine dokunun. Keepsight asla kendiliğinden bağlanmaz.</li>
 <li>Konu olarak <kbd>Uçak</kbd> seçin ve kamerayı uçağa doğrultun.</li>
 </ol>
 <p>Kameranın baktığı yöne birden fazla uçak uyuyorsa Keepsight tahmin yürütmez: <kbd>Uçak seçimi gerekli</kbd> düğmesine dokunun ve doğru olanı seçin.</p>
+<p>Uçağı her zaman siz seçersiniz; o anda alınan yolcu uçaklarının listesinden. Liste her konumun yaşını saniye olarak gösterir.</p>
+<p>Ayarlar bağlantının durumunu gösterir: bağlanıyor, uçak olmadan bağlı, alınıyor veya veriler güncel değil. <kbd>Yeniden bağlan</kbd> bağlantıyı yeniden başlatır.</p>
+<p>Uçuş verisi ayarları yalnızca özne olarak <kbd>Uçak</kbd> seçiliyken görünür.</p>
+<figure class="wide"><img src="../../img/flight-demo-en.webp" width="1672" height="941" loading="lazy" alt="Kaplama örneği (illüstrasyon). Yerel alıcıyla uçak tipi gösterilmez."><figcaption>Kaplama örneği (illüstrasyon). Yerel alıcıyla uçak tipi gösterilmez.</figcaption></figure>
 
 <h2>Keepsight konumunuza neden ihtiyaç duyar</h2>
-<p>iOS, konumunuzu yalnızca uçuş verisi kaplamasını açıp onay verdiğinizde sorar. Keepsight'ın buna üç nedenle ihtiyacı vardır:</p>
+<p>iOS konumunuzu yalnızca uçuş verisi kaplamasını açıp onay verdiğinizde sorar. Keepsight'ın buna iki nedenle ihtiyacı vardır:</p>
 <ul>
 <li><strong>Bölgeyi denetlemek:</strong> uçuş verilerinin gösterilip gösterilemeyeceği bulunduğunuz ülkeye bağlıdır. Keepsight bunu iPhone'un gerçekte bulunduğu yerden, aygıtın kendisinde belirler.</li>
-<li><strong>Yakındaki uçakları bulmak:</strong> veri sağlayıcısı “bu noktanın çevresinde hangi uçaklar var?” sorusunu yanıtlar. Konumunuz olmadan sorulacak bir nokta yoktur.</li>
 <li><strong>Görüntüdeki uçağı tanımak:</strong> Keepsight sizden her uçağa olan yönü ve ufkun üzerindeki açıyı hesaplar ve bunları kameranın baktığı yönle karşılaştırır. Pusulanın da gerçek kuzeyi bulmak için konuma ihtiyacı vardır.</li>
 </ul>
 <p>Bir yeri elle girmek sunulmaz, çünkü o zaman bölgesel denetim güvenilir olmaktan çıkar. Uçuş verilerini kullanmıyorsanız Keepsight konumunuzu hiçbir zaman sormaz.</p>
@@ -42,13 +75,16 @@
 <p>Keepsight, ülkeyi iPhone'unuzda geçerli konumunuzdan belirler. App Store ülkeniz, diliniz veya internet adresiniz rol oynamaz. Sınıra yakın yerlerde ve denizde özellik kapalı kalır.</p>
 <p>Her ülke onaylanmadan önce ayrı ayrı incelenir. O zamana kadar uygulama, canlı uçuş verilerinin bölgenizde kullanılamadığını bildirir. Takip ve kayıt her zamanki gibi çalışır.</p>
 
-<h2>Ne gönderilir</h2>
-<p>Keepsight, yalnızca özellik etkinken, yakındaki uçakları bulmak için yaklaşık bir kilometreye yuvarlanmış konumunuzu adsb.lol'e gönderir. Siz onaylamadan ve onaylanmamış bölgelerde hiçbir şey gönderilmez.</p>
+<h2>iPhone'unuzdan ne çıkar</h2>
+<p>Hiçbir şey. Keepsight alıcıyı yalnızca dinler ve ayarlarını asla değiştirmez. Ne konumunuz ne de uçuş verileri bir sunucuya gönderilir.</p>
+<p>Uçuş verileri yalnızca alıcı bağlıyken iPhone'un belleğinde bulunur. Bağlantıyı kestiğinizde, başka bir özne seçtiğinizde veya uygulamadan çıktığınızda silinir. Hiçbir şey saklanmaz veya yedeklenmez.</p>
 
 <h2>Görünüm</h2>
 <p>Uçuş verileri yalnızca bilinen havayollarının tarifeli yolcu ve kargo uçuşları için gösterilir. Özel, iş, askeri ve devlet uçakları hiçbir zaman gösterilmez; bir uçağın tescil işareti de ICAO adresi de görüntülenmez.</p>
-<p>Köşeyi, kompakt ya da ayrıntılı görünümü ve metrik ya da İngiliz birimlerini seçin. 15 saniyeden eski veriler gizlenir. Uçuş verisi içeren her video “Data: adsb.lol · ODbL 1.0” ibaresini taşır.</p>
+<p>Uçak tipi ADS-B'nin bir parçası değildir ve bu nedenle gösterilmez. Bir alıcının yalnızca aktardığı OGN, FLARM veya TIS-B gibi veriler de hiçbir zaman gösterilmez.</p>
+<p>Köşeyi, kompakt veya ayrıntılı görünümü ve metrik ya da emperyal birimleri seçin. 15 saniyeden eski veriler ekranda kalmak yerine gizlenir. Uçuş verisi içeren her video “Flight data: Local ADS-B” notunu taşır.</p>
 <p>Kaplama, iPhone ile kaydedilen videolara yazılır. Gimbal üzerindeki kamera kendi başına kaydeder ve kaplama almaz.</p>
+<p>İsterseniz Keepsight, seçilen uçak henüz görüntüde görünmezken gimbalı uçağın bildirilen konumuna doğru döndürür. Doğruluğu pusula sınırlar.</p>
 
 <h2>Doğruluk</h2>
 <p>Uçuş verileri gecikmeli, eksik veya hatalı olabilir. Yalnızca bilgi amaçlıdır; seyrüsefer, uçuş emniyeti veya operasyonel kararlar için uygun değildir.</p>

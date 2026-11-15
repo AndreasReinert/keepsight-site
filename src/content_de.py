@@ -16,26 +16,31 @@ UI = {
     "docs_title": "Dokumentation",
     "docs_lead": "Alles, was Keepsight kann, Schritt für Schritt erklärt. Die Kapitel bauen aufeinander auf, du kannst aber überall einsteigen.",
     "chapters": "Kapitel",
-    "finder_status": "Ziel erfasst",
-    "finder_caption": "Ausschnitt des virtuellen Gimbals",
 }
 
 HOME = {
-    "title": "Keepsight: dein Motiv bleibt im Bild",
-    "description": "Keepsight erkennt Menschen, Flugzeuge, Vögel und mehr und führt deinen Gimbal automatisch nach. Die Erkennung läuft auf dem iPhone.",
-    "h1": "Dein Motiv bleibt im Bild.",
-    "lead": "Keepsight erkennt, was du filmst, und führt deinen Gimbal automatisch nach. Die ganze Erkennung läuft auf deinem iPhone.",
+    "title": "Keepsight: Erleb den Moment, Keepsight hält ihn im Bild",
+    "description": "Coole Videos und spontane Schnappschüsse mit intelligenter Motivverfolgung und einfacher Bedienung. Die Erkennung läuft auf deinem iPhone.",
+    "h1": "Erleb den Moment. Keepsight hält ihn im Bild.",
+    "lead": "Coole Videos und spontane Schnappschüsse – mit intelligenter Motivverfolgung, einfacher Bedienung und unterstützten Gimbals.",
     "cta": "Dokumentation lesen",
     "note": "Keepsight ist zurzeit im Betatest und noch nicht im App Store erhältlich.",
-    "rig_h": "Gebaut für die grosse Kamera",
-    "rig_p": [
-        "Keepsight ist für einen bestimmten Aufbau entstanden: Auf einem kräftigen Gimbal sitzt eine Systemkamera, zum Beispiel eine Lumix S1RII, die in 8K filmt. Obenauf steckt das iPhone. Es erkennt das Motiv und steuert den Gimbal, die Kamera darunter macht die eigentliche Aufnahme.",
-        "So bekommst du ein nachgeführtes Bild in der Qualität deiner besten Kamera und mit deinen Objektiven. Du musst weder selbst schwenken noch einen zweiten Menschen an den Gimbal stellen.",
-        "Fotos und Videos mit dem iPhone selbst sind eine Zugabe: als zweite Perspektive, als Kontrollbild oder wenn die grosse Kamera zu Hause bleibt.",
+    "how_h": "So funktioniert es",
+    "how": [
+        ("Motiv wählen", "Wähle, wem oder was die Kamera folgt: einer Person oder einem Gesicht, mit Pro auch Tieren, Fahrzeugen oder Flugzeugen."),
+        ("Tracking starten", "Keepsight hält dein Motiv im Bild. Ein unterstützter Gimbal dreht das iPhone mit; ohne Gimbal folgt der virtuelle Gimbal innerhalb des Bilds."),
+        ("Festhalten, was zählt", "Filme oder fotografiere per Tipp, Handzeichen oder Stimme."),
     ],
-    "rig_link": "Aufbau Schritt für Schritt",
-    "rig_labels": ("iPhone: erkennt und steuert", "Kamera: nimmt auf", "Gimbal: führt nach"),
-    "rig_alt": "Gimbal mit Systemkamera, darüber das iPhone; beide blicken auf dasselbe Flugzeug",
+    "stories_h": "Gemacht für deine Momente",
+    "stories": [
+        ("", "Creator und Freunde", "Vom ersten Vlog bis zu spontanen Momenten mit Freunden: Keepsight hilft, das Geschehen im Bild zu halten. Wähle, was zählt, filme ganz natürlich und hab mehr Spass an deinen Alltagsvideos, ohne dass jede Aufnahme zum Technikprojekt wird.", "docs/start.html", "Dein erstes Tracking"),
+        ("story-family", "Familie und Reisen", "Die Momente, die bleiben sollen, sind schnell vorbei: ein Familienausflug, gemeinsames Lachen, ein Tag draussen. Keepsight macht Videos und spontane Schnappschüsse einfacher, damit du im Moment bleibst, während das Tracking beim Bildausschnitt hilft. Mit Keepsight Pro löst die App sogar von selbst aus, wenn alle lächeln.", "docs/photo.html", "Fotos und Auslösung"),
+        ("story-sport", "Sport und Action", "Bewegte Motive ergeben Clips, die in Erinnerung bleiben. Folge einer Velofahrerin oder einem Läufer mit einem unterstützten Gimbal und wähle, wie schnell die Kamera reagiert. Wie gut es klappt, hängt von Tempo, Entfernung, Licht und deinem Gimbal ab.", "docs/tracking.html", "Motive verfolgen"),
+        ("story-pets", "Haustiere und Wildtiere", "Haustiere und Wildtiere halten selten still. Keepsight folgt Tieren in Bewegung und hält das Geschehen fest. Sehr schnelle oder unberechenbare Vögel können allerdings schneller sein, als dein Gimbal drehen oder das iPhone sie erkennen kann.", "docs/tracking.html#fast", "Schnelle Tiere und Vögel"),
+        ("story-pro", "Foto- und Videobegeisterte", "Hol mehr aus einer Kamera auf dem Gimbal. An einem unterstützten DockKit-Gimbal oder am FeiyuTech AK4500 arbeitet das iPhone als intelligenter Tracking-Assistent, während deine Kamera die eigentliche Aufnahme selbst macht.", "docs/rig.html", "Aufbau Schritt für Schritt"),
+        ("story-aviation", "Plane Spotter", "Mehr Kontext zum Flugzeug, das du filmst. Keepsight folgt Flugzeugen nach Sicht. Mit deinem eigenen lokalen ADS-B-Empfänger kann es zusätzlich Flugdaten ins iPhone-Video einblenden, in Ländern, in denen diese Funktion freigegeben ist. Derzeit ist keine Region freigegeben.", "docs/flight.html", "Flugdaten"),
+    ],
+    "stories_note": "Die Fotos auf dieser Seite sind Illustrationen. Sie sind keine Bildschirmfotos der App und kein Nachweis für kompatible Geräte.",
     "shots_h": "So sieht die App aus",
     "what_h": "Was Keepsight für dich übernimmt",
     "what": [
@@ -89,10 +94,11 @@ HOME = {
         ("Was kann ich gratis tun?", "Personen und Gesichter verfolgen, Gesten, Sprachbefehle, Auto-Zoom und den virtuellen Gimbal nutzen und Videos bis 60 Sekunden mit Keepsight-Logo filmen. Dazu kannst du das Pro-Tracking dreimal 60 Sekunden lang testen."),
         ("Wie stelle ich meinen Kauf wieder her?", "Öffne in der App die Pro-Seite und wähle das Wiederherstellen des Kaufs. Du musst mit dem Apple Account angemeldet sein, mit dem du gekauft hast."),
         ("Warum ist der Preis in meinem Land anders?", "Apple legt den Preis je Land und Währung fest, inklusive Steuern. Es gilt der Preis, den dein App Store anzeigt."),
-        ("Funktioniert Keepsight ohne Internet?", "Ja. Erkennung und Tracking laufen auf dem iPhone. Internet braucht es nur für den Kauf und für die optionalen Flugdaten."),
+        ("Funktioniert Keepsight ohne Internet?", "Ja. Erkennung und Tracking laufen auf dem iPhone. Internet braucht es nur für den Kauf."),
         ("Was passiert mit meinen Bildern?", "Sie bleiben auf deinem iPhone. Keepsight hat kein Konto, keine Werbung und keine Analyse-Dienste."),
         ("Nimmt Keepsight mit meiner grossen Kamera auf?", "Nein. Keepsight steuert den Gimbal; die Kamera darauf nimmt selbst auf. Keepsights eigene Fotos und Videos kommen von der iPhone-Kamera."),
-        ("Gibt es Live-Flugdaten dort, wo ich wohne?", "Nur in unterstützten Ländern und Regionen, und es braucht Standortfreigabe und Internet. Derzeit ist keine Region freigegeben."),
+        ("Gibt es Live-Flugdaten dort, wo ich wohne?", "Nur in freigegebenen Ländern und Regionen, und es braucht deinen eigenen ADS-B-Empfänger und die Standortfreigabe. Derzeit ist keine Region freigegeben."),
+        ("Kann Keepsight schnellen Vögeln folgen?", "Nicht immer. Sehr schnelle oder unberechenbare Tiere können schneller sein, als der Gimbal drehen oder das iPhone sie erkennen kann."),
     ],
     "need_h": "Was du brauchst",
     "need": [
@@ -114,6 +120,8 @@ DOCS = [
 <tr><td>Fotos</td><td>Aufnahmen speichern und in der Galerie zeigen. „Eingeschränkter Zugriff“ genügt.</td></tr>
 <tr><td>Mikrofon</td><td>Ton zum Video und Sprachbefehle.</td></tr>
 <tr><td>Spracherkennung</td><td>Nur für Sprachbefehle.</td></tr>
+<tr><td>Standort</td><td>Nur für Live-Flugdaten: Region prüfen und das Flugzeug erkennen. Bleibt auf dem iPhone.</td></tr>
+<tr><td>Lokales Netzwerk</td><td>Nur für Live-Flugdaten: Verbindung zu deinem eigenen ADS-B-Empfänger.</td></tr>
 </table>
 <p>Hast du einen Zugriff abgelehnt, erlaubst du ihn später unter <kbd>Einstellungen</kbd> → <kbd>Keepsight</kbd>.</p>
 
@@ -132,7 +140,7 @@ DOCS = [
 <li>Tippe auf <kbd>Tracken</kbd>. Der Gimbal folgt dir.</li>
 <li>Mit <kbd>Stopp</kbd> beendest du das Nachführen.</li>
 </ol>
-<p>Dreht der Gimbal vom Motiv weg statt zu ihm hin, kehrst du die Achse unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> um.</p>
+<p>Dreht der Gimbal vom Motiv weg statt zu ihm hin, bemerkt Keepsight das nach einem Moment und kehrt die Richtung von selbst um. Du kannst eine Achse auch unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> umkehren.</p>
 """),
 
 ("gimbals", "Unterstützte Gimbals", "Welche Geräte Keepsight steuert, wie du sie verbindest und von Hand bewegst.", """
@@ -307,6 +315,17 @@ DOCS = [
 <ul>
 <li><strong>Vorhersage:</strong> Ist das Motiv kurz verdeckt, schwenkt der Gimbal in der bisherigen Richtung weiter. Die Dauer stellst du unter <kbd>Alle Einstellungen</kbd> ein, Standard sind 1,5 Sekunden.</li>
 <li><strong>Ziel verloren:</strong> Danach bleibt der Gimbal stehen, bis das Motiv wieder erkannt wird.</li>
+</ul>
+
+<h2 id="fast">Schnelle Tiere und Vögel</h2>
+[[wide story-birds]]
+<p>Sehr schnelle oder unberechenbare Tiere, vor allem kleine, schnelle Vögel, lassen sich nicht immer zuverlässig verfolgen.</p>
+<p>Wie gut das Tracking klappt, hängt davon ab, wie schnell sich das Motiv durchs Bild bewegt, von seiner Entfernung und Grösse, vom Licht und davon, wie stabil das iPhone es erkennt. Vor allem hängt es von deinem Gimbal ab: von seiner höchsten Schwenk- und Neigegeschwindigkeit, seiner Beschleunigung und seiner Verzögerung.</p>
+<p>Die Geschwindigkeit <kbd>Sport</kbd> kann einen Gimbal nicht über seine mechanischen Grenzen bringen. Ohne Gimbal folgt nur der virtuelle Gimbal, innerhalb des Bilds, das die Kamera ohnehin sieht.</p>
+<ul>
+<li>Halte mehr Abstand oder zoome heraus: Das Motiv wandert dann langsamer durchs Bild.</li>
+<li>Wähle <kbd>Sport</kbd> für schnelle Richtungswechsel.</li>
+<li>Gutes Licht und ein ruhiger Hintergrund helfen der Erkennung.</li>
 </ul>
 """),
 
@@ -508,24 +527,46 @@ DOCS = [
 <p>Zeigt eine Kachel ein Wolken-Symbol, liegt das Original in iCloud und wird gerade geladen. Das passiert, wenn iCloud-Fotos mit „iPhone-Speicher optimieren“ eingeschaltet ist. Ein Warnzeichen bedeutet, dass sich die Datei nicht lesen lässt; die Einzelansicht nennt dann den Dateinamen.</p>
 """),
 
-("flight", "Flugdaten", "Live-Flugdaten im Video: wo es sie gibt, Einwilligung, Quellen.", """
-<div class="tip"><p><strong>Verfügbarkeit:</strong> Live-Flugdaten gibt es nur in unterstützten Ländern und Regionen; Standortfreigabe und Internet sind nötig. Derzeit ist keine Region freigegeben, die Funktion bleibt deshalb überall ausgeschaltet.</p></div>
-<p>Mit der Flugdaten-Einblendung zeigt Keepsight Rufzeichen, Flugzeugtyp, Höhe und Geschwindigkeit des verfolgten Flugzeugs, im Sucher und im aufgenommenen Video. Die Daten stammen von adsb.lol, einem Gemeinschaftsnetz von ADS-B-Empfängern.</p>
-[[wide flight-demo]]
+("flight", "Flugdaten", "Live-Flugdaten im Video aus deinem eigenen ADS-B-Empfänger: was du brauchst, wo es funktioniert, Datenschutz.", """
+<div class="tip"><p><strong>Verfügbarkeit:</strong> Live-Flugdaten gibt es nur in freigegebenen Ländern und Regionen, und es braucht deinen eigenen ADS-B-Empfänger. Derzeit ist keine Region freigegeben, die Funktion bleibt deshalb überall ausgeschaltet.</p></div>
+<p>Mit der Flugdaten-Einblendung zeigt Keepsight Flugnummer, Höhe und Geschwindigkeit des verfolgten Linienflugzeugs, im Sucher und im Video, das das iPhone aufnimmt. Die Daten kommen aus deinem eigenen ADS-B-Empfänger im selben WLAN. Internet und ein Flugdaten-Anbieter sind nicht beteiligt.</p>
+<p>Keepsight folgt Flugzeugen nach Sicht, ganz ohne Empfänger. Der Empfänger ist nur für die Einblendung nötig und gehört nicht zur App: Du kaufst oder baust ihn separat.</p>
+[[wide plane-spotting]]
+
+<h2>Was du brauchst</h2>
+<ul>
+<li><strong>Einen Empfänger:</strong> einen Stratux, zum Beispiel einen Raspberry Pi 3 mit USB-Empfängerstick für 1090 MHz und Antenne, oder ein anderes Gerät, das GDL90 über WLAN sendet.</li>
+<li><strong>Kein Stick allein:</strong> Ein USB-Empfängerstick wie der FlightAware Pro Stick braucht einen Rechner, zum Beispiel einen Raspberry Pi mit Stratux. Eine normale PiAware-Installation sendet Daten an FlightAware und ist nicht geeignet.</li>
+<li><strong>Dasselbe WLAN:</strong> Das iPhone verbindet sich mit dem WLAN des Empfängers. Dieses Netz hat meist kein Internet; das ist in Ordnung.</li>
+<li><strong>Eine freigegebene Region:</strong> Dass du die Daten selbst empfängst, heisst für sich allein nicht, dass die Funktion in einem Land erlaubt ist.</li>
+</ul>
+
+<h2>Stratux oder GDL90</h2>
+<table>
+<tr><th>Empfänger</th><th>Verbindung</th><th>Mit Keepsight getestet</th></tr>
+<tr><td>Stratux (JSON)</td><td>WebSocket zum Empfänger, meist unter 192.168.10.1</td><td>Noch nicht</td></tr>
+<tr><td>GDL90 (UDP)</td><td>Der Empfänger sendet an Port 4000 auf dem iPhone</td><td>Noch nicht</td></tr>
+</table>
+<p>Beide werden vom Protokoll her unterstützt. Bisher wurde kein Empfänger an echter Hardware mit Keepsight getestet; einzelne Geräte, etwa der SkyEcho 2, können sich anders verhalten. Verkehr, der nur über FLARM gesendet wird, wird nicht unterstützt.</p>
 
 <h2>Einschalten</h2>
 <ol>
 <li>Öffne die Einstellungen und schalte <kbd>Flight data overlay (ADS-B)</kbd> ein.</li>
 <li>Lies den Hinweis und tippe auf <kbd>Agree and enable</kbd>. Erst danach fragt iOS nach deinem Standort.</li>
+<li>Verbinde dich mit dem WLAN des Empfängers, wähle die Art des Empfängers und gib seine Adresse ein. iOS fragt einmal nach dem Zugriff auf das lokale Netzwerk.</li>
+<li>Tippe auf <kbd>Connect receiver</kbd>. Keepsight verbindet sich nie von selbst.</li>
 <li>Wähle <kbd>Aircraft</kbd> als Motiv und richte die Kamera auf das Flugzeug.</li>
 </ol>
 <p>Passen mehrere Flugzeuge zur Blickrichtung der Kamera, rät Keepsight nicht: Tippe auf <kbd>Aircraft selection required</kbd> und wähle das richtige.</p>
+<p>Du wählst das Flugzeug immer selbst, aus der Liste der gerade empfangenen Linienflugzeuge. Die Liste zeigt das Alter jeder Position in Sekunden.</p>
+<p>Die Einstellungen zeigen den Stand der Verbindung: Verbindung wird aufgebaut, verbunden ohne Flugzeuge, Empfang oder veraltete Daten. <kbd>Reconnect</kbd> baut die Verbindung neu auf.</p>
+<p>Die Einstellungen für Flugdaten erscheinen nur, solange <kbd>Aircraft</kbd> als Motiv gewählt ist.</p>
+[[wide flight-demo]]
 
 <h2>Warum Keepsight deinen Standort braucht</h2>
-<p>iOS fragt erst nach deinem Standort, wenn du die Flugdaten-Einblendung einschaltest und zustimmst. Keepsight braucht ihn aus drei Gründen:</p>
+<p>iOS fragt erst nach deinem Standort, wenn du die Flugdaten-Einblendung einschaltest und zustimmst. Keepsight braucht ihn aus zwei Gründen:</p>
 <ul>
 <li><strong>Region prüfen:</strong> Ob Flugdaten gezeigt werden dürfen, hängt vom Land ab, in dem du dich befindest. Keepsight bestimmt es daraus, wo das iPhone tatsächlich steht, und zwar auf dem Gerät selbst.</li>
-<li><strong>Flugzeuge in der Nähe finden:</strong> Der Datenanbieter beantwortet die Frage «Welche Flugzeuge sind rund um diesen Punkt?». Ohne deine Position gibt es keinen Punkt, nach dem man fragen könnte.</li>
 <li><strong>Das Flugzeug im Bild erkennen:</strong> Keepsight berechnet Richtung und Höhenwinkel von dir zu jedem Flugzeug und vergleicht sie mit der Blickrichtung der Kamera. Auch der Kompass braucht den Standort, um die echte Nordrichtung zu finden.</li>
 </ul>
 <p>Einen Ort von Hand einzugeben ist nicht vorgesehen, weil die regionale Prüfung dann nicht mehr verlässlich wäre. Wenn du keine Flugdaten nutzt, fragt Keepsight nie nach deinem Standort.</p>
@@ -534,13 +575,16 @@ DOCS = [
 <p>Keepsight bestimmt das Land auf deinem iPhone aus deinem aktuellen Standort. App-Store-Land, Sprache oder Internetadresse spielen keine Rolle. In Grenznähe und auf See bleibt die Funktion aus.</p>
 <p>Jedes Land wird einzeln geprüft, bevor es freigegeben wird. Bis dahin meldet die App, dass Live-Flugdaten in deiner Region nicht verfügbar sind. Tracking und Aufnahme funktionieren wie gewohnt.</p>
 
-<h2>Was übertragen wird</h2>
-<p>Nur solange die Funktion aktiv ist, sendet Keepsight deinen auf rund einen Kilometer gerundeten Standort an adsb.lol, um Flugzeuge in der Nähe zu finden. Vor deiner Zustimmung wird nichts gesendet, und in nicht freigegebenen Regionen auch nicht.</p>
+<h2>Was dein iPhone verlässt</h2>
+<p>Nichts. Keepsight hört dem Empfänger nur zu und ändert nie etwas an seinen Einstellungen. Weder dein Standort noch Flugdaten gehen an einen Server.</p>
+<p>Flugdaten gibt es nur im Arbeitsspeicher des iPhones, solange der Empfänger verbunden ist. Sie werden gelöscht, wenn du trennst, ein anderes Motiv wählst oder die App verlässt. Nichts wird gespeichert oder gesichert.</p>
 
 <h2>Darstellung</h2>
 <p>Flugdaten werden nur für Linien- und Frachtflüge bekannter Fluggesellschaften eingeblendet. Privat-, Geschäftsreise-, Militär- und Staatsflugzeuge erscheinen nie, und weder das Kennzeichen noch die ICAO-Adresse eines Flugzeugs wird angezeigt.</p>
-<p>Wähle die Ecke, kompakt oder ausführlich, und metrische oder imperiale Einheiten. Daten, die älter als 15 Sekunden sind, werden ausgeblendet. Jedes Video mit Flugdaten trägt den Hinweis «Data: adsb.lol · ODbL 1.0».</p>
+<p>Der Flugzeugtyp ist nicht Teil von ADS-B und wird deshalb nicht angezeigt. Daten, die ein Empfänger bloss weiterreicht, etwa OGN, FLARM oder TIS-B, werden ebenfalls nie angezeigt.</p>
+<p>Wähle die Ecke, kompakt oder ausführlich, und metrische oder imperiale Einheiten. Daten, die älter als 15 Sekunden sind, werden ausgeblendet, statt stehen zu bleiben. Jedes Video mit Flugdaten trägt den Hinweis «Flight data: Local ADS-B».</p>
 <p>Die Einblendung wird in Videos geschrieben, die das iPhone aufnimmt. Eine Kamera auf dem Gimbal nimmt selbst auf und bekommt keine Einblendung.</p>
+<p>Auf Wunsch dreht Keepsight den Gimbal zur gemeldeten Position des gewählten Flugzeugs, solange es im Bild noch nicht zu sehen ist. Der Kompass begrenzt die Genauigkeit.</p>
 
 <h2>Genauigkeit</h2>
 <p>Flugdaten können verzögert, unvollständig oder fehlerhaft sein. Sie dienen nur der Information und sind nicht für Navigation, Flugsicherheit oder operative Entscheidungen geeignet.</p>
@@ -611,7 +655,7 @@ DOCS = [
 <li>Schalte den Gimbal aus und wieder ein und tippe erneut auf <kbd>Verbinden</kbd>.</li>
 </ul>
 <h2>Der Gimbal dreht vom Motiv weg</h2>
-<p>Kehre die betroffene Achse unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> um.</p>
+<p>Normalerweise korrigiert Keepsight das nach einem Moment von selbst. Wenn nicht, kehre die betroffene Achse unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> um.</p>
 <h2>Der Gimbal reagiert träge oder zittert</h2>
 <ul>
 <li>Träge: Wähle das Profil Sport. Beim AK4500 hilft auch eine höhere Mindestgeschwindigkeit.</li>
@@ -675,7 +719,7 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Datenschutzerklärung",
-    "lead": "Stand: 14. November 2026. Gilt für die iOS-App Keepsight und diese Webseite.",
+    "lead": "Stand: 15. November 2026. Gilt für die iOS-App Keepsight und diese Webseite.",
     "body": f"""
 <div class="tip"><p><strong>Kurz gesagt:</strong> Keepsight sammelt keine Daten über dich. Es gibt kein Konto, keine Werbung, kein Tracking und keine Analyse-Dienste. Kamerabilder, Erkennung, Fotos und Videos bleiben auf deinem iPhone. Die einzige Ausnahme ist die freiwillige Flugdaten-Funktion: Sie sendet einen ungefähren Standort an einen Datenanbieter (siehe Abschnitt 2).</p></div>
 <h2>1. Verantwortlicher</h2>
@@ -689,7 +733,8 @@ PRIVACY = {
 <li><strong>Spracherkennung:</strong> Die Sprachbefehle erkennt die Spracherkennung von Apple. Wenn dein iPhone und die gewählte Sprache es unterstützen, geschieht das auf dem Gerät. Andernfalls wird der Ton zur Erkennung an Apple übertragen. Dafür gelten die Datenschutzbestimmungen von Apple. Die Sprachsteuerung ist standardmässig ausgeschaltet.</li>
 <li><strong>Fotos:</strong> Die App speichert deine Aufnahmen in der Fotos-Mediathek und zeigt in ihrer Galerie nur die mit Keepsight gemachten Aufnahmen. Nutzt du iCloud-Fotos, überträgt Apple die Aufnahmen gemäss deinen iCloud-Einstellungen.</li>
 <li><strong>Bluetooth:</strong> zur Steuerung deines Gimbals. Es werden nur Steuerbefehle und Statuswerte mit dem Gimbal ausgetauscht.</li>
-<li><strong>Standort und Flugdaten:</strong> nur wenn du die Flugdaten-Einblendung einschaltest und ihr zustimmst. Keepsight bestimmt dann auf dem iPhone aus deinem Standort die Region und sendet, wo die Funktion freigegeben ist, den auf rund einen Kilometer gerundeten Standort an den Anbieter adsb.lol, um Flugzeuge in der Nähe zu finden. Ob und wie lange adsb.lol solche Anfragen aufbewahrt, kann ich nicht sagen; es gelten dessen eigene Bedingungen. Die Übertragung endet, sobald du die Funktion ausschaltest. Ohne diese Funktion nutzt die App deinen Standort nicht.</li>
+<li><strong>Standort und Flugdaten:</strong> nur wenn du die Flugdaten-Einblendung einschaltest und ihr zustimmst. Keepsight nutzt dann deinen Standort auf dem iPhone, um die Region zu bestimmen und das Flugzeug im Bild zu erkennen. Die Flugdaten kommen aus deinem eigenen ADS-B-Empfänger im lokalen Netzwerk. Weder dein Standort noch Flugdaten verlassen das iPhone. Ohne diese Funktion nutzt die App deinen Standort nicht.</li>
+<li><strong>Lokales Netzwerk:</strong> nur für die Flugdaten-Einblendung, um deinen eigenen ADS-B-Empfänger zu erreichen. Keepsight empfängt von ihm nur Daten.</li>
 <li><strong>Einstellungen:</strong> Deine Einstellungen in der App werden nur lokal auf dem iPhone gespeichert.</li>
 </ul>
 <h2>3. Käufe</h2>
@@ -728,4 +773,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Flugdaten einblenden (ADS-B)'}
+SHOTS = {'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Beispiel der Einblendung (Illustration). Mit lokalem Empfänger wird der Flugzeugtyp nicht angezeigt.', 'hero': 'Eine junge Frau filmt sich und ihre Freunde bei Sonnenuntergang mit einem Handy auf einem Gimbal', 'story-family': 'Eine Familie auf einer Picknickdecke am See, gefilmt von einem Handy auf einem kleinen Gimbal', 'story-sport': 'Eine Frau filmt einen vorbeifahrenden Velofahrer mit einem Handy auf einem Gimbal', 'story-pets': 'Ein Mann filmt einen rennenden Hund und ein Kind mit einem Handy auf einem Gimbal', 'story-birds': 'Ein Fotograf folgt einem Greifvogel im Flug mit einer Kamera auf einem Gimbal', 'story-pro': 'Eine Frau mit einer Kamera auf einem Gimbal und einem Handy in der Hand, während ein Flugzeug vorbeifliegt', 'story-aviation': 'Plane Spotter am Flughafenzaun filmen ein Linienflugzeug mit einem Handy auf einem Gimbal', 'plane-spotting': 'Plane Spotting mit einem Handy auf einem Gimbal (Illustration)'}
