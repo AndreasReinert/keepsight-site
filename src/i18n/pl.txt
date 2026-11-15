@@ -71,7 +71,7 @@
 91|Tylko w obsługiwanych krajach i regionach; potrzebny jest dostęp do lokalizacji i internet. Obecnie żaden region nie jest zatwierdzony.
 92|Czego potrzebujesz
 94|iPhone z systemem iOS 17 lub nowszym. Keepsight jest tworzony i testowany na iPhonie 15 Pro Max z trzema aparatami.
-96|Do śledzenia: gimbal lub statyw z Apple DockKit, na przykład Insta360 Flow 2 Pro, DJI Osmo Mobile 8 albo Belkin Auto-Tracking Stand Pro. FeiyuTech AK4500 do bezlusterkowców jest obsługiwany w wersji beta. Aparat, automatyczne zdjęcia, gesty, głos i wirtualny gimbal działają też bez gimbala.
+96|Do śledzenia: gimbal lub statyw z Apple DockKit, na przykład Insta360 Flow 2 Pro, DJI Osmo Mobile 8 albo Belkin Auto-Tracking Stand Pro. FeiyuTech AK4500 do bezlusterkowców również jest obsługiwany. Aparat, automatyczne zdjęcia, gesty, głos i wirtualny gimbal działają też bez gimbala.
 97|Języki
 98|Aplikacja mówi w 21 językach: angielskim, niemieckim, francuskim, włoskim, hiszpańskim, portugalskim, niderlandzkim, szwedzkim, polskim, rosyjskim, ukraińskim, tureckim, arabskim, hindi, indonezyjskim, wietnamskim, tajskim, japońskim, koreańskim i chińskim (uproszczonym i tradycyjnym).
 99|Pierwsze kroki
@@ -91,7 +91,7 @@
 115|Jeśli odmówisz dostępu, możesz na niego zezwolić później w <kbd>Ustawienia</kbd> → <kbd>Keepsight</kbd>.
 116|Łączenie z gimbalem
 117|<strong>Gimbal lub statyw z Apple DockKit:</strong> połącz urządzenie raz z iPhone’em w parę, tak jak opisuje producent. Potem Keepsight łączy się sam, gdy wkładasz iPhone’a.
-118|<strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> włącz gimbal i stuknij <kbd>Connect</kbd> w prawym dolnym rogu Keepsight.
+118|<strong>FeiyuTech AK4500:</strong> włącz gimbal i stuknij <kbd>Connect</kbd> w prawym dolnym rogu Keepsight.
 119|Po połączeniu przycisk zmienia się w <kbd>Track</kbd>. Szczegóły znajdziesz w rozdziale <a href="gimbals.html">Obsługiwane gimbale</a>.
 120|Gimbal musi móc swobodnie się obracać. Trzymaj palce, kable i przedmioty poza zasięgiem jego ruchu.
 121|Pierwsze śledzenie
@@ -102,13 +102,12 @@
 126|Jeśli gimbal odwraca się od obiektu zamiast w jego stronę, odwróć oś w <kbd>All settings</kbd> → <kbd>Direction</kbd>.
 127|Obsługiwane gimbale
 128|Którymi urządzeniami steruje Keepsight, jak je połączyć i poruszać nimi ręcznie.
-129|Keepsight steruje gimbalami i statywami przez DockKit, interfejs Apple dla zmotoryzowanych uchwytów. To zalecana droga: urządzenia łączą się same, a o połączenie dba Apple. Dodatkowo jako beta dostępne jest bezpośrednie sterowanie FeiyuTech AK4500 przez Bluetooth.
+129|Keepsight steruje gimbalami i statywami przez DockKit, interfejs Apple dla zmotoryzowanych uchwytów. To zalecana droga: urządzenia łączą się same, a o połączenie dba Apple. Dodatkowo Keepsight steruje FeiyuTech AK4500 bezpośrednio przez Bluetooth.
 130|Urządzenie
 131|Połączenie
 136|Inne urządzenia z DockKit
-137|FeiyuTech AK4500 <span class="beta">Beta</span>
 138|Bluetooth, bezpośrednio z Keepsight
-139|<strong>Co tu oznacza beta:</strong> AK4500 nie ma oficjalnego interfejsu dla aplikacji innych firm. Keepsight komunikuje się z nim przez protokół Bluetooth producenta. To działa, ale może się zmienić wraz z nowym oprogramowaniem, a niektórych funkcji gimbala jeszcze brakuje. W aplikacji ta droga ma oznaczenie „BETA”.
+139|<strong>Warto wiedzieć:</strong> AK4500 nie ma oficjalnego interfejsu dla aplikacji innych firm. Keepsight komunikuje się z nim przez protokół Bluetooth producenta. To działa, ale może się zmienić wraz z nowym oprogramowaniem, a niektórych funkcji gimbala jeszcze brakuje.
 140|Jeśli urządzenie nie reaguje tak, jak powinno, napisz do mnie i podaj dokładny model.
 141|Gimbal z Apple DockKit
 142|Połącz urządzenie raz z iPhone’em w parę. Zwykle przykładasz iPhone’a do uchwytu i potwierdzasz prośbę. Dokładne kroki opisuje instrukcja producenta.
@@ -137,7 +136,7 @@
 165|iPhone z Keepsight
 166|Wykrywa obiekt, trzyma go w środku kadru i steruje gimbalem.
 167|Dźwiga oba i podąża.
-168|<strong>Gimbal do aparatów, którym steruje Keepsight.</strong> Obecnie jest to FeiyuTech AK4500, którego sterowanie jest jeszcze w wersji beta. Według producenta udźwignie do 4,6&nbsp;kg. Gimbale z Apple DockKit są zbudowane tylko dla iPhone’a i nie udźwigną aparatu.
+168|<strong>Gimbal do aparatów, którym steruje Keepsight.</strong> Obecnie jest to FeiyuTech AK4500. Według producenta udźwignie do 4,6&nbsp;kg. Gimbale z Apple DockKit są zbudowane tylko dla iPhone’a i nie udźwigną aparatu.
 169|<strong>Uchwyt na telefon</strong> do stopki aparatu lub gwintu na gimbalu. Powinien się pochylać i pewnie blokować.
 170|<strong>Aparat i obiektyw</strong>, które razem z iPhone’em i uchwytem mieszczą się w udźwigu.
 171|Montaż i ustawienie
@@ -375,144 +374,150 @@
 442|Przeczytaj informację i stuknij <kbd>Agree and enable</kbd>. Dopiero potem iOS zapyta o lokalizację.
 443|Wybierz <kbd>Aircraft</kbd> jako obiekt i skieruj aparat na samolot.
 444|Jeśli do kierunku, w którym patrzy aparat, pasuje kilka samolotów, Keepsight nie zgaduje: stuknij <kbd>Aircraft selection required</kbd> i wybierz właściwy.
-445|Gdzie to działa
-446|Keepsight ustala kraj na Twoim iPhonie na podstawie bieżącej lokalizacji. Kraj App Store, język ani adres internetowy nie mają znaczenia. W pobliżu granicy i na morzu funkcja pozostaje wyłączona.
-447|Każdy kraj jest sprawdzany osobno, zanim zostanie zatwierdzony. Do tego czasu aplikacja informuje, że dane lotów na żywo są niedostępne w Twoim regionie. Śledzenie i nagrywanie działają jak zwykle.
-448|Co jest wysyłane
-449|Tylko gdy funkcja jest aktywna, Keepsight wysyła Twoją lokalizację, zaokrągloną do około jednego kilometra, do adsb.lol, aby znaleźć pobliskie samoloty. Nic nie jest wysyłane przed Twoją zgodą ani w niezatwierdzonych regionach.
-450|Wygląd
-451|Wybierz róg, widok kompaktowy lub szczegółowy oraz jednostki metryczne lub imperialne. Dane starsze niż 15 sekund są ukrywane. Każdy film z danymi lotu zawiera podpis „Data: adsb.lol · ODbL 1.0”.
-452|Nakładka jest zapisywana w filmach nagranych iPhone'em. Aparat na gimbalu nagrywa samodzielnie i nie otrzymuje nakładki.
-453|Dokładność
-454|Dane lotów mogą być opóźnione, niepełne lub błędne. Służą wyłącznie celom informacyjnym i nie nadają się do nawigacji, zapewniania bezpieczeństwa lotów ani decyzji operacyjnych.
-455|Wersja darmowa i Pro
-456|Co potrafi wersja darmowa, co odblokowuje Pro, zakup i przywracanie.
-457|Wersja darmowa służy do wypróbowania: testujesz śledzenie, gesty i aparat na ludziach, zanim cokolwiek zapłacisz.
-458|Tak
-459|Sterowanie gimbalem, pojedyncze zdjęcie i seria interwałowa
-460|Nie
-461|Wszystkie pozostałe obiekty
-462|Długość wideo
-463|60 sekund
-464|Bez limitu
-465|Próba śledzenia Pro
-466|3 × 60 sekund
-467|Logo Keepsight na zdjęciach i wideo
-468|Wypróbowanie śledzenia Pro
-469|Stuknij zablokowany obiekt w panelu śledzenia i wybierz <kbd>Start preview</kbd>. Przez 60 sekund Keepsight śledzi ten obiekt dokładnie tak jak wersja Pro. Masz trzy takie sesje; sesja, która nie powiedzie się w pierwszych sekundach, nie jest liczona.
-470|W wersji bezpłatnej film kończy się sam po 60 sekundach. Komunikat pojawia się 10 sekund przed końcem.
-471|Zakup Pro
-472|Stuknij <kbd>PRO</kbd> w prawym górnym rogu, a potem <kbd>Odblokuj</kbd>. Pro to jednorazowy zakup bez subskrypcji. App Store pokazuje cenę w twojej walucie, a płatność obsługuje Apple.
-473|Przywracanie zakupu
-474|Na nowym iPhonie lub po ponownej instalacji stuknij <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Musisz być zalogowany na to samo konto Apple, którego użyto przy zakupie.
-475|Zwroty
-476|O zwrot pieniędzy poproś Apple na stronie <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
-477|Ustawienia i pomoc
-478|Język, tryb pomocy i suwaki dla zaawansowanych.
-479|Najważniejsze przełączniki są w dwóch panelach bocznych. Cała reszta jest w lewym panelu w sekcji <kbd>All settings</kbd>.
-481|Znak zapytania u góry każdego panelu bocznego włącza tryb pomocy. Pod pozycjami menu pojawiają się wtedy żółte wskazówki z krótkim objaśnieniem, a przy ważniejszych także rysunek.
-482|Keepsight używa języka twojego iPhone’a. Aby wybrać inny tylko dla Keepsight, stuknij <kbd>Language</kbd> w sekcji <kbd>All settings</kbd>. Otworzą się ustawienia iPhone’a dla Keepsight. Razem z językiem zmieniają się polecenia głosowe.
-483|Suwaki dla zaawansowanych
-484|Prędkość „Własny”
-485|Wzmocnienie, tłumienie, prędkość maksymalna, przyspieszenie i strefa spokoju śledzenia.
-486|Prędkość minimalna
-487|Tylko dla AK4500: najmniejsze polecenie, na które gimbal jeszcze reaguje. Zwiększ ją, jeśli gimbal zatrzymuje się przy małych odchyleniach.
-488|Przewidywanie po utracie
-489|Jak długo gimbal obraca się dalej, gdy obiekt jest zasłonięty.
-491|Odwróć obrót lub pochylenie.
-493|Który model wykrywa obiekt. Do wyboru są RF-DETR Small i YOLOX-S.
-495|Pokazuje w wizjerze liczbę klatek, polecenia gimbala i czas obliczeń modelu.
-497|Przywraca suwaki śledzenia.
-499|Znajdziesz tu wersję aplikacji, linki do tej strony oraz licencje używanych modeli wykrywania.
-500|Rozwiązywanie problemów
-501|Częste problemy i sposoby ich rozwiązania.
-502|Gimbal nie zostaje znaleziony
-503|<strong>Urządzenie z DockKit:</strong> czy jest połączone w parę w ustawieniach iPhone’a i czy iPhone dobrze siedzi w uchwycie? Dla porównania otwórz aplikację Aparat od Apple. Jeśli tam urządzenie też za tobą nie podąża, problem leży w łączeniu w parę.
-504|<strong>AK4500:</strong> czy gimbal jest włączony i w pobliżu? Zamknij całkowicie aplikację Feiyu i zezwól na Bluetooth w <kbd>Ustawienia</kbd> → <kbd>Keepsight</kbd>.
-505|Wyłącz i włącz gimbal, a potem ponownie stuknij <kbd>Connect</kbd>.
-506|Gimbal odwraca się od obiektu
-507|Odwróć odpowiednią oś w <kbd>All settings</kbd> → <kbd>Direction</kbd>.
-508|Gimbal reaguje ospale lub drży
-509|Ospale: wybierz profil Sport. Przy AK4500 pomaga też wyższa prędkość minimalna.
-510|Drżenie lub kołysanie: wybierz profil Płynny. Przy długiej ogniskowej małe ruchy wydają się większe.
-511|Obiekt nie jest wykrywany
-512|Czy wybrano właściwy rodzaj obiektu?
-513|Bardzo małe obiekty są wykrywane mniej pewnie. Wybierz dłuższy obiektyw.
-514|Przy słabym świetle i silnym świetle z tyłu wykrywanie słabnie.
-515|Polecenia głosowe nie są rozumiane
-516|Zezwól na mikrofon i rozpoznawanie mowy w <kbd>Ustawienia</kbd> → <kbd>Keepsight</kbd>.
-517|Wypowiadaj polecenia w języku aplikacji.
-518|Wiatr i głośne otoczenie zakłócają rozpoznawanie. Wtedy gesty są pewniejsze.
-519|Gesty nie wyzwalają
-520|Obiekt musi być ustawiony na Osobę lub Twarz.
-521|Trzymaj dłoń nieruchomo i dobrze widoczną, aż pasek się wypełni.
-522|Nie da się wybrać 48 MP lub RAW
-523|Oba są dostępne tylko w trybie zdjęć z aparatem głównym <kbd>1×</kbd>. RAW wymaga dodatkowo Keepsight Pro.
-524|Galeria jest pusta
-525|Zezwól Keepsight na dostęp do Zdjęć. Ujęcia ze starszych wersji aplikacji nie pojawiają się w galerii, ale są w aplikacji Zdjęcia.
-526|Keepsight Pro nie jest aktywny po zakupie
-527|Stuknij <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> i sprawdź, czy jesteś zalogowany na właściwe konto Apple.
-528|Więcej pomocy
-529|Napisz na <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> i podaj model iPhone’a, wersję iOS oraz wersję Keepsight.
-530|iPhone się nagrzewa
-531|Wykrywanie, nagrywanie w 4K i sterowanie gimbalem są wymagające, zwłaszcza w słońcu. Keepsight sam chroni urządzenie:
-532|<strong>Termometr w polu statusu:</strong> iPhone jest gorący i wykrywanie analizuje tylko co drugą lub co trzecią klatkę. Śledzenie działa dalej, ale reaguje nieco wolniej.
-533|<strong>Śledzenie zatrzymane:</strong> przy krytycznej temperaturze Keepsight kończy śledzenie i nagrywanie oraz zapisuje wideo. Pozwól iPhone’owi ostygnąć w cieniu.
-534|Aby był chłodniejszy: wyłącz wykrywanie i sterowanie gestami, gdy ich nie potrzebujesz, 1080p zamiast 4K, 30 zamiast 60 klatek, wyłącz wideo z nakładką i wirtualny gimbal, zdejmij etui. Dlatego iPhone 12 i starsze modele startują w 1080p.
-535|Dokumentacja odpowiada na większość pytań. Jeśli utkniesz, napisz do mnie.
-536|Kontakt
-537|Żebym mógł szybko pomóc, podaj:
-538|model iPhone’a i wersję iOS
-539|wersję Keepsight (w aplikacji w sekcji Wszystkie ustawienia → O aplikacji i licencje)
-540|co zrobiłeś i co stało się zamiast tego, najlepiej ze zrzutem ekranu lub krótkim wideo
-541|Szybka pomoc
-542|<a href="docs/start.html">Pierwsze kroki</a>: uprawnienia i łączenie z gimbalem
-543|<a href="docs/troubleshooting.html">Rozwiązywanie problemów</a>: częste problemy i ich rozwiązania
-544|<a href="docs/pro.html">Wersja darmowa i Pro</a>: zakup, przywracanie, zwroty
-545|Polityka prywatności
-546|Stan na: 14 listopada 2026. Dotyczy aplikacji Keepsight na iOS i tej strony internetowej.
-547|<strong>W skrócie:</strong> Keepsight nie zbiera danych o Tobie. Nie ma konta, reklam, śledzenia ani analityki. Obraz z aparatu, wykrywanie, zdjęcia i filmy zostają na Twoim iPhonie. Jedynym wyjątkiem jest opcjonalna funkcja danych lotów, która wysyła przybliżoną lokalizację do dostawcy danych (zob. punkt 2).
-548|1. Administrator
-549|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Szwajcaria<br>E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-550|2. Jakie dane przetwarza aplikacja
-551|Aplikacja przetwarza dane tylko na twoim urządzeniu i tylko na potrzeby swoich funkcji. Ja jako dostawca nic z tego nie otrzymuję.
-552|<strong>Aparat:</strong> obraz z aparatu jest analizowany na iPhonie, aby wykrywać i śledzić obiekty. Obrazy nie opuszczają urządzenia.
-553|<strong>Twarze:</strong> aby wykrywać twarze, uśmiechy i kierunek spojrzenia, aplikacja analizuje obraz z aparatu na iPhonie. Nie rozpoznaje, kim ktoś jest, i nie zapisuje cech twarzy. Zdjęcia portretowe zawierają dane głębi z przedniego aparatu; znajdują się one tylko w zdjęciu, które sam zapisujesz.
-554|<strong>Mikrofon:</strong> do dźwięku w twoich wideo oraz, jeśli włączysz sterowanie głosem, do poleceń głosowych.
-555|<strong>Rozpoznawanie mowy:</strong> polecenia głosowe rozpoznaje rozpoznawanie mowy Apple. Jeśli twój iPhone i wybrany język to obsługują, odbywa się to na urządzeniu. W przeciwnym razie dźwięk jest przesyłany do Apple w celu rozpoznania, zgodnie z polityką prywatności Apple. Sterowanie głosem jest domyślnie wyłączone.
-556|<strong>Zdjęcia:</strong> aplikacja zapisuje twoje ujęcia w bibliotece zdjęć i pokazuje w swojej galerii tylko te zrobione w Keepsight. Jeśli używasz Zdjęć iCloud, Apple przesyła je zgodnie z twoimi ustawieniami iCloud.
-557|<strong>Bluetooth:</strong> do sterowania gimbalem. Z gimbalem wymieniane są tylko polecenia sterujące i wartości stanu.
-558|<strong>Lokalizacja i dane lotów:</strong> tylko jeśli włączysz nakładkę z danymi lotu i wyrazisz na nią zgodę. Keepsight używa wtedy Twojej lokalizacji na iPhonie do ustalenia regionu i, tam gdzie funkcja jest zatwierdzona, wysyła lokalizację zaokrągloną do około jednego kilometra do dostawcy adsb.lol, aby znaleźć pobliskie samoloty. Nie mogę stwierdzić, czy i jak długo adsb.lol przechowuje takie zapytania; obowiązują jego własne warunki. Przesyłanie ustaje po wyłączeniu funkcji. Bez tej funkcji aplikacja nie używa Twojej lokalizacji.
-559|<strong>Ustawienia:</strong> twoje ustawienia w aplikacji są zapisywane tylko lokalnie na iPhonie.
-560|3. Zakupy
-561|Zakup „Keepsight Pro” obsługuje Apple przez App Store. Nie otrzymuję danych płatniczych, imienia i nazwiska ani adresu e-mail, a jedynie zbiorcze dane o sprzedaży od Apple.
-562|4. Wersje testowe (TestFlight)
-563|Jeśli korzystasz z wersji testowej przez TestFlight, Apple przetwarza twój adres e-mail na potrzeby zaproszenia oraz, jeśli się zgodzisz, raporty o awariach i twoje opinie. Widzę opinie i raporty o awariach, aby naprawiać błędy, oraz adresy e-mail testerów, których sam zaprosiłem.
-564|5. Kontakt e-mailowy
-565|Jeśli do mnie napiszesz, użyję twojego adresu e-mail i treści wiadomości wyłącznie do udzielenia odpowiedzi. Wiadomości usuwam po załatwieniu sprawy, najpóźniej po dwóch latach.
-566|6. Ta strona internetowa
-567|Ta strona nie używa plików cookie ani śledzenia. Czcionki i skrypty znajdują się na tej samej stronie; nie są wczytywane treści z zewnątrz. Wybór języka jest zapisywany tylko w twojej przeglądarce. Strona jest hostowana w GitHub Pages (GitHub, Inc., USA). Podczas odwiedzin GitHub przetwarza technicznie niezbędne dane, takie jak twój adres IP, w dziennikach serwera. Szczegóły znajdziesz w oświadczeniu o prywatności GitHub.
-568|7. Twoje prawa
-569|Zgodnie ze szwajcarską ustawą o ochronie danych oraz, w odpowiednim zakresie, z RODO masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania i przenoszenia danych, a także prawo wniesienia skargi do organu nadzorczego (w Szwajcarii FDPIC). Ponieważ aplikacja nie przesyła mi żadnych danych, w praktyce dotyczy to tylko e-maili, które do mnie wysłałeś. Napisz na <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
-570|8. Dzieci
-571|Aplikacja nie jest skierowana specjalnie do dzieci i nie zbiera ich danych.
-572|9. Zmiany
-573|Jeśli aplikacja zmieni się tak, że trzeba będzie zmienić tę politykę, zostanie ona tutaj zaktualizowana. Obowiązuje wersja na tej stronie.
-574|Dostawca
-575|E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-576|Odpowiedzialność
-577|Keepsight steruje zmotoryzowanym gimbalem. Upewnij się, że gimbal może swobodnie się poruszać i że nikt nie jest narażony na niebezpieczeństwo. Korzystasz na własną odpowiedzialność, w zakresie dozwolonym przez prawo.
-578|Znaki towarowe
-579|Apple, iPhone, App Store, TestFlight i DockKit są znakami towarowymi Apple Inc. FeiyuTech, AK4500, Insta360, DJI i Belkin są znakami towarowymi odpowiednich właścicieli. Keepsight jest niezależnym produktem i nie jest powiązany z tymi firmami.
-580|Warunki korzystania
-581|Aplikacja jest licencjonowana na podstawie standardowej umowy licencyjnej Apple dla aplikacji: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-582|Czcionka
-583|Ta strona używa czcionki Inter (SIL Open Font License 1.1).
-584|Panel aparatu: format, zoom, wirtualny gimbal, wyzwalanie zdjęć
-585|Format w trybie wideo
-586|Format w trybie zdjęć
-587|Ustawienia: prędkość, gimbal, jakość
-588|Ustawienia: model wykrywania i kierunek
-589|Ustawienia: gesty, nagrywanie, język
-590|Panel śledzenia z obiektem, prędkością i zdalnym sterowaniem, tutaj z trybem pomocy
-591|Obszar Ręcznie z joystickiem
+445|Dlaczego Keepsight potrzebuje Twojej lokalizacji
+446|iOS pyta o lokalizację dopiero wtedy, gdy włączysz nakładkę z danymi lotu i wyrazisz zgodę. Keepsight potrzebuje jej z trzech powodów:
+447|<strong>Sprawdzenie regionu:</strong> to, czy dane lotów mogą być wyświetlane, zależy od kraju, w którym jesteś. Keepsight ustala go na podstawie tego, gdzie iPhone faktycznie się znajduje, na samym urządzeniu.
+448|<strong>Znajdowanie pobliskich samolotów:</strong> dostawca danych odpowiada na pytanie „jakie samoloty są wokół tego punktu?”. Bez Twojej pozycji nie ma punktu, o który można zapytać.
+449|<strong>Rozpoznanie samolotu w kadrze:</strong> Keepsight oblicza kierunek i kąt nad horyzontem od Ciebie do każdego samolotu i porównuje je z kierunkiem, w którym patrzy aparat. Kompas także potrzebuje lokalizacji, aby wyznaczyć północ geograficzną.
+450|Ręczne wpisanie miejsca nie jest możliwe, ponieważ kontrola regionu przestałaby być wiarygodna. Jeśli nie korzystasz z danych lotów, Keepsight nigdy nie pyta o lokalizację.
+451|Gdzie to działa
+452|Keepsight ustala kraj na Twoim iPhonie na podstawie bieżącej lokalizacji. Kraj App Store, język ani adres internetowy nie mają znaczenia. W pobliżu granicy i na morzu funkcja pozostaje wyłączona.
+453|Każdy kraj jest sprawdzany osobno, zanim zostanie zatwierdzony. Do tego czasu aplikacja informuje, że dane lotów na żywo są niedostępne w Twoim regionie. Śledzenie i nagrywanie działają jak zwykle.
+454|Co jest wysyłane
+455|Tylko gdy funkcja jest aktywna, Keepsight wysyła Twoją lokalizację, zaokrągloną do około jednego kilometra, do adsb.lol, aby znaleźć pobliskie samoloty. Nic nie jest wysyłane przed Twoją zgodą ani w niezatwierdzonych regionach.
+456|Wygląd
+457|Wybierz róg, widok kompaktowy lub szczegółowy oraz jednostki metryczne lub imperialne. Dane starsze niż 15 sekund są ukrywane. Każdy film z danymi lotu zawiera podpis „Data: adsb.lol · ODbL 1.0”.
+458|Nakładka jest zapisywana w filmach nagranych iPhone'em. Aparat na gimbalu nagrywa samodzielnie i nie otrzymuje nakładki.
+459|Dokładność
+460|Dane lotów mogą być opóźnione, niepełne lub błędne. Służą wyłącznie celom informacyjnym i nie nadają się do nawigacji, zapewniania bezpieczeństwa lotów ani decyzji operacyjnych.
+461|Wersja darmowa i Pro
+462|Co potrafi wersja darmowa, co odblokowuje Pro, zakup i przywracanie.
+463|Wersja darmowa służy do wypróbowania: testujesz śledzenie, gesty i aparat na ludziach, zanim cokolwiek zapłacisz.
+464|Tak
+465|Sterowanie gimbalem, pojedyncze zdjęcie i seria interwałowa
+466|Nie
+467|Wszystkie pozostałe obiekty
+468|Długość wideo
+469|60 sekund
+470|Bez limitu
+471|Próba śledzenia Pro
+472|3 × 60 sekund
+473|Logo Keepsight na zdjęciach i wideo
+474|Wypróbowanie śledzenia Pro
+475|Stuknij zablokowany obiekt w panelu śledzenia i wybierz <kbd>Start preview</kbd>. Przez 60 sekund Keepsight śledzi ten obiekt dokładnie tak jak wersja Pro. Masz trzy takie sesje; sesja, która nie powiedzie się w pierwszych sekundach, nie jest liczona.
+476|W wersji bezpłatnej film kończy się sam po 60 sekundach. Komunikat pojawia się 10 sekund przed końcem.
+477|Zakup Pro
+478|Stuknij <kbd>PRO</kbd> w prawym górnym rogu, a potem <kbd>Odblokuj</kbd>. Pro to jednorazowy zakup bez subskrypcji. App Store pokazuje cenę w twojej walucie, a płatność obsługuje Apple.
+479|Przywracanie zakupu
+480|Na nowym iPhonie lub po ponownej instalacji stuknij <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Musisz być zalogowany na to samo konto Apple, którego użyto przy zakupie.
+481|Zwroty
+482|O zwrot pieniędzy poproś Apple na stronie <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+483|Ustawienia i pomoc
+484|Język, tryb pomocy i suwaki dla zaawansowanych.
+485|Najważniejsze przełączniki są w dwóch panelach bocznych. Cała reszta jest w lewym panelu w sekcji <kbd>All settings</kbd>.
+487|Znak zapytania u góry każdego panelu bocznego włącza tryb pomocy. Pod pozycjami menu pojawiają się wtedy żółte wskazówki z krótkim objaśnieniem, a przy ważniejszych także rysunek.
+488|Keepsight używa języka twojego iPhone’a. Aby wybrać inny tylko dla Keepsight, stuknij <kbd>Language</kbd> w sekcji <kbd>All settings</kbd>. Otworzą się ustawienia iPhone’a dla Keepsight. Razem z językiem zmieniają się polecenia głosowe.
+489|Suwaki dla zaawansowanych
+490|Prędkość „Własny”
+491|Wzmocnienie, tłumienie, prędkość maksymalna, przyspieszenie i strefa spokoju śledzenia.
+492|Prędkość minimalna
+493|Tylko dla AK4500: najmniejsze polecenie, na które gimbal jeszcze reaguje. Zwiększ ją, jeśli gimbal zatrzymuje się przy małych odchyleniach.
+494|Przewidywanie po utracie
+495|Jak długo gimbal obraca się dalej, gdy obiekt jest zasłonięty.
+497|Odwróć obrót lub pochylenie.
+499|Który model wykrywa obiekt. Do wyboru są RF-DETR Small i YOLOX-S.
+501|Pokazuje w wizjerze liczbę klatek, polecenia gimbala i czas obliczeń modelu.
+503|Przywraca suwaki śledzenia.
+505|Znajdziesz tu wersję aplikacji, linki do tej strony oraz licencje używanych modeli wykrywania.
+506|Rozwiązywanie problemów
+507|Częste problemy i sposoby ich rozwiązania.
+508|Gimbal nie zostaje znaleziony
+509|<strong>Urządzenie z DockKit:</strong> czy jest połączone w parę w ustawieniach iPhone’a i czy iPhone dobrze siedzi w uchwycie? Dla porównania otwórz aplikację Aparat od Apple. Jeśli tam urządzenie też za tobą nie podąża, problem leży w łączeniu w parę.
+510|<strong>AK4500:</strong> czy gimbal jest włączony i w pobliżu? Zamknij całkowicie aplikację Feiyu i zezwól na Bluetooth w <kbd>Ustawienia</kbd> → <kbd>Keepsight</kbd>.
+511|Wyłącz i włącz gimbal, a potem ponownie stuknij <kbd>Connect</kbd>.
+512|Gimbal odwraca się od obiektu
+513|Odwróć odpowiednią oś w <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+514|Gimbal reaguje ospale lub drży
+515|Ospale: wybierz profil Sport. Przy AK4500 pomaga też wyższa prędkość minimalna.
+516|Drżenie lub kołysanie: wybierz profil Płynny. Przy długiej ogniskowej małe ruchy wydają się większe.
+517|Obiekt nie jest wykrywany
+518|Czy wybrano właściwy rodzaj obiektu?
+519|Bardzo małe obiekty są wykrywane mniej pewnie. Wybierz dłuższy obiektyw.
+520|Przy słabym świetle i silnym świetle z tyłu wykrywanie słabnie.
+521|Polecenia głosowe nie są rozumiane
+522|Zezwól na mikrofon i rozpoznawanie mowy w <kbd>Ustawienia</kbd> → <kbd>Keepsight</kbd>.
+523|Wypowiadaj polecenia w języku aplikacji.
+524|Wiatr i głośne otoczenie zakłócają rozpoznawanie. Wtedy gesty są pewniejsze.
+525|Gesty nie wyzwalają
+526|Obiekt musi być ustawiony na Osobę lub Twarz.
+527|Trzymaj dłoń nieruchomo i dobrze widoczną, aż pasek się wypełni.
+528|Nie da się wybrać 48 MP lub RAW
+529|Oba są dostępne tylko w trybie zdjęć z aparatem głównym <kbd>1×</kbd>. RAW wymaga dodatkowo Keepsight Pro.
+530|Galeria jest pusta
+531|Zezwól Keepsight na dostęp do Zdjęć. Ujęcia ze starszych wersji aplikacji nie pojawiają się w galerii, ale są w aplikacji Zdjęcia.
+532|Keepsight Pro nie jest aktywny po zakupie
+533|Stuknij <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> i sprawdź, czy jesteś zalogowany na właściwe konto Apple.
+534|Więcej pomocy
+535|Napisz na <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> i podaj model iPhone’a, wersję iOS oraz wersję Keepsight.
+536|iPhone się nagrzewa
+537|Wykrywanie, nagrywanie w 4K i sterowanie gimbalem są wymagające, zwłaszcza w słońcu. Keepsight sam chroni urządzenie:
+538|<strong>Termometr w polu statusu:</strong> iPhone jest gorący i wykrywanie analizuje tylko co drugą lub co trzecią klatkę. Śledzenie działa dalej, ale reaguje nieco wolniej.
+539|<strong>Śledzenie zatrzymane:</strong> przy krytycznej temperaturze Keepsight kończy śledzenie i nagrywanie oraz zapisuje wideo. Pozwól iPhone’owi ostygnąć w cieniu.
+540|Aby był chłodniejszy: wyłącz wykrywanie i sterowanie gestami, gdy ich nie potrzebujesz, 1080p zamiast 4K, 30 zamiast 60 klatek, wyłącz wideo z nakładką i wirtualny gimbal, zdejmij etui. Dlatego iPhone 12 i starsze modele startują w 1080p.
+541|Dokumentacja odpowiada na większość pytań. Jeśli utkniesz, napisz do mnie.
+542|Kontakt
+543|Żebym mógł szybko pomóc, podaj:
+544|model iPhone’a i wersję iOS
+545|wersję Keepsight (w aplikacji w sekcji Wszystkie ustawienia → O aplikacji i licencje)
+546|co zrobiłeś i co stało się zamiast tego, najlepiej ze zrzutem ekranu lub krótkim wideo
+547|Szybka pomoc
+548|<a href="docs/start.html">Pierwsze kroki</a>: uprawnienia i łączenie z gimbalem
+549|<a href="docs/troubleshooting.html">Rozwiązywanie problemów</a>: częste problemy i ich rozwiązania
+550|<a href="docs/pro.html">Wersja darmowa i Pro</a>: zakup, przywracanie, zwroty
+551|Polityka prywatności
+552|Stan na: 14 listopada 2026. Dotyczy aplikacji Keepsight na iOS i tej strony internetowej.
+553|<strong>W skrócie:</strong> Keepsight nie zbiera danych o Tobie. Nie ma konta, reklam, śledzenia ani analityki. Obraz z aparatu, wykrywanie, zdjęcia i filmy zostają na Twoim iPhonie. Jedynym wyjątkiem jest opcjonalna funkcja danych lotów, która wysyła przybliżoną lokalizację do dostawcy danych (zob. punkt 2).
+554|1. Administrator
+555|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Szwajcaria<br>E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+556|2. Jakie dane przetwarza aplikacja
+557|Aplikacja przetwarza dane tylko na twoim urządzeniu i tylko na potrzeby swoich funkcji. Ja jako dostawca nic z tego nie otrzymuję.
+558|<strong>Aparat:</strong> obraz z aparatu jest analizowany na iPhonie, aby wykrywać i śledzić obiekty. Obrazy nie opuszczają urządzenia.
+559|<strong>Twarze:</strong> aby wykrywać twarze, uśmiechy i kierunek spojrzenia, aplikacja analizuje obraz z aparatu na iPhonie. Nie rozpoznaje, kim ktoś jest, i nie zapisuje cech twarzy. Zdjęcia portretowe zawierają dane głębi z przedniego aparatu; znajdują się one tylko w zdjęciu, które sam zapisujesz.
+560|<strong>Mikrofon:</strong> do dźwięku w twoich wideo oraz, jeśli włączysz sterowanie głosem, do poleceń głosowych.
+561|<strong>Rozpoznawanie mowy:</strong> polecenia głosowe rozpoznaje rozpoznawanie mowy Apple. Jeśli twój iPhone i wybrany język to obsługują, odbywa się to na urządzeniu. W przeciwnym razie dźwięk jest przesyłany do Apple w celu rozpoznania, zgodnie z polityką prywatności Apple. Sterowanie głosem jest domyślnie wyłączone.
+562|<strong>Zdjęcia:</strong> aplikacja zapisuje twoje ujęcia w bibliotece zdjęć i pokazuje w swojej galerii tylko te zrobione w Keepsight. Jeśli używasz Zdjęć iCloud, Apple przesyła je zgodnie z twoimi ustawieniami iCloud.
+563|<strong>Bluetooth:</strong> do sterowania gimbalem. Z gimbalem wymieniane są tylko polecenia sterujące i wartości stanu.
+564|<strong>Lokalizacja i dane lotów:</strong> tylko jeśli włączysz nakładkę z danymi lotu i wyrazisz na nią zgodę. Keepsight używa wtedy Twojej lokalizacji na iPhonie do ustalenia regionu i, tam gdzie funkcja jest zatwierdzona, wysyła lokalizację zaokrągloną do około jednego kilometra do dostawcy adsb.lol, aby znaleźć pobliskie samoloty. Nie mogę stwierdzić, czy i jak długo adsb.lol przechowuje takie zapytania; obowiązują jego własne warunki. Przesyłanie ustaje po wyłączeniu funkcji. Bez tej funkcji aplikacja nie używa Twojej lokalizacji.
+565|<strong>Ustawienia:</strong> twoje ustawienia w aplikacji są zapisywane tylko lokalnie na iPhonie.
+566|3. Zakupy
+567|Zakup „Keepsight Pro” obsługuje Apple przez App Store. Nie otrzymuję danych płatniczych, imienia i nazwiska ani adresu e-mail, a jedynie zbiorcze dane o sprzedaży od Apple.
+568|4. Wersje testowe (TestFlight)
+569|Jeśli korzystasz z wersji testowej przez TestFlight, Apple przetwarza twój adres e-mail na potrzeby zaproszenia oraz, jeśli się zgodzisz, raporty o awariach i twoje opinie. Widzę opinie i raporty o awariach, aby naprawiać błędy, oraz adresy e-mail testerów, których sam zaprosiłem.
+570|5. Kontakt e-mailowy
+571|Jeśli do mnie napiszesz, użyję twojego adresu e-mail i treści wiadomości wyłącznie do udzielenia odpowiedzi. Wiadomości usuwam po załatwieniu sprawy, najpóźniej po dwóch latach.
+572|6. Ta strona internetowa
+573|Ta strona nie używa plików cookie ani śledzenia. Czcionki i skrypty znajdują się na tej samej stronie; nie są wczytywane treści z zewnątrz. Wybór języka jest zapisywany tylko w twojej przeglądarce. Strona jest hostowana w GitHub Pages (GitHub, Inc., USA). Podczas odwiedzin GitHub przetwarza technicznie niezbędne dane, takie jak twój adres IP, w dziennikach serwera. Szczegóły znajdziesz w oświadczeniu o prywatności GitHub.
+574|7. Twoje prawa
+575|Zgodnie ze szwajcarską ustawą o ochronie danych oraz, w odpowiednim zakresie, z RODO masz prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania i przenoszenia danych, a także prawo wniesienia skargi do organu nadzorczego (w Szwajcarii FDPIC). Ponieważ aplikacja nie przesyła mi żadnych danych, w praktyce dotyczy to tylko e-maili, które do mnie wysłałeś. Napisz na <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
+576|8. Dzieci
+577|Aplikacja nie jest skierowana specjalnie do dzieci i nie zbiera ich danych.
+578|9. Zmiany
+579|Jeśli aplikacja zmieni się tak, że trzeba będzie zmienić tę politykę, zostanie ona tutaj zaktualizowana. Obowiązuje wersja na tej stronie.
+580|Dostawca
+581|E-mail: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+582|Odpowiedzialność
+583|Keepsight steruje zmotoryzowanym gimbalem. Upewnij się, że gimbal może swobodnie się poruszać i że nikt nie jest narażony na niebezpieczeństwo. Korzystasz na własną odpowiedzialność, w zakresie dozwolonym przez prawo.
+584|Znaki towarowe
+585|Apple, iPhone, App Store, TestFlight i DockKit są znakami towarowymi Apple Inc. FeiyuTech, AK4500, Insta360, DJI i Belkin są znakami towarowymi odpowiednich właścicieli. Keepsight jest niezależnym produktem i nie jest powiązany z tymi firmami.
+586|Warunki korzystania
+587|Aplikacja jest licencjonowana na podstawie standardowej umowy licencyjnej Apple dla aplikacji: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+588|Czcionka
+589|Ta strona używa czcionki Inter (SIL Open Font License 1.1).
+590|Panel aparatu: format, zoom, wirtualny gimbal, wyzwalanie zdjęć
+591|Format w trybie wideo
+592|Format w trybie zdjęć
+593|Ustawienia: prędkość, gimbal, jakość
+594|Ustawienia: model wykrywania i kierunek
+595|Ustawienia: gesty, nagrywanie, język
+596|Panel śledzenia z obiektem, prędkością i zdalnym sterowaniem, tutaj z trybem pomocy
+597|Obszar Ręcznie z joystickiem

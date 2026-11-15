@@ -17,16 +17,16 @@
 </header>
 <main class="wrap"><div class="docs"><details class="tocm"><summary><span>章节</span><b>2 · 支持的云台</b></summary><ol><li><a href="start.html">入门</a></li><li><a href="gimbals.html" aria-current=page>支持的云台</a></li><li><a href="rig.html">用大相机拍摄</a></li><li><a href="viewfinder.html">取景器</a></li><li><a href="tracking.html">追踪拍摄对象</a></li><li><a href="camera.html">相机与格式</a></li><li><a href="zoom.html">自动变焦</a></li><li><a href="virtual-gimbal.html">虚拟云台</a></li><li><a href="photo.html">拍照与触发</a></li><li><a href="remote.html">手势、语音、倒计时</a></li><li><a href="recording.html">录制与图库</a></li><li><a href="flight.html">航班数据</a></li><li><a href="pro.html">免费版与 Pro</a></li><li><a href="settings.html">设置与帮助</a></li><li><a href="troubleshooting.html">故障排除</a></li></ol></details><nav class="toc" aria-label="文档"><ol><li><a href="start.html">入门</a></li><li><a href="gimbals.html" aria-current=page>支持的云台</a></li><li><a href="rig.html">用大相机拍摄</a></li><li><a href="viewfinder.html">取景器</a></li><li><a href="tracking.html">追踪拍摄对象</a></li><li><a href="camera.html">相机与格式</a></li><li><a href="zoom.html">自动变焦</a></li><li><a href="virtual-gimbal.html">虚拟云台</a></li><li><a href="photo.html">拍照与触发</a></li><li><a href="remote.html">手势、语音、倒计时</a></li><li><a href="recording.html">录制与图库</a></li><li><a href="flight.html">航班数据</a></li><li><a href="pro.html">免费版与 Pro</a></li><li><a href="settings.html">设置与帮助</a></li><li><a href="troubleshooting.html">故障排除</a></li></ol></nav>
 <article class="doc"><h1>支持的云台</h1><p class="lead">Keepsight 能控制哪些设备、如何连接以及如何手动移动。</p>
-<p>Keepsight 通过 DockKit（Apple 面向电动支架的接口）控制云台和支架。这是推荐的方式：设备自动连接，连接由 Apple 负责管理。此外，还以测试版形式提供对 FeiyuTech AK4500 的蓝牙直接控制。</p>
+<p>Keepsight 通过 DockKit（Apple 面向电动支架的接口）控制云台和支架。这是推荐的方式：设备自动连接，连接由 Apple 负责管理。此外，Keepsight 还通过蓝牙直接控制 FeiyuTech AK4500。</p>
 <table>
 <tr><th>设备</th><th>连接</th></tr>
 <tr><td>Insta360 Flow Pro and Flow 2 Pro</td><td>Apple DockKit</td></tr>
 <tr><td>DJI Osmo Mobile 8</td><td>Apple DockKit</td></tr>
 <tr><td>Belkin Auto-Tracking Stand Pro</td><td>Apple DockKit</td></tr>
 <tr><td>其他支持 DockKit 的设备</td><td>Apple DockKit</td></tr>
-<tr><td>FeiyuTech AK4500 <span class="beta">Beta</span></td><td>蓝牙，直接由 Keepsight 连接</td></tr>
+<tr><td>FeiyuTech AK4500</td><td>蓝牙，直接由 Keepsight 连接</td></tr>
 </table>
-<div class="tip"><p><strong>这里的测试版是什么意思：</strong>AK4500 没有面向第三方 App 的官方接口。Keepsight 通过厂商的蓝牙协议与它通信。这可以正常工作，但可能随新固件而变化，而且云台的部分功能尚不支持。在 App 中，这种方式带有“BETA”标记。</p></div>
+<div class="tip"><p><strong>值得了解：</strong>AK4500 没有面向第三方 App 的官方接口。Keepsight 通过厂商的蓝牙协议与它通信。这可以正常工作，但可能随新固件而变化，而且云台的部分功能尚不支持。</p></div>
 <p>如果设备的反应不符合预期，请来信并注明确切型号。</p>
 
 <h2>支持 Apple DockKit 的云台</h2>
@@ -38,7 +38,7 @@
 <p>在 Keepsight 控制设备期间，Apple 自带的追踪会关闭，以免两者互相干扰。如果你在 <kbd>手动</kbd> 区域断开连接，系统会重新接管。</p>
 <p>DockKit 需要 iOS 17 或更高版本。Keepsight 无法控制不支持 DockKit 的设备，例如同一厂商的旧型号。</p>
 
-<h2>FeiyuTech AK4500 <span class="beta">Beta</span></h2>
+<h2>FeiyuTech AK4500</h2>
 <ol>
 <li>打开云台电源。请关闭 Feiyu 的 App，因为云台只接受一个连接。</li>
 <li>在 Keepsight 右下角轻点 <kbd>连接</kbd>。</li>

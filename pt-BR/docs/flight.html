@@ -28,6 +28,15 @@
 </ol>
 <p>Se várias aeronaves corresponderem à direção para onde a câmera aponta, o Keepsight não adivinha: toque em <kbd>Seleção de aeronave necessária</kbd> e escolha a correta.</p>
 
+<h2>Por que o Keepsight precisa da sua localização</h2>
+<p>O iOS só pede sua localização quando você ativa a sobreposição de dados de voo e concorda. O Keepsight precisa dela por três motivos:</p>
+<ul>
+<li><strong>Verificar a região:</strong> a exibição de dados de voo depende do país em que você está. O Keepsight o determina a partir de onde o iPhone realmente está, no próprio aparelho.</li>
+<li><strong>Encontrar aeronaves próximas:</strong> o provedor de dados responde à pergunta “quais aeronaves estão ao redor deste ponto?”. Sem a sua posição, não há ponto sobre o qual perguntar.</li>
+<li><strong>Reconhecer a aeronave na imagem:</strong> o Keepsight calcula a direção e o ângulo acima do horizonte de você até cada aeronave e os compara com a direção para a qual a câmera aponta. A bússola também precisa da localização para encontrar o norte verdadeiro.</li>
+</ul>
+<p>Não é possível informar um lugar manualmente, porque a verificação regional deixaria de ser confiável. Se você não usa os dados de voo, o Keepsight nunca pede sua localização.</p>
+
 <h2>Onde funciona</h2>
 <p>O Keepsight determina o país no seu iPhone a partir da sua localização atual. O país da App Store, o idioma ou o endereço de internet não influenciam. Perto de uma fronteira e no mar, o recurso permanece desativado.</p>
 <p>Cada país é analisado individualmente antes de ser aprovado. Até lá, o app informa que os dados de voo ao vivo não estão disponíveis na sua região. O rastreamento e a gravação funcionam normalmente.</p>

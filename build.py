@@ -21,7 +21,7 @@ FULL = ["de", "en"]
 FALLBACK = "en"
 C = {lang: importlib.import_module(f"content_{lang}") for lang in FULL}
 # Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse)
-KEEP = [39, 59, 93, 107, 132, 133, 134, 135, 183, 311, 421]
+KEEP = [39, 59, 93, 107, 132, 133, 134, 135, 137, 183, 311, 421]
 ORDER = ["en", "de", "fr", "it", "es", "pt-BR", "nl", "sv", "pl", "ru", "uk", "tr", "ar", "hi", "id", "vi", "th",
          "ja", "ko", "zh-Hans", "zh-Hant"]
 _app = i18n.app_strings(os.path.join(os.path.dirname(__file__), "src", "app_strings.json"))

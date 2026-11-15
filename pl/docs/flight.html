@@ -28,6 +28,15 @@
 </ol>
 <p>Jeśli do kierunku, w którym patrzy aparat, pasuje kilka samolotów, Keepsight nie zgaduje: stuknij <kbd>Wymagany wybór samolotu</kbd> i wybierz właściwy.</p>
 
+<h2>Dlaczego Keepsight potrzebuje Twojej lokalizacji</h2>
+<p>iOS pyta o lokalizację dopiero wtedy, gdy włączysz nakładkę z danymi lotu i wyrazisz zgodę. Keepsight potrzebuje jej z trzech powodów:</p>
+<ul>
+<li><strong>Sprawdzenie regionu:</strong> to, czy dane lotów mogą być wyświetlane, zależy od kraju, w którym jesteś. Keepsight ustala go na podstawie tego, gdzie iPhone faktycznie się znajduje, na samym urządzeniu.</li>
+<li><strong>Znajdowanie pobliskich samolotów:</strong> dostawca danych odpowiada na pytanie „jakie samoloty są wokół tego punktu?”. Bez Twojej pozycji nie ma punktu, o który można zapytać.</li>
+<li><strong>Rozpoznanie samolotu w kadrze:</strong> Keepsight oblicza kierunek i kąt nad horyzontem od Ciebie do każdego samolotu i porównuje je z kierunkiem, w którym patrzy aparat. Kompas także potrzebuje lokalizacji, aby wyznaczyć północ geograficzną.</li>
+</ul>
+<p>Ręczne wpisanie miejsca nie jest możliwe, ponieważ kontrola regionu przestałaby być wiarygodna. Jeśli nie korzystasz z danych lotów, Keepsight nigdy nie pyta o lokalizację.</p>
+
 <h2>Gdzie to działa</h2>
 <p>Keepsight ustala kraj na Twoim iPhonie na podstawie bieżącej lokalizacji. Kraj App Store, język ani adres internetowy nie mają znaczenia. W pobliżu granicy i na morzu funkcja pozostaje wyłączona.</p>
 <p>Każdy kraj jest sprawdzany osobno, zanim zostanie zatwierdzony. Do tego czasu aplikacja informuje, że dane lotów na żywo są niedostępne w Twoim regionie. Śledzenie i nagrywanie działają jak zwykle.</p>

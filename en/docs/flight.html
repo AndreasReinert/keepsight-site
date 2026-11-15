@@ -28,6 +28,15 @@
 </ol>
 <p>If several aircraft fit the direction the camera is looking, Keepsight does not guess: tap <kbd>Aircraft selection required</kbd> and choose the right one.</p>
 
+<h2>Why Keepsight needs your location</h2>
+<p>iOS asks for your location only when you switch the flight data overlay on and agree. Keepsight needs it for three reasons:</p>
+<ul>
+<li><strong>Checking the region:</strong> whether flight data may be shown depends on the country you are in. Keepsight determines it from where the iPhone actually is, on the device itself.</li>
+<li><strong>Finding aircraft nearby:</strong> the data provider answers the question “which aircraft are around this point?”. Without your position there is no point to ask about.</li>
+<li><strong>Recognising the aircraft in the picture:</strong> Keepsight calculates the direction and the angle above the horizon from you to each aircraft and compares them with where the camera is pointing. The compass also needs the location to find true north.</li>
+</ul>
+<p>Entering a place by hand is not offered, because the regional check would then no longer be reliable. If you do not use flight data, Keepsight never asks for your location.</p>
+
 <h2>Where it works</h2>
 <p>Keepsight determines the country on your iPhone from your current location. Your App Store country, language or internet address play no part. Near a border and at sea the feature stays off.</p>
 <p>Every country is reviewed individually before it is approved. Until then the app tells you that live flight data is unavailable in your region. Tracking and recording work as usual.</p>

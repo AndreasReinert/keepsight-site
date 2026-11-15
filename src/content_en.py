@@ -97,7 +97,7 @@ HOME = {
     "need_h": "What you need",
     "need": [
         ("iPhone", "An iPhone with iOS 17 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
-        ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro. The FeiyuTech AK4500 for mirrorless cameras is supported as a beta. Camera, photo triggers, gestures, voice and the virtual gimbal also work without a gimbal."),
+        ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro. The FeiyuTech AK4500 for mirrorless cameras is supported as well. Camera, photo triggers, gestures, voice and the virtual gimbal also work without a gimbal."),
         ("Languages", "The app speaks 21 languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Swedish, Polish, Russian, Ukrainian, Turkish, Arabic, Hindi, Indonesian, Vietnamese, Thai, Japanese, Korean and Chinese (Simplified and Traditional)."),
     ],
 }
@@ -119,7 +119,7 @@ DOCS = [
 <h2>Connecting the gimbal</h2>
 <ul>
 <li><strong>Gimbal or stand with Apple DockKit:</strong> Pair the device with your iPhone once, as the manufacturer describes. After that, Keepsight connects by itself when you mount the iPhone.</li>
-<li><strong>FeiyuTech AK4500</strong> <span class="beta">Beta</span><strong>:</strong> Switch the gimbal on and tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
+<li><strong>FeiyuTech AK4500:</strong> Switch the gimbal on and tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
 </ul>
 <p>Once connected, the button changes to <kbd>Track</kbd>. Details are in the chapter <a href="gimbals.html">Supported gimbals</a>.</p>
 <div class="tip"><p>The gimbal must be able to turn freely. Keep fingers, cables and objects out of its range of movement.</p></div>
@@ -135,16 +135,16 @@ DOCS = [
 """),
 
 ("gimbals", "Supported gimbals", "Which devices Keepsight controls, how to connect them and move them by hand.", """
-<p>Keepsight controls gimbals and stands through DockKit, Apple’s interface for motorised mounts. This is the recommended way: devices connect by themselves and Apple looks after the connection. In addition, direct Bluetooth control of the FeiyuTech AK4500 is available as a beta.</p>
+<p>Keepsight controls gimbals and stands through DockKit, Apple’s interface for motorised mounts. This is the recommended way: devices connect by themselves and Apple looks after the connection. In addition, Keepsight controls the FeiyuTech AK4500 directly over Bluetooth.</p>
 <table>
 <tr><th>Device</th><th>Connection</th></tr>
 <tr><td>Insta360 Flow Pro and Flow 2 Pro</td><td>Apple DockKit</td></tr>
 <tr><td>DJI Osmo Mobile 8</td><td>Apple DockKit</td></tr>
 <tr><td>Belkin Auto-Tracking Stand Pro</td><td>Apple DockKit</td></tr>
 <tr><td>Other devices with DockKit</td><td>Apple DockKit</td></tr>
-<tr><td>FeiyuTech AK4500 <span class="beta">Beta</span></td><td>Bluetooth, directly from Keepsight</td></tr>
+<tr><td>FeiyuTech AK4500</td><td>Bluetooth, directly from Keepsight</td></tr>
 </table>
-<div class="tip"><p><strong>What beta means here:</strong> The AK4500 has no official interface for third-party apps. Keepsight talks to it through the maker’s Bluetooth protocol. This works, but it can change with new firmware, and some functions of the gimbal are still missing. In the app this route carries the “BETA” mark.</p></div>
+<div class="tip"><p><strong>Good to know:</strong> The AK4500 has no official interface for third-party apps. Keepsight talks to it through the maker’s Bluetooth protocol. This works, but it can change with new firmware, and some functions of the gimbal are still missing.</p></div>
 <p>If a device does not respond as expected, please send a message with the exact model.</p>
 
 <h2>Gimbal with Apple DockKit</h2>
@@ -156,7 +156,7 @@ DOCS = [
 <p>While Keepsight controls the device, Apple’s own tracking is switched off so the two do not interfere. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
 <p>DockKit requires iOS 17 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
 
-<h2>FeiyuTech AK4500 <span class="beta">Beta</span></h2>
+<h2>FeiyuTech AK4500</h2>
 <ol>
 <li>Switch the gimbal on. Close the Feiyu app, because the gimbal accepts only one connection.</li>
 <li>Tap <kbd>Connect</kbd> at the bottom right in Keepsight.</li>
@@ -189,7 +189,7 @@ DOCS = [
 
 <h2>What you need</h2>
 <ul>
-<li><strong>A camera gimbal that Keepsight controls.</strong> At present that is the FeiyuTech AK4500, whose control is still in beta. It is rated by its maker for up to 4.6&nbsp;kg. Gimbals with Apple DockKit are built for the iPhone alone and do not carry a camera.</li>
+<li><strong>A camera gimbal that Keepsight controls.</strong> At present that is the FeiyuTech AK4500. It is rated by its maker for up to 4.6&nbsp;kg. Gimbals with Apple DockKit are built for the iPhone alone and do not carry a camera.</li>
 <li><strong>A phone holder</strong> for the camera's hot shoe or a thread on the gimbal. It should tilt and lock firmly.</li>
 <li><strong>A camera and lens</strong> that stay below the payload limit together with the iPhone and holder.</li>
 </ul>
@@ -518,6 +518,15 @@ DOCS = [
 <li>Choose <kbd>Aircraft</kbd> as the subject and point the camera at the aircraft.</li>
 </ol>
 <p>If several aircraft fit the direction the camera is looking, Keepsight does not guess: tap <kbd>Aircraft selection required</kbd> and choose the right one.</p>
+
+<h2>Why Keepsight needs your location</h2>
+<p>iOS asks for your location only when you switch the flight data overlay on and agree. Keepsight needs it for three reasons:</p>
+<ul>
+<li><strong>Checking the region:</strong> whether flight data may be shown depends on the country you are in. Keepsight determines it from where the iPhone actually is, on the device itself.</li>
+<li><strong>Finding aircraft nearby:</strong> the data provider answers the question “which aircraft are around this point?”. Without your position there is no point to ask about.</li>
+<li><strong>Recognising the aircraft in the picture:</strong> Keepsight calculates the direction and the angle above the horizon from you to each aircraft and compares them with where the camera is pointing. The compass also needs the location to find true north.</li>
+</ul>
+<p>Entering a place by hand is not offered, because the regional check would then no longer be reliable. If you do not use flight data, Keepsight never asks for your location.</p>
 
 <h2>Where it works</h2>
 <p>Keepsight determines the country on your iPhone from your current location. Your App Store country, language or internet address play no part. Near a border and at sea the feature stays off.</p>

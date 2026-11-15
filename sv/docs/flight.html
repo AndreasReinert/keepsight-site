@@ -28,6 +28,15 @@
 </ol>
 <p>Om flera flygplan passar kamerans blickriktning gissar Keepsight inte: tryck på <kbd>Val av flygplan krävs</kbd> och välj rätt.</p>
 
+<h2>Varför Keepsight behöver din plats</h2>
+<p>iOS frågar efter din plats först när du slår på flygdatavisningen och godkänner. Keepsight behöver den av tre skäl:</p>
+<ul>
+<li><strong>Kontrollera regionen:</strong> om flygdata får visas beror på vilket land du befinner dig i. Keepsight bestämmer det utifrån var din iPhone faktiskt är, på själva enheten.</li>
+<li><strong>Hitta flygplan i närheten:</strong> dataleverantören svarar på frågan ”vilka flygplan finns runt den här punkten?”. Utan din position finns ingen punkt att fråga om.</li>
+<li><strong>Känna igen flygplanet i bilden:</strong> Keepsight beräknar riktningen och vinkeln över horisonten från dig till varje flygplan och jämför dem med vart kameran pekar. Även kompassen behöver platsen för att hitta geografisk nord.</li>
+</ul>
+<p>Det går inte att ange en plats för hand, eftersom den regionala kontrollen då inte längre vore tillförlitlig. Om du inte använder flygdata frågar Keepsight aldrig efter din plats.</p>
+
 <h2>Var det fungerar</h2>
 <p>Keepsight bestämmer landet på din iPhone utifrån din aktuella plats. App Store-land, språk eller internetadress spelar ingen roll. Nära en gräns och till havs förblir funktionen avstängd.</p>
 <p>Varje land granskas för sig innan det godkänns. Tills dess meddelar appen att flygdata i realtid inte är tillgängliga i din region. Spårning och inspelning fungerar som vanligt.</p>
