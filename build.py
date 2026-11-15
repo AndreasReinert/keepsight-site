@@ -271,7 +271,16 @@ def shots(lang, names, up):
     return f'<div class="shots n{len(names)}">' + "".join(out) + "</div>"
 
 
+def wide(lang, name, up):
+    """Ein Bild im Querformat über die Textbreite, für alle Sprachen dasselbe (englische Fassung)."""
+    file = f"{name}-{lang}.webp" if os.path.exists(f"img/{name}-{lang}.webp") else f"{name}-en.webp"
+    cap = html.escape(C[lang].SHOTS[name])
+    return (f'<figure class="wide"><img src="{up}img/{file}" width="1672" height="941" loading="lazy" alt="{cap}">'
+            f"<figcaption>{cap}</figcaption></figure>")
+
+
 def expand(lang, text, up):
+    text = re.sub(r"\[\[wide ([^\]]+)\]\]", lambda m: wide(lang, m.group(1).strip(), up), text)
     return re.sub(r"\[\[shots ([^\]]+)\]\]", lambda m: shots(lang, m.group(1).split(), up), text)
 
 

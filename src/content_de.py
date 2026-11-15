@@ -511,6 +511,7 @@ DOCS = [
 ("flight", "Flugdaten", "Live-Flugdaten im Video: wo es sie gibt, Einwilligung, Quellen.", """
 <div class="tip"><p><strong>Verfügbarkeit:</strong> Live-Flugdaten gibt es nur in unterstützten Ländern und Regionen; Standortfreigabe und Internet sind nötig. Derzeit ist keine Region freigegeben, die Funktion bleibt deshalb überall ausgeschaltet.</p></div>
 <p>Mit der Flugdaten-Einblendung zeigt Keepsight Rufzeichen, Flugzeugtyp, Höhe und Geschwindigkeit des verfolgten Flugzeugs, im Sucher und im aufgenommenen Video. Die Daten stammen von adsb.lol, einem Gemeinschaftsnetz von ADS-B-Empfängern.</p>
+[[wide flight-demo]]
 
 <h2>Einschalten</h2>
 <ol>
@@ -727,4 +728,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick'}
+SHOTS = {'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Flugdaten einblenden (ADS-B)'}

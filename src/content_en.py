@@ -510,6 +510,7 @@ DOCS = [
 ("flight", "Flight data", "Live flight data in the video: where it is available, consent, sources.", """
 <div class="tip"><p><strong>Availability:</strong> Live flight data is available only in supported countries and regions; location access and internet are required. At present no region is approved, so the feature stays switched off everywhere.</p></div>
 <p>With the flight data overlay, Keepsight shows the callsign, aircraft type, altitude and speed of the aircraft you are following, in the viewfinder and in the recorded video. The data comes from adsb.lol, a community network of ADS-B receivers.</p>
+[[wide flight-demo]]
 
 <h2>Switching it on</h2>
 <ol>
@@ -726,4 +727,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick'}
+SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Flight data overlay (ADS-B)'}

@@ -149,3 +149,6 @@ kbd{font:600 .88em var(--text);background:var(--surface);border:1px solid var(--
 .offer p{margin:6px 0}
 .fine{color:var(--soft);font-size:.9rem}
 @media(max-width:860px){.plans{grid-template-columns:1fr}}
+.wide{margin:22px 0 28px;max-width:780px}
+.wide img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+.wide figcaption{margin-top:8px;color:var(--soft);font-size:.9rem}
