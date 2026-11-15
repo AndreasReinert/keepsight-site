@@ -537,6 +537,7 @@ DOCS = [
 <p>Nur solange die Funktion aktiv ist, sendet Keepsight deinen auf rund einen Kilometer gerundeten Standort an adsb.lol, um Flugzeuge in der Nähe zu finden. Vor deiner Zustimmung wird nichts gesendet, und in nicht freigegebenen Regionen auch nicht.</p>
 
 <h2>Darstellung</h2>
+<p>Flugdaten werden nur für Linien- und Frachtflüge bekannter Fluggesellschaften eingeblendet. Privat-, Geschäftsreise-, Militär- und Staatsflugzeuge erscheinen nie, und weder das Kennzeichen noch die ICAO-Adresse eines Flugzeugs wird angezeigt.</p>
 <p>Wähle die Ecke, kompakt oder ausführlich, und metrische oder imperiale Einheiten. Daten, die älter als 15 Sekunden sind, werden ausgeblendet. Jedes Video mit Flugdaten trägt den Hinweis «Data: adsb.lol · ODbL 1.0».</p>
 <p>Die Einblendung wird in Videos geschrieben, die das iPhone aufnimmt. Eine Kamera auf dem Gimbal nimmt selbst auf und bekommt keine Einblendung.</p>
 

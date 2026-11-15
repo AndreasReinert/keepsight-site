@@ -386,138 +386,138 @@
 454|Apa yang dikirim
 455|Hanya selama fitur aktif, Keepsight mengirim lokasi Anda, dibulatkan hingga sekitar satu kilometer, ke adsb.lol untuk menemukan pesawat di sekitar. Tidak ada yang dikirim sebelum Anda setuju, dan tidak ada di wilayah yang belum disetujui.
 456|Tampilan
-457|Pilih sudut, ringkas atau terperinci, dan satuan metrik atau imperial. Data yang lebih lama dari 15 detik disembunyikan. Setiap video dengan data penerbangan memuat kredit “Data: adsb.lol · ODbL 1.0”.
-458|Overlay ditulis ke dalam video yang direkam dengan iPhone. Kamera pada gimbal merekam sendiri dan tidak mendapat overlay.
-459|Akurasi
-460|Data penerbangan bisa tertunda, tidak lengkap, atau keliru. Data ini hanya untuk informasi dan tidak cocok untuk navigasi, keselamatan penerbangan, atau keputusan operasional.
-461|Gratis dan Pro
-462|Apa yang dilakukan versi gratis, apa yang dibuka Pro, pembelian dan pemulihan.
-463|Versi gratis untuk mencoba: Anda menguji mengikuti, gestur, dan kamera pada orang sebelum membayar apa pun.
-464|Ya
-465|Kendali gimbal, jepretan tunggal, dan seri interval
-466|Tidak
-467|Semua subjek lain
-468|Durasi video
-469|60 detik
-470|Tanpa batas
-471|Uji coba pelacakan Pro
-472|3 × 60 detik
-473|Logo Keepsight di foto dan video
-474|Mencoba pelacakan Pro
-475|Ketuk subjek terkunci di panel pelacakan dan pilih <kbd>Start preview</kbd>. Selama 60 detik Keepsight mengikuti subjek ini persis seperti versi Pro. Anda punya tiga sesi seperti itu; sesi yang gagal dalam detik-detik pertama tidak dihitung.
-476|Di versi gratis, video berakhir sendiri setelah 60 detik. Sebuah pemberitahuan muncul 10 detik sebelum berakhir.
-477|Membeli Pro
-478|Ketuk <kbd>PRO</kbd> di kanan atas lalu <kbd>Buka</kbd>. Pro adalah pembelian satu kali tanpa langganan. App Store menampilkan harga dalam mata uang Anda dan Apple menangani pembayarannya.
-479|Memulihkan pembelian
-480|Di iPhone baru atau setelah memasang ulang, ketuk <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Anda harus masuk dengan Akun Apple yang sama yang dipakai saat membeli.
-481|Pengembalian dana
-482|Ajukan pengembalian dana kepada Apple di <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
-483|Pengaturan dan bantuan
-484|Bahasa, mode bantuan, dan kontrol untuk pengguna tingkat lanjut.
-485|Sakelar terpenting ada di dua panel samping. Yang lain ada di panel kiri di bawah <kbd>All settings</kbd>.
-487|Tanda tanya di bagian atas setiap panel samping menyalakan mode bantuan. Petunjuk kuning dengan penjelasan singkat lalu muncul di bawah item menu, dengan diagram untuk yang penting.
-488|Keepsight memakai bahasa iPhone Anda. Untuk memilih bahasa lain khusus Keepsight, ketuk <kbd>Language</kbd> di bawah <kbd>All settings</kbd>. Ini membuka pengaturan iPhone untuk Keepsight. Perintah suara ikut berubah.
-489|Kontrol untuk pengguna tingkat lanjut
-490|Kecepatan “Kustom”
-491|Gain, redaman, kecepatan puncak, akselerasi, dan zona tenang pelacakan.
-492|Kecepatan minimum
-493|Hanya untuk AK4500: perintah terkecil yang masih ditanggapi gimbal. Naikkan jika gimbal berhenti pada simpangan kecil.
-494|Prediksi setelah hilang
-495|Berapa lama gimbal terus menggeser saat subjek tertutup.
-497|Membalik pan atau tilt.
-499|Model mana yang mendeteksi subjek. Tersedia RF-DETR Small dan YOLOX-S.
-501|Menampilkan laju bingkai, perintah gimbal, dan waktu model di jendela bidik.
-503|Mengembalikan kontrol pelacakan ke bawaan.
-505|Di sini Anda menemukan versi aplikasi, tautan ke situs web ini, dan lisensi model deteksi yang dipakai.
-506|Pemecahan masalah
-507|Masalah umum dan cara mengatasinya.
-508|Gimbal tidak ditemukan
-509|<strong>Perangkat dengan DockKit:</strong> Apakah sudah dipasangkan di pengaturan iPhone dan apakah iPhone terpasang dengan benar di dudukan? Sebagai pembanding, buka app Kamera Apple. Jika perangkat juga tidak mengikuti Anda di sana, masalahnya ada pada pemasangan.
-510|<strong>AK4500:</strong> Apakah gimbal menyala dan berada di dekat Anda? Tutup aplikasi Feiyu sepenuhnya dan izinkan Bluetooth di <kbd>Pengaturan</kbd> → <kbd>Keepsight</kbd>.
-511|Matikan dan nyalakan lagi gimbal, lalu ketuk <kbd>Connect</kbd> sekali lagi.
-512|Gimbal berputar menjauhi subjek
-513|Balik sumbu yang bersangkutan di <kbd>All settings</kbd> → <kbd>Direction</kbd>.
-514|Gimbal bereaksi lamban atau bergetar
-515|Lamban: pilih profil Sport. Pada AK4500, kecepatan minimum yang lebih tinggi juga membantu.
-516|Bergetar atau berayun: pilih profil Smooth. Dengan panjang fokus yang panjang, gerakan kecil tampak lebih besar.
-517|Subjek tidak terdeteksi
-518|Apakah jenis subjek yang benar sudah dipilih?
-519|Subjek yang sangat kecil terdeteksi kurang andal. Pilih lensa yang lebih panjang.
-520|Deteksi menurun dalam cahaya redup dan cahaya latar yang kuat.
-521|Perintah suara tidak dipahami
-522|Izinkan mikrofon dan pengenalan ucapan di <kbd>Pengaturan</kbd> → <kbd>Keepsight</kbd>.
-523|Ucapkan perintah dalam bahasa aplikasi.
-524|Angin dan lingkungan bising mengganggu pengenalan. Gestur lebih andal dalam kondisi itu.
-525|Gestur tidak memicu
-526|Subjek harus diatur ke Orang atau Wajah.
-527|Jaga tangan Anda diam dan terlihat jelas sampai bilah penuh.
-528|48 MP atau RAW tidak dapat dipilih
-529|Keduanya hanya tersedia dalam mode foto dengan kamera utama <kbd>1×</kbd>. RAW juga memerlukan Keepsight Pro.
-530|Galeri kosong
-531|Izinkan Keepsight mengakses Foto. Jepretan dari versi aplikasi yang lebih lama tidak muncul di galeri, tetapi ada di app Foto.
-532|Keepsight Pro tidak aktif setelah pembelian
-533|Ketuk <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> dan periksa bahwa Anda masuk dengan Akun Apple yang benar.
-534|Bantuan lain
-535|Tulis ke <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> dan sertakan model iPhone, versi iOS, dan versi Keepsight Anda.
-536|iPhone menjadi panas
-537|Deteksi, perekaman 4K, dan kendali gimbal menuntut banyak daya, terutama di bawah matahari. Keepsight melindungi perangkat dengan sendirinya:
-538|<strong>Termometer di bidang status:</strong> iPhone panas dan deteksi hanya mengolah setiap bingkai kedua atau ketiga. Pelacakan berlanjut tetapi bereaksi sedikit lebih lambat.
-539|<strong>Pelacakan dihentikan:</strong> pada suhu kritis, Keepsight mengakhiri pelacakan dan perekaman serta menyimpan video. Biarkan iPhone mendingin di tempat teduh.
-540|Agar lebih sejuk: matikan deteksi dan kendali gestur saat tidak diperlukan, 1080p alih-alih 4K, 30 alih-alih 60 bingkai, matikan video overlay dan gimbal virtual, lepaskan casing. Karena alasan ini iPhone 12 dan model yang lebih lama dimulai dengan 1080p.
-541|Dokumentasi menjawab sebagian besar pertanyaan. Jika Anda mengalami kebuntuan, tulis kepada saya.
-542|Kontak
-543|Agar saya bisa cepat membantu, harap sertakan:
-544|model iPhone dan versi iOS Anda
-545|versi Keepsight (di aplikasi di bawah Semua pengaturan → Tentang dan lisensi)
-546|apa yang Anda lakukan dan apa yang malah terjadi, idealnya dengan tangkapan layar atau video singkat
-547|Bantuan cepat
-548|<a href="docs/start.html">Memulai</a>: izin dan menghubungkan gimbal
-549|<a href="docs/troubleshooting.html">Pemecahan masalah</a>: masalah umum dan cara mengatasinya
-550|<a href="docs/pro.html">Gratis dan Pro</a>: pembelian, pemulihan, pengembalian dana
-551|Kebijakan Privasi
-552|Terakhir diperbarui: 14 November 2026. Berlaku untuk aplikasi iOS Keepsight dan situs web ini.
-553|<strong>Singkatnya:</strong> Keepsight tidak mengumpulkan data tentang Anda. Tidak ada akun, iklan, pelacakan, maupun analitik. Gambar kamera, deteksi, foto, dan video tetap di iPhone Anda. Satu-satunya pengecualian adalah fitur data penerbangan yang opsional, yang mengirim lokasi perkiraan ke penyedia data (lihat bagian 2).
-554|1. Pengendali
-555|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Switzerland<br>Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-556|2. Apa yang diproses aplikasi
-557|Aplikasi memproses data hanya di perangkat Anda dan hanya untuk menyediakan fiturnya. Saya, sebagai penyedia, tidak menerima apa pun darinya.
-558|<strong>Kamera:</strong> Gambar kamera dianalisis di iPhone untuk mendeteksi dan mengikuti subjek. Gambar tidak meninggalkan perangkat.
-559|<strong>Wajah:</strong> untuk mendeteksi wajah, senyum, dan arah pandang orang, aplikasi menganalisis gambar kamera di iPhone. Aplikasi tidak mengenali siapa seseorang dan tidak menyimpan ciri wajah. Foto potret berisi data kedalaman dari kamera depan; data itu hanya ada di foto yang Anda simpan sendiri.
-560|<strong>Mikrofon:</strong> untuk suara video Anda dan, jika Anda menyalakan kendali suara, untuk perintah suara.
-561|<strong>Pengenalan ucapan:</strong> Perintah suara dikenali oleh pengenalan ucapan Apple. Jika iPhone Anda dan bahasa yang dipilih mendukungnya, ini terjadi di perangkat. Jika tidak, audio dikirim ke Apple untuk dikenali, tunduk pada kebijakan privasi Apple. Kendali suara mati secara bawaan.
-562|<strong>Foto:</strong> Aplikasi menyimpan jepretan Anda ke perpustakaan foto dan di galerinya hanya menampilkan jepretan yang dibuat dengan Keepsight. Jika Anda memakai Foto iCloud, Apple mentransfernya sesuai pengaturan iCloud Anda.
-563|<strong>Bluetooth:</strong> untuk mengendalikan gimbal Anda. Hanya perintah kendali dan nilai status yang dipertukarkan dengan gimbal.
-564|<strong>Lokasi dan data penerbangan:</strong> hanya jika Anda menyalakan overlay data penerbangan dan menyetujuinya. Keepsight lalu memakai lokasi Anda di iPhone untuk menentukan wilayah dan, di tempat fitur ini disetujui, mengirim lokasi yang dibulatkan hingga sekitar satu kilometer ke penyedia adsb.lol untuk menemukan pesawat di sekitar. Saya tidak dapat mengatakan apakah atau berapa lama adsb.lol menyimpan permintaan semacam itu; ketentuannya sendiri yang berlaku. Pengiriman berhenti saat Anda mematikan fitur. Tanpa fitur ini, aplikasi tidak memakai lokasi Anda.
-565|<strong>Pengaturan:</strong> Pengaturan Anda di aplikasi hanya disimpan secara lokal di iPhone.
-566|3. Pembelian
-567|Pembelian “Keepsight Pro” ditangani Apple melalui App Store. Saya tidak menerima rincian pembayaran, nama, atau alamat email, hanya angka penjualan agregat dari Apple.
-568|4. Versi uji (TestFlight)
-569|Jika Anda memakai versi uji melalui TestFlight, Apple memproses alamat email Anda untuk undangan dan, jika Anda setuju, laporan kerusakan serta masukan Anda. Saya melihat masukan dan laporan kerusakan untuk memperbaiki masalah, serta alamat email penguji yang saya undang sendiri.
-570|5. Kontak melalui email
-571|Jika Anda menulis kepada saya, saya memakai alamat email dan isi pesan Anda hanya untuk membalas. Saya menghapus pesan setelah urusannya selesai, paling lambat setelah dua tahun.
-572|6. Situs web ini
-573|Situs web ini tidak memasang cookie dan tidak memakai pelacakan. Fon dan skrip disajikan dari situs yang sama; tidak ada konten pihak ketiga yang dimuat. Pilihan bahasa Anda hanya disimpan di browser Anda. Situs ini dihosting di GitHub Pages (GitHub, Inc., AS). Saat Anda berkunjung, GitHub memproses data yang diperlukan secara teknis seperti alamat IP Anda di log server. Lihat pernyataan privasi GitHub untuk rinciannya.
-574|7. Hak Anda
-575|Berdasarkan Undang-Undang Perlindungan Data Swiss dan, jika berlaku, GDPR, Anda berhak atas akses, perbaikan, penghapusan, pembatasan pemrosesan, dan portabilitas data, serta berhak mengajukan keluhan kepada otoritas pengawas (di Swiss, FDPIC). Karena aplikasi tidak mengirim data kepada saya, dalam praktiknya ini hanya menyangkut email yang Anda kirim kepada saya. Tulis ke <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
-576|8. Anak-anak
-577|Aplikasi ini tidak ditujukan untuk anak-anak dan tidak mengumpulkan data dari mereka.
-578|9. Perubahan
-579|Jika aplikasi berubah sehingga kebijakan ini perlu diubah, kebijakan akan diperbarui di sini. Versi di halaman ini yang berlaku.
-580|Penyedia
-581|Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-582|Tanggung jawab
-583|Keepsight mengendalikan gimbal bermotor. Pastikan gimbal dapat bergerak bebas dan tidak ada orang yang terancam. Penggunaan menjadi tanggung jawab Anda sendiri, sejauh diizinkan hukum.
-584|Merek dagang
-585|Apple, iPhone, App Store, TestFlight, dan DockKit adalah merek dagang Apple Inc. FeiyuTech, AK4500, Insta360, DJI, dan Belkin adalah merek dagang pemiliknya masing-masing. Keepsight adalah produk independen dan tidak berafiliasi dengan perusahaan-perusahaan ini.
-586|Ketentuan penggunaan
-587|Aplikasi ini dilisensikan berdasarkan perjanjian lisensi standar Apple untuk aplikasi: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-588|Jenis huruf
-589|Situs web ini memakai jenis huruf Inter (SIL Open Font License 1.1).
-590|Panel kamera: format, zoom, gimbal virtual, pemicu foto
-591|Format dalam mode video
-592|Format dalam mode foto
-593|Pengaturan: kecepatan, gimbal, kualitas
-594|Pengaturan: model deteksi dan arah
-595|Pengaturan: gestur, perekaman, bahasa
-596|Panel pelacakan dengan subjek, kecepatan, dan kendali jarak jauh, ditampilkan dengan mode bantuan
-597|Bagian manual dengan joystick
+458|Pilih sudut, ringkas atau terperinci, dan satuan metrik atau imperial. Data yang lebih lama dari 15 detik disembunyikan. Setiap video dengan data penerbangan memuat kredit “Data: adsb.lol · ODbL 1.0”.
+459|Overlay ditulis ke dalam video yang direkam dengan iPhone. Kamera pada gimbal merekam sendiri dan tidak mendapat overlay.
+460|Akurasi
+461|Data penerbangan bisa tertunda, tidak lengkap, atau keliru. Data ini hanya untuk informasi dan tidak cocok untuk navigasi, keselamatan penerbangan, atau keputusan operasional.
+462|Gratis dan Pro
+463|Apa yang dilakukan versi gratis, apa yang dibuka Pro, pembelian dan pemulihan.
+464|Versi gratis untuk mencoba: Anda menguji mengikuti, gestur, dan kamera pada orang sebelum membayar apa pun.
+465|Ya
+466|Kendali gimbal, jepretan tunggal, dan seri interval
+467|Tidak
+468|Semua subjek lain
+469|Durasi video
+470|60 detik
+471|Tanpa batas
+472|Uji coba pelacakan Pro
+473|3 × 60 detik
+474|Logo Keepsight di foto dan video
+475|Mencoba pelacakan Pro
+476|Ketuk subjek terkunci di panel pelacakan dan pilih <kbd>Start preview</kbd>. Selama 60 detik Keepsight mengikuti subjek ini persis seperti versi Pro. Anda punya tiga sesi seperti itu; sesi yang gagal dalam detik-detik pertama tidak dihitung.
+477|Di versi gratis, video berakhir sendiri setelah 60 detik. Sebuah pemberitahuan muncul 10 detik sebelum berakhir.
+478|Membeli Pro
+479|Ketuk <kbd>PRO</kbd> di kanan atas lalu <kbd>Buka</kbd>. Pro adalah pembelian satu kali tanpa langganan. App Store menampilkan harga dalam mata uang Anda dan Apple menangani pembayarannya.
+480|Memulihkan pembelian
+481|Di iPhone baru atau setelah memasang ulang, ketuk <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Anda harus masuk dengan Akun Apple yang sama yang dipakai saat membeli.
+482|Pengembalian dana
+483|Ajukan pengembalian dana kepada Apple di <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+484|Pengaturan dan bantuan
+485|Bahasa, mode bantuan, dan kontrol untuk pengguna tingkat lanjut.
+486|Sakelar terpenting ada di dua panel samping. Yang lain ada di panel kiri di bawah <kbd>All settings</kbd>.
+488|Tanda tanya di bagian atas setiap panel samping menyalakan mode bantuan. Petunjuk kuning dengan penjelasan singkat lalu muncul di bawah item menu, dengan diagram untuk yang penting.
+489|Keepsight memakai bahasa iPhone Anda. Untuk memilih bahasa lain khusus Keepsight, ketuk <kbd>Language</kbd> di bawah <kbd>All settings</kbd>. Ini membuka pengaturan iPhone untuk Keepsight. Perintah suara ikut berubah.
+490|Kontrol untuk pengguna tingkat lanjut
+491|Kecepatan “Kustom”
+492|Gain, redaman, kecepatan puncak, akselerasi, dan zona tenang pelacakan.
+493|Kecepatan minimum
+494|Hanya untuk AK4500: perintah terkecil yang masih ditanggapi gimbal. Naikkan jika gimbal berhenti pada simpangan kecil.
+495|Prediksi setelah hilang
+496|Berapa lama gimbal terus menggeser saat subjek tertutup.
+498|Membalik pan atau tilt.
+500|Model mana yang mendeteksi subjek. Tersedia RF-DETR Small dan YOLOX-S.
+502|Menampilkan laju bingkai, perintah gimbal, dan waktu model di jendela bidik.
+504|Mengembalikan kontrol pelacakan ke bawaan.
+506|Di sini Anda menemukan versi aplikasi, tautan ke situs web ini, dan lisensi model deteksi yang dipakai.
+507|Pemecahan masalah
+508|Masalah umum dan cara mengatasinya.
+509|Gimbal tidak ditemukan
+510|<strong>Perangkat dengan DockKit:</strong> Apakah sudah dipasangkan di pengaturan iPhone dan apakah iPhone terpasang dengan benar di dudukan? Sebagai pembanding, buka app Kamera Apple. Jika perangkat juga tidak mengikuti Anda di sana, masalahnya ada pada pemasangan.
+511|<strong>AK4500:</strong> Apakah gimbal menyala dan berada di dekat Anda? Tutup aplikasi Feiyu sepenuhnya dan izinkan Bluetooth di <kbd>Pengaturan</kbd> → <kbd>Keepsight</kbd>.
+512|Matikan dan nyalakan lagi gimbal, lalu ketuk <kbd>Connect</kbd> sekali lagi.
+513|Gimbal berputar menjauhi subjek
+514|Balik sumbu yang bersangkutan di <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+515|Gimbal bereaksi lamban atau bergetar
+516|Lamban: pilih profil Sport. Pada AK4500, kecepatan minimum yang lebih tinggi juga membantu.
+517|Bergetar atau berayun: pilih profil Smooth. Dengan panjang fokus yang panjang, gerakan kecil tampak lebih besar.
+518|Subjek tidak terdeteksi
+519|Apakah jenis subjek yang benar sudah dipilih?
+520|Subjek yang sangat kecil terdeteksi kurang andal. Pilih lensa yang lebih panjang.
+521|Deteksi menurun dalam cahaya redup dan cahaya latar yang kuat.
+522|Perintah suara tidak dipahami
+523|Izinkan mikrofon dan pengenalan ucapan di <kbd>Pengaturan</kbd> → <kbd>Keepsight</kbd>.
+524|Ucapkan perintah dalam bahasa aplikasi.
+525|Angin dan lingkungan bising mengganggu pengenalan. Gestur lebih andal dalam kondisi itu.
+526|Gestur tidak memicu
+527|Subjek harus diatur ke Orang atau Wajah.
+528|Jaga tangan Anda diam dan terlihat jelas sampai bilah penuh.
+529|48 MP atau RAW tidak dapat dipilih
+530|Keduanya hanya tersedia dalam mode foto dengan kamera utama <kbd>1×</kbd>. RAW juga memerlukan Keepsight Pro.
+531|Galeri kosong
+532|Izinkan Keepsight mengakses Foto. Jepretan dari versi aplikasi yang lebih lama tidak muncul di galeri, tetapi ada di app Foto.
+533|Keepsight Pro tidak aktif setelah pembelian
+534|Ketuk <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> dan periksa bahwa Anda masuk dengan Akun Apple yang benar.
+535|Bantuan lain
+536|Tulis ke <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> dan sertakan model iPhone, versi iOS, dan versi Keepsight Anda.
+537|iPhone menjadi panas
+538|Deteksi, perekaman 4K, dan kendali gimbal menuntut banyak daya, terutama di bawah matahari. Keepsight melindungi perangkat dengan sendirinya:
+539|<strong>Termometer di bidang status:</strong> iPhone panas dan deteksi hanya mengolah setiap bingkai kedua atau ketiga. Pelacakan berlanjut tetapi bereaksi sedikit lebih lambat.
+540|<strong>Pelacakan dihentikan:</strong> pada suhu kritis, Keepsight mengakhiri pelacakan dan perekaman serta menyimpan video. Biarkan iPhone mendingin di tempat teduh.
+541|Agar lebih sejuk: matikan deteksi dan kendali gestur saat tidak diperlukan, 1080p alih-alih 4K, 30 alih-alih 60 bingkai, matikan video overlay dan gimbal virtual, lepaskan casing. Karena alasan ini iPhone 12 dan model yang lebih lama dimulai dengan 1080p.
+542|Dokumentasi menjawab sebagian besar pertanyaan. Jika Anda mengalami kebuntuan, tulis kepada saya.
+543|Kontak
+544|Agar saya bisa cepat membantu, harap sertakan:
+545|model iPhone dan versi iOS Anda
+546|versi Keepsight (di aplikasi di bawah Semua pengaturan → Tentang dan lisensi)
+547|apa yang Anda lakukan dan apa yang malah terjadi, idealnya dengan tangkapan layar atau video singkat
+548|Bantuan cepat
+549|<a href="docs/start.html">Memulai</a>: izin dan menghubungkan gimbal
+550|<a href="docs/troubleshooting.html">Pemecahan masalah</a>: masalah umum dan cara mengatasinya
+551|<a href="docs/pro.html">Gratis dan Pro</a>: pembelian, pemulihan, pengembalian dana
+552|Kebijakan Privasi
+553|Terakhir diperbarui: 14 November 2026. Berlaku untuk aplikasi iOS Keepsight dan situs web ini.
+554|<strong>Singkatnya:</strong> Keepsight tidak mengumpulkan data tentang Anda. Tidak ada akun, iklan, pelacakan, maupun analitik. Gambar kamera, deteksi, foto, dan video tetap di iPhone Anda. Satu-satunya pengecualian adalah fitur data penerbangan yang opsional, yang mengirim lokasi perkiraan ke penyedia data (lihat bagian 2).
+555|1. Pengendali
+556|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Switzerland<br>Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+557|2. Apa yang diproses aplikasi
+558|Aplikasi memproses data hanya di perangkat Anda dan hanya untuk menyediakan fiturnya. Saya, sebagai penyedia, tidak menerima apa pun darinya.
+559|<strong>Kamera:</strong> Gambar kamera dianalisis di iPhone untuk mendeteksi dan mengikuti subjek. Gambar tidak meninggalkan perangkat.
+560|<strong>Wajah:</strong> untuk mendeteksi wajah, senyum, dan arah pandang orang, aplikasi menganalisis gambar kamera di iPhone. Aplikasi tidak mengenali siapa seseorang dan tidak menyimpan ciri wajah. Foto potret berisi data kedalaman dari kamera depan; data itu hanya ada di foto yang Anda simpan sendiri.
+561|<strong>Mikrofon:</strong> untuk suara video Anda dan, jika Anda menyalakan kendali suara, untuk perintah suara.
+562|<strong>Pengenalan ucapan:</strong> Perintah suara dikenali oleh pengenalan ucapan Apple. Jika iPhone Anda dan bahasa yang dipilih mendukungnya, ini terjadi di perangkat. Jika tidak, audio dikirim ke Apple untuk dikenali, tunduk pada kebijakan privasi Apple. Kendali suara mati secara bawaan.
+563|<strong>Foto:</strong> Aplikasi menyimpan jepretan Anda ke perpustakaan foto dan di galerinya hanya menampilkan jepretan yang dibuat dengan Keepsight. Jika Anda memakai Foto iCloud, Apple mentransfernya sesuai pengaturan iCloud Anda.
+564|<strong>Bluetooth:</strong> untuk mengendalikan gimbal Anda. Hanya perintah kendali dan nilai status yang dipertukarkan dengan gimbal.
+565|<strong>Lokasi dan data penerbangan:</strong> hanya jika Anda menyalakan overlay data penerbangan dan menyetujuinya. Keepsight lalu memakai lokasi Anda di iPhone untuk menentukan wilayah dan, di tempat fitur ini disetujui, mengirim lokasi yang dibulatkan hingga sekitar satu kilometer ke penyedia adsb.lol untuk menemukan pesawat di sekitar. Saya tidak dapat mengatakan apakah atau berapa lama adsb.lol menyimpan permintaan semacam itu; ketentuannya sendiri yang berlaku. Pengiriman berhenti saat Anda mematikan fitur. Tanpa fitur ini, aplikasi tidak memakai lokasi Anda.
+566|<strong>Pengaturan:</strong> Pengaturan Anda di aplikasi hanya disimpan secara lokal di iPhone.
+567|3. Pembelian
+568|Pembelian “Keepsight Pro” ditangani Apple melalui App Store. Saya tidak menerima rincian pembayaran, nama, atau alamat email, hanya angka penjualan agregat dari Apple.
+569|4. Versi uji (TestFlight)
+570|Jika Anda memakai versi uji melalui TestFlight, Apple memproses alamat email Anda untuk undangan dan, jika Anda setuju, laporan kerusakan serta masukan Anda. Saya melihat masukan dan laporan kerusakan untuk memperbaiki masalah, serta alamat email penguji yang saya undang sendiri.
+571|5. Kontak melalui email
+572|Jika Anda menulis kepada saya, saya memakai alamat email dan isi pesan Anda hanya untuk membalas. Saya menghapus pesan setelah urusannya selesai, paling lambat setelah dua tahun.
+573|6. Situs web ini
+574|Situs web ini tidak memasang cookie dan tidak memakai pelacakan. Fon dan skrip disajikan dari situs yang sama; tidak ada konten pihak ketiga yang dimuat. Pilihan bahasa Anda hanya disimpan di browser Anda. Situs ini dihosting di GitHub Pages (GitHub, Inc., AS). Saat Anda berkunjung, GitHub memproses data yang diperlukan secara teknis seperti alamat IP Anda di log server. Lihat pernyataan privasi GitHub untuk rinciannya.
+575|7. Hak Anda
+576|Berdasarkan Undang-Undang Perlindungan Data Swiss dan, jika berlaku, GDPR, Anda berhak atas akses, perbaikan, penghapusan, pembatasan pemrosesan, dan portabilitas data, serta berhak mengajukan keluhan kepada otoritas pengawas (di Swiss, FDPIC). Karena aplikasi tidak mengirim data kepada saya, dalam praktiknya ini hanya menyangkut email yang Anda kirim kepada saya. Tulis ke <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
+577|8. Anak-anak
+578|Aplikasi ini tidak ditujukan untuk anak-anak dan tidak mengumpulkan data dari mereka.
+579|9. Perubahan
+580|Jika aplikasi berubah sehingga kebijakan ini perlu diubah, kebijakan akan diperbarui di sini. Versi di halaman ini yang berlaku.
+581|Penyedia
+582|Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+583|Tanggung jawab
+584|Keepsight mengendalikan gimbal bermotor. Pastikan gimbal dapat bergerak bebas dan tidak ada orang yang terancam. Penggunaan menjadi tanggung jawab Anda sendiri, sejauh diizinkan hukum.
+585|Merek dagang
+586|Apple, iPhone, App Store, TestFlight, dan DockKit adalah merek dagang Apple Inc. FeiyuTech, AK4500, Insta360, DJI, dan Belkin adalah merek dagang pemiliknya masing-masing. Keepsight adalah produk independen dan tidak berafiliasi dengan perusahaan-perusahaan ini.
+587|Ketentuan penggunaan
+588|Aplikasi ini dilisensikan berdasarkan perjanjian lisensi standar Apple untuk aplikasi: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+589|Jenis huruf
+590|Situs web ini memakai jenis huruf Inter (SIL Open Font License 1.1).
+591|Panel kamera: format, zoom, gimbal virtual, pemicu foto
+592|Format dalam mode video
+593|Format dalam mode foto
+594|Pengaturan: kecepatan, gimbal, kualitas
+595|Pengaturan: model deteksi dan arah
+596|Pengaturan: gestur, perekaman, bahasa
+597|Panel pelacakan dengan subjek, kecepatan, dan kendali jarak jauh, ditampilkan dengan mode bantuan
+598|Bagian manual dengan joystick
