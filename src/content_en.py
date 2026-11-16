@@ -566,7 +566,7 @@ DOCS = [
 
 ("recording", "Recording and gallery", "Which videos are created, where they are and how to view them.", """
 <h2>Recording video</h2>
-<p>In video mode the red shutter starts and stops the recording. The time runs at the top centre. Videos have sound and are saved to the Photos app.</p>
+<p>In video mode the red shutter starts and stops the recording. The running time appears at the top centre in a red field, in place of the format. In the free version the remaining time is added during the last 10 seconds. Videos have sound and are saved to the Photos app.</p>
 
 <h2>Which videos are created</h2>
 <table>
@@ -578,6 +578,7 @@ DOCS = [
 
 <h2>Gallery</h2>
 <p>The thumbnail above the mode switch shows the latest capture. Tap it to open the gallery with all photos and videos you made with Keepsight, newest first.</p>
+<p>After a photo the viewfinder darkens briefly and the new picture jumps into the thumbnail. A message only appears if something goes wrong.</p>
 <ul>
 <li>Tap a picture for the large view and swipe to browse.</li>
 <li>Date, megapixels and image size are shown at the top.</li>

@@ -567,7 +567,7 @@ DOCS = [
 
 ("recording", "Aufnahme und Galerie", "Welche Videos entstehen, wo sie liegen und wie du sie ansiehst.", """
 <h2>Video aufnehmen</h2>
-<p>Im Video-Modus startet und stoppt der rote Auslöser die Aufnahme. Oben in der Mitte läuft die Zeit mit. Die Videos haben Ton und liegen danach in der Fotos-App.</p>
+<p>Im Video-Modus startet und stoppt der rote Auslöser die Aufnahme. Oben in der Mitte läuft die Zeit in einem roten Feld mit, an der Stelle des Formats. In der Gratisversion kommt in den letzten 10 Sekunden die Restzeit dazu. Die Videos haben Ton und liegen danach in der Fotos-App.</p>
 
 <h2>Welche Videos entstehen</h2>
 <table>
@@ -579,6 +579,7 @@ DOCS = [
 
 <h2>Galerie</h2>
 <p>Das Vorschaubild über dem Umschalter zeigt die letzte Aufnahme. Ein Tipp öffnet die Galerie mit allen Fotos und Videos, die du mit Keepsight gemacht hast, die neuesten zuerst.</p>
+<p>Nach einem Foto wird der Sucher kurz dunkel, und das neue Bild springt in die Miniatur. Eine Meldung erscheint nur, wenn etwas schiefgeht.</p>
 <ul>
 <li>Tippe auf ein Bild für die grosse Ansicht und wische zum Blättern.</li>
 <li>Oben stehen Datum, Megapixel und Bildgrösse.</li>

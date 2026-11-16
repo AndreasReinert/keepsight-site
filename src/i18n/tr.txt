@@ -395,7 +395,7 @@
 508|Kayıt ve galeri
 509|Hangi videolar oluşur, nerededirler ve nasıl izlenirler.
 510|Video kaydetme
-511|Video modunda kırmızı deklanşör kaydı başlatır ve durdurur. Süre üstte ortada akar. Videolar seslidir ve Fotoğraflar uygulamasına kaydedilir.
+511|Video modunda kırmızı deklanşör kaydı başlatır ve durdurur. Geçen süre üstte ortada, formatın yerinde kırmızı bir alanda görünür. Ücretsiz sürümde son 10 saniyede kalan süre de eklenir. Videolar seslidir ve Fotoğraflar uygulamasına kaydedilir.
 512|Hangi videolar oluşur
 513|İçerik
 514|Ne zaman
@@ -406,196 +406,197 @@
 521|Çerçeveler, süre, konu, durum ve gimbal verileriyle 1080p görüntü.
 522|Keepsight Pro ile, <kbd>Overlay video</kbd> açıkken.
 524|Mod anahtarının üstündeki küçük resim son çekimi gösterir. Keepsight ile çektiğiniz tüm fotoğraf ve videoların yer aldığı galeriyi, en yeniler önce olacak şekilde açmak için ona dokunun.
-525|Büyük görünüm için bir resme dokunun ve gezinmek için kaydırın.
-526|Üstte tarih, megapiksel ve görüntü boyutu yazar.
-527|Çöp kutusu çekimi Fotoğraflar uygulamasından da siler. iPhone önce sorar.
-528|Birden fazlasını aynı anda silmek için sol üstte <kbd>Select</kbd> düğmesine dokunun, istediğiniz fotoğraf ve videolara ya da <kbd>Select all</kbd> düğmesine, ardından alttaki çöp kutusuna dokunun. iPhone hepsi için bir kez sorar.
-529|Galerinin Fotoğraflar’a okuma erişimi olması gerekir. “Sınırlı erişim”de de Keepsight kendi çekimlerini görür.
-530|Bir kutucuk bulut simgesi gösteriyorsa orijinal iCloud’dadır ve indirilmektedir. Bu, iCloud Fotoğrafları “iPhone Saklama Alanını En İyile” seçeneğiyle açıkken olur. Uyarı işareti, dosyanın okunamadığı anlamına gelir; büyük görünüm o zaman dosya adını gösterir.
-531|Kendi ADS-B alıcınızdan videoya canlı uçuş verileri: neye ihtiyacınız var, nerede çalışır, gizlilik.
-532|<strong>Kullanılabilirlik:</strong> canlı uçuş verileri yalnızca onaylanmış ülke ve bölgelerde kullanılabilir ve kendi ADS-B alıcınızı gerektirir. Şu anda onaylanmış bir bölge olmadığından özellik her yerde kapalı kalır.
-533|Uçuş verisi kaplamasıyla Keepsight, takip ettiğiniz yolcu uçağının uçuş numarasını, irtifasını ve hızını vizörde ve iPhone'un kaydettiği videoda gösterir. Veriler aynı Wi-Fi ağındaki kendi ADS-B alıcınızdan gelir. İşin içinde ne internet ne de bir uçuş verisi sağlayıcısı vardır.
-534|Keepsight uçakları herhangi bir alıcı olmadan, görüntüye bakarak takip eder. Alıcı yalnızca kaplama için gerekir ve uygulamanın parçası değildir: onu ayrıca satın alır veya kendiniz kurarsınız.
-535|<strong>Bir alıcı:</strong> bir Stratux, örneğin 1090 MHz USB alıcı çubuğu ve anteni olan bir Raspberry Pi 3 veya Wi-Fi üzerinden GDL90 gönderen başka bir cihaz.
-536|<strong>Tek başına USB alıcı yetmez:</strong> FlightAware Pro Stick gibi bir USB alıcı çubuğu bir ana cihaza ihtiyaç duyar; örneğin Stratux çalıştıran bir Raspberry Pi. Standart bir PiAware kurulumu verileri FlightAware'e gönderir ve uygun değildir.
-537|<strong>Aynı Wi-Fi ağı:</strong> iPhone alıcının Wi-Fi ağına bağlanır. Bu ağda genellikle internet yoktur; sorun değil.
-538|<strong>Onaylanmış bir bölge:</strong> verileri kendiniz almanız, özelliğin bir ülkede izinli olduğu anlamına tek başına gelmez.
-539|Stratux mu, GDL90 mı
-540|Alıcı
-541|Keepsight ile test edildi
-543|Alıcıya WebSocket, genellikle 192.168.10.1 adresinde
-544|Henüz değil
-546|Alıcı, iPhone'daki 4000 numaralı porta gönderir
-547|İkisi de protokol düzeyinde desteklenir. Şimdiye kadar hiçbir alıcı gerçek donanımda Keepsight ile test edilmedi; SkyEcho 2 gibi cihazlar farklı davranabilir. Yalnızca FLARM ile yayınlanan trafik desteklenmez.
-548|Açma
-549|Ayarları açın ve <kbd>Flight data overlay (ADS-B)</kbd> seçeneğini açın.
-550|Bildirimi okuyun ve <kbd>Agree and enable</kbd> düğmesine dokunun. iOS konumunuzu ancak bundan sonra sorar.
-551|Alıcının Wi-Fi ağına bağlanın, alıcı türünü seçin ve adresini girin. iOS yerel ağ erişimini bir kez sorar.
-552|<kbd>Connect receiver</kbd> öğesine dokunun. Keepsight asla kendiliğinden bağlanmaz.
-553|Konu olarak <kbd>Aircraft</kbd> seçin ve kamerayı uçağa doğrultun.
-554|Kameranın baktığı yöne birden fazla uçak uyuyorsa Keepsight tahmin yürütmez: <kbd>Aircraft selection required</kbd> düğmesine dokunun ve doğru olanı seçin.
-555|Uçağı her zaman siz seçersiniz; o anda alınan yolcu uçaklarının listesinden. Liste her konumun yaşını saniye olarak gösterir.
-556|Ayarlar bağlantının durumunu gösterir: bağlanıyor, uçak olmadan bağlı, alınıyor veya veriler güncel değil. <kbd>Reconnect</kbd> bağlantıyı yeniden başlatır.
-557|Uçuş verisi ayarları yalnızca özne olarak <kbd>Aircraft</kbd> seçiliyken görünür.
-558|Keepsight konumunuza neden ihtiyaç duyar
-559|iOS konumunuzu yalnızca uçuş verisi kaplamasını açıp onay verdiğinizde sorar. Keepsight'ın buna iki nedenle ihtiyacı vardır:
-560|<strong>Bölgeyi denetlemek:</strong> uçuş verilerinin gösterilip gösterilemeyeceği bulunduğunuz ülkeye bağlıdır. Keepsight bunu iPhone'un gerçekte bulunduğu yerden, aygıtın kendisinde belirler.
-561|<strong>Görüntüdeki uçağı tanımak:</strong> Keepsight sizden her uçağa olan yönü ve ufkun üzerindeki açıyı hesaplar ve bunları kameranın baktığı yönle karşılaştırır. Pusulanın da gerçek kuzeyi bulmak için konuma ihtiyacı vardır.
-562|Bir yeri elle girmek sunulmaz, çünkü o zaman bölgesel denetim güvenilir olmaktan çıkar. Uçuş verilerini kullanmıyorsanız Keepsight konumunuzu hiçbir zaman sormaz.
-563|Nerede çalışır
-564|Keepsight, ülkeyi iPhone'unuzda geçerli konumunuzdan belirler. App Store ülkeniz, diliniz veya internet adresiniz rol oynamaz. Sınıra yakın yerlerde ve denizde özellik kapalı kalır.
-565|Her ülke onaylanmadan önce ayrı ayrı incelenir. O zamana kadar uygulama, canlı uçuş verilerinin bölgenizde kullanılamadığını bildirir. Takip ve kayıt her zamanki gibi çalışır.
-566|iPhone'unuzdan ne çıkar
-567|Hiçbir şey. Keepsight alıcıyı yalnızca dinler ve ayarlarını asla değiştirmez. Ne konumunuz ne de uçuş verileri bir sunucuya gönderilir.
-568|Uçuş verileri yalnızca alıcı bağlıyken iPhone'un belleğinde bulunur. Bağlantıyı kestiğinizde, başka bir özne seçtiğinizde veya uygulamadan çıktığınızda silinir. Hiçbir şey saklanmaz veya yedeklenmez.
-569|Görünüm
-571|Uçak tipi ADS-B'nin bir parçası değildir ve bu nedenle gösterilmez. Bir alıcının yalnızca aktardığı OGN, FLARM veya TIS-B gibi veriler de hiçbir zaman gösterilmez.
-572|Köşeyi, kompakt veya ayrıntılı görünümü ve metrik ya da emperyal birimleri seçin. 15 saniyeden eski veriler ekranda kalmak yerine gizlenir. Uçuş verisi içeren her video “Flight data: Local ADS-B” notunu taşır.
-573|Kaplama, iPhone ile kaydedilen videolara yazılır. Gimbal üzerindeki kamera kendi başına kaydeder ve kaplama almaz.
-574|İsterseniz Keepsight, seçilen uçak henüz görüntüde görünmezken gimbalı uçağın bildirilen konumuna doğru döndürür. Doğruluğu pusula sınırlar.
-575|Doğruluk
-576|Uçuş verileri gecikmeli, eksik veya hatalı olabilir. Yalnızca bilgi amaçlıdır; seyrüsefer, uçuş emniyeti veya operasyonel kararlar için uygun değildir.
-577|Ücretsiz ve Pro
-578|Ücretsiz sürüm ne yapar, Pro neyi açar, satın alma ve geri yükleme.
-579|Ücretsiz sürüm denemek içindir: herhangi bir ödeme yapmadan önce takibi, hareketleri ve kamerayı insanlar üzerinde test edersiniz.
-580|Evet
-581|Gimbal kontrolü, tek çekim ve aralıklı seri
-582|Hayır
-583|Diğer tüm konular
-584|Video süresi
-585|60 saniye
-586|Sınırsız
-587|Pro takip denemesi
-588|3 × 60 saniye
-589|Fotoğraf ve videolarda Keepsight logosu
-590|Pro takibi deneme
-591|Takip panelinde kilitli bir konuya dokunun ve <kbd>Start preview</kbd> seçeneğini seçin. Keepsight bu konuyu 60 saniye boyunca tam olarak Pro sürümündeki gibi takip eder. Böyle üç oturumunuz vardır; ilk saniyelerde başarısız olan oturum sayılmaz.
-592|Ücretsiz sürümde video 60 saniye sonra kendiliğinden biter. Bitmeden 10 saniye önce bir bildirim görünür.
-593|Pro’yu satın alma
-594|Sağ üstteki <kbd>PRO</kbd> düğmesine, ardından <kbd>Kilidi aç</kbd> düğmesine dokunun. Pro, aboneliksiz tek seferlik bir satın almadır. App Store fiyatı kendi para biriminizde gösterir ve ödemeyi Apple yürütür.
-595|Satın almayı geri yükleme
-596|Yeni bir iPhone’da veya yeniden yüklemeden sonra <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun. Satın almada kullandığınız Apple Hesabı ile giriş yapmış olmalısınız.
-597|İadeler
-598|İadeyi Apple’dan <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> adresinden isteyin.
-599|Ayarlar ve yardım
-600|Dil, yardım modu ve ileri düzey kullanıcılar için ayarlar.
-601|En önemli anahtarlar iki yan paneldedir. Geri kalan her şey sol panelde <kbd>All settings</kbd> altındadır.
-603|Her yan panelin üstündeki soru işareti yardım modunu açar. Menü öğelerinin altında kısa açıklamalı sarı ipuçları, önemli olanlarda bir de çizim görünür.
-604|Keepsight, iPhone’unuzun dilini kullanır. Yalnızca Keepsight için başka bir dil seçmek isterseniz <kbd>All settings</kbd> altındaki <kbd>Language</kbd> öğesine dokunun. Bu, Keepsight için iPhone ayarlarını açar. Sesli komutlar da dille birlikte değişir.
-605|İleri düzey kullanıcılar için ayarlar
-606|“Özel” hız
-607|Takibin kazancı, sönümlemesi, en yüksek hızı, ivmesi ve durgunluk bölgesi.
-608|En düşük hız
-609|Yalnızca AK4500 için: gimbal’ın hâlâ tepki verdiği en küçük komut. Gimbal küçük sapmalarda duruyorsa bu değeri yükseltin.
-610|Kayıptan sonra tahmin
-611|Konu gizlendiğinde gimbal’ın ne kadar süre dönmeyi sürdüreceği.
-613|Yatay veya dikey ekseni ters çevirir.
-615|Bir konuyu hangi modelin algılayacağı. RF-DETR Small ve YOLOX-S kullanılabilir.
-617|Vizörde kare hızını, gimbal komutlarını ve modelin hesaplama süresini gösterir.
-619|Takip ayarlarını varsayılana döndürür.
-621|Burada uygulamanın sürümünü, bu web sitesine bağlantıları ve kullanılan algılama modellerinin lisanslarını bulursunuz.
-622|Sorun giderme
-623|Sık karşılaşılan sorunlar ve çözümleri.
-624|Gimbal bulunamıyor
-625|<strong>DockKit’li cihaz:</strong> iPhone ayarlarında eşlenmiş mi ve iPhone tutucuya düzgün oturuyor mu? Karşılaştırmak için Apple’ın Kamera uygulamasını açın. Cihaz orada da sizi takip etmiyorsa sorun eşlemededir.
-626|<strong>AK4500:</strong> gimbal açık ve yakında mı? Feiyu uygulamasını tamamen kapatın ve <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında Bluetooth’a izin verin.
-627|Gimbal’ı kapatıp yeniden açın ve <kbd>Connect</kbd> düğmesine bir kez daha dokunun.
-628|Gimbal konudan uzaklaşıyor
-629|Keepsight bunu genellikle kısa süre sonra kendiliğinden düzeltir. Düzeltmezse ilgili ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altından ters çevirin.
-630|Gimbal ağır tepki veriyor veya titriyor
-631|Ağır tepki: Spor profilini seçin. AK4500’de daha yüksek bir en düşük hız da yardımcı olur.
-632|Titreme veya salınım: Yumuşak profilini seçin. Uzun odak uzaklığında küçük hareketler daha büyük görünür.
-633|Konu algılanmıyor
-634|Doğru konu türü seçili mi?
-635|Çok küçük konular daha az güvenilir algılanır. Daha uzun bir lens seçin.
-636|Düşük ışıkta ve güçlü ters ışıkta algılama zayıflar.
-637|Sesli komutlar anlaşılmıyor
-638|<kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında mikrofona ve konuşma tanımaya izin verin.
-639|Komutları uygulamanın dilinde söyleyin.
-640|Fotoğraf ve video için en az iki kelime söyleyin, örneğin “fotoğraf çek” veya “video başlat”.
-641|Rüzgâr ve gürültülü ortam tanımayı bozar. O zaman hareketler daha güvenilirdir.
-642|Hareketler tetiklemiyor
-643|Konu, Kişi veya Yüz olarak ayarlanmalıdır.
-644|Çubuk dolana kadar elinizi sabit ve açıkça görünür tutun.
-645|48 MP veya RAW seçilemiyor
-646|İkisi de yalnızca fotoğraf modunda ve bunları destekleyen bir objektifle kullanılabilir. iPhone 15 Pro’da bu yalnızca ana kamera <kbd>1×</kbd>’tir; daha yeni Pro modeller diğer objektiflerde de 48 MP sunar. RAW ayrıca Keepsight Pro gerektirir.
-647|Galeri boş
-648|Keepsight’ın Fotoğraflar’a erişmesine izin verin. Uygulamanın eski sürümleriyle yapılan çekimler galeride görünmez, ancak Fotoğraflar uygulamasında durur.
-649|Keepsight Pro satın almadan sonra etkin değil
-650|<kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun ve doğru Apple Hesabı ile giriş yaptığınızı denetleyin.
-651|Daha fazla yardım
-652|<a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın; iPhone modelinizi, iOS sürümünü ve Keepsight sürümünü belirtin.
-653|iPhone ısınıyor
-654|Algılama, 4K kayıt ve gimbal kontrolü, özellikle güneşte, iPhone’u zorlar. Keepsight cihazı kendiliğinden korur:
-655|<strong>Durum alanında termometre:</strong> iPhone ısınmıştır ve algılama yalnızca her ikinci veya üçüncü kareyi değerlendirir. Takip sürer, ancak biraz daha yavaş tepki verir.
-656|<strong>Takip durduruldu:</strong> kritik sıcaklıkta Keepsight takibi ve kaydı bitirir ve videoyu kaydeder. iPhone’u gölgede soğumaya bırakın.
-657|Daha serin kalması için: gerekmediğinde algılamayı ve hareketle kontrolü kapatın, 4K yerine 1080p, 60 yerine 30 kare kullanın, bilgi katmanlı videoyu ve sanal gimbal’ı kapatın, kılıfı çıkarın. Bu nedenle iPhone 12 ve daha eski modeller 1080p ile başlar.
-658|Belgeler çoğu soruyu yanıtlar. Takılırsanız bana yazın.
-659|İletişim
-660|Hızlı yardımcı olabilmem için lütfen şunları ekleyin:
-661|iPhone modeliniz ve iOS sürümü
-662|Keepsight sürümü (uygulamada Tüm ayarlar → Hakkında ve lisanslar altında)
-663|ne yaptığınız ve bunun yerine ne olduğu; mümkünse bir ekran görüntüsü veya kısa bir videoyla
-664|Hızlı yardım
-665|<a href="docs/start.html">Başlarken</a>: izinler ve gimbal bağlantısı
-666|<a href="docs/troubleshooting.html">Sorun giderme</a>: sık karşılaşılan sorunlar ve çözümleri
-667|<a href="docs/pro.html">Ücretsiz ve Pro</a>: satın alma, geri yükleme, iadeler
-668|Gizlilik Politikası
-669|Son güncelleme: 16 Kasım 2026. Keepsight iOS uygulaması ve bu web sitesi için geçerlidir.
-670|<strong>Kısaca:</strong> Keepsight sizinle ilgili veri toplamaz. Hesap, reklam, izleme ve analiz yoktur. Kamera görüntüleri, algılama, fotoğraflar ve videolar iPhone'unuzda kalır.
-671|1. Veri sorumlusu
-672|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>İsviçre<br>E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-673|2. Uygulamanın işlediği veriler
-674|Uygulama verileri yalnızca cihazınızda ve yalnızca kendi işlevleri için işler. Sağlayıcı olarak ben bunlardan hiçbirini almam.
-675|<strong>Kamera:</strong> kamera görüntüsü, konuları algılamak ve takip etmek için iPhone’da analiz edilir. Görüntüler cihazdan çıkmaz.
-676|<strong>Yüzler:</strong> yüzleri, gülümsemeleri ve bakış yönünü algılamak için uygulama kamera görüntüsünü iPhone’da analiz eder. Kimin kim olduğunu tanımaz ve yüz özelliklerini saklamaz. Portre fotoğrafları ön kameranın derinlik verilerini içerir; bu veriler yalnızca kendi kaydettiğiniz fotoğrafta bulunur.
-677|<strong>Mikrofon:</strong> videolarınızın sesi ve, sesle kontrolü açarsanız, sesli komutlar için.
-678|<strong>Konuşma tanıma:</strong> sesli komutları Apple’ın konuşma tanıması tanır. iPhone’unuz ve seçili dil destekliyorsa bu, cihazda gerçekleşir. Aksi halde ses, Apple’ın gizlilik politikasına tabi olarak tanıma için Apple’a gönderilir. Sesle kontrol varsayılan olarak kapalıdır.
-679|<strong>Fotoğraflar:</strong> uygulama çekimlerinizi fotoğraf arşivine kaydeder ve galerisinde yalnızca Keepsight ile yapılan çekimleri gösterir. iCloud Fotoğrafları kullanıyorsanız Apple bunları iCloud ayarlarınıza göre aktarır.
-680|<strong>Bluetooth:</strong> gimbal’ınızı kontrol etmek için. Gimbal ile yalnızca kontrol komutları ve durum değerleri alışverişi yapılır.
-681|<strong>Konum ve uçuş verileri:</strong> yalnızca uçuş verisi kaplamasını açar ve onaylarsanız. Keepsight o zaman bölgeyi belirlemek ve görüntüdeki uçağı tanımak için konumunuzu iPhone'da kullanır. Uçuş verileri yerel ağdaki kendi ADS-B alıcınızdan gelir. Ne konumunuz ne de uçuş verileri iPhone'dan çıkar. Bu özellik olmadan uygulama konumunuzu kullanmaz.
-682|<strong>Yerel ağ:</strong> yalnızca uçuş verisi kaplaması için, kendi ADS-B alıcınıza ulaşmak amacıyla. Keepsight ondan yalnızca veri alır.
-683|<strong>Ayarlar:</strong> uygulama içi ayarlarınız yalnızca iPhone’da yerel olarak saklanır.
-684|3. Satın almalar
-685|“Keepsight Pro” satın alma işlemini Apple, App Store üzerinden yürütür. Ödeme bilgisi, ad veya e-posta adresi almam; yalnızca Apple’dan toplu satış rakamlarını alırım.
-686|4. Test sürümleri (TestFlight)
-687|TestFlight üzerinden bir test sürümü kullanırsanız Apple, davet için e-posta adresinizi ve onay verirseniz çökme raporlarını ve geri bildiriminizi işler. Hataları gidermek için geri bildirimleri ve çökme raporlarını, ayrıca kendim davet ettiğim test kullanıcılarının e-posta adreslerini görürüm.
-688|5. E-postayla iletişim
-689|Bana yazarsanız e-posta adresinizi ve iletinizin içeriğini yalnızca size yanıt vermek için kullanırım. İletileri konu çözüldüğünde, en geç iki yıl sonra silerim.
-690|6. Bu web sitesi
-691|Bu web sitesi çerez kullanmaz ve izleme yapmaz. Yazı tipleri ve betikler aynı siteden sunulur; üçüncü taraf içerik yüklenmez. Dil seçiminiz yalnızca tarayıcınızda saklanır. Site GitHub Pages’te (GitHub, Inc., ABD) barındırılır. Ziyaretiniz sırasında GitHub, IP adresiniz gibi teknik olarak gerekli verileri sunucu günlüklerinde işler. Ayrıntılar için GitHub’ın gizlilik bildirimine bakın.
-692|7. Haklarınız
-693|İsviçre Veri Koruma Yasası ve geçerli olduğu ölçüde GDPR uyarınca erişim, düzeltme, silme, işlemenin kısıtlanması ve veri taşınabilirliği haklarına, ayrıca bir denetim makamına (İsviçre’de FDPIC) şikâyette bulunma hakkına sahipsiniz. Uygulama bana veri göndermediği için bu, uygulamada yalnızca bana gönderdiğiniz e-postaları ilgilendirir. <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın.
-694|8. Çocuklar
-695|Uygulama özellikle çocuklara yönelik değildir ve onlardan veri toplamaz.
-696|9. Değişiklikler
-697|Uygulama bu politikanın değişmesini gerektirecek biçimde değişirse politika burada güncellenir. Bu sayfadaki sürüm geçerlidir.
-698|Sağlayıcı
-699|E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-700|Sorumluluk
-701|Keepsight motorlu bir gimbal’ı kontrol eder. Gimbal’ın serbestçe hareket edebildiğinden ve kimsenin tehlikeye girmediğinden emin olun. Kullanım, yasaların izin verdiği ölçüde kendi sorumluluğunuzdadır.
-702|Ticari markalar
-703|Apple, iPhone, App Store, TestFlight ve DockKit, Apple Inc.’in ticari markalarıdır. FeiyuTech, AK4500, Insta360, DJI ve Belkin, ilgili sahiplerinin ticari markalarıdır. Keepsight bağımsız bir üründür ve bu şirketlerle bağlantılı değildir.
-704|Kullanım koşulları
-705|Uygulama, Apple’ın uygulamalar için standart lisans sözleşmesi kapsamında lisanslanır: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-706|Yazı tipi
-707|Bu web sitesi Inter yazı tipini kullanır (SIL Open Font License 1.1).
-708|Manuel ayarlar: ışık simgeleriyle beyaz dengesi, burada yardım moduyla
-709|Manuel ayarlar: ton, odak ve diyafram
-710|Kamera paneli: biçim, zoom, sanal gimbal, fotoğraf tetikleme
-711|Video modunda biçim
-712|Fotoğraf modunda biçim
-713|Ayarlar: hız, gimbal, kalite
-714|Ayarlar: algılama modeli ve yön
-715|Ayarlar: hareketler, kayıt, dil
-716|Konu, hız ve uzaktan kumanda içeren takip paneli; burada yardım moduyla
-717|Joystick’li Manuel alanı
-718|Kaplama örneği (illüstrasyon). Yerel alıcıyla uçak tipi gösterilmez.
-719|Genç bir kadın gün batımında gimbal üzerindeki telefonla kendisini ve arkadaşlarını çekiyor
-720|Göl kenarında piknik örtüsünde oturan bir aile, küçük bir gimbal üzerindeki telefonla çekiliyor
-721|Bir kadın, geçen bir bisikletçiyi gimbal üzerindeki telefonla çekiyor
-722|Bir adam, koşan bir köpeği ve bir çocuğu gimbal üzerindeki telefonla çekiyor
-723|Bir fotoğrafçı, uçan bir yırtıcı kuşu gimbal üzerindeki kamerayla takip ediyor
-724|Gimbal üzerinde kamera ve elinde telefon tutan bir kadın; üzerinden bir uçak geçiyor
-725|Havalimanı çitinin yanındaki uçak gözlemcileri bir yolcu uçağını gimbal üzerindeki telefonla çekiyor
-726|Gimbal üzerindeki telefonla uçak gözlemi (illüstrasyon)
+525|Fotoğraftan sonra vizör kısa bir an kararır ve yeni fotoğraf küçük resme atlar. Yalnızca bir sorun olursa mesaj görünür.
+526|Büyük görünüm için bir resme dokunun ve gezinmek için kaydırın.
+527|Üstte tarih, megapiksel ve görüntü boyutu yazar.
+528|Çöp kutusu çekimi Fotoğraflar uygulamasından da siler. iPhone önce sorar.
+529|Birden fazlasını aynı anda silmek için sol üstte <kbd>Select</kbd> düğmesine dokunun, istediğiniz fotoğraf ve videolara ya da <kbd>Select all</kbd> düğmesine, ardından alttaki çöp kutusuna dokunun. iPhone hepsi için bir kez sorar.
+530|Galerinin Fotoğraflar’a okuma erişimi olması gerekir. “Sınırlı erişim”de de Keepsight kendi çekimlerini görür.
+531|Bir kutucuk bulut simgesi gösteriyorsa orijinal iCloud’dadır ve indirilmektedir. Bu, iCloud Fotoğrafları “iPhone Saklama Alanını En İyile” seçeneğiyle açıkken olur. Uyarı işareti, dosyanın okunamadığı anlamına gelir; büyük görünüm o zaman dosya adını gösterir.
+532|Kendi ADS-B alıcınızdan videoya canlı uçuş verileri: neye ihtiyacınız var, nerede çalışır, gizlilik.
+533|<strong>Kullanılabilirlik:</strong> canlı uçuş verileri yalnızca onaylanmış ülke ve bölgelerde kullanılabilir ve kendi ADS-B alıcınızı gerektirir. Şu anda onaylanmış bir bölge olmadığından özellik her yerde kapalı kalır.
+534|Uçuş verisi kaplamasıyla Keepsight, takip ettiğiniz yolcu uçağının uçuş numarasını, irtifasını ve hızını vizörde ve iPhone'un kaydettiği videoda gösterir. Veriler aynı Wi-Fi ağındaki kendi ADS-B alıcınızdan gelir. İşin içinde ne internet ne de bir uçuş verisi sağlayıcısı vardır.
+535|Keepsight uçakları herhangi bir alıcı olmadan, görüntüye bakarak takip eder. Alıcı yalnızca kaplama için gerekir ve uygulamanın parçası değildir: onu ayrıca satın alır veya kendiniz kurarsınız.
+536|<strong>Bir alıcı:</strong> bir Stratux, örneğin 1090 MHz USB alıcı çubuğu ve anteni olan bir Raspberry Pi 3 veya Wi-Fi üzerinden GDL90 gönderen başka bir cihaz.
+537|<strong>Tek başına USB alıcı yetmez:</strong> FlightAware Pro Stick gibi bir USB alıcı çubuğu bir ana cihaza ihtiyaç duyar; örneğin Stratux çalıştıran bir Raspberry Pi. Standart bir PiAware kurulumu verileri FlightAware'e gönderir ve uygun değildir.
+538|<strong>Aynı Wi-Fi ağı:</strong> iPhone alıcının Wi-Fi ağına bağlanır. Bu ağda genellikle internet yoktur; sorun değil.
+539|<strong>Onaylanmış bir bölge:</strong> verileri kendiniz almanız, özelliğin bir ülkede izinli olduğu anlamına tek başına gelmez.
+540|Stratux mu, GDL90 mı
+541|Alıcı
+542|Keepsight ile test edildi
+544|Alıcıya WebSocket, genellikle 192.168.10.1 adresinde
+545|Henüz değil
+547|Alıcı, iPhone'daki 4000 numaralı porta gönderir
+548|İkisi de protokol düzeyinde desteklenir. Şimdiye kadar hiçbir alıcı gerçek donanımda Keepsight ile test edilmedi; SkyEcho 2 gibi cihazlar farklı davranabilir. Yalnızca FLARM ile yayınlanan trafik desteklenmez.
+549|Açma
+550|Ayarları açın ve <kbd>Flight data overlay (ADS-B)</kbd> seçeneğini açın.
+551|Bildirimi okuyun ve <kbd>Agree and enable</kbd> düğmesine dokunun. iOS konumunuzu ancak bundan sonra sorar.
+552|Alıcının Wi-Fi ağına bağlanın, alıcı türünü seçin ve adresini girin. iOS yerel ağ erişimini bir kez sorar.
+553|<kbd>Connect receiver</kbd> öğesine dokunun. Keepsight asla kendiliğinden bağlanmaz.
+554|Konu olarak <kbd>Aircraft</kbd> seçin ve kamerayı uçağa doğrultun.
+555|Kameranın baktığı yöne birden fazla uçak uyuyorsa Keepsight tahmin yürütmez: <kbd>Aircraft selection required</kbd> düğmesine dokunun ve doğru olanı seçin.
+556|Uçağı her zaman siz seçersiniz; o anda alınan yolcu uçaklarının listesinden. Liste her konumun yaşını saniye olarak gösterir.
+557|Ayarlar bağlantının durumunu gösterir: bağlanıyor, uçak olmadan bağlı, alınıyor veya veriler güncel değil. <kbd>Reconnect</kbd> bağlantıyı yeniden başlatır.
+558|Uçuş verisi ayarları yalnızca özne olarak <kbd>Aircraft</kbd> seçiliyken görünür.
+559|Keepsight konumunuza neden ihtiyaç duyar
+560|iOS konumunuzu yalnızca uçuş verisi kaplamasını açıp onay verdiğinizde sorar. Keepsight'ın buna iki nedenle ihtiyacı vardır:
+561|<strong>Bölgeyi denetlemek:</strong> uçuş verilerinin gösterilip gösterilemeyeceği bulunduğunuz ülkeye bağlıdır. Keepsight bunu iPhone'un gerçekte bulunduğu yerden, aygıtın kendisinde belirler.
+562|<strong>Görüntüdeki uçağı tanımak:</strong> Keepsight sizden her uçağa olan yönü ve ufkun üzerindeki açıyı hesaplar ve bunları kameranın baktığı yönle karşılaştırır. Pusulanın da gerçek kuzeyi bulmak için konuma ihtiyacı vardır.
+563|Bir yeri elle girmek sunulmaz, çünkü o zaman bölgesel denetim güvenilir olmaktan çıkar. Uçuş verilerini kullanmıyorsanız Keepsight konumunuzu hiçbir zaman sormaz.
+564|Nerede çalışır
+565|Keepsight, ülkeyi iPhone'unuzda geçerli konumunuzdan belirler. App Store ülkeniz, diliniz veya internet adresiniz rol oynamaz. Sınıra yakın yerlerde ve denizde özellik kapalı kalır.
+566|Her ülke onaylanmadan önce ayrı ayrı incelenir. O zamana kadar uygulama, canlı uçuş verilerinin bölgenizde kullanılamadığını bildirir. Takip ve kayıt her zamanki gibi çalışır.
+567|iPhone'unuzdan ne çıkar
+568|Hiçbir şey. Keepsight alıcıyı yalnızca dinler ve ayarlarını asla değiştirmez. Ne konumunuz ne de uçuş verileri bir sunucuya gönderilir.
+569|Uçuş verileri yalnızca alıcı bağlıyken iPhone'un belleğinde bulunur. Bağlantıyı kestiğinizde, başka bir özne seçtiğinizde veya uygulamadan çıktığınızda silinir. Hiçbir şey saklanmaz veya yedeklenmez.
+570|Görünüm
+572|Uçak tipi ADS-B'nin bir parçası değildir ve bu nedenle gösterilmez. Bir alıcının yalnızca aktardığı OGN, FLARM veya TIS-B gibi veriler de hiçbir zaman gösterilmez.
+573|Köşeyi, kompakt veya ayrıntılı görünümü ve metrik ya da emperyal birimleri seçin. 15 saniyeden eski veriler ekranda kalmak yerine gizlenir. Uçuş verisi içeren her video “Flight data: Local ADS-B” notunu taşır.
+574|Kaplama, iPhone ile kaydedilen videolara yazılır. Gimbal üzerindeki kamera kendi başına kaydeder ve kaplama almaz.
+575|İsterseniz Keepsight, seçilen uçak henüz görüntüde görünmezken gimbalı uçağın bildirilen konumuna doğru döndürür. Doğruluğu pusula sınırlar.
+576|Doğruluk
+577|Uçuş verileri gecikmeli, eksik veya hatalı olabilir. Yalnızca bilgi amaçlıdır; seyrüsefer, uçuş emniyeti veya operasyonel kararlar için uygun değildir.
+578|Ücretsiz ve Pro
+579|Ücretsiz sürüm ne yapar, Pro neyi açar, satın alma ve geri yükleme.
+580|Ücretsiz sürüm denemek içindir: herhangi bir ödeme yapmadan önce takibi, hareketleri ve kamerayı insanlar üzerinde test edersiniz.
+581|Evet
+582|Gimbal kontrolü, tek çekim ve aralıklı seri
+583|Hayır
+584|Diğer tüm konular
+585|Video süresi
+586|60 saniye
+587|Sınırsız
+588|Pro takip denemesi
+589|3 × 60 saniye
+590|Fotoğraf ve videolarda Keepsight logosu
+591|Pro takibi deneme
+592|Takip panelinde kilitli bir konuya dokunun ve <kbd>Start preview</kbd> seçeneğini seçin. Keepsight bu konuyu 60 saniye boyunca tam olarak Pro sürümündeki gibi takip eder. Böyle üç oturumunuz vardır; ilk saniyelerde başarısız olan oturum sayılmaz.
+593|Ücretsiz sürümde video 60 saniye sonra kendiliğinden biter. Bitmeden 10 saniye önce bir bildirim görünür.
+594|Pro’yu satın alma
+595|Sağ üstteki <kbd>PRO</kbd> düğmesine, ardından <kbd>Kilidi aç</kbd> düğmesine dokunun. Pro, aboneliksiz tek seferlik bir satın almadır. App Store fiyatı kendi para biriminizde gösterir ve ödemeyi Apple yürütür.
+596|Satın almayı geri yükleme
+597|Yeni bir iPhone’da veya yeniden yüklemeden sonra <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun. Satın almada kullandığınız Apple Hesabı ile giriş yapmış olmalısınız.
+598|İadeler
+599|İadeyi Apple’dan <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> adresinden isteyin.
+600|Ayarlar ve yardım
+601|Dil, yardım modu ve ileri düzey kullanıcılar için ayarlar.
+602|En önemli anahtarlar iki yan paneldedir. Geri kalan her şey sol panelde <kbd>All settings</kbd> altındadır.
+604|Her yan panelin üstündeki soru işareti yardım modunu açar. Menü öğelerinin altında kısa açıklamalı sarı ipuçları, önemli olanlarda bir de çizim görünür.
+605|Keepsight, iPhone’unuzun dilini kullanır. Yalnızca Keepsight için başka bir dil seçmek isterseniz <kbd>All settings</kbd> altındaki <kbd>Language</kbd> öğesine dokunun. Bu, Keepsight için iPhone ayarlarını açar. Sesli komutlar da dille birlikte değişir.
+606|İleri düzey kullanıcılar için ayarlar
+607|“Özel” hız
+608|Takibin kazancı, sönümlemesi, en yüksek hızı, ivmesi ve durgunluk bölgesi.
+609|En düşük hız
+610|Yalnızca AK4500 için: gimbal’ın hâlâ tepki verdiği en küçük komut. Gimbal küçük sapmalarda duruyorsa bu değeri yükseltin.
+611|Kayıptan sonra tahmin
+612|Konu gizlendiğinde gimbal’ın ne kadar süre dönmeyi sürdüreceği.
+614|Yatay veya dikey ekseni ters çevirir.
+616|Bir konuyu hangi modelin algılayacağı. RF-DETR Small ve YOLOX-S kullanılabilir.
+618|Vizörde kare hızını, gimbal komutlarını ve modelin hesaplama süresini gösterir.
+620|Takip ayarlarını varsayılana döndürür.
+622|Burada uygulamanın sürümünü, bu web sitesine bağlantıları ve kullanılan algılama modellerinin lisanslarını bulursunuz.
+623|Sorun giderme
+624|Sık karşılaşılan sorunlar ve çözümleri.
+625|Gimbal bulunamıyor
+626|<strong>DockKit’li cihaz:</strong> iPhone ayarlarında eşlenmiş mi ve iPhone tutucuya düzgün oturuyor mu? Karşılaştırmak için Apple’ın Kamera uygulamasını açın. Cihaz orada da sizi takip etmiyorsa sorun eşlemededir.
+627|<strong>AK4500:</strong> gimbal açık ve yakında mı? Feiyu uygulamasını tamamen kapatın ve <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında Bluetooth’a izin verin.
+628|Gimbal’ı kapatıp yeniden açın ve <kbd>Connect</kbd> düğmesine bir kez daha dokunun.
+629|Gimbal konudan uzaklaşıyor
+630|Keepsight bunu genellikle kısa süre sonra kendiliğinden düzeltir. Düzeltmezse ilgili ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altından ters çevirin.
+631|Gimbal ağır tepki veriyor veya titriyor
+632|Ağır tepki: Spor profilini seçin. AK4500’de daha yüksek bir en düşük hız da yardımcı olur.
+633|Titreme veya salınım: Yumuşak profilini seçin. Uzun odak uzaklığında küçük hareketler daha büyük görünür.
+634|Konu algılanmıyor
+635|Doğru konu türü seçili mi?
+636|Çok küçük konular daha az güvenilir algılanır. Daha uzun bir lens seçin.
+637|Düşük ışıkta ve güçlü ters ışıkta algılama zayıflar.
+638|Sesli komutlar anlaşılmıyor
+639|<kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında mikrofona ve konuşma tanımaya izin verin.
+640|Komutları uygulamanın dilinde söyleyin.
+641|Fotoğraf ve video için en az iki kelime söyleyin, örneğin “fotoğraf çek” veya “video başlat”.
+642|Rüzgâr ve gürültülü ortam tanımayı bozar. O zaman hareketler daha güvenilirdir.
+643|Hareketler tetiklemiyor
+644|Konu, Kişi veya Yüz olarak ayarlanmalıdır.
+645|Çubuk dolana kadar elinizi sabit ve açıkça görünür tutun.
+646|48 MP veya RAW seçilemiyor
+647|İkisi de yalnızca fotoğraf modunda ve bunları destekleyen bir objektifle kullanılabilir. iPhone 15 Pro’da bu yalnızca ana kamera <kbd>1×</kbd>’tir; daha yeni Pro modeller diğer objektiflerde de 48 MP sunar. RAW ayrıca Keepsight Pro gerektirir.
+648|Galeri boş
+649|Keepsight’ın Fotoğraflar’a erişmesine izin verin. Uygulamanın eski sürümleriyle yapılan çekimler galeride görünmez, ancak Fotoğraflar uygulamasında durur.
+650|Keepsight Pro satın almadan sonra etkin değil
+651|<kbd>PRO</kbd> → <kbd>Restore purchase</kbd> düğmesine dokunun ve doğru Apple Hesabı ile giriş yaptığınızı denetleyin.
+652|Daha fazla yardım
+653|<a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın; iPhone modelinizi, iOS sürümünü ve Keepsight sürümünü belirtin.
+654|iPhone ısınıyor
+655|Algılama, 4K kayıt ve gimbal kontrolü, özellikle güneşte, iPhone’u zorlar. Keepsight cihazı kendiliğinden korur:
+656|<strong>Durum alanında termometre:</strong> iPhone ısınmıştır ve algılama yalnızca her ikinci veya üçüncü kareyi değerlendirir. Takip sürer, ancak biraz daha yavaş tepki verir.
+657|<strong>Takip durduruldu:</strong> kritik sıcaklıkta Keepsight takibi ve kaydı bitirir ve videoyu kaydeder. iPhone’u gölgede soğumaya bırakın.
+658|Daha serin kalması için: gerekmediğinde algılamayı ve hareketle kontrolü kapatın, 4K yerine 1080p, 60 yerine 30 kare kullanın, bilgi katmanlı videoyu ve sanal gimbal’ı kapatın, kılıfı çıkarın. Bu nedenle iPhone 12 ve daha eski modeller 1080p ile başlar.
+659|Belgeler çoğu soruyu yanıtlar. Takılırsanız bana yazın.
+660|İletişim
+661|Hızlı yardımcı olabilmem için lütfen şunları ekleyin:
+662|iPhone modeliniz ve iOS sürümü
+663|Keepsight sürümü (uygulamada Tüm ayarlar → Hakkında ve lisanslar altında)
+664|ne yaptığınız ve bunun yerine ne olduğu; mümkünse bir ekran görüntüsü veya kısa bir videoyla
+665|Hızlı yardım
+666|<a href="docs/start.html">Başlarken</a>: izinler ve gimbal bağlantısı
+667|<a href="docs/troubleshooting.html">Sorun giderme</a>: sık karşılaşılan sorunlar ve çözümleri
+668|<a href="docs/pro.html">Ücretsiz ve Pro</a>: satın alma, geri yükleme, iadeler
+669|Gizlilik Politikası
+670|Son güncelleme: 16 Kasım 2026. Keepsight iOS uygulaması ve bu web sitesi için geçerlidir.
+671|<strong>Kısaca:</strong> Keepsight sizinle ilgili veri toplamaz. Hesap, reklam, izleme ve analiz yoktur. Kamera görüntüleri, algılama, fotoğraflar ve videolar iPhone'unuzda kalır.
+672|1. Veri sorumlusu
+673|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>İsviçre<br>E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+674|2. Uygulamanın işlediği veriler
+675|Uygulama verileri yalnızca cihazınızda ve yalnızca kendi işlevleri için işler. Sağlayıcı olarak ben bunlardan hiçbirini almam.
+676|<strong>Kamera:</strong> kamera görüntüsü, konuları algılamak ve takip etmek için iPhone’da analiz edilir. Görüntüler cihazdan çıkmaz.
+677|<strong>Yüzler:</strong> yüzleri, gülümsemeleri ve bakış yönünü algılamak için uygulama kamera görüntüsünü iPhone’da analiz eder. Kimin kim olduğunu tanımaz ve yüz özelliklerini saklamaz. Portre fotoğrafları ön kameranın derinlik verilerini içerir; bu veriler yalnızca kendi kaydettiğiniz fotoğrafta bulunur.
+678|<strong>Mikrofon:</strong> videolarınızın sesi ve, sesle kontrolü açarsanız, sesli komutlar için.
+679|<strong>Konuşma tanıma:</strong> sesli komutları Apple’ın konuşma tanıması tanır. iPhone’unuz ve seçili dil destekliyorsa bu, cihazda gerçekleşir. Aksi halde ses, Apple’ın gizlilik politikasına tabi olarak tanıma için Apple’a gönderilir. Sesle kontrol varsayılan olarak kapalıdır.
+680|<strong>Fotoğraflar:</strong> uygulama çekimlerinizi fotoğraf arşivine kaydeder ve galerisinde yalnızca Keepsight ile yapılan çekimleri gösterir. iCloud Fotoğrafları kullanıyorsanız Apple bunları iCloud ayarlarınıza göre aktarır.
+681|<strong>Bluetooth:</strong> gimbal’ınızı kontrol etmek için. Gimbal ile yalnızca kontrol komutları ve durum değerleri alışverişi yapılır.
+682|<strong>Konum ve uçuş verileri:</strong> yalnızca uçuş verisi kaplamasını açar ve onaylarsanız. Keepsight o zaman bölgeyi belirlemek ve görüntüdeki uçağı tanımak için konumunuzu iPhone'da kullanır. Uçuş verileri yerel ağdaki kendi ADS-B alıcınızdan gelir. Ne konumunuz ne de uçuş verileri iPhone'dan çıkar. Bu özellik olmadan uygulama konumunuzu kullanmaz.
+683|<strong>Yerel ağ:</strong> yalnızca uçuş verisi kaplaması için, kendi ADS-B alıcınıza ulaşmak amacıyla. Keepsight ondan yalnızca veri alır.
+684|<strong>Ayarlar:</strong> uygulama içi ayarlarınız yalnızca iPhone’da yerel olarak saklanır.
+685|3. Satın almalar
+686|“Keepsight Pro” satın alma işlemini Apple, App Store üzerinden yürütür. Ödeme bilgisi, ad veya e-posta adresi almam; yalnızca Apple’dan toplu satış rakamlarını alırım.
+687|4. Test sürümleri (TestFlight)
+688|TestFlight üzerinden bir test sürümü kullanırsanız Apple, davet için e-posta adresinizi ve onay verirseniz çökme raporlarını ve geri bildiriminizi işler. Hataları gidermek için geri bildirimleri ve çökme raporlarını, ayrıca kendim davet ettiğim test kullanıcılarının e-posta adreslerini görürüm.
+689|5. E-postayla iletişim
+690|Bana yazarsanız e-posta adresinizi ve iletinizin içeriğini yalnızca size yanıt vermek için kullanırım. İletileri konu çözüldüğünde, en geç iki yıl sonra silerim.
+691|6. Bu web sitesi
+692|Bu web sitesi çerez kullanmaz ve izleme yapmaz. Yazı tipleri ve betikler aynı siteden sunulur; üçüncü taraf içerik yüklenmez. Dil seçiminiz yalnızca tarayıcınızda saklanır. Site GitHub Pages’te (GitHub, Inc., ABD) barındırılır. Ziyaretiniz sırasında GitHub, IP adresiniz gibi teknik olarak gerekli verileri sunucu günlüklerinde işler. Ayrıntılar için GitHub’ın gizlilik bildirimine bakın.
+693|7. Haklarınız
+694|İsviçre Veri Koruma Yasası ve geçerli olduğu ölçüde GDPR uyarınca erişim, düzeltme, silme, işlemenin kısıtlanması ve veri taşınabilirliği haklarına, ayrıca bir denetim makamına (İsviçre’de FDPIC) şikâyette bulunma hakkına sahipsiniz. Uygulama bana veri göndermediği için bu, uygulamada yalnızca bana gönderdiğiniz e-postaları ilgilendirir. <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> adresine yazın.
+695|8. Çocuklar
+696|Uygulama özellikle çocuklara yönelik değildir ve onlardan veri toplamaz.
+697|9. Değişiklikler
+698|Uygulama bu politikanın değişmesini gerektirecek biçimde değişirse politika burada güncellenir. Bu sayfadaki sürüm geçerlidir.
+699|Sağlayıcı
+700|E-posta: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+701|Sorumluluk
+702|Keepsight motorlu bir gimbal’ı kontrol eder. Gimbal’ın serbestçe hareket edebildiğinden ve kimsenin tehlikeye girmediğinden emin olun. Kullanım, yasaların izin verdiği ölçüde kendi sorumluluğunuzdadır.
+703|Ticari markalar
+704|Apple, iPhone, App Store, TestFlight ve DockKit, Apple Inc.’in ticari markalarıdır. FeiyuTech, AK4500, Insta360, DJI ve Belkin, ilgili sahiplerinin ticari markalarıdır. Keepsight bağımsız bir üründür ve bu şirketlerle bağlantılı değildir.
+705|Kullanım koşulları
+706|Uygulama, Apple’ın uygulamalar için standart lisans sözleşmesi kapsamında lisanslanır: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+707|Yazı tipi
+708|Bu web sitesi Inter yazı tipini kullanır (SIL Open Font License 1.1).
+709|Manuel ayarlar: ışık simgeleriyle beyaz dengesi, burada yardım moduyla
+710|Manuel ayarlar: ton, odak ve diyafram
+711|Kamera paneli: biçim, zoom, sanal gimbal, fotoğraf tetikleme
+712|Video modunda biçim
+713|Fotoğraf modunda biçim
+714|Ayarlar: hız, gimbal, kalite
+715|Ayarlar: algılama modeli ve yön
+716|Ayarlar: hareketler, kayıt, dil
+717|Konu, hız ve uzaktan kumanda içeren takip paneli; burada yardım moduyla
+718|Joystick’li Manuel alanı
+719|Kaplama örneği (illüstrasyon). Yerel alıcıyla uçak tipi gösterilmez.
+720|Genç bir kadın gün batımında gimbal üzerindeki telefonla kendisini ve arkadaşlarını çekiyor
+721|Göl kenarında piknik örtüsünde oturan bir aile, küçük bir gimbal üzerindeki telefonla çekiliyor
+722|Bir kadın, geçen bir bisikletçiyi gimbal üzerindeki telefonla çekiyor
+723|Bir adam, koşan bir köpeği ve bir çocuğu gimbal üzerindeki telefonla çekiyor
+724|Bir fotoğrafçı, uçan bir yırtıcı kuşu gimbal üzerindeki kamerayla takip ediyor
+725|Gimbal üzerinde kamera ve elinde telefon tutan bir kadın; üzerinden bir uçak geçiyor
+726|Havalimanı çitinin yanındaki uçak gözlemcileri bir yolcu uçağını gimbal üzerindeki telefonla çekiyor
+727|Gimbal üzerindeki telefonla uçak gözlemi (illüstrasyon)
