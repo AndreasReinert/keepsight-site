@@ -46,7 +46,7 @@
 <li>iPhone’u yerleştirin ve Keepsight’ı açın. Uygulama cihazı kendiliğinden algılar ve sağ alttaki düğme <kbd>Takip et</kbd> gösterir.</li>
 <li>Bir konu seçin ve <kbd>Takip et</kbd> düğmesine dokunun.</li>
 </ol>
-<p>Keepsight cihazı kontrol ederken, ikisi birbirini engellemesin diye Apple’ın kendi takibi kapatılır. <kbd>Manuel</kbd> alanında bağlantıyı keserseniz kontrol yeniden sisteme geçer.</p>
+<p>Keepsight takip sırasında konunun nerede olduğunu DockKit’e bildirir, DockKit de motorları Apple’ın önerdiği gibi hareket ettirir. Kişi ve Yüz için kontrolü Apple’ın kendi takibine de bırakabilirsiniz. <kbd>Manuel</kbd> bölümünde bağlantıyı keserseniz kontrol yeniden sisteme geçer.</p>
 <p>DockKit için iOS 17 veya sonrası gerekir. Keepsight, aynı üreticilerin eski modelleri gibi DockKit’siz cihazları kontrol edemez.</p>
 
 <h2>FeiyuTech AK4500</h2>
@@ -56,6 +56,29 @@
 <li>İlk seferde Bluetooth erişimine izin verin.</li>
 </ol>
 <p>AK4500 yalnızca belirli bir komut gücünün üzerinde tepki verir. Keepsight bunu <kbd>En düşük hız</kbd> ayarıyla dengeler; Ayarlar bölümüne bakın.</p>
+
+<h2>Gimbal üzerindeki tuşlar</h2>
+<p>DockKit gimbal’ın tuşları Keepsight’ta Apple’ın Kamera uygulamasındaki gibi çalışır: deklanşör fotoğraf çeker ya da videoyu başlatıp durdurur, değiştirme tuşu arka ve ön kamera arasında geçiş yapar, zoom tekerleği küçük adımlarla yakınlaştırır. Elle zoom yaptığınızda otomatik zoom kapanır.</p>
+
+<h2>Takip panelindeki gimbal ayarları</h2>
+<p>Bunları takip panelinde <kbd>Gimbal</kbd> altında bulursunuz. <kbd>Kadraj</kbd> ve <kbd>Kaybolursa ara</kbd> her gimbal ile çalışır. Diğer ayarlar, bir DockKit cihazı takılır takılmaz pil düzeyiyle birlikte görünür.</p>
+<h3>Kadraj</h3>
+<p>Kadraj: konuyu sol ya da sağ üçte birlik alanda tutar; örneğin metne yer bırakmak için ya da hareket yönünde. Her gimbal ile çalışır.</p>
+<h3>Kaybolursa ara</h3>
+<p>Konu kaybolursa gimbal kısa süre konunun gittiği yöne, sonra diğer tarafa döner ve geri gelir. Yaklaşık 12 saniye sonra durur.</p>
+<h3>Apple’a uygun kontrol</h3>
+<p>Önerilir. Keepsight konunun nerede olduğunu DockKit’e bildirir, DockKit de motorları Apple’ın öngördüğü gibi hareket ettirir. Kapalı: Keepsight motor hızını doğrudan ayarlar.</p>
+<h3>Kişiler için Apple takibi</h3>
+<p>Kişi ve Yüz için gimbal’ı Apple’ın kendi takibi hareket ettirir, Kamera uygulamasındaki gibi. Seçmek için bir kişiye dokunun. Diğer tüm konular Keepsight’ta kalır.</p>
+<h3>Konuşanı takip et</h3>
+<p>Birden fazla kişi varsa gimbal konuşan kişiye döner; röportajlar, podcast’ler veya aile buluşmaları için. Kişiler için Apple takibi ve iOS 18 gerekir.</p>
+<h3>Dönüş aralığı</h3>
+<p>Gimbal’ın ne kadar dönebileceğini, takip başladığındaki yönden itibaren sınırlar. Balkonda ya da iPhone’dan bir kablo sarktığında kullanışlıdır.</p>
+<h3>Kaydırma programı</h3>
+<p>Seçilen açı ve süre boyunca yavaş ve düzgün döner; timelapse, panoramik video veya ürün çekimleri için. Video modunda Keepsight kayıt yapar; Aralıklı ayarlı fotoğraf modunda seriyi çeker. Bu sırada takip duraklar.</p>
+<p>Kaydırma başlamadan önce gimbal başlangıç noktasına döner; kayıt ancak oraya vardığında başlar. Dönüş aralığı program için de geçerlidir.</p>
+<p><kbd>Kadraj</kbd>, <kbd>Konuşanı takip et</kbd> ve kaydırma programı Keepsight Pro’ya dahildir.</p>
+<div class="tip"><p><strong>Henüz test edilmedi:</strong> Bu DockKit işlevleri Apple’ın belgelerine göre yapıldı ama henüz bir DockKit gimbal ile denenmedi. Bir şey farklı davranırsa lütfen tam modeli belirterek mesaj gönderin.</p></div>
 
 <h2>Elle hareket ettirme</h2>
 <div class="shots n1"><figure><img src="../../img/manual-en.webp" width="600" height="1300" loading="lazy" alt="Joystick’li Manuel alanı"><figcaption>Joystick’li Manuel alanı</figcaption></figure></div>

@@ -70,6 +70,8 @@ HOME = {
         ("Zweites Video mit Rahmen und Daten", False, True),
         ("Fotos in ProRAW", False, True),
         ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
+        ("Video in ProRes 422 HQ", False, True),
+        ("Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme", False, True),
     ],
     "price_cols": ("Funktion", "Gratis", "Pro"),
     "price_note": "In der Gratisversion sind Videos auf 60 Sekunden begrenzt und tragen das Keepsight-Logo.",
@@ -163,7 +165,7 @@ DOCS = [
 <li>Setze das iPhone ein und öffne Keepsight. Die App erkennt das Gerät von selbst, der Knopf unten rechts zeigt <kbd>Tracken</kbd>.</li>
 <li>Wähle ein Motiv und tippe auf <kbd>Tracken</kbd>.</li>
 </ol>
-<p>Solange Keepsight das Gerät steuert, ist das eigene Nachführen von Apple ausgeschaltet, damit sich beide nicht gegenseitig stören. Trennst du die Verbindung im Bereich <kbd>Manuell</kbd>, übernimmt wieder das System.</p>
+<p>Während Keepsight verfolgt, sagt es DockKit, wo das Motiv ist, und DockKit bewegt die Motoren, so wie Apple es empfiehlt. Bei Person und Gesicht kannst du auch Apples eigenes Tracking übernehmen lassen. Trennst du im Bereich <kbd>Manual</kbd>, übernimmt wieder das System.</p>
 <p>DockKit braucht iOS 17 oder neuer. Geräte ohne DockKit, zum Beispiel ältere Modelle derselben Hersteller, kann Keepsight nicht steuern.</p>
 
 <h2>FeiyuTech AK4500</h2>
@@ -173,6 +175,29 @@ DOCS = [
 <li>Erlaube beim ersten Mal den Zugriff auf Bluetooth.</li>
 </ol>
 <p>Der AK4500 reagiert erst ab einer gewissen Befehlsstärke. Keepsight gleicht das mit der Einstellung <kbd>Mindestgeschwindigkeit</kbd> aus, siehe Kapitel Einstellungen.</p>
+
+<h2>Tasten am Gimbal</h2>
+<p>Die Tasten eines DockKit-Gimbals funktionieren in Keepsight wie in Apples Kamera-App: Der Auslöser macht ein Foto oder startet und stoppt ein Video, die Wechseltaste schaltet zwischen Rück- und Frontkamera, und das Zoomrad zoomt in kleinen Schritten. Der Auto-Zoom geht aus, wenn du von Hand zoomst.</p>
+
+<h2>Gimbal-Einstellungen in der Tracking-Leiste</h2>
+<p>Du findest sie unter <kbd>Gimbal</kbd> in der Tracking-Leiste. <kbd>Framing</kbd> und <kbd>Search when lost</kbd> funktionieren mit jedem Gimbal. Die übrigen Einstellungen erscheinen, sobald ein DockKit-Gerät angedockt ist, zusammen mit seinem Akkustand.</p>
+<h3>Bildaufteilung</h3>
+<p>Bildaufteilung: hält das Motiv im linken oder rechten Drittel, zum Beispiel für Platz für Text oder in Bewegungsrichtung. Funktioniert mit jedem Gimbal.</p>
+<h3>Bei Verlust suchen</h3>
+<p>Verschwindet das Motiv, schwenkt der Gimbal kurz in die Richtung, in die es verschwunden ist, dann zur anderen Seite und zurück. Nach etwa 12 Sekunden hält er an.</p>
+<h3>Apple-konforme Steuerung</h3>
+<p>Empfohlen. Keepsight sagt DockKit, wo das Motiv ist, und DockKit bewegt die Motoren, so wie Apple es vorsieht. Aus: Keepsight setzt die Motorgeschwindigkeit direkt.</p>
+<h3>Apple-Tracking für Personen</h3>
+<p>Bei Person und Gesicht bewegt Apples eigenes Tracking den Gimbal, wie in der Kamera-App. Tippe auf eine Person, um sie zu wählen. Alle anderen Motive bleiben bei Keepsight.</p>
+<h3>Sprecher folgen</h3>
+<p>Bei mehreren Personen dreht der Gimbal zu der Person, die spricht, für Interviews, Podcasts oder Familienrunden. Braucht Apple-Tracking für Personen und iOS 18.</p>
+<h3>Schwenkbereich</h3>
+<p>Begrenzt, wie weit der Gimbal schwenken darf, gemessen ab der Richtung beim Start des Trackings. Praktisch auf dem Balkon oder wenn ein Kabel am iPhone hängt.</p>
+<h3>Schwenk-Programm</h3>
+<p>Schwenkt langsam und gleichmässig über den gewählten Winkel und die gewählte Zeit, für Zeitraffer, Panorama-Videos oder Produktaufnahmen. Im Video-Modus nimmt Keepsight auf, im Foto-Modus mit Intervall macht es die Serie. Das Tracking pausiert solange.</p>
+<p>Vor dem Schwenk fährt der Gimbal an den Startpunkt; die Aufnahme beginnt erst, wenn er dort steht. Der Schwenkbereich gilt auch für das Programm.</p>
+<p><kbd>Framing</kbd>, <kbd>Follow the speaker</kbd> und das Schwenk-Programm gehören zu Keepsight Pro.</p>
+<div class="tip"><p><strong>Noch nicht getestet:</strong> Diese DockKit-Funktionen folgen Apples Dokumentation, wurden aber noch nicht mit einem DockKit-Gimbal ausprobiert. Verhält sich etwas anders, schick bitte eine Nachricht mit dem genauen Modell.</p></div>
 
 <h2>Von Hand steuern</h2>
 [[shots manual]]
@@ -346,6 +371,7 @@ DOCS = [
 <tr><th>Einstellung</th><th>Auswahl</th></tr>
 <tr><td>Auflösung</td><td>HD (1920 × 1080) oder 4K (3840 × 2160)</td></tr>
 <tr><td>Bildrate</td><td>24, 30 oder 60 Bilder pro Sekunde, für PAL 25</td></tr>
+<tr><td>Codec</td><td>HEVC; ProRes 422 HQ mit Keepsight Pro</td></tr>
 <tr><td>Steuerung</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
 <tr><td>Gitter</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
@@ -642,6 +668,8 @@ DOCS = [
 <tr><td>Overlay-Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Fotos in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Video in ProRes 422 HQ</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme</td><td>Nein</td><td class="y">Ja</td></tr>
 </table>
 
 <h2>Pro-Tracking testen</h2>

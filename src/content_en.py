@@ -70,6 +70,8 @@ HOME = {
         ("Second video with frames and data", False, True),
         ("Photos in ProRAW", False, True),
         ("Manual camera controls for photo and video", False, True),
+        ("Video in ProRes 422 HQ", False, True),
+        ("Gimbal: framing, speaker and pan programs", False, True),
     ],
     "price_cols": ("Feature", "Free", "Pro"),
     "price_note": "In the free version, videos are limited to 60 seconds and carry the Keepsight logo.",
@@ -162,7 +164,7 @@ DOCS = [
 <li>Mount the iPhone and open Keepsight. The app detects the device by itself and the button at the bottom right shows <kbd>Track</kbd>.</li>
 <li>Choose a subject and tap <kbd>Track</kbd>.</li>
 </ol>
-<p>While Keepsight controls the device, Apple’s own tracking is switched off so the two do not interfere. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
+<p>While Keepsight tracks, it tells DockKit where the subject is, and DockKit moves the motors, as Apple recommends. For Person and Face you can also let Apple’s own tracking take over. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
 <p>DockKit requires iOS 17 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
 
 <h2>FeiyuTech AK4500</h2>
@@ -172,6 +174,29 @@ DOCS = [
 <li>Allow Bluetooth access the first time.</li>
 </ol>
 <p>The AK4500 only reacts above a certain command strength. Keepsight compensates for this with the <kbd>Minimum speed</kbd> setting, see the Settings chapter.</p>
+
+<h2>Buttons on the gimbal</h2>
+<p>The buttons of a DockKit gimbal work in Keepsight as in Apple’s Camera app: the shutter button takes a photo or starts and stops a video, the switch button changes between back and front camera, and the zoom wheel zooms in small steps. Auto zoom switches off when you zoom by hand.</p>
+
+<h2>Gimbal settings in the Tracking panel</h2>
+<p>You find these under <kbd>Gimbal</kbd> in the Tracking panel. <kbd>Framing</kbd> and <kbd>Search when lost</kbd> work with every gimbal. The other settings appear as soon as a DockKit device is docked, together with its battery level.</p>
+<h3>Framing</h3>
+<p>Framing: keeps the subject in the left or right third, for example to leave room for text or in the direction it moves. Works with every gimbal.</p>
+<h3>Search when lost</h3>
+<p>If the subject disappears, the gimbal pans briefly in the direction it left, then to the other side and back. It stops after about 12 seconds.</p>
+<h3>Apple-compliant control</h3>
+<p>Recommended. Keepsight tells DockKit where the subject is, and DockKit moves the motors, as Apple intends. Off: Keepsight sets the motor speed directly.</p>
+<h3>Apple tracking for people</h3>
+<p>For Person and Face, Apple's own tracking moves the gimbal, as in the Camera app. Tap a person to choose them. All other subjects stay with Keepsight.</p>
+<h3>Follow the speaker</h3>
+<p>With several people, the gimbal turns to whoever is speaking, for interviews, podcasts or family rounds. Needs Apple tracking for people and iOS 18.</p>
+<h3>Pan range</h3>
+<p>Limits how far the gimbal may pan, measured from where it points when tracking starts. Useful on a balcony or when a cable hangs from the iPhone.</p>
+<h3>Pan program</h3>
+<p>Pans slowly and evenly over the chosen angle and time, for time-lapses, panoramic videos or product shots. In video mode Keepsight records; in photo mode with Interval it takes the series. Tracking pauses meanwhile.</p>
+<p>Before the pan starts, the gimbal turns to the starting point, so the recording only begins once it is there. The pan range also applies to the program.</p>
+<p><kbd>Framing</kbd>, <kbd>Follow the speaker</kbd> and the pan program are part of Keepsight Pro.</p>
+<div class="tip"><p><strong>Not yet tested:</strong> These DockKit functions follow Apple’s documentation but have not yet been tried with a DockKit gimbal. If something behaves differently, please send a message with the exact model.</p></div>
 
 <h2>Moving by hand</h2>
 [[shots manual]]
@@ -345,6 +370,7 @@ DOCS = [
 <tr><th>Setting</th><th>Options</th></tr>
 <tr><td>Resolution</td><td>HD (1920 × 1080) or 4K (3840 × 2160)</td></tr>
 <tr><td>Frame rate</td><td>24, 30 or 60 frames per second, 25 for PAL</td></tr>
+<tr><td>Codec</td><td>HEVC; ProRes 422 HQ with Keepsight Pro</td></tr>
 <tr><td>Controls</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
 <tr><td>Grid</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
@@ -641,6 +667,8 @@ DOCS = [
 <tr><td>Overlay video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Photos in ProRAW</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Manual camera controls for photo and video</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Video in ProRes 422 HQ</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Gimbal: framing, speaker and pan programs</td><td>No</td><td class="y">Yes</td></tr>
 </table>
 
 <h2>Trying Pro tracking</h2>

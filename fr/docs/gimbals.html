@@ -46,7 +46,7 @@
 <li>Placez l’iPhone et ouvrez Keepsight. L’app détecte l’appareil d’elle-même et le bouton en bas à droite affiche <kbd>Suivre</kbd>.</li>
 <li>Choisissez un sujet et touchez <kbd>Suivre</kbd>.</li>
 </ol>
-<p>Tant que Keepsight pilote l’appareil, le suivi propre à Apple est désactivé afin que les deux ne se gênent pas. Si vous vous déconnectez dans la zone <kbd>Manuel</kbd>, le système reprend la main.</p>
+<p>Pendant le suivi, Keepsight indique à DockKit où se trouve le sujet, et DockKit déplace les moteurs, comme Apple le recommande. Pour Personne et Visage, vous pouvez aussi laisser le suivi d’Apple prendre le relais. Si vous déconnectez dans la zone <kbd>Manuel</kbd>, le système reprend la main.</p>
 <p>DockKit nécessite iOS 17 ou ultérieur. Keepsight ne peut pas piloter les appareils sans DockKit, comme les anciens modèles des mêmes fabricants.</p>
 
 <h2>FeiyuTech AK4500</h2>
@@ -56,6 +56,29 @@
 <li>Autorisez l’accès Bluetooth la première fois.</li>
 </ol>
 <p>L’AK4500 ne réagit qu’à partir d’une certaine force de commande. Keepsight compense cela avec le réglage <kbd>Vitesse minimale</kbd>, voir le chapitre Réglages.</p>
+
+<h2>Boutons du gimbal</h2>
+<p>Les boutons d’un gimbal DockKit fonctionnent dans Keepsight comme dans l’app Appareil photo d’Apple : le déclencheur prend une photo ou démarre et arrête une vidéo, le bouton de bascule passe de la caméra arrière à la caméra avant, et la molette de zoom zoome par petits pas. Le zoom auto se désactive quand vous zoomez à la main.</p>
+
+<h2>Réglages du gimbal dans le panneau Suivi</h2>
+<p>Vous les trouvez sous <kbd>Stabilisateur</kbd> dans le panneau Suivi. <kbd>Cadrage</kbd> et <kbd>Chercher si perdu</kbd> fonctionnent avec tous les gimbals. Les autres réglages apparaissent dès qu’un appareil DockKit est connecté, avec le niveau de sa batterie.</p>
+<h3>Cadrage</h3>
+<p>Cadrage : garde le sujet dans le tiers gauche ou droit, par exemple pour laisser de la place à du texte ou dans le sens du mouvement. Fonctionne avec tous les gimbals.</p>
+<h3>Chercher si perdu</h3>
+<p>Si le sujet disparaît, le gimbal pivote brièvement dans la direction où il est parti, puis de l’autre côté et revient. Il s’arrête après environ 12 secondes.</p>
+<h3>Commande conforme à Apple</h3>
+<p>Recommandé. Keepsight indique à DockKit où se trouve le sujet, et DockKit déplace les moteurs, comme Apple le prévoit. Désactivé : Keepsight règle directement la vitesse des moteurs.</p>
+<h3>Suivi Apple pour les personnes</h3>
+<p>Pour Personne et Visage, le suivi d’Apple déplace le gimbal, comme dans l’app Appareil photo. Touchez une personne pour la choisir. Tous les autres sujets restent avec Keepsight.</p>
+<h3>Suivre la personne qui parle</h3>
+<p>Avec plusieurs personnes, le gimbal se tourne vers celle qui parle, pour des interviews, des podcasts ou des réunions de famille. Nécessite le suivi Apple pour les personnes et iOS 18.</p>
+<h3>Plage de rotation</h3>
+<p>Limite jusqu’où le gimbal peut pivoter, à partir de la direction au début du suivi. Pratique sur un balcon ou quand un câble pend de l’iPhone.</p>
+<h3>Programme de panoramique</h3>
+<p>Pivote lentement et régulièrement sur l’angle et la durée choisis, pour des timelapses, des vidéos panoramiques ou des prises de vue de produits. En mode vidéo, Keepsight enregistre ; en mode photo avec Intervalle, il prend la série. Le suivi est en pause pendant ce temps.</p>
+<p>Avant le panoramique, le gimbal se place au point de départ ; l’enregistrement ne commence qu’une fois qu’il y est. La plage de rotation s’applique aussi au programme.</p>
+<p><kbd>Cadrage</kbd>, <kbd>Suivre la personne qui parle</kbd> et le programme de panoramique font partie de Keepsight Pro.</p>
+<div class="tip"><p><strong>Pas encore testé :</strong> ces fonctions DockKit suivent la documentation d’Apple mais n’ont pas encore été essayées avec un gimbal DockKit. Si quelque chose se comporte autrement, envoyez un message avec le modèle exact.</p></div>
 
 <h2>Déplacer à la main</h2>
 <div class="shots n1"><figure><img src="../../img/manual-en.webp" width="600" height="1300" loading="lazy" alt="Partie Manuel avec joystick"><figcaption>Partie Manuel avec joystick</figcaption></figure></div>

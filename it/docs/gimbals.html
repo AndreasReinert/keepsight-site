@@ -46,7 +46,7 @@
 <li>Inserisci l’iPhone e apri Keepsight. L’app riconosce il dispositivo da sola e il pulsante in basso a destra mostra <kbd>Segui</kbd>.</li>
 <li>Scegli un soggetto e tocca <kbd>Segui</kbd>.</li>
 </ol>
-<p>Mentre Keepsight controlla il dispositivo, l’inseguimento proprio di Apple è disattivato perché i due non si disturbino. Se ti scolleghi nell’area <kbd>Manuale</kbd>, il sistema riprende il controllo.</p>
+<p>Durante il tracking, Keepsight dice a DockKit dove si trova il soggetto e DockKit muove i motori, come consiglia Apple. Per Persona e Volto puoi anche lasciare che subentri il tracking di Apple. Se disconnetti nell’area <kbd>Manuale</kbd>, riprende il controllo il sistema.</p>
 <p>DockKit richiede iOS 17 o successivo. Keepsight non può controllare dispositivi senza DockKit, come i modelli precedenti degli stessi produttori.</p>
 
 <h2>FeiyuTech AK4500</h2>
@@ -56,6 +56,29 @@
 <li>La prima volta consenti l’accesso al Bluetooth.</li>
 </ol>
 <p>L’AK4500 reagisce solo oltre una certa intensità di comando. Keepsight lo compensa con l’impostazione <kbd>Velocità minima</kbd>, vedi il capitolo Impostazioni.</p>
+
+<h2>Tasti del gimbal</h2>
+<p>I tasti di un gimbal DockKit funzionano in Keepsight come nell’app Fotocamera di Apple: il pulsante di scatto scatta una foto o avvia e ferma un video, il tasto di cambio passa tra fotocamera posteriore e anteriore e la rotella dello zoom zooma a piccoli passi. Lo zoom automatico si spegne quando zoomi a mano.</p>
+
+<h2>Impostazioni del gimbal nel pannello Tracking</h2>
+<p>Le trovi sotto <kbd>Gimbal</kbd> nel pannello Tracking. <kbd>Inquadratura</kbd> e <kbd>Cerca se perso</kbd> funzionano con ogni gimbal. Le altre impostazioni compaiono appena un dispositivo DockKit è collegato, insieme al livello della sua batteria.</p>
+<h3>Inquadratura</h3>
+<p>Inquadratura: mantiene il soggetto nel terzo sinistro o destro, per esempio per lasciare spazio a un testo o nella direzione in cui si muove. Funziona con ogni gimbal.</p>
+<h3>Cerca se perso</h3>
+<p>Se il soggetto sparisce, il gimbal ruota brevemente nella direzione in cui è uscito, poi dall’altra parte e torna indietro. Si ferma dopo circa 12 secondi.</p>
+<h3>Controllo conforme ad Apple</h3>
+<p>Consigliato. Keepsight dice a DockKit dove si trova il soggetto e DockKit muove i motori, come previsto da Apple. Disattivato: Keepsight imposta direttamente la velocità dei motori.</p>
+<h3>Tracking Apple per le persone</h3>
+<p>Per Persona e Volto, il tracking di Apple muove il gimbal, come nell’app Fotocamera. Tocca una persona per sceglierla. Tutti gli altri soggetti restano a Keepsight.</p>
+<h3>Segui chi parla</h3>
+<p>Con più persone, il gimbal si gira verso chi sta parlando, per interviste, podcast o riunioni di famiglia. Richiede il tracking Apple per le persone e iOS 18.</p>
+<h3>Area di rotazione</h3>
+<p>Limita quanto può ruotare il gimbal, a partire dalla direzione all’avvio del tracking. Utile su un balcone o quando un cavo pende dall’iPhone.</p>
+<h3>Programma di panoramica</h3>
+<p>Ruota lentamente e in modo uniforme sull’angolo e sul tempo scelti, per timelapse, video panoramici o riprese di prodotti. In modalità video Keepsight registra; in modalità foto con Intervallo scatta la serie. Nel frattempo il tracking è in pausa.</p>
+<p>Prima della panoramica il gimbal si porta al punto di partenza; la registrazione inizia solo quando è lì. L’area di rotazione vale anche per il programma.</p>
+<p><kbd>Inquadratura</kbd>, <kbd>Segui chi parla</kbd> e il programma di panoramica fanno parte di Keepsight Pro.</p>
+<div class="tip"><p><strong>Non ancora provato:</strong> queste funzioni DockKit seguono la documentazione di Apple, ma non sono ancora state provate con un gimbal DockKit. Se qualcosa si comporta diversamente, manda un messaggio con il modello esatto.</p></div>
 
 <h2>Muovere a mano</h2>
 <div class="shots n1"><figure><img src="../../img/manual-en.webp" width="600" height="1300" loading="lazy" alt="Sezione Manuale con joystick"><figcaption>Sezione Manuale con joystick</figcaption></figure></div>
