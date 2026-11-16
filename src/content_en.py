@@ -681,6 +681,7 @@ DOCS = [
 
 <h2>Restoring a purchase</h2>
 <p>On a new iPhone or after reinstalling, tap <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. You must be signed in with the same Apple Account you used for the purchase.</p>
+<p>Have a code for Keepsight Pro? Tap <kbd>PRO</kbd> → <kbd>Redeem code</kbd> and enter it. Apple checks the code; it unlocks Pro just like a purchase.</p>
 
 <h2>Refunds</h2>
 <p>Request a refund from Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>

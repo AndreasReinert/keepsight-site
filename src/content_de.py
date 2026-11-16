@@ -682,6 +682,7 @@ DOCS = [
 
 <h2>Kauf wiederherstellen</h2>
 <p>Auf einem neuen iPhone oder nach einer Neuinstallation tippst du auf <kbd>PRO</kbd> → <kbd>Kauf wiederherstellen</kbd>. Du musst mit demselben Apple Account angemeldet sein wie beim Kauf.</p>
+<p>Du hast einen Code für Keepsight Pro? Tippe auf <kbd>PRO</kbd> → <kbd>Code einlösen</kbd> und gib ihn ein. Apple prüft den Code; er schaltet Pro frei wie ein Kauf.</p>
 
 <h2>Rückerstattung</h2>
 <p>Eine Rückerstattung beantragst du bei Apple unter <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
