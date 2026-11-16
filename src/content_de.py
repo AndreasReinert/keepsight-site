@@ -66,7 +66,7 @@ HOME = {
         ("Rahmen um ein beliebiges Objekt ziehen", False, True),
         ("Video bis 60 Sekunden, mit Logo", True, True),
         ("Pro-Tracking zum Testen: 3 × 60 Sekunden", True, True),
-        ("Aufnahme ohne Zeitlimit und ohne Logo", False, True),
+        ("Unbegrenzte Aufnahme ohne Logo", False, True),
         ("Zweites Video mit Rahmen und Daten", False, True),
         ("Fotos in ProRAW", False, True),
     ],

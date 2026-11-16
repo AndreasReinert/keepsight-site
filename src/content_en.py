@@ -66,7 +66,7 @@ HOME = {
         ("Drag a frame around any object", False, True),
         ("Video up to 60 seconds, with logo", True, True),
         ("Pro tracking preview: 3 × 60 seconds", True, True),
-        ("Recording without time limit or logo", False, True),
+        ("Unlimited recording without logo", False, True),
         ("Second video with frames and data", False, True),
         ("Photos in ProRAW", False, True),
     ],
