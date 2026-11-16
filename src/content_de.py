@@ -440,7 +440,7 @@ DOCS = [
 <tr><td>Tele</td><td>12 MP, ab iPhone 17 Pro bis 48 MP</td></tr>
 </table>
 <p>Das sind Apples Angaben für die Pro-Modelle ab iPhone 15 Pro. Getestet ist Keepsight bisher nur auf dem iPhone 15 Pro Max. Andere Modelle liefern mit einigen Objektiven weniger Megapixel. Das Format-Fenster zeigt immer nur, was das aktuelle Objektiv deines iPhones wirklich liefert.</p>
-<div class="tip"><p>Per Geste oder Sprache ausgelöst, schaltet Keepsight von selbst in den Foto- oder Video-Modus. Nur ein Foto, das während einer laufenden Videoaufnahme entsteht, bleibt bei rund 10 MP.</p></div>
+<div class="tip"><p>Per Sprache ausgelöst, schaltet Keepsight von selbst in den Foto- oder Video-Modus; Gesten wirken im eingestellten Modus. Nur ein Foto, das während einer laufenden Videoaufnahme entsteht, bleibt bei rund 10 MP.</p></div>
 """),
 
 ("zoom", "Auto-Zoom", "Hält das Motiv in gleicher Grösse, ohne dass das Video springt.", """
@@ -532,17 +532,16 @@ DOCS = [
 """),
 
 ("remote", "Gesten, Sprache, Countdown", "Die Kamera bedienen, wenn du selbst vor ihr stehst.", """
-[[shots settings-gestures]]
 <p>Alle drei findest du in der linken Leiste unter <kbd>Fernsteuerung</kbd>.</p>
 <h2>Handgesten</h2>
-<p>Gesten funktionieren, wenn als Motiv Person oder Gesicht gewählt ist. Halte die Geste etwa eine halbe Sekunde ruhig. Oben in der Mitte füllt sich dabei ein Balken.</p>
+<p>Gesten funktionieren, wenn als Motiv Person oder Gesicht gewählt ist. Sie sind gleich belegt wie beim DJI Osmo Mobile 8. Halte die Geste etwa eine halbe Sekunde ruhig; oben in der Mitte füllt sich dabei ein Balken. Gesten geben kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild. Nach einer Geste wird die nächste 2 Sekunden lang nicht beachtet.</p>
 <table>
 <tr><th>Geste</th><th>Wirkung</th></tr>
-<tr><td>Offene Hand</td><td>Videoaufnahme starten oder stoppen.</td></tr>
-<tr><td>OK-Zeichen</td><td>Diese Person als Ziel wählen und das Tracking starten.</td></tr>
-<tr><td>Peace-Zeichen</td><td>Ein Foto aufnehmen.</td></tr>
-<tr><td>Zwei offene Hände</td><td>Das Tracking stoppen.</td></tr>
+<tr><td>Offene Hand</td><td>Tracking der Person, die sie zeigt, starten oder stoppen.</td></tr>
+<tr><td>V-Zeichen</td><td>Foto-Modus: ein Foto aufnehmen. Video-Modus: die Aufnahme starten oder stoppen.</td></tr>
+<tr><td>Doppel-L mit beiden Händen (ein Rahmen), zweimal gezeigt</td><td>Bildausschnitt anpassen: die Person zentrieren und den Auto-Zoom auf die Grösse des Rahmens stellen.</td></tr>
 </table>
+<p>Das V-Zeichen wirkt im eingestellten Modus. Um ohne Hände zwischen Foto und Video zu wechseln, nimm einen Sprachbefehl.</p>
 
 <h2>Sprachbefehle</h2>
 <p>Schalte <kbd>Sprachsteuerung</kbd> ein und erlaube Mikrofon und Spracherkennung. Die Befehle sprichst du in der Sprache der App.</p>
@@ -689,7 +688,7 @@ DOCS = [
 """),
 
 ("settings", "Einstellungen und Hilfe", "Sprache, Hilfemodus und die Regler für Fortgeschrittene.", """
-[[shots settings settings-models settings-gestures]]
+[[shots settings settings-models]]
 <p>Die wichtigsten Schalter liegen in den beiden Seitenleisten. Alles Weitere findest du in der linken Leiste unter <kbd>Alle Einstellungen</kbd>.</p>
 <h2>Hilfemodus</h2>
 <p>Das Fragezeichen oben in jeder Seitenleiste schaltet den Hilfemodus ein. Unter den Menüpunkten erscheinen dann gelbe Hinweise mit kurzer Erklärung, bei wichtigen Punkten mit einem Schaubild.</p>
@@ -744,6 +743,8 @@ DOCS = [
 <ul>
 <li>Als Motiv muss Person oder Gesicht gewählt sein.</li>
 <li>Halte die Hand ruhig und gut sichtbar, bis der Balken gefüllt ist.</li>
+<li>Gesten geben kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild.</li>
+<li>Warte nach einer Geste 2 Sekunden bis zur nächsten.</li>
 </ul>
 <h2>48 MP oder RAW lassen sich nicht wählen</h2>
 <p>Beides gibt es nur im Foto-Modus und mit einem Objektiv, das es unterstützt. Beim iPhone 15 Pro ist das nur die Hauptkamera <kbd>1×</kbd>; neuere Pro-Modelle bieten 48 MP auch mit anderen Objektiven. RAW braucht ausserdem Keepsight Pro.</p>
