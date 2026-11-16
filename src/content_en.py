@@ -71,6 +71,9 @@ HOME = {
         ("Photos in ProRAW", False, True),
         ("Manual camera controls for photo and video", False, True),
         ("Video in ProRes 422 HQ", False, True),
+        ("Focus follows the subject, zebra, peaking, histogram, audio meters, frame guides", False, True),
+        ("Dual capture: video with selfie picture", False, True),
+        ("Heat saver while recording, AF button", True, True),
         ("Gimbal: framing, speaker and pan programs", False, True),
         ("Gestures: group, framing, highlights, own assignment", False, True),
         ("Apple Watch: shutter, mode, tracking, status", True, True),
@@ -415,6 +418,38 @@ DOCS = [
 <h2 id="grid">Grid</h2>
 <p>Grid: two lines each way help you keep the horizon level and place your subject. They are not saved in photos or videos.</p>
 <p>Switch it on in the format panel under <kbd>Grid</kbd>. It is available to everyone, also without Pro. Place your subject on one of the four crossing points for a balanced picture, and use the lines to keep the horizon and buildings straight.</p>
+<h2 id="af">Focus: AF and following focus</h2>
+<p>AF: the button <kbd>AF</kbd> at the end of the lens bar focuses once on the tracked subject, or on the centre of the picture when nothing is tracked. Free for everyone.</p>
+<p>Focus follows the subject: while Keepsight tracks a subject, the focus stays on it, even when it moves to the edge of the picture. Switch it on in the settings under <kbd>Monitoring</kbd> → <kbd>Focus follows the subject</kbd>. It is paused as soon as you set the focus by hand. Requires Keepsight Pro.</p>
+<h2 id="monitoring">Monitoring tools</h2>
+<p>Monitoring tools show you what the picture really looks like, the way professional cameras do. They appear only on the screen and are never saved in photos or videos. Switch them on in the settings under <kbd>Monitoring</kbd>. Requires Keepsight Pro.</p>
+<table>
+<tr><th>Tool</th><th>What it shows</th></tr>
+<tr><td><kbd>Zebra</kbd></td><td>White diagonal stripes on areas that are too bright and lose detail. Set the threshold with <kbd>Zebra level</kbd>, from 75 to 100 %. If you see stripes on a face or the sky, lower the exposure.</td></tr>
+<tr><td><kbd>Focus peaking</kbd></td><td>Colours the edges that are sharp. Useful with manual focus: turn the focus until your subject lights up. Choose the colour that stands out best: green, red, blue or yellow.</td></tr>
+<tr><td><kbd>Histogram</kbd></td><td>How the brightness is spread, from dark on the left to bright on the right. A mountain pressed against the right edge means overexposure, against the left edge underexposure.</td></tr>
+<tr><td><kbd>Audio meters</kbd></td><td>The sound level of each microphone channel from −45 to +3 dB, green, yellow from −12 dB, red from −3 dB. Visible while the microphone runs, that is during recording or with voice control.</td></tr>
+<tr><td><kbd>Frame guide</kbd></td><td>Darkens everything outside the chosen format: 9:16 for Reels and Shorts, 4:5 and 1:1 for posts, 4:3, 16:9, and the cinema formats 1.85:1 and 2.39:1. The video itself keeps its full format, so you can crop it later.</td></tr>
+</table>
+<h2 id="dual">Dual capture: video with selfie picture</h2>
+<p>Dual capture: the rear camera films and tracks your subject, the front camera films you at the same time. Your selfie appears as a small picture at the bottom right of the video.</p>
+<p>Switch it on in the settings under <kbd>Dual capture</kbd>. With <kbd>Save selfie video separately</kbd> your selfie is also saved as its own video, so you can edit it yourself later. While dual capture is on, the viewfinder shows your selfie at the top right.</p>
+<ul>
+<li>Both cameras record at up to 1080p with 30 frames per second, without 4K or ProRes. The rear camera uses the main lens, zoom is digital.</li>
+<li>Tracking, gestures, voice commands and the gimbal keep working.</li>
+<li>Only in video mode. Switching to photo mode or to the front camera ends dual capture.</li>
+<li>If the iPhone gets hot, the selfie picture switches off by itself.</li>
+<li>Requires Keepsight Pro and an iPhone that can film with both cameras at once. If yours cannot, Keepsight tells you.</li>
+</ul>
+<h2 id="heat">Heat saver while recording</h2>
+<p>Long recordings in the sun make every iPhone warm. With <kbd>Save heat while recording</kbd> Keepsight saves energy during a recording and gives everything back when you stop. It is on by default and free for everyone.</p>
+<ul>
+<li>The screen dims after 10 seconds. Tap it to wake it. The recording continues.</li>
+<li>While your subject stands still, detection runs less often. As soon as it moves, it runs at full speed again.</li>
+<li>Gestures are checked less often, voice control stays on.</li>
+<li>Monitoring tools and the live view on the Apple Watch update less often.</li>
+</ul>
+<p>If the iPhone gets warm anyway, Keepsight goes one step further: first the selfie picture switches off, then the overlay video pauses, then detection slows down. When the iPhone is too hot, tracking stops and the recording is saved.</p>
 <h2>Front camera and selfies</h2>
 <p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Captures are saved unmirrored, the way others see you; for photos you can change that.</p>
 <ul>
@@ -715,6 +750,9 @@ DOCS = [
 <tr><td>Photos in ProRAW</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Manual camera controls for photo and video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Focus follows the subject, zebra, peaking, histogram, audio meters, frame guides</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Dual capture: video with selfie picture</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Heat saver while recording, AF button</td><td class="y">Yes</td><td class="y">Yes</td></tr>
 <tr><td>Gimbal: framing, speaker and pan programs</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Gestures: group, framing, highlights, own assignment</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Apple Watch: shutter, mode, tracking, status</td><td class="y">Yes</td><td class="y">Yes</td></tr>

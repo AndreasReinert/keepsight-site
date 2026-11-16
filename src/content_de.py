@@ -71,6 +71,9 @@ HOME = {
         ("Fotos in ProRAW", False, True),
         ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
         ("Video in ProRes 422 HQ", False, True),
+        ("Fokus folgt dem Motiv, Zebra, Peaking, Histogramm, Tonpegel, Formatrahmen", False, True),
+        ("Dual Capture: Video mit Selfie-Bild", False, True),
+        ("Hitze-Sparmodus beim Filmen, AF-Taste", True, True),
         ("Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme", False, True),
         ("Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung", False, True),
         ("Apple Watch: Auslöser, Modus, Tracking, Status", True, True),
@@ -416,6 +419,38 @@ DOCS = [
 <h2 id="grid">Gitter</h2>
 <p>Gitter: je zwei Linien helfen dir, den Horizont gerade zu halten und dein Motiv zu platzieren. Sie werden nicht in Fotos oder Videos gespeichert.</p>
 <p>Du schaltest es im Format-Fenster unter <kbd>Grid</kbd> ein. Es steht allen zur Verfügung, auch ohne Pro. Lege dein Motiv für ein ausgewogenes Bild auf einen der vier Kreuzungspunkte und halte mit den Linien Horizont und Gebäude gerade.</p>
+<h2 id="af">Schärfe: AF und Fokus, der folgt</h2>
+<p>AF: Die Taste <kbd>AF</kbd> am Ende der Objektivleiste stellt einmal scharf, auf das verfolgte Motiv oder, wenn nichts verfolgt wird, auf die Bildmitte. Für alle gratis.</p>
+<p>Fokus folgt dem Motiv: Solange Keepsight ein Motiv verfolgt, bleibt die Schärfe darauf, auch wenn es an den Bildrand läuft. Einschalten in den Einstellungen unter <kbd>Kontrolle beim Filmen</kbd> → <kbd>Fokus folgt dem Motiv</kbd>. Stellst du die Schärfe von Hand ein, pausiert die Funktion. Braucht Keepsight Pro.</p>
+<h2 id="monitoring">Kontrolle beim Filmen</h2>
+<p>Die Kontrollhilfen zeigen dir, wie das Bild wirklich aussieht, so wie bei Profikameras. Sie erscheinen nur auf dem Bildschirm und landen nie in Fotos oder Videos. Einschalten in den Einstellungen unter <kbd>Kontrolle beim Filmen</kbd>. Braucht Keepsight Pro.</p>
+<table>
+<tr><th>Hilfe</th><th>Was sie zeigt</th></tr>
+<tr><td><kbd>Zebra</kbd></td><td>Weisse schräge Streifen auf Stellen, die zu hell sind und Zeichnung verlieren. Die Schwelle stellst du mit <kbd>Zebra-Schwelle</kbd> ein, von 75 bis 100 %. Siehst du Streifen im Gesicht oder am Himmel, belichte knapper.</td></tr>
+<tr><td><kbd>Focus Peaking</kbd></td><td>Färbt die Kanten, die scharf sind. Praktisch beim Scharfstellen von Hand: Dreh die Schärfe, bis dein Motiv aufleuchtet. Wähle die Farbe, die am besten auffällt: Grün, Rot, Blau oder Gelb.</td></tr>
+<tr><td><kbd>Histogramm</kbd></td><td>Wie sich die Helligkeit verteilt, links dunkel, rechts hell. Ein Berg, der am rechten Rand klebt, heisst überbelichtet, am linken Rand unterbelichtet.</td></tr>
+<tr><td><kbd>Tonpegel</kbd></td><td>Die Lautstärke je Mikrofonkanal von −45 bis +3 dB, grün, ab −12 dB gelb, ab −3 dB rot. Sichtbar, solange das Mikrofon läuft, also bei der Aufnahme oder mit Sprachsteuerung.</td></tr>
+<tr><td><kbd>Formatrahmen</kbd></td><td>Dunkelt alles ausserhalb des gewählten Formats ab: 9:16 für Reels und Shorts, 4:5 und 1:1 für Beiträge, 4:3, 16:9 und die Kinoformate 1,85:1 und 2,39:1. Das Video selbst behält sein volles Format, du kannst es später zuschneiden.</td></tr>
+</table>
+<h2 id="dual">Dual Capture: Video mit Selfie-Bild</h2>
+<p>Dual Capture: Die Rückkamera filmt und verfolgt dein Motiv, die Frontkamera filmt gleichzeitig dich. Dein Selfie erscheint als kleines Bild unten rechts im Video.</p>
+<p>Einschalten in den Einstellungen unter <kbd>Dual Capture</kbd>. Mit <kbd>Selfie-Video zusätzlich speichern</kbd> wird dein Selfie auch als eigenes Video gespeichert, damit du es später selbst schneiden kannst. Solange Dual Capture an ist, zeigt der Sucher dein Selfie oben rechts.</p>
+<ul>
+<li>Beide Kameras filmen mit höchstens 1080p und 30 Bildern pro Sekunde, ohne 4K und ProRes. Die Rückkamera nutzt das Hauptobjektiv, der Zoom ist digital.</li>
+<li>Tracking, Gesten, Sprachbefehle und der Gimbal funktionieren weiter.</li>
+<li>Nur im Video-Modus. Der Wechsel in den Foto-Modus oder zur Frontkamera beendet Dual Capture.</li>
+<li>Wird das iPhone heiss, schaltet sich das Selfie-Bild von selbst ab.</li>
+<li>Braucht Keepsight Pro und ein iPhone, das mit beiden Kameras gleichzeitig filmen kann. Kann deines das nicht, sagt Keepsight es dir.</li>
+</ul>
+<h2 id="heat">Hitze sparen beim Filmen</h2>
+<p>Lange Aufnahmen in der Sonne machen jedes iPhone warm. Mit <kbd>Hitze sparen beim Filmen</kbd> spart Keepsight während der Aufnahme Energie und gibt beim Stoppen alles wieder zurück. Die Einstellung ist von Anfang an eingeschaltet und für alle gratis.</p>
+<ul>
+<li>Der Bildschirm dunkelt nach 10 Sekunden ab. Tippen weckt ihn. Die Aufnahme läuft weiter.</li>
+<li>Solange dein Motiv ruhig steht, rechnet die Erkennung seltener. Sobald es sich bewegt, läuft sie wieder mit voller Geschwindigkeit.</li>
+<li>Gesten werden seltener geprüft, die Sprachsteuerung bleibt an.</li>
+<li>Kontrollhilfen und das Live-Bild auf der Apple Watch werden seltener aktualisiert.</li>
+</ul>
+<p>Wird das iPhone trotzdem warm, geht Keepsight einen Schritt weiter: zuerst schaltet sich das Selfie-Bild ab, dann pausiert das Overlay-Video, dann wird die Erkennung langsamer. Ist das iPhone zu heiss, stoppt das Tracking und die Aufnahme wird gespeichert.</p>
 <h2>Frontkamera und Selfies</h2>
 <p>Der Knopf mit den zwei Pfeilen neben dem Vorschaubild wechselt zur Frontkamera. Du siehst dich selbst, gespiegelt wie in der Kamera-App. Gespeichert wird ungespiegelt, so wie andere dich sehen; für Fotos kannst du das umstellen.</p>
 <ul>
@@ -716,6 +751,9 @@ DOCS = [
 <tr><td>Fotos in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Fokus folgt dem Motiv, Zebra, Peaking, Histogramm, Tonpegel, Formatrahmen</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Dual Capture: Video mit Selfie-Bild</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Hitze-Sparmodus beim Filmen, AF-Taste</td><td class="y">Ja</td><td class="y">Ja</td></tr>
 <tr><td>Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Apple Watch: Auslöser, Modus, Tracking, Status</td><td class="y">Ja</td><td class="y">Ja</td></tr>
