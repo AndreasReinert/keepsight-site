@@ -548,11 +548,11 @@ DOCS = [
 <p>Schalte <kbd>Sprachsteuerung</kbd> ein und erlaube Mikrofon und Spracherkennung. Die Befehle sprichst du in der Sprache der App.</p>
 <table>
 <tr><th>Du sagst</th><th>Wirkung</th></tr>
-<tr><td>„Foto“</td><td>Ein Foto aufnehmen.</td></tr>
+<tr><td>„Foto machen“</td><td>Ein Foto aufnehmen.</td></tr>
 <tr><td>„Video starten“ oder „Aufnahme starten“</td><td>Die Videoaufnahme starten.</td></tr>
 <tr><td>„Stopp“</td><td>Aufnahme, Serie oder laufenden Countdown beenden.</td></tr>
 </table>
-<p>Viele Formulierungen funktionieren, zum Beispiel «Video», «mach ein Video», «Bild» oder «Foto machen». Steht die Kamera im anderen Modus, schaltet Keepsight vor dem Auslösen von selbst um.</p>
+<p>Foto und Video brauchen mindestens zwei Wörter, zum Beispiel «mach ein Video», «Kamera ab», «mach ein Foto» oder «Bild machen». Ein einzelnes Wort löst nichts aus, ein normales Gespräch setzt die Kamera also nicht in Gang. Ein einzelnes «Stopp» wirkt nur, solange eine Aufnahme, eine Serie oder ein Countdown läuft. Steht die Kamera im anderen Modus, schaltet Keepsight vor dem Auslösen von selbst um.</p>
 <p>Solange die Sprachsteuerung an ist, bleibt das Mikrofon eingeschaltet. Das iPhone zeigt das mit dem orangen Punkt an.</p>
 
 <h2>Countdown, Blitz und Ton</h2>
@@ -736,6 +736,7 @@ DOCS = [
 <ul>
 <li>Erlaube Mikrofon und Spracherkennung unter <kbd>Einstellungen</kbd> → <kbd>Keepsight</kbd>.</li>
 <li>Sprich die Befehle in der Sprache der App.</li>
+<li>Sag für Foto und Video mindestens zwei Wörter, zum Beispiel «Foto machen» oder «Video starten».</li>
 <li>Wind und laute Umgebung stören die Erkennung. Dann sind Gesten zuverlässiger.</li>
 </ul>
 <h2>Gesten lösen nicht aus</h2>

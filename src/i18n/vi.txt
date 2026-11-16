@@ -380,11 +380,11 @@
 493|Bật <kbd>Voice control</kbd> và cho phép micrô cùng nhận dạng giọng nói. Nói lệnh bằng ngôn ngữ của ứng dụng.
 494|Bạn nói
 495|“Chụp ảnh”
-496|“Bắt đầu video” hoặc “Bắt đầu quay”
+496|“Quay video” hoặc “Bắt đầu quay”
 497|Bắt đầu quay video.
 498|“Dừng”
 499|Kết thúc việc ghi hình, loạt ảnh hoặc lượt đếm ngược đang chạy.
-500|Nhiều cách nói đều được, ví dụ “video”, “quay video”, “chụp” hoặc “chụp hình”. Nếu camera đang ở chế độ kia, Keepsight tự chuyển trước khi kích hoạt.
+500|Ảnh và video cần ít nhất hai từ, ví dụ “quay phim”, “ghi hình”, “chụp hình” hoặc “chụp một tấm”. Một từ đơn lẻ không kích hoạt gì, nên cuộc trò chuyện bình thường không làm máy ảnh chụp. Chỉ nói “dừng” chỉ có tác dụng khi đang quay, đang chụp loạt hoặc đang đếm ngược. Nếu máy ảnh đang ở chế độ khác, Keepsight sẽ tự chuyển trước khi chụp.
 501|Trong khi điều khiển giọng nói bật, micrô vẫn hoạt động. iPhone báo điều này bằng chấm màu cam.
 502|Đếm ngược, đèn nháy và âm thanh
 503|Khi bạn kích hoạt bằng cử chỉ hoặc giọng nói, lượt đếm ngược chạy trước để bạn kịp vào vị trí.
@@ -512,89 +512,90 @@
 637|Lệnh giọng nói không được hiểu
 638|Cho phép micrô và nhận dạng giọng nói trong <kbd>Cài đặt</kbd> → <kbd>Keepsight</kbd>.
 639|Nói lệnh bằng ngôn ngữ của ứng dụng.
-640|Gió và môi trường ồn làm nhiễu việc nhận dạng. Khi đó cử chỉ đáng tin cậy hơn.
-641|Cử chỉ không kích hoạt
-642|Chủ thể phải được đặt là Người hoặc Khuôn mặt.
-643|Giữ tay yên và thấy rõ cho đến khi thanh đầy.
-644|Không chọn được 48 MP hoặc RAW
-645|Cả hai chỉ có trong chế độ ảnh và với ống kính hỗ trợ chúng. Trên iPhone 15 Pro đó chỉ là camera chính <kbd>1×</kbd>; các mẫu Pro mới hơn cũng có 48 MP với các ống kính khác. RAW còn cần Keepsight Pro.
-646|Thư viện trống
-647|Cho phép Keepsight truy cập Ảnh. Nội dung từ các phiên bản cũ của ứng dụng không hiện trong thư viện, nhưng có trong ứng dụng Ảnh.
-648|Keepsight Pro không kích hoạt sau khi mua
-649|Chạm <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> và kiểm tra xem bạn đã đăng nhập đúng Tài khoản Apple chưa.
-650|Trợ giúp thêm
-651|Viết tới <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> và ghi kèm kiểu iPhone, phiên bản iOS và phiên bản Keepsight.
-652|iPhone bị nóng
-653|Phát hiện, quay 4K và điều khiển gimbal đều nặng, nhất là dưới nắng. Keepsight tự bảo vệ thiết bị:
-654|<strong>Nhiệt kế trong ô trạng thái:</strong> iPhone đang nóng và việc phát hiện chỉ xử lý mỗi khung hình thứ hai hoặc thứ ba. Việc theo dõi vẫn tiếp tục nhưng phản ứng chậm hơn một chút.
-655|<strong>Đã dừng theo dõi:</strong> ở nhiệt độ tới hạn, Keepsight kết thúc theo dõi và ghi hình rồi lưu video. Hãy để iPhone nguội trong bóng râm.
-656|Để máy mát hơn: tắt phát hiện và điều khiển cử chỉ khi không cần, dùng 1080p thay vì 4K, 30 thay vì 60 khung hình, tắt video lớp phủ và gimbal ảo, tháo ốp. Vì lý do này, iPhone 12 và các mẫu cũ hơn khởi đầu với 1080p.
-657|Tài liệu trả lời hầu hết câu hỏi. Nếu bạn gặp khó, hãy viết cho tôi.
-658|Liên hệ
-659|Để tôi giúp được nhanh, vui lòng ghi kèm:
-660|kiểu iPhone và phiên bản iOS của bạn
-661|phiên bản Keepsight (trong ứng dụng, mục Tất cả cài đặt → Giới thiệu và giấy phép)
-662|bạn đã làm gì và điều gì đã xảy ra, tốt nhất kèm ảnh chụp màn hình hoặc video ngắn
-663|Trợ giúp nhanh
-664|<a href="docs/start.html">Bắt đầu</a>: quyền truy cập và kết nối gimbal
-665|<a href="docs/troubleshooting.html">Khắc phục sự cố</a>: các vấn đề thường gặp và cách giải quyết
-666|<a href="docs/pro.html">Miễn phí và Pro</a>: mua, khôi phục, hoàn tiền
-667|Chính sách quyền riêng tư
-668|Cập nhật lần cuối: ngày 16 tháng 11 năm 2026. Áp dụng cho ứng dụng Keepsight trên iOS và trang web này.
-669|<strong>Tóm lại:</strong> Keepsight không thu thập dữ liệu về bạn. Không có tài khoản, quảng cáo, theo dõi hay phân tích. Hình ảnh camera, việc phát hiện, ảnh và video ở lại trên iPhone của bạn.
-670|1. Bên kiểm soát
-671|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Switzerland<br>Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-672|2. Ứng dụng xử lý những gì
-673|Ứng dụng chỉ xử lý dữ liệu trên thiết bị của bạn và chỉ để cung cấp các tính năng của nó. Tôi, với tư cách nhà cung cấp, không nhận được gì từ đó.
-674|<strong>Camera:</strong> Hình ảnh camera được phân tích trên iPhone để phát hiện và bám theo chủ thể. Hình ảnh không rời khỏi thiết bị.
-675|<strong>Khuôn mặt:</strong> để phát hiện khuôn mặt, nụ cười và hướng nhìn, ứng dụng phân tích hình ảnh camera trên iPhone. Nó không nhận ra ai là ai và không lưu đặc điểm khuôn mặt. Ảnh chân dung chứa dữ liệu độ sâu từ camera trước; dữ liệu đó chỉ có trong ảnh do chính bạn lưu.
-676|<strong>Micrô:</strong> cho âm thanh video của bạn và, nếu bạn bật điều khiển giọng nói, cho lệnh giọng nói.
-677|<strong>Nhận dạng giọng nói:</strong> Lệnh giọng nói được nhận dạng bởi tính năng nhận dạng giọng nói của Apple. Nếu iPhone và ngôn ngữ đã chọn hỗ trợ, việc này diễn ra trên thiết bị. Nếu không, âm thanh được gửi tới Apple để nhận dạng, theo chính sách quyền riêng tư của Apple. Điều khiển giọng nói tắt theo mặc định.
-678|<strong>Ảnh:</strong> Ứng dụng lưu nội dung bạn chụp vào thư viện ảnh và trong thư viện của mình chỉ hiển thị nội dung tạo bằng Keepsight. Nếu bạn dùng Ảnh iCloud, Apple chuyển chúng theo cài đặt iCloud của bạn.
-679|<strong>Bluetooth:</strong> để điều khiển gimbal. Chỉ lệnh điều khiển và giá trị trạng thái được trao đổi với gimbal.
-680|<strong>Vị trí và dữ liệu chuyến bay:</strong> chỉ khi bạn bật lớp phủ dữ liệu chuyến bay và đồng ý. Khi đó Keepsight dùng vị trí của bạn trên iPhone để xác định khu vực và nhận ra máy bay trong hình. Dữ liệu chuyến bay đến từ bộ thu ADS-B của riêng bạn trong mạng cục bộ. Cả vị trí của bạn lẫn dữ liệu chuyến bay đều không rời khỏi iPhone. Nếu không dùng tính năng này, ứng dụng không sử dụng vị trí của bạn.
-681|<strong>Mạng cục bộ:</strong> chỉ dùng cho lớp phủ dữ liệu chuyến bay, để kết nối với bộ thu ADS-B của riêng bạn. Keepsight chỉ nhận dữ liệu từ bộ thu.
-682|<strong>Cài đặt:</strong> Cài đặt trong ứng dụng chỉ được lưu cục bộ trên iPhone.
-683|3. Giao dịch mua
-684|Việc mua “Keepsight Pro” do Apple xử lý qua App Store. Tôi không nhận thông tin thanh toán, tên hay địa chỉ email, chỉ nhận số liệu bán hàng tổng hợp từ Apple.
-685|4. Bản thử nghiệm (TestFlight)
-686|Nếu bạn dùng bản thử nghiệm qua TestFlight, Apple xử lý địa chỉ email của bạn cho lời mời và, nếu bạn đồng ý, báo cáo sự cố cùng phản hồi của bạn. Tôi xem phản hồi và báo cáo sự cố để sửa lỗi, và thấy địa chỉ email của những người thử nghiệm do chính tôi mời.
-687|5. Liên hệ qua email
-688|Nếu bạn viết cho tôi, tôi chỉ dùng địa chỉ email và nội dung thư của bạn để trả lời. Tôi xóa thư khi vấn đề đã được giải quyết, muộn nhất sau hai năm.
-689|6. Trang web này
-690|Trang web này không đặt cookie và không theo dõi. Phông chữ và tập lệnh được phục vụ từ cùng trang; không tải nội dung của bên thứ ba. Lựa chọn ngôn ngữ của bạn chỉ được lưu trong trình duyệt. Trang được lưu trữ trên GitHub Pages (GitHub, Inc., Hoa Kỳ). Khi bạn truy cập, GitHub xử lý dữ liệu cần thiết về mặt kỹ thuật như địa chỉ IP của bạn trong nhật ký máy chủ. Xem tuyên bố về quyền riêng tư của GitHub để biết chi tiết.
-691|7. Quyền của bạn
-692|Theo Đạo luật Bảo vệ Dữ liệu Thụy Sĩ và, khi áp dụng, GDPR, bạn có quyền truy cập, chỉnh sửa, xóa, hạn chế xử lý và di chuyển dữ liệu, cùng quyền khiếu nại lên cơ quan giám sát (tại Thụy Sĩ là FDPIC). Vì ứng dụng không gửi dữ liệu nào cho tôi, trên thực tế điều này chỉ liên quan đến các email bạn đã gửi cho tôi. Viết tới <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
-693|8. Trẻ em
-694|Ứng dụng không hướng tới trẻ em và không thu thập dữ liệu từ trẻ em.
-695|9. Thay đổi
-696|Nếu ứng dụng thay đổi theo cách đòi hỏi sửa chính sách này, chính sách sẽ được cập nhật tại đây. Phiên bản trên trang này được áp dụng.
-697|Nhà cung cấp
-698|Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-699|Trách nhiệm
-700|Keepsight điều khiển một gimbal có động cơ. Hãy bảo đảm gimbal chuyển động được tự do và không ai gặp nguy hiểm. Bạn tự chịu trách nhiệm khi sử dụng, trong phạm vi pháp luật cho phép.
-701|Nhãn hiệu
-702|Apple, iPhone, App Store, TestFlight và DockKit là nhãn hiệu của Apple Inc. FeiyuTech, AK4500, Insta360, DJI và Belkin là nhãn hiệu của các chủ sở hữu tương ứng. Keepsight là sản phẩm độc lập và không liên kết với các công ty này.
-703|Điều khoản sử dụng
-704|Ứng dụng được cấp phép theo thỏa thuận cấp phép tiêu chuẩn của Apple cho ứng dụng: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-705|Kiểu chữ
-706|Trang web này dùng kiểu chữ Inter (SIL Open Font License 1.1).
-707|Điều khiển thủ công: cân bằng trắng với các biểu tượng ánh sáng, ở đây có chế độ trợ giúp
-708|Điều khiển thủ công: sắc độ, lấy nét và khẩu độ
-709|Bảng camera: định dạng, zoom, gimbal ảo, kích hoạt chụp ảnh
-710|Định dạng ở chế độ video
-711|Định dạng ở chế độ ảnh
-712|Cài đặt: tốc độ, gimbal, chất lượng
-713|Cài đặt: mô hình phát hiện và hướng
-714|Cài đặt: cử chỉ, ghi hình, ngôn ngữ
-715|Bảng theo dõi với chủ thể, tốc độ và điều khiển từ xa, hiển thị ở chế độ trợ giúp
-716|Phần điều khiển thủ công với cần điều khiển
-717|Ví dụ về lớp phủ (hình minh họa). Với bộ thu cục bộ, loại máy bay không được hiển thị.
-718|Một cô gái trẻ quay chính mình và bạn bè lúc hoàng hôn bằng điện thoại gắn trên gimbal
-719|Một gia đình trên tấm thảm dã ngoại bên hồ, được quay bằng điện thoại gắn trên gimbal nhỏ
-720|Một phụ nữ quay người đạp xe đi ngang qua bằng điện thoại gắn trên gimbal
-721|Một người đàn ông quay chú chó đang chạy và một em bé bằng điện thoại gắn trên gimbal
-722|Một nhiếp ảnh gia bám theo chim săn mồi đang bay bằng máy ảnh gắn trên gimbal
-723|Một phụ nữ với máy ảnh gắn trên gimbal và điện thoại trong tay, phía trên có máy bay bay qua
-724|Những người săn ảnh máy bay bên hàng rào sân bay quay một máy bay chở khách bằng điện thoại gắn trên gimbal
-725|Săn ảnh máy bay bằng điện thoại gắn trên gimbal (hình minh họa)
+640|Với ảnh và video, hãy nói ít nhất hai từ, ví dụ “chụp ảnh” hoặc “quay video”.
+641|Gió và môi trường ồn làm nhiễu việc nhận dạng. Khi đó cử chỉ đáng tin cậy hơn.
+642|Cử chỉ không kích hoạt
+643|Chủ thể phải được đặt là Người hoặc Khuôn mặt.
+644|Giữ tay yên và thấy rõ cho đến khi thanh đầy.
+645|Không chọn được 48 MP hoặc RAW
+646|Cả hai chỉ có trong chế độ ảnh và với ống kính hỗ trợ chúng. Trên iPhone 15 Pro đó chỉ là camera chính <kbd>1×</kbd>; các mẫu Pro mới hơn cũng có 48 MP với các ống kính khác. RAW còn cần Keepsight Pro.
+647|Thư viện trống
+648|Cho phép Keepsight truy cập Ảnh. Nội dung từ các phiên bản cũ của ứng dụng không hiện trong thư viện, nhưng có trong ứng dụng Ảnh.
+649|Keepsight Pro không kích hoạt sau khi mua
+650|Chạm <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> và kiểm tra xem bạn đã đăng nhập đúng Tài khoản Apple chưa.
+651|Trợ giúp thêm
+652|Viết tới <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> và ghi kèm kiểu iPhone, phiên bản iOS và phiên bản Keepsight.
+653|iPhone bị nóng
+654|Phát hiện, quay 4K và điều khiển gimbal đều nặng, nhất là dưới nắng. Keepsight tự bảo vệ thiết bị:
+655|<strong>Nhiệt kế trong ô trạng thái:</strong> iPhone đang nóng và việc phát hiện chỉ xử lý mỗi khung hình thứ hai hoặc thứ ba. Việc theo dõi vẫn tiếp tục nhưng phản ứng chậm hơn một chút.
+656|<strong>Đã dừng theo dõi:</strong> ở nhiệt độ tới hạn, Keepsight kết thúc theo dõi và ghi hình rồi lưu video. Hãy để iPhone nguội trong bóng râm.
+657|Để máy mát hơn: tắt phát hiện và điều khiển cử chỉ khi không cần, dùng 1080p thay vì 4K, 30 thay vì 60 khung hình, tắt video lớp phủ và gimbal ảo, tháo ốp. Vì lý do này, iPhone 12 và các mẫu cũ hơn khởi đầu với 1080p.
+658|Tài liệu trả lời hầu hết câu hỏi. Nếu bạn gặp khó, hãy viết cho tôi.
+659|Liên hệ
+660|Để tôi giúp được nhanh, vui lòng ghi kèm:
+661|kiểu iPhone và phiên bản iOS của bạn
+662|phiên bản Keepsight (trong ứng dụng, mục Tất cả cài đặt → Giới thiệu và giấy phép)
+663|bạn đã làm gì và điều gì đã xảy ra, tốt nhất kèm ảnh chụp màn hình hoặc video ngắn
+664|Trợ giúp nhanh
+665|<a href="docs/start.html">Bắt đầu</a>: quyền truy cập và kết nối gimbal
+666|<a href="docs/troubleshooting.html">Khắc phục sự cố</a>: các vấn đề thường gặp và cách giải quyết
+667|<a href="docs/pro.html">Miễn phí và Pro</a>: mua, khôi phục, hoàn tiền
+668|Chính sách quyền riêng tư
+669|Cập nhật lần cuối: ngày 16 tháng 11 năm 2026. Áp dụng cho ứng dụng Keepsight trên iOS và trang web này.
+670|<strong>Tóm lại:</strong> Keepsight không thu thập dữ liệu về bạn. Không có tài khoản, quảng cáo, theo dõi hay phân tích. Hình ảnh camera, việc phát hiện, ảnh và video ở lại trên iPhone của bạn.
+671|1. Bên kiểm soát
+672|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Switzerland<br>Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+673|2. Ứng dụng xử lý những gì
+674|Ứng dụng chỉ xử lý dữ liệu trên thiết bị của bạn và chỉ để cung cấp các tính năng của nó. Tôi, với tư cách nhà cung cấp, không nhận được gì từ đó.
+675|<strong>Camera:</strong> Hình ảnh camera được phân tích trên iPhone để phát hiện và bám theo chủ thể. Hình ảnh không rời khỏi thiết bị.
+676|<strong>Khuôn mặt:</strong> để phát hiện khuôn mặt, nụ cười và hướng nhìn, ứng dụng phân tích hình ảnh camera trên iPhone. Nó không nhận ra ai là ai và không lưu đặc điểm khuôn mặt. Ảnh chân dung chứa dữ liệu độ sâu từ camera trước; dữ liệu đó chỉ có trong ảnh do chính bạn lưu.
+677|<strong>Micrô:</strong> cho âm thanh video của bạn và, nếu bạn bật điều khiển giọng nói, cho lệnh giọng nói.
+678|<strong>Nhận dạng giọng nói:</strong> Lệnh giọng nói được nhận dạng bởi tính năng nhận dạng giọng nói của Apple. Nếu iPhone và ngôn ngữ đã chọn hỗ trợ, việc này diễn ra trên thiết bị. Nếu không, âm thanh được gửi tới Apple để nhận dạng, theo chính sách quyền riêng tư của Apple. Điều khiển giọng nói tắt theo mặc định.
+679|<strong>Ảnh:</strong> Ứng dụng lưu nội dung bạn chụp vào thư viện ảnh và trong thư viện của mình chỉ hiển thị nội dung tạo bằng Keepsight. Nếu bạn dùng Ảnh iCloud, Apple chuyển chúng theo cài đặt iCloud của bạn.
+680|<strong>Bluetooth:</strong> để điều khiển gimbal. Chỉ lệnh điều khiển và giá trị trạng thái được trao đổi với gimbal.
+681|<strong>Vị trí và dữ liệu chuyến bay:</strong> chỉ khi bạn bật lớp phủ dữ liệu chuyến bay và đồng ý. Khi đó Keepsight dùng vị trí của bạn trên iPhone để xác định khu vực và nhận ra máy bay trong hình. Dữ liệu chuyến bay đến từ bộ thu ADS-B của riêng bạn trong mạng cục bộ. Cả vị trí của bạn lẫn dữ liệu chuyến bay đều không rời khỏi iPhone. Nếu không dùng tính năng này, ứng dụng không sử dụng vị trí của bạn.
+682|<strong>Mạng cục bộ:</strong> chỉ dùng cho lớp phủ dữ liệu chuyến bay, để kết nối với bộ thu ADS-B của riêng bạn. Keepsight chỉ nhận dữ liệu từ bộ thu.
+683|<strong>Cài đặt:</strong> Cài đặt trong ứng dụng chỉ được lưu cục bộ trên iPhone.
+684|3. Giao dịch mua
+685|Việc mua “Keepsight Pro” do Apple xử lý qua App Store. Tôi không nhận thông tin thanh toán, tên hay địa chỉ email, chỉ nhận số liệu bán hàng tổng hợp từ Apple.
+686|4. Bản thử nghiệm (TestFlight)
+687|Nếu bạn dùng bản thử nghiệm qua TestFlight, Apple xử lý địa chỉ email của bạn cho lời mời và, nếu bạn đồng ý, báo cáo sự cố cùng phản hồi của bạn. Tôi xem phản hồi và báo cáo sự cố để sửa lỗi, và thấy địa chỉ email của những người thử nghiệm do chính tôi mời.
+688|5. Liên hệ qua email
+689|Nếu bạn viết cho tôi, tôi chỉ dùng địa chỉ email và nội dung thư của bạn để trả lời. Tôi xóa thư khi vấn đề đã được giải quyết, muộn nhất sau hai năm.
+690|6. Trang web này
+691|Trang web này không đặt cookie và không theo dõi. Phông chữ và tập lệnh được phục vụ từ cùng trang; không tải nội dung của bên thứ ba. Lựa chọn ngôn ngữ của bạn chỉ được lưu trong trình duyệt. Trang được lưu trữ trên GitHub Pages (GitHub, Inc., Hoa Kỳ). Khi bạn truy cập, GitHub xử lý dữ liệu cần thiết về mặt kỹ thuật như địa chỉ IP của bạn trong nhật ký máy chủ. Xem tuyên bố về quyền riêng tư của GitHub để biết chi tiết.
+692|7. Quyền của bạn
+693|Theo Đạo luật Bảo vệ Dữ liệu Thụy Sĩ và, khi áp dụng, GDPR, bạn có quyền truy cập, chỉnh sửa, xóa, hạn chế xử lý và di chuyển dữ liệu, cùng quyền khiếu nại lên cơ quan giám sát (tại Thụy Sĩ là FDPIC). Vì ứng dụng không gửi dữ liệu nào cho tôi, trên thực tế điều này chỉ liên quan đến các email bạn đã gửi cho tôi. Viết tới <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
+694|8. Trẻ em
+695|Ứng dụng không hướng tới trẻ em và không thu thập dữ liệu từ trẻ em.
+696|9. Thay đổi
+697|Nếu ứng dụng thay đổi theo cách đòi hỏi sửa chính sách này, chính sách sẽ được cập nhật tại đây. Phiên bản trên trang này được áp dụng.
+698|Nhà cung cấp
+699|Email: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+700|Trách nhiệm
+701|Keepsight điều khiển một gimbal có động cơ. Hãy bảo đảm gimbal chuyển động được tự do và không ai gặp nguy hiểm. Bạn tự chịu trách nhiệm khi sử dụng, trong phạm vi pháp luật cho phép.
+702|Nhãn hiệu
+703|Apple, iPhone, App Store, TestFlight và DockKit là nhãn hiệu của Apple Inc. FeiyuTech, AK4500, Insta360, DJI và Belkin là nhãn hiệu của các chủ sở hữu tương ứng. Keepsight là sản phẩm độc lập và không liên kết với các công ty này.
+704|Điều khoản sử dụng
+705|Ứng dụng được cấp phép theo thỏa thuận cấp phép tiêu chuẩn của Apple cho ứng dụng: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+706|Kiểu chữ
+707|Trang web này dùng kiểu chữ Inter (SIL Open Font License 1.1).
+708|Điều khiển thủ công: cân bằng trắng với các biểu tượng ánh sáng, ở đây có chế độ trợ giúp
+709|Điều khiển thủ công: sắc độ, lấy nét và khẩu độ
+710|Bảng camera: định dạng, zoom, gimbal ảo, kích hoạt chụp ảnh
+711|Định dạng ở chế độ video
+712|Định dạng ở chế độ ảnh
+713|Cài đặt: tốc độ, gimbal, chất lượng
+714|Cài đặt: mô hình phát hiện và hướng
+715|Cài đặt: cử chỉ, ghi hình, ngôn ngữ
+716|Bảng theo dõi với chủ thể, tốc độ và điều khiển từ xa, hiển thị ở chế độ trợ giúp
+717|Phần điều khiển thủ công với cần điều khiển
+718|Ví dụ về lớp phủ (hình minh họa). Với bộ thu cục bộ, loại máy bay không được hiển thị.
+719|Một cô gái trẻ quay chính mình và bạn bè lúc hoàng hôn bằng điện thoại gắn trên gimbal
+720|Một gia đình trên tấm thảm dã ngoại bên hồ, được quay bằng điện thoại gắn trên gimbal nhỏ
+721|Một phụ nữ quay người đạp xe đi ngang qua bằng điện thoại gắn trên gimbal
+722|Một người đàn ông quay chú chó đang chạy và một em bé bằng điện thoại gắn trên gimbal
+723|Một nhiếp ảnh gia bám theo chim săn mồi đang bay bằng máy ảnh gắn trên gimbal
+724|Một phụ nữ với máy ảnh gắn trên gimbal và điện thoại trong tay, phía trên có máy bay bay qua
+725|Những người săn ảnh máy bay bên hàng rào sân bay quay một máy bay chở khách bằng điện thoại gắn trên gimbal
+726|Săn ảnh máy bay bằng điện thoại gắn trên gimbal (hình minh họa)
