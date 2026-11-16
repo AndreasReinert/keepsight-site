@@ -1,20 +1,20 @@
 # Bildquellen der Illustrationen
 
-Die Dateien in diesem Ordner sind die unveränderten Ausgangsbilder der Illustrationen auf der Webseite,
-entnommen aus dem Auftragsdokument vom 15. November 2026 (1672 × 941 Pixel). Die höher aufgelösten
-PNG-Originale aus dem zugehörigen ZIP lagen nicht vor; sobald sie da sind, hier ersetzen und
-`img/<name>-<breite>.webp` neu erzeugen.
+Die Dateien in diesem Ordner sind die unveränderten Originale der Illustrationen auf der Webseite
+(PNG, 1672 × 941 Pixel), aus dem Paket «KeepSight_Claude_PDF_und_Bilder_NEU.zip» vom 16. November 2026.
+Daraus sind `img/<name>-<breite>.webp` (640, 1100, 1672) und `img/social.jpg` erzeugt.
+`ASSET_MAP.csv` ist die Zuordnung des Auftraggebers zu Zielgruppen und Seitenbereichen.
 
 Es sind erzeugte Werbebilder, keine Bildschirmfotos der App und kein Nachweis für kompatible Geräte
 oder echte Flugdaten.
 
 | Datei | Verwendung |
 |---|---|
-| hero.jpg | Startseite, oben (alle Sprachen) |
-| story-family.jpg | Startseite, Familie und Reisen |
-| story-sport.jpg | Startseite, Sport und Action (Velo-Bild, unverändert) |
-| story-pets.jpg | Startseite, Haustiere und Wildtiere |
-| story-birds.jpg | Dokumentation, «Schnelle Tiere und Vögel» |
-| story-pro.jpg | Startseite, Foto- und Videobegeisterte |
-| story-aviation.jpg | Startseite und Kapitel Flugdaten (alle Sprachen ausser Englisch) |
-| plane-spotting-en.jpg | Kapitel Flugdaten, nur Englisch (Bild enthält englischen Text, unverändert) |
+| hero.png | Startseite, oben (alle Sprachen) |
+| story-family.png | Startseite, Familie und Reisen |
+| story-sport.png | Startseite, Sport und Action (Velo-Bild, unverändert) |
+| story-pets.png | Startseite, Haustiere und Wildtiere |
+| story-birds.png | Dokumentation, «Schnelle Tiere und Vögel» |
+| story-pro.png | Startseite, Foto- und Videobegeisterte |
+| story-aviation.png | Startseite und Kapitel Flugdaten (alle Sprachen ausser Englisch) |
+| plane-spotting-en.png | Kapitel Flugdaten, nur Englisch (Bild enthält englischen Text, unverändert) |
