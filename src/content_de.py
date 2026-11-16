@@ -584,6 +584,7 @@ DOCS = [
 <li>Oben stehen Datum, Megapixel und Bildgrösse.</li>
 <li>Der Papierkorb löscht die Aufnahme auch aus der Fotos-App. Das iPhone fragt vorher nach.</li>
 </ul>
+<p>Um mehrere auf einmal zu löschen, tippe oben links auf <kbd>Select</kbd>, tippe die gewünschten Fotos und Videos an oder <kbd>Select all</kbd> und dann unten auf den Papierkorb. Das iPhone fragt einmal für alle nach.</p>
 <p>Die Galerie braucht Lesezugriff auf Fotos. Bei „Eingeschränkter Zugriff“ sieht Keepsight trotzdem die eigenen Aufnahmen.</p>
 <p>Zeigt eine Kachel ein Wolken-Symbol, liegt das Original in iCloud und wird gerade geladen. Das passiert, wenn iCloud-Fotos mit „iPhone-Speicher optimieren“ eingeschaltet ist. Ein Warnzeichen bedeutet, dass sich die Datei nicht lesen lässt; die Einzelansicht nennt dann den Dateinamen.</p>
 """),
