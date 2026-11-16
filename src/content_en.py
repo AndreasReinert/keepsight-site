@@ -359,18 +359,33 @@ DOCS = [
 
 <h2 id="manual">Manual controls</h2>
 <p>Manual controls: set ISO, shutter, white balance, tint and focus yourself, each one separately. Requires Keepsight Pro.</p>
+[[shots pro-wb pro-aperture]]
+<p>To open them, tap the format display at the top and switch <kbd>Controls</kbd> to <kbd>Pro</kbd>. You also find <kbd>Manual controls</kbd> in the camera panel; from there it also works while a video is recording.</p>
+<p>The window is low and does not darken the picture, so you see every change at once. A small “A” marks each value the camera still sets itself. As soon as you move a slider, that value is fixed. <kbd>Auto</kbd> hands it back to the camera, <kbd>All auto</kbd> resets everything. Your values apply to photo and video and are kept until you change them.</p>
 <div class="tip"><p>New to this? Leave everything on Auto and try Exposure first. Every setting stays automatic until you move its slider. Auto hands it back to the camera.</p></div>
-<ul>
-<li>Exposure: makes the whole picture brighter or darker while the camera keeps measuring the light itself. The easiest control to start with.</li>
-<li>ISO: how sensitive the sensor is. A higher value makes the picture brighter but grainier. Keep it as low as the light allows.</li>
-<li>Shutter: how long each picture is exposed. Short times such as 1/1000 freeze fast movement. Longer times let in more light but blur movement.</li>
-<li>White balance: matches the colours to the light so that white looks white. Tap the symbol for lamp light, sun, cloud or shade, or set the value in Kelvin.</li>
-<li>Tint: shifts the colours between green and magenta. Usually only needed under artificial light.</li>
-<li>Focus: sets the distance that is sharp, from near on the left to far on the right.</li>
-<li>Aperture: the opening of the lens. Keepsight shows the value but cannot change it yet, not even on the iPhone 18 Pro.</li>
-</ul>
+<h3>Exposure</h3>
+<p>Exposure: makes the whole picture brighter or darker while the camera keeps measuring the light itself. The easiest control to start with.</p>
+<p>Use it when the picture comes out too dark or too bright, for example a subject against a bright sky, snow or a stage. Plus makes it brighter, minus darker, in thirds of a stop from −3 to +3. It also works while ISO or shutter are fixed.</p>
+<h3>ISO</h3>
+<p>ISO: how sensitive the sensor is. A higher value makes the picture brighter but grainier. Keep it as low as the light allows.</p>
+<p>Choose a low ISO in daylight for the cleanest picture and raise it indoors or at dusk. If you fix only the ISO, Keepsight adjusts the shutter time by itself so that the brightness stays right.</p>
+<h3>Shutter</h3>
+<p>Shutter: how long each picture is exposed. Short times such as 1/1000 freeze fast movement. Longer times let in more light but blur movement.</p>
+<p>Use 1/1000 or shorter for birds, sport and aircraft so that they stay sharp. For natural-looking video, use about twice the frame rate, for example 1/60 at 30 frames per second. If you fix only the shutter, Keepsight adjusts the ISO by itself. In video the time cannot be longer than one frame; in photo mode it goes up to 1/4 second.</p>
+<h3>White balance</h3>
+<p>White balance: matches the colours to the light so that white looks white. Tap the symbol for lamp light, sun, cloud or shade, or set the value in Kelvin.</p>
+<p>Fix it when the colours change during a recording, for example when the camera pans from sun into shade, or when lamp light looks too yellow. The symbols set 3200 K for light bulbs, 4000 K for fluorescent light, 5600 K for sun, 6500 K for a cloudy sky and 7500 K for shade. The slider covers 2500 K to 10000 K.</p>
+<h3>Tint</h3>
+<p>Tint: shifts the colours between green and magenta. Usually only needed under artificial light.</p>
+<p>Use it when skin or white walls look greenish or pinkish, which often happens under LED or fluorescent lamps. Move the slider until white looks neutral again. While white balance is fixed and tint is on Auto, tint keeps the value measured last, and the other way round.</p>
+<h3>Focus</h3>
+<p>Focus: sets the distance that is sharp, from near on the left to far on the right.</p>
+<p>Use it when the autofocus hunts, for example through a fence, a window or branches, or with a small subject against the sky. Set the distance once and it stays there. Distant subjects such as aircraft are at the right end of the slider.</p>
+<h3>Aperture</h3>
+<p>Aperture: the opening of the lens. Keepsight shows the value but cannot change it yet, not even on the iPhone 18 Pro.</p>
+<h2 id="grid">Grid</h2>
 <p>Grid: two lines each way help you keep the horizon level and place your subject. They are not saved in photos or videos.</p>
-
+<p>Switch it on in the format panel under <kbd>Grid</kbd>. It is available to everyone, also without Pro. Place your subject on one of the four crossing points for a balanced picture, and use the lines to keep the horizon and buildings straight.</p>
 <h2>Front camera and selfies</h2>
 <p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Captures are saved unmirrored, the way others see you; for photos you can change that.</p>
 <ul>
@@ -793,4 +808,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Example of the overlay (illustration). With a local receiver the aircraft type is not shown.', 'hero': 'A young woman films herself and her friends with a phone on a gimbal at sunset', 'story-family': 'A family on a picnic blanket by a lake, filmed by a phone on a small gimbal', 'story-sport': 'A woman films a passing cyclist with a phone on a gimbal', 'story-pets': 'A man films a running dog and a child with a phone on a gimbal', 'story-birds': 'A photographer follows a bird of prey in flight with a camera on a gimbal', 'story-pro': 'A woman with a camera on a gimbal and a phone in her hand while an aircraft passes overhead', 'story-aviation': 'Plane spotters at an airport fence film an airliner with a phone on a gimbal', 'plane-spotting': 'Plane spotting with a phone on a gimbal (illustration)'}
+SHOTS = {'pro-wb': 'Manual controls: white balance with symbols for the light, shown with help mode', 'pro-aperture': 'Manual controls: tint, focus and aperture', 'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Example of the overlay (illustration). With a local receiver the aircraft type is not shown.', 'hero': 'A young woman films herself and her friends with a phone on a gimbal at sunset', 'story-family': 'A family on a picnic blanket by a lake, filmed by a phone on a small gimbal', 'story-sport': 'A woman films a passing cyclist with a phone on a gimbal', 'story-pets': 'A man films a running dog and a child with a phone on a gimbal', 'story-birds': 'A photographer follows a bird of prey in flight with a camera on a gimbal', 'story-pro': 'A woman with a camera on a gimbal and a phone in her hand while an aircraft passes overhead', 'story-aviation': 'Plane spotters at an airport fence film an airliner with a phone on a gimbal', 'plane-spotting': 'Plane spotting with a phone on a gimbal (illustration)'}

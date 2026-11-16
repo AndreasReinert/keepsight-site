@@ -360,18 +360,33 @@ DOCS = [
 
 <h2 id="manual">Manuelle Einstellungen</h2>
 <p>Manuelle Einstellungen: ISO, Verschluss, Weissabgleich, Farbstich und Fokus selbst einstellen, jeden Wert einzeln. Erfordert Keepsight Pro.</p>
+[[shots pro-wb pro-aperture]]
+<p>Zum Öffnen tippst du oben auf die Format-Anzeige und stellst <kbd>Controls</kbd> auf <kbd>Pro</kbd>. <kbd>Manual controls</kbd> findest du auch in der Kamera-Leiste; von dort geht es auch während einer Videoaufnahme.</p>
+<p>Das Fenster ist niedrig und dunkelt das Bild nicht ab, du siehst also jede Änderung sofort. Ein kleines «A» markiert jeden Wert, den die Kamera noch selbst einstellt. Sobald du einen Regler bewegst, ist dieser Wert fest. <kbd>Auto</kbd> gibt ihn an die Kamera zurück, <kbd>All auto</kbd> setzt alles zurück. Deine Werte gelten für Foto und Video und bleiben, bis du sie änderst.</p>
 <div class="tip"><p>Neu dabei? Lass alles auf Auto und probiere zuerst die Belichtung. Jede Einstellung bleibt automatisch, bis du ihren Regler bewegst. Auto gibt sie an die Kamera zurück.</p></div>
-<ul>
-<li>Belichtung: macht das ganze Bild heller oder dunkler, während die Kamera das Licht weiter selbst misst. Der einfachste Regler für den Einstieg.</li>
-<li>ISO: wie empfindlich der Sensor ist. Ein höherer Wert macht das Bild heller, aber körniger. Halte ihn so tief, wie es das Licht zulässt.</li>
-<li>Verschluss: wie lange jedes Bild belichtet wird. Kurze Zeiten wie 1/1000 frieren schnelle Bewegungen ein. Längere Zeiten lassen mehr Licht herein, verwischen aber Bewegungen.</li>
-<li>Weissabgleich: passt die Farben an das Licht an, damit Weiss weiss aussieht. Tippe auf das Symbol für Lampenlicht, Sonne, Wolken oder Schatten oder stelle den Wert in Kelvin ein.</li>
-<li>Farbstich: verschiebt die Farben zwischen Grün und Magenta. Meist nur bei Kunstlicht nötig.</li>
-<li>Fokus: legt fest, welche Entfernung scharf ist, von nah (links) bis fern (rechts).</li>
-<li>Blende: die Öffnung des Objektivs. Keepsight zeigt den Wert an, kann ihn aber noch nicht ändern, auch nicht beim iPhone 18 Pro.</li>
-</ul>
+<h3>Belichtung</h3>
+<p>Belichtung: macht das ganze Bild heller oder dunkler, während die Kamera das Licht weiter selbst misst. Der einfachste Regler für den Einstieg.</p>
+<p>Nimm sie, wenn das Bild zu dunkel oder zu hell wird, zum Beispiel bei einem Motiv vor hellem Himmel, bei Schnee oder auf einer Bühne. Plus macht heller, Minus dunkler, in Drittelstufen von −3 bis +3. Das geht auch, während ISO oder Verschluss fest sind.</p>
+<h3>ISO</h3>
+<p>ISO: wie empfindlich der Sensor ist. Ein höherer Wert macht das Bild heller, aber körniger. Halte ihn so tief, wie es das Licht zulässt.</p>
+<p>Wähle bei Tageslicht einen tiefen ISO-Wert für das sauberste Bild und erhöhe ihn drinnen oder in der Dämmerung. Stellst du nur den ISO-Wert fest ein, passt Keepsight die Verschlusszeit selbst an, damit die Helligkeit stimmt.</p>
+<h3>Verschluss</h3>
+<p>Verschluss: wie lange jedes Bild belichtet wird. Kurze Zeiten wie 1/1000 frieren schnelle Bewegungen ein. Längere Zeiten lassen mehr Licht herein, verwischen aber Bewegungen.</p>
+<p>Nimm 1/1000 oder kürzer für Vögel, Sport und Flugzeuge, damit sie scharf bleiben. Für natürlich wirkendes Video nimmst du etwa das Doppelte der Bildrate, zum Beispiel 1/60 bei 30 Bildern pro Sekunde. Stellst du nur den Verschluss fest ein, passt Keepsight den ISO-Wert selbst an. Im Video kann die Zeit nicht länger sein als ein Bild; im Foto-Modus geht sie bis 1/4 Sekunde.</p>
+<h3>Weissabgleich</h3>
+<p>Weissabgleich: passt die Farben an das Licht an, damit Weiss weiss aussieht. Tippe auf das Symbol für Lampenlicht, Sonne, Wolken oder Schatten oder stelle den Wert in Kelvin ein.</p>
+<p>Stelle ihn fest ein, wenn sich die Farben während einer Aufnahme ändern, zum Beispiel beim Schwenk von der Sonne in den Schatten, oder wenn Lampenlicht zu gelb wirkt. Die Symbole setzen 3200 K für Glühlampen, 4000 K für Leuchtstofflicht, 5600 K für Sonne, 6500 K für bewölkten Himmel und 7500 K für Schatten. Der Regler reicht von 2500 K bis 10000 K.</p>
+<h3>Farbstich</h3>
+<p>Farbstich: verschiebt die Farben zwischen Grün und Magenta. Meist nur bei Kunstlicht nötig.</p>
+<p>Nimm ihn, wenn Haut oder weisse Wände grünlich oder rosa wirken, was unter LED- oder Leuchtstofflampen oft vorkommt. Bewege den Regler, bis Weiss wieder neutral aussieht. Ist der Weissabgleich fest und der Farbstich auf Auto, behält der Farbstich den zuletzt gemessenen Wert, und umgekehrt.</p>
+<h3>Fokus</h3>
+<p>Fokus: legt fest, welche Entfernung scharf ist, von nah (links) bis fern (rechts).</p>
+<p>Nimm ihn, wenn der Autofokus pumpt, zum Beispiel durch einen Zaun, ein Fenster oder Äste, oder bei einem kleinen Motiv vor dem Himmel. Stelle die Entfernung einmal ein, dann bleibt sie dort. Ferne Motive wie Flugzeuge liegen am rechten Ende des Reglers.</p>
+<h3>Blende</h3>
+<p>Blende: die Öffnung des Objektivs. Keepsight zeigt den Wert an, kann ihn aber noch nicht ändern, auch nicht beim iPhone 18 Pro.</p>
+<h2 id="grid">Gitter</h2>
 <p>Gitter: je zwei Linien helfen dir, den Horizont gerade zu halten und dein Motiv zu platzieren. Sie werden nicht in Fotos oder Videos gespeichert.</p>
-
+<p>Du schaltest es im Format-Fenster unter <kbd>Grid</kbd> ein. Es steht allen zur Verfügung, auch ohne Pro. Lege dein Motiv für ein ausgewogenes Bild auf einen der vier Kreuzungspunkte und halte mit den Linien Horizont und Gebäude gerade.</p>
 <h2>Frontkamera und Selfies</h2>
 <p>Der Knopf mit den zwei Pfeilen neben dem Vorschaubild wechselt zur Frontkamera. Du siehst dich selbst, gespiegelt wie in der Kamera-App. Gespeichert wird ungespiegelt, so wie andere dich sehen; für Fotos kannst du das umstellen.</p>
 <ul>
@@ -794,4 +809,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Beispiel der Einblendung (Illustration). Mit lokalem Empfänger wird der Flugzeugtyp nicht angezeigt.', 'hero': 'Eine junge Frau filmt sich und ihre Freunde bei Sonnenuntergang mit einem Handy auf einem Gimbal', 'story-family': 'Eine Familie auf einer Picknickdecke am See, gefilmt von einem Handy auf einem kleinen Gimbal', 'story-sport': 'Eine Frau filmt einen vorbeifahrenden Velofahrer mit einem Handy auf einem Gimbal', 'story-pets': 'Ein Mann filmt einen rennenden Hund und ein Kind mit einem Handy auf einem Gimbal', 'story-birds': 'Ein Fotograf folgt einem Greifvogel im Flug mit einer Kamera auf einem Gimbal', 'story-pro': 'Eine Frau mit einer Kamera auf einem Gimbal und einem Handy in der Hand, während ein Flugzeug vorbeifliegt', 'story-aviation': 'Plane Spotter am Flughafenzaun filmen ein Linienflugzeug mit einem Handy auf einem Gimbal', 'plane-spotting': 'Plane Spotting mit einem Handy auf einem Gimbal (Illustration)'}
+SHOTS = {'pro-wb': 'Manuelle Einstellungen: Weissabgleich mit Symbolen für das Licht, hier mit Hilfemodus', 'pro-aperture': 'Manuelle Einstellungen: Farbstich, Fokus und Blende', 'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Beispiel der Einblendung (Illustration). Mit lokalem Empfänger wird der Flugzeugtyp nicht angezeigt.', 'hero': 'Eine junge Frau filmt sich und ihre Freunde bei Sonnenuntergang mit einem Handy auf einem Gimbal', 'story-family': 'Eine Familie auf einer Picknickdecke am See, gefilmt von einem Handy auf einem kleinen Gimbal', 'story-sport': 'Eine Frau filmt einen vorbeifahrenden Velofahrer mit einem Handy auf einem Gimbal', 'story-pets': 'Ein Mann filmt einen rennenden Hund und ein Kind mit einem Handy auf einem Gimbal', 'story-birds': 'Ein Fotograf folgt einem Greifvogel im Flug mit einer Kamera auf einem Gimbal', 'story-pro': 'Eine Frau mit einer Kamera auf einem Gimbal und einem Handy in der Hand, während ein Flugzeug vorbeifliegt', 'story-aviation': 'Plane Spotter am Flughafenzaun filmen ein Linienflugzeug mit einem Handy auf einem Gimbal', 'plane-spotting': 'Plane Spotting mit einem Handy auf einem Gimbal (Illustration)'}
