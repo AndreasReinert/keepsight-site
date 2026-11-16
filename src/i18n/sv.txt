@@ -48,10 +48,12 @@
 63|Med Keepsight Pro tar appen bilden själv när alla ler, när alla tittar in i kameran eller när motivet är tillräckligt stort i bilden. Intervallserier, handgester och röstkommandon med nedräkning ingår redan i gratisversionen.
 64|Hela kameran i din iPhone
 65|Video med 24, 25, 30 eller 60 bilder per sekund
-67|Bilder med huvudkameran, som HEIF eller ProRAW
+66|Upp till 48 MP
+67|Foton beroende på iPhone och objektiv, som HEIF eller ProRAW
 68|Objektiv: ultravidvinkel, huvudkamera och tele
 69|Prova gratis, köp en gång
 70|Med gratisversionen testar du allt på människor. Keepsight Pro låser du upp med ett enda köp, utan prenumeration. App Store visar priset i din valuta.
+75|4K-video och foton upp till 48 MP
 80|Testa Pro-spårning: 3 × 60 sekunder
 89|Filma upp till 60 sekunder gratis.
 90|Testa Keepsight gratis
@@ -287,301 +289,303 @@
 376|Objektiv
 377|Bildupplösning
 378|<kbd>.5×</kbd> ultravidvinkel
+379|12 MP; upp till 48 MP från iPhone 16 Pro
 380|<kbd>1×</kbd> huvudkamera
 381|12, 24 eller 48 MP; i RAW 12 eller 48 MP
-382|<kbd>5×</kbd> tele
-383|Värdena gäller iPhone 15 Pro Max. Formatpanelen visar alltid bara det som det aktuella objektivet verkligen ger.
-384|När du utlöser med en gest eller rösten växlar Keepsight själv till foto- eller videoläge. Bara ett foto som tas medan en video spelas in stannar på cirka 10 MP.
-386|Håller motivet lika stort utan att videon hoppar.
-387|Autozoom håller motivet i den storlek du ställer in. Om det rör sig bort zoomar kameran långsamt in. Om det kommer närmare zoomar kameran ut.
-388|Slå på
-389|Byt till videoläget.
-390|Välj det objektiv vars omfång ska användas.
-391|Tryck på <kbd>A</kbd>. Knappen visar aktuell zoom, till exempel ”A 2,3×”.
-392|Varför videon inte hoppar
-393|När en iPhone-kamera byter objektiv under zoomning förskjuts bilden synligt. Autozoom stannar därför på det valda objektivet och rör sig bara minimalt för varje enskild bild.
-394|Valt objektiv
-395|Zoomomfång
-396|0,5× till strax under 1×
-397|1× till strax under 4×
-398|5× till 10×
-400|<strong>Motivstorlek:</strong> hur stor del av bilden motivet ska fylla, 15 till 60 procent.
-401|<strong>Zoomhastighet:</strong> hur snabbt zoomen får röra sig, 8 till 60 procent per sekund. Små värden ser lugnare ut.
-402|Beteende i särskilda fall
-403|Zoomningen börjar först när motivet har känts igen stabilt i knappt en sekund.
-404|Om motivet når bildens kant zoomar kameran ut i stället för in.
-405|Om motivet skyms en kort stund står zoomen kvar. Först efter en och en halv sekund utan motiv går den långsamt tillbaka.
-407|En andra video med ett utsnitt som följer och zoomar mjukt.
-408|Den virtuella gimbalen skär ut ett utsnitt ur hela kamerabilden som följer motivet och zoomar av sig själv. Resultatet är en färdig, lugn video, tillgänglig direkt efter inspelningen.
-409|Öppna den högra panelen och slå på <kbd>Virtual gimbal</kbd>.
-410|Välj ett motiv. I sökaren ser du utsnittet som en ljus kontur; området utanför är nedtonat.
-411|Starta inspelningen.
-412|Ingen riktig gimbal behövs. Du kan hålla iPhone i handen eller ställa den på ett stativ. Tillsammans med en gimbal och autozoom blir bilden ännu lugnare.
-413|Reglage
-414|Effekt
-416|10 till 40 procent. Mer utrymme ser lugnare ut, mindre utrymme för motivet närmare.
-418|1,5× till 4×. Vid inspelning i 4K behålls full skärpa upp till 2×.
-420|Hur makligt utsnittet följer. Större värden jämnar ut mer.
-422|Sparar hela videon utöver den beskurna.
-423|Vad som sparas
-424|Den beskurna videon i 1080p.
-425|Valfritt originalet i vald upplösning.
-426|Om Keepsight tappar motivet går utsnittet långsamt tillbaka till hela bilden.
-427|Den virtuella gimbalen håller motivet stilla i utsnittet. Den kompenserar inte för kraftiga skakningar i bakgrunden.
-428|Enkelbild, intervallserie och automatisk tagning i rätt ögonblick.
-429|I bildläget bestämmer den högra panelen under <kbd>Photo trigger</kbd> hur Keepsight tar bilder.
-430|Typ
-431|Vad som händer
-433|En bild per tryck på avtryckaren.
-435|En serie med fast intervall tills högsta antalet är nått.
-436|Leende (Pro)
-437|Tar bilden när alla ansikten i bilden ler med öppna ögon.
-438|Blick (Pro)
-439|Tar bilden när alla är vända mot kameran.
-440|Motiv (Pro)
-441|Tar bilden när det valda motivet är låst och tillräckligt stort i bilden.
-442|Enkelbild och intervall ingår i gratisversionen. De tre automatiska typerna kräver Keepsight Pro; i gratisversionen visar de ett lås.
-443|Så kör du en serie
-444|Välj typ av utlösning.
-445|Ställ in <kbd>Interval</kbd> och <kbd>Maximum photos</kbd>.
-446|Tryck på avtryckaren. Med de automatiska typerna är Keepsight nu aktiverad och väntar på ögonblicket.
-447|Visningen överst i mitten räknar med, till exempel ”3 / 30”. Ett andra tryck på avtryckaren avslutar serien.
-448|<strong>Intervall:</strong> 1 till 30 sekunder. Med de automatiska typerna är det minsta tiden mellan två bilder.
-449|<strong>Högsta antal bilder:</strong> 2 till 100.
-450|För fåglar och andra djur fungerar ”Motiv” med kort intervall bra: Keepsight tar bilden så snart djuret är stort i bilden och fortsätter så länge det stannar där. Appen känner inte igen vart ett djur tittar.
-451|Bilder i 48 MP och ProRAW tar längre tid att spara. Med mycket kort intervall kan den verkliga tiden mellan bilderna därför bli längre.
-452|Gester, röst, nedräkning
-453|Sköta kameran när du själv står framför den.
-454|Alla tre finns i den vänstra panelen under <kbd>Remote control</kbd>.
-455|Handgester
-456|Gester fungerar när motivet är inställt på Person eller Ansikte. Håll gesten stilla i ungefär en halv sekund. Under tiden fylls en stapel överst i mitten.
-457|Gest
-458|Öppen hand
-459|Starta eller stoppa videoinspelning.
-460|OK-tecken
-461|Välj den här personen som mål och starta följningen.
-462|Peace-tecken
-463|Ta en bild.
-464|Två öppna händer
-465|Stoppa följningen.
-466|Röstkommandon
-467|Slå på <kbd>Voice control</kbd> och tillåt mikrofon och taligenkänning. Säg kommandona på appens språk.
-468|Du säger
-469|”Foto”
-470|”Starta video” eller ”Starta inspelning”
-471|Starta videoinspelning.
-472|”Stopp”
-473|Avsluta inspelningen, serien eller en pågående nedräkning.
-474|Många formuleringar fungerar, till exempel ”video”, ”gör en video”, ”bild” eller ”ta en bild”. Om kameran är i det andra läget växlar Keepsight själv innan den utlöser.
-475|Så länge röststyrningen är på är mikrofonen aktiv. iPhone visar det med den orange pricken.
-476|Nedräkning, blixt och ljud
-477|När du utlöser med gest eller röst går först en nedräkning, så att du hinner ställa dig på plats.
-478|<strong>Nedräkning:</strong> av, 3, 5 eller 10 sekunder. Sekunderna visas stort i bilden.
-479|<strong>Bekräftelseblixt:</strong> lysdioden blinkar med allt kortare mellanrum fram till bilden.
-480|<strong>Bekräftelseljud:</strong> ett kort tick vid varje blink.
-481|Utan nedräkning kommer en enda blink och ett tick som bekräftelse. Avtryckaren på skärmen utlöser alltid direkt.
-482|Inspelning och galleri
-483|Vilka videor som skapas, var de finns och hur du tittar på dem.
-484|Spela in video
-485|I videoläget startar och stoppar den röda avtryckaren inspelningen. Tiden går överst i mitten. Videor har ljud och sparas i appen Bilder.
-486|Vilka videor som skapas
-487|Innehåll
-488|När
-490|Den rena kamerabilden i vald upplösning.
-491|Alltid, om du inte stänger av det för den virtuella gimbalen.
-492|Det följande utsnittet i 1080p.
-493|När den virtuella gimbalen är på.
-495|Bilden med ramar, tid, motiv, status och gimbaldata i 1080p.
-496|Med Keepsight Pro, när <kbd>Overlay video</kbd> är på.
-498|Miniatyren ovanför lägesomkopplaren visar den senaste tagningen. Tryck på den för att öppna galleriet med alla bilder och videor du har tagit med Keepsight, de nyaste först.
-499|Tryck på en bild för stor visning och svep för att bläddra.
-500|Överst står datum, megapixlar och bildstorlek.
-501|Papperskorgen raderar tagningen även från appen Bilder. iPhone frågar först.
-502|Galleriet behöver läsåtkomst till Bilder. Med ”Begränsad åtkomst” ser Keepsight ändå sina egna tagningar.
-503|Om en ruta visar ett moln ligger originalet i iCloud och håller på att hämtas. Det händer när iCloud-bilder är på med ”Optimera iPhone-lagring”. Ett varningstecken betyder att filen inte går att läsa; den stora visningen visar då filnamnet.
-504|Live-flygdata i videon från din egen ADS-B-mottagare: vad du behöver, var det fungerar, integritet.
-505|<strong>Tillgänglighet:</strong> live-flygdata finns bara i godkända länder och regioner och kräver din egen ADS-B-mottagare. För närvarande är ingen region godkänd, så funktionen förblir avstängd överallt.
-506|Med flygdata i bild visar Keepsight flygnummer, höjd och fart för trafikflygplanet du följer, i sökaren och i videon som iPhonen spelar in. Data kommer från din egen ADS-B-mottagare på samma wifi. Varken internet eller någon leverantör av flygdata är inblandad.
-507|Keepsight följer flygplan med hjälp av bilden, helt utan mottagare. Mottagaren behövs bara för flygdata i bild och ingår inte i appen: du köper eller bygger den separat.
-508|<strong>En mottagare:</strong> en Stratux, till exempel en Raspberry Pi 3 med en USB-mottagarsticka för 1090 MHz och antenn, eller en annan enhet som skickar GDL90 via wifi.
-509|<strong>Inte bara en sticka:</strong> en USB-mottagarsticka som FlightAware Pro Stick behöver en värd, till exempel en Raspberry Pi med Stratux. En vanlig PiAware-installation skickar data till FlightAware och är inte lämplig.
-510|<strong>Samma wifi:</strong> iPhonen ansluter till mottagarens wifi. Det nätverket har oftast inget internet; det gör inget.
-511|<strong>En godkänd region:</strong> att du själv tar emot data betyder inte i sig att funktionen är tillåten i ett land.
-512|Stratux eller GDL90
-513|Mottagare
-514|Testad med Keepsight
-516|WebSocket till mottagaren, oftast på 192.168.10.1
-517|Inte än
-519|Mottagaren sänder till port 4000 på iPhonen
-520|Båda stöds på protokollnivå. Hittills har ingen mottagare testats med Keepsight på riktig hårdvara; enskilda enheter, som SkyEcho 2, kan bete sig annorlunda. Trafik som bara sänds via FLARM stöds inte.
-521|Slå på
-522|Öppna inställningarna och slå på <kbd>Flight data overlay (ADS-B)</kbd>.
-523|Läs meddelandet och tryck på <kbd>Agree and enable</kbd>. Först därefter frågar iOS efter din plats.
-524|Anslut till mottagarens wifi, välj typ av mottagare och ange dess adress. iOS frågar en gång om åtkomst till det lokala nätverket.
-525|Tryck på <kbd>Connect receiver</kbd>. Keepsight ansluter aldrig av sig själv.
-526|Välj <kbd>Aircraft</kbd> som motiv och rikta kameran mot flygplanet.
-527|Om flera flygplan passar kamerans blickriktning gissar Keepsight inte: tryck på <kbd>Aircraft selection required</kbd> och välj rätt.
-528|Du väljer alltid flygplanet själv, ur listan över trafikflygplan som tas emot just nu. Listan visar åldern på varje position i sekunder.
-529|Inställningarna visar anslutningens läge: ansluter, ansluten utan flygplan, tar emot eller inaktuella data. <kbd>Reconnect</kbd> startar om anslutningen.
-530|Inställningarna för flygdata visas bara medan <kbd>Aircraft</kbd> är valt motiv.
-531|Varför Keepsight behöver din plats
-532|iOS frågar efter din plats först när du slår på flygdata i bild och godkänner. Keepsight behöver den av två skäl:
-533|<strong>Kontrollera regionen:</strong> om flygdata får visas beror på vilket land du befinner dig i. Keepsight bestämmer det utifrån var din iPhone faktiskt är, på själva enheten.
-534|<strong>Känna igen flygplanet i bilden:</strong> Keepsight beräknar riktningen och vinkeln över horisonten från dig till varje flygplan och jämför dem med vart kameran pekar. Även kompassen behöver platsen för att hitta geografisk nord.
-535|Det går inte att ange en plats för hand, eftersom den regionala kontrollen då inte längre vore tillförlitlig. Om du inte använder flygdata frågar Keepsight aldrig efter din plats.
-536|Var det fungerar
-537|Keepsight bestämmer landet på din iPhone utifrån din aktuella plats. App Store-land, språk eller internetadress spelar ingen roll. Nära en gräns och till havs förblir funktionen avstängd.
-538|Varje land granskas för sig innan det godkänns. Tills dess meddelar appen att flygdata i realtid inte är tillgängliga i din region. Spårning och inspelning fungerar som vanligt.
-539|Vad som lämnar din iPhone
-540|Ingenting. Keepsight lyssnar bara på mottagaren och ändrar aldrig dess inställningar. Varken din plats eller flygdata skickas till någon server.
-541|Flygdata finns bara i iPhonens minne så länge mottagaren är ansluten. De raderas när du kopplar från, väljer ett annat motiv eller lämnar appen. Ingenting sparas eller säkerhetskopieras.
-542|Visning
-544|Flygplanstypen ingår inte i ADS-B och visas därför inte. Data som en mottagare bara skickar vidare, till exempel OGN, FLARM eller TIS-B, visas inte heller.
-545|Välj hörn, kompakt eller detaljerad vy och metriska eller brittiska enheter. Data äldre än 15 sekunder döljs i stället för att stå kvar. Varje video med flygdata bär texten ”Flight data: Local ADS-B”.
-546|Visningen skrivs in i videor som spelas in med iPhone. En kamera på gimbalen spelar in själv och får ingen visning.
-547|Om du vill vrider Keepsight gimbalen mot det valda flygplanets rapporterade position så länge det ännu inte syns i bilden. Kompassen begränsar noggrannheten.
-548|Noggrannhet
-549|Flygdata kan vara fördröjda, ofullständiga eller felaktiga. De är endast avsedda som information och lämpar sig inte för navigering, flygsäkerhet eller operativa beslut.
-550|Gratis och Pro
-551|Vad gratisversionen kan, vad Pro låser upp, köp och återställning.
-552|Gratisversionen är till för att prova: du testar följning, gester och kamera på människor innan du betalar något.
-553|Ja
-554|Gimbalstyrning, enkelbild och intervallserie
-555|Nej
-556|Alla andra motiv
-557|Videolängd
-558|60 sekunder
-559|Obegränsad
-560|Testa Pro-spårning
-561|3 × 60 sekunder
-562|Keepsight-logotyp i bilder och videor
-563|Testa Pro-spårning
-564|Tryck på ett låst motiv i spårningspanelen och välj <kbd>Start preview</kbd>. I 60 sekunder följer Keepsight motivet precis som Pro-versionen. Du har tre sådana omgångar; en som misslyckas under de första sekunderna räknas inte.
-565|I gratisversionen avslutas en video av sig själv efter 60 sekunder. Ett meddelande visas 10 sekunder före slutet.
-566|Köpa Pro
-567|Tryck på <kbd>PRO</kbd> uppe till höger och sedan på <kbd>Lås upp</kbd>. Pro är ett engångsköp utan prenumeration. App Store visar priset i din valuta och Apple sköter betalningen.
-568|Återställa ett köp
-569|På en ny iPhone eller efter ominstallation trycker du på <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Du måste vara inloggad med samma Apple-konto som vid köpet.
-570|Återbetalning
-571|Begär återbetalning från Apple på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
-572|Inställningar och hjälp
-573|Språk, hjälpläge och reglagen för avancerade användare.
-574|De viktigaste reglagen finns i de två sidopanelerna. Allt annat finns i den vänstra panelen under <kbd>All settings</kbd>.
-576|Frågetecknet överst i varje sidopanel slår på hjälpläget. Under menypunkterna visas då gula tips med en kort förklaring, och för de viktiga även en teckning.
-577|Keepsight använder språket på din iPhone. Vill du välja ett annat bara för Keepsight trycker du på <kbd>Language</kbd> under <kbd>All settings</kbd>. Då öppnas iPhone-inställningarna för Keepsight. Röstkommandona byts samtidigt.
-578|Reglage för avancerade användare
-579|Hastighet ”Egen”
-580|Förstärkning, dämpning, topphastighet, acceleration och vilozon för följningen.
-581|Lägsta hastighet
-582|Endast för AK4500: det minsta kommando som gimbalen fortfarande reagerar på. Höj det om gimbalen stannar vid små avvikelser.
-583|Förutsägelse efter förlust
-584|Hur länge gimbalen fortsätter panorera när motivet är skymt.
-586|Vänd panorering eller lutning.
-588|Vilken modell som känner igen ett motiv. RF-DETR Small och YOLOX-S finns att välja på.
-590|Visar bildfrekvens, gimbalkommandon och modellens beräkningstid i sökaren.
-592|Återställer följningens reglage.
-594|Här hittar du appens version, länkar till den här webbplatsen och licenserna för de igenkänningsmodeller som används.
-595|Felsökning
-596|Vanliga problem och hur du löser dem.
-597|Gimbalen hittas inte
-598|<strong>Enhet med DockKit:</strong> är den parkopplad i iPhone-inställningarna och sitter iPhone ordentligt i hållaren? Öppna Apples Kamera-app som jämförelse. Om enheten inte följer dig där ligger felet i parkopplingen.
-599|<strong>AK4500:</strong> är gimbalen påslagen och i närheten? Stäng Feiyu-appen helt och tillåt Bluetooth under <kbd>Inställningar</kbd> → <kbd>Keepsight</kbd>.
-600|Slå av och på gimbalen och tryck på <kbd>Connect</kbd> igen.
-601|Gimbalen vrider sig bort från motivet
-602|Normalt rättar Keepsight till detta av sig själv efter en stund. Om inte, vänd den berörda axeln under <kbd>All settings</kbd> → <kbd>Direction</kbd>.
-603|Gimbalen reagerar trögt eller skakar
-604|Trög: välj profilen Sport. Med AK4500 hjälper även en högre lägsta hastighet.
-605|Skakar eller pendlar: välj profilen Mjuk. Med lång brännvidd ser små rörelser större ut.
-606|Motivet känns inte igen
-607|Är rätt motivtyp vald?
-608|Mycket små motiv känns igen mindre säkert. Välj ett längre objektiv.
-609|Igenkänningen blir sämre i svagt ljus och starkt motljus.
-610|Röstkommandon uppfattas inte
-611|Tillåt mikrofon och taligenkänning under <kbd>Inställningar</kbd> → <kbd>Keepsight</kbd>.
-612|Säg kommandona på appens språk.
-613|Vind och bullrig omgivning stör igenkänningen. Då är gester pålitligare.
-614|Gester utlöser inte
-615|Motivet måste vara inställt på Person eller Ansikte.
-616|Håll handen stilla och väl synlig tills stapeln är full.
-617|48 MP eller RAW går inte att välja
-618|Båda finns bara i bildläget med huvudkameran <kbd>1×</kbd>. RAW kräver dessutom Keepsight Pro.
-619|Galleriet är tomt
-620|Ge Keepsight åtkomst till Bilder. Tagningar från äldre versioner av appen visas inte i galleriet, men de finns i appen Bilder.
-621|Keepsight Pro är inte aktivt efter köpet
-622|Tryck på <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> och kontrollera att du är inloggad med rätt Apple-konto.
-623|Mer hjälp
-624|Skriv till <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> och ange din iPhone-modell, iOS-version och Keepsight-version.
-625|iPhone blir varm
-626|Igenkänning, 4K-inspelning och gimbalstyrning är krävande, särskilt i solen. Keepsight skyddar enheten själv:
-627|<strong>Termometer i statusfältet:</strong> iPhone är varm och igenkänningen utvärderar bara varannan eller var tredje bild. Följningen fortsätter men reagerar lite trögare.
-628|<strong>Följningen stoppad:</strong> vid kritisk temperatur avslutar Keepsight följning och inspelning och sparar videon. Låt iPhone svalna i skuggan.
-629|Så håller den sig svalare: stäng av igenkänning och geststyrning när du inte behöver dem, 1080p i stället för 4K, 30 i stället för 60 bilder, stäng av video med överlägg och den virtuella gimbalen, ta av skalet. Därför startar iPhone 12 och äldre modeller med 1080p.
-630|Dokumentationen besvarar de flesta frågor. Om du kör fast, skriv till mig.
-631|Kontakt
-632|För att jag ska kunna hjälpa till snabbt, ange:
-633|din iPhone-modell och iOS-version
-634|Keepsight-versionen (i appen under Alla inställningar → Om och licenser)
-635|vad du gjorde och vad som hände i stället, helst med en skärmbild eller kort video
-636|Snabbhjälp
-637|<a href="docs/start.html">Kom igång</a>: behörigheter och ansluta gimbalen
-638|<a href="docs/troubleshooting.html">Felsökning</a>: vanliga problem och lösningar
-639|<a href="docs/pro.html">Gratis och Pro</a>: köp, återställning, återbetalning
-640|Integritetspolicy
-641|Senast uppdaterad: 16 november 2026. Gäller iOS-appen Keepsight och den här webbplatsen.
-642|<strong>Kort sagt:</strong> Keepsight samlar inte in uppgifter om dig. Det finns inget konto, ingen reklam, ingen spårning och ingen analys. Kamerabilder, detektering, foton och videor stannar på din iPhone.
-643|1. Ansvarig
-644|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Schweiz<br>E-post: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-645|2. Vad appen behandlar
-646|Appen behandlar uppgifter enbart på din enhet och enbart för sina funktioner. Jag som leverantör får inget av det.
-647|<strong>Kamera:</strong> kamerabilden analyseras på iPhone för att känna igen och följa motiv. Bilderna lämnar inte enheten.
-648|<strong>Ansikten:</strong> för att känna igen ansikten, leenden och blickriktning analyserar appen kamerabilden på iPhone. Den känner inte igen vem någon är och sparar inga ansiktsdrag. Porträttbilder innehåller djupdata från främre kameran; de finns bara i den bild du själv sparar.
-649|<strong>Mikrofon:</strong> för ljudet i dina videor och, om du slår på röststyrningen, för röstkommandon.
-650|<strong>Taligenkänning:</strong> röstkommandona känns igen av Apples taligenkänning. Om din iPhone och det valda språket stöder det sker det på enheten. Annars skickas ljudet till Apple för igenkänning, enligt Apples integritetspolicy. Röststyrningen är avstängd som standard.
-651|<strong>Bilder:</strong> appen sparar dina tagningar i bildbiblioteket och visar i sitt galleri bara dem som tagits med Keepsight. Om du använder iCloud-bilder överför Apple dem enligt dina iCloud-inställningar.
-652|<strong>Bluetooth:</strong> för att styra din gimbal. Endast styrkommandon och statusvärden utbyts med gimbalen.
-653|<strong>Plats och flygdata:</strong> bara om du slår på flygdata i bild och godkänner det. Keepsight använder då din plats på iPhonen för att bestämma regionen och känna igen flygplanet i bilden. Flygdata kommer från din egen ADS-B-mottagare i det lokala nätverket. Varken din plats eller flygdata lämnar iPhonen. Utan den här funktionen använder appen inte din plats.
-654|<strong>Lokalt nätverk:</strong> bara för flygdata i bild, för att nå din egen ADS-B-mottagare. Keepsight tar bara emot data från den.
-655|<strong>Inställningar:</strong> dina inställningar i appen sparas bara lokalt på iPhone.
-656|3. Köp
-657|Köpet av ”Keepsight Pro” hanteras av Apple via App Store. Jag får inga betalningsuppgifter, inget namn och ingen e-postadress, bara sammanställda försäljningssiffror från Apple.
-658|4. Testversioner (TestFlight)
-659|Om du använder en testversion via TestFlight behandlar Apple din e-postadress för inbjudan och, om du samtycker, kraschrapporter och din feedback. Jag ser feedback och kraschrapporter för att kunna rätta fel, samt e-postadresserna till de testare jag själv har bjudit in.
-660|5. Kontakt via e-post
-661|Om du skriver till mig använder jag din e-postadress och innehållet i ditt meddelande enbart för att svara. Jag raderar meddelanden när ärendet är avslutat, senast efter två år.
-662|6. Den här webbplatsen
-663|Webbplatsen använder inga cookies och ingen spårning. Typsnitt och skript ligger på samma webbplats; inget innehåll från tredje part läses in. Ditt språkval sparas bara i din webbläsare. Webbplatsen ligger hos GitHub Pages (GitHub, Inc., USA). När du besöker den behandlar GitHub tekniskt nödvändiga uppgifter, till exempel din IP-adress, i serverloggar. Mer finns i GitHubs integritetspolicy.
-664|7. Dina rättigheter
-665|Enligt den schweiziska dataskyddslagen och, i tillämpliga fall, GDPR har du rätt till tillgång, rättelse, radering, begränsning av behandlingen och dataportabilitet, samt rätt att lämna klagomål till en tillsynsmyndighet (i Schweiz FDPIC). Eftersom appen inte skickar några uppgifter till mig gäller det i praktiken bara e-post som du har skickat till mig. Skriv till <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
-666|8. Barn
-667|Appen riktar sig inte särskilt till barn och samlar inte in uppgifter om dem.
-668|9. Ändringar
-669|Om appen ändras så att den här policyn behöver ändras uppdateras den här. Versionen på den här sidan gäller.
-670|Leverantör
-671|E-post: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
-672|Ansvar
-673|Keepsight styr en motoriserad gimbal. Se till att gimbalen kan röra sig fritt och att ingen utsätts för fara. Användningen sker på eget ansvar, i den utsträckning lagen tillåter.
-674|Varumärken
-675|Apple, iPhone, App Store, TestFlight och DockKit är varumärken som tillhör Apple Inc. FeiyuTech, AK4500, Insta360, DJI och Belkin är varumärken som tillhör respektive ägare. Keepsight är en fristående produkt utan koppling till dessa företag.
-676|Användarvillkor
-677|För appen gäller Apples standardlicensavtal för appar: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-678|Typsnitt
-679|Webbplatsen använder typsnittet Inter (SIL Open Font License 1.1).
-680|Manuella inställningar: vitbalans med symboler för ljuset, här med hjälpläget
-681|Manuella inställningar: färgton, fokus och bländare
-682|Kamerapanelen: format, zoom, virtuell gimbal, bildutlösning
-683|Format i videoläget
-684|Format i bildläget
-685|Inställningar: hastighet, gimbal, kvalitet
-686|Inställningar: igenkänningsmodell och riktning
-687|Inställningar: gester, inspelning, språk
-688|Följningspanelen med motiv, hastighet och fjärrstyrning, här med hjälpläget
-689|Området Manuell med styrspak
-690|Exempel på visningen (illustration). Med en lokal mottagare visas inte flygplanstypen.
-691|En ung kvinna filmar sig själv och sina vänner i solnedgången med en telefon på en gimbal
-692|En familj på en picknickfilt vid en sjö, filmad av en telefon på en liten gimbal
-693|En kvinna filmar en förbipasserande cyklist med en telefon på en gimbal
-694|En man filmar en springande hund och ett barn med en telefon på en gimbal
-695|En fotograf följer en rovfågel i flykten med en kamera på en gimbal
-696|En kvinna med en kamera på en gimbal och en telefon i handen medan ett flygplan passerar ovanför
-697|Flygplansspottare vid ett flygplatsstängsel filmar ett trafikflygplan med en telefon på en gimbal
-698|Flygplansspotting med en telefon på en gimbal (illustration)
+382|Tele
+383|12 MP; upp till 48 MP från iPhone 17 Pro
+384|Det här är Apples specifikationer för Pro-modellerna från iPhone 15 Pro. Keepsight har hittills bara testats på iPhone 15 Pro Max. Andra modeller ger färre megapixlar med vissa objektiv. Formatpanelen visar alltid bara vad det aktuella objektivet på din iPhone verkligen levererar.
+385|När du utlöser med en gest eller rösten växlar Keepsight själv till foto- eller videoläge. Bara ett foto som tas medan en video spelas in stannar på cirka 10 MP.
+387|Håller motivet lika stort utan att videon hoppar.
+388|Autozoom håller motivet i den storlek du ställer in. Om det rör sig bort zoomar kameran långsamt in. Om det kommer närmare zoomar kameran ut.
+389|Slå på
+390|Byt till videoläget.
+391|Välj det objektiv vars omfång ska användas.
+392|Tryck på <kbd>A</kbd>. Knappen visar aktuell zoom, till exempel ”A 2,3×”.
+393|Varför videon inte hoppar
+394|När en iPhone-kamera byter objektiv under zoomning förskjuts bilden synligt. Autozoom stannar därför på det valda objektivet och rör sig bara minimalt för varje enskild bild.
+395|Valt objektiv
+396|Zoomomfång
+397|0,5× till strax under 1×
+398|1× till strax under 4×
+399|5× till 10×
+401|<strong>Motivstorlek:</strong> hur stor del av bilden motivet ska fylla, 15 till 60 procent.
+402|<strong>Zoomhastighet:</strong> hur snabbt zoomen får röra sig, 8 till 60 procent per sekund. Små värden ser lugnare ut.
+403|Beteende i särskilda fall
+404|Zoomningen börjar först när motivet har känts igen stabilt i knappt en sekund.
+405|Om motivet når bildens kant zoomar kameran ut i stället för in.
+406|Om motivet skyms en kort stund står zoomen kvar. Först efter en och en halv sekund utan motiv går den långsamt tillbaka.
+408|En andra video med ett utsnitt som följer och zoomar mjukt.
+409|Den virtuella gimbalen skär ut ett utsnitt ur hela kamerabilden som följer motivet och zoomar av sig själv. Resultatet är en färdig, lugn video, tillgänglig direkt efter inspelningen.
+410|Öppna den högra panelen och slå på <kbd>Virtual gimbal</kbd>.
+411|Välj ett motiv. I sökaren ser du utsnittet som en ljus kontur; området utanför är nedtonat.
+412|Starta inspelningen.
+413|Ingen riktig gimbal behövs. Du kan hålla iPhone i handen eller ställa den på ett stativ. Tillsammans med en gimbal och autozoom blir bilden ännu lugnare.
+414|Reglage
+415|Effekt
+417|10 till 40 procent. Mer utrymme ser lugnare ut, mindre utrymme för motivet närmare.
+419|1,5× till 4×. Vid inspelning i 4K behålls full skärpa upp till 2×.
+421|Hur makligt utsnittet följer. Större värden jämnar ut mer.
+423|Sparar hela videon utöver den beskurna.
+424|Vad som sparas
+425|Den beskurna videon i 1080p.
+426|Valfritt originalet i vald upplösning.
+427|Om Keepsight tappar motivet går utsnittet långsamt tillbaka till hela bilden.
+428|Den virtuella gimbalen håller motivet stilla i utsnittet. Den kompenserar inte för kraftiga skakningar i bakgrunden.
+429|Enkelbild, intervallserie och automatisk tagning i rätt ögonblick.
+430|I bildläget bestämmer den högra panelen under <kbd>Photo trigger</kbd> hur Keepsight tar bilder.
+431|Typ
+432|Vad som händer
+434|En bild per tryck på avtryckaren.
+436|En serie med fast intervall tills högsta antalet är nått.
+437|Leende (Pro)
+438|Tar bilden när alla ansikten i bilden ler med öppna ögon.
+439|Blick (Pro)
+440|Tar bilden när alla är vända mot kameran.
+441|Motiv (Pro)
+442|Tar bilden när det valda motivet är låst och tillräckligt stort i bilden.
+443|Enkelbild och intervall ingår i gratisversionen. De tre automatiska typerna kräver Keepsight Pro; i gratisversionen visar de ett lås.
+444|Så kör du en serie
+445|Välj typ av utlösning.
+446|Ställ in <kbd>Interval</kbd> och <kbd>Maximum photos</kbd>.
+447|Tryck på avtryckaren. Med de automatiska typerna är Keepsight nu aktiverad och väntar på ögonblicket.
+448|Visningen överst i mitten räknar med, till exempel ”3 / 30”. Ett andra tryck på avtryckaren avslutar serien.
+449|<strong>Intervall:</strong> 1 till 30 sekunder. Med de automatiska typerna är det minsta tiden mellan två bilder.
+450|<strong>Högsta antal bilder:</strong> 2 till 100.
+451|För fåglar och andra djur fungerar ”Motiv” med kort intervall bra: Keepsight tar bilden så snart djuret är stort i bilden och fortsätter så länge det stannar där. Appen känner inte igen vart ett djur tittar.
+452|Bilder i 48 MP och ProRAW tar längre tid att spara. Med mycket kort intervall kan den verkliga tiden mellan bilderna därför bli längre.
+453|Gester, röst, nedräkning
+454|Sköta kameran när du själv står framför den.
+455|Alla tre finns i den vänstra panelen under <kbd>Remote control</kbd>.
+456|Handgester
+457|Gester fungerar när motivet är inställt på Person eller Ansikte. Håll gesten stilla i ungefär en halv sekund. Under tiden fylls en stapel överst i mitten.
+458|Gest
+459|Öppen hand
+460|Starta eller stoppa videoinspelning.
+461|OK-tecken
+462|Välj den här personen som mål och starta följningen.
+463|Peace-tecken
+464|Ta en bild.
+465|Två öppna händer
+466|Stoppa följningen.
+467|Röstkommandon
+468|Slå på <kbd>Voice control</kbd> och tillåt mikrofon och taligenkänning. Säg kommandona på appens språk.
+469|Du säger
+470|”Foto”
+471|”Starta video” eller ”Starta inspelning”
+472|Starta videoinspelning.
+473|”Stopp”
+474|Avsluta inspelningen, serien eller en pågående nedräkning.
+475|Många formuleringar fungerar, till exempel ”video”, ”gör en video”, ”bild” eller ”ta en bild”. Om kameran är i det andra läget växlar Keepsight själv innan den utlöser.
+476|Så länge röststyrningen är på är mikrofonen aktiv. iPhone visar det med den orange pricken.
+477|Nedräkning, blixt och ljud
+478|När du utlöser med gest eller röst går först en nedräkning, så att du hinner ställa dig på plats.
+479|<strong>Nedräkning:</strong> av, 3, 5 eller 10 sekunder. Sekunderna visas stort i bilden.
+480|<strong>Bekräftelseblixt:</strong> lysdioden blinkar med allt kortare mellanrum fram till bilden.
+481|<strong>Bekräftelseljud:</strong> ett kort tick vid varje blink.
+482|Utan nedräkning kommer en enda blink och ett tick som bekräftelse. Avtryckaren på skärmen utlöser alltid direkt.
+483|Inspelning och galleri
+484|Vilka videor som skapas, var de finns och hur du tittar på dem.
+485|Spela in video
+486|I videoläget startar och stoppar den röda avtryckaren inspelningen. Tiden går överst i mitten. Videor har ljud och sparas i appen Bilder.
+487|Vilka videor som skapas
+488|Innehåll
+489|När
+491|Den rena kamerabilden i vald upplösning.
+492|Alltid, om du inte stänger av det för den virtuella gimbalen.
+493|Det följande utsnittet i 1080p.
+494|När den virtuella gimbalen är på.
+496|Bilden med ramar, tid, motiv, status och gimbaldata i 1080p.
+497|Med Keepsight Pro, när <kbd>Overlay video</kbd> är på.
+499|Miniatyren ovanför lägesomkopplaren visar den senaste tagningen. Tryck på den för att öppna galleriet med alla bilder och videor du har tagit med Keepsight, de nyaste först.
+500|Tryck på en bild för stor visning och svep för att bläddra.
+501|Överst står datum, megapixlar och bildstorlek.
+502|Papperskorgen raderar tagningen även från appen Bilder. iPhone frågar först.
+503|Galleriet behöver läsåtkomst till Bilder. Med ”Begränsad åtkomst” ser Keepsight ändå sina egna tagningar.
+504|Om en ruta visar ett moln ligger originalet i iCloud och håller på att hämtas. Det händer när iCloud-bilder är på med ”Optimera iPhone-lagring”. Ett varningstecken betyder att filen inte går att läsa; den stora visningen visar då filnamnet.
+505|Live-flygdata i videon från din egen ADS-B-mottagare: vad du behöver, var det fungerar, integritet.
+506|<strong>Tillgänglighet:</strong> live-flygdata finns bara i godkända länder och regioner och kräver din egen ADS-B-mottagare. För närvarande är ingen region godkänd, så funktionen förblir avstängd överallt.
+507|Med flygdata i bild visar Keepsight flygnummer, höjd och fart för trafikflygplanet du följer, i sökaren och i videon som iPhonen spelar in. Data kommer från din egen ADS-B-mottagare på samma wifi. Varken internet eller någon leverantör av flygdata är inblandad.
+508|Keepsight följer flygplan med hjälp av bilden, helt utan mottagare. Mottagaren behövs bara för flygdata i bild och ingår inte i appen: du köper eller bygger den separat.
+509|<strong>En mottagare:</strong> en Stratux, till exempel en Raspberry Pi 3 med en USB-mottagarsticka för 1090 MHz och antenn, eller en annan enhet som skickar GDL90 via wifi.
+510|<strong>Inte bara en sticka:</strong> en USB-mottagarsticka som FlightAware Pro Stick behöver en värd, till exempel en Raspberry Pi med Stratux. En vanlig PiAware-installation skickar data till FlightAware och är inte lämplig.
+511|<strong>Samma wifi:</strong> iPhonen ansluter till mottagarens wifi. Det nätverket har oftast inget internet; det gör inget.
+512|<strong>En godkänd region:</strong> att du själv tar emot data betyder inte i sig att funktionen är tillåten i ett land.
+513|Stratux eller GDL90
+514|Mottagare
+515|Testad med Keepsight
+517|WebSocket till mottagaren, oftast på 192.168.10.1
+518|Inte än
+520|Mottagaren sänder till port 4000 på iPhonen
+521|Båda stöds på protokollnivå. Hittills har ingen mottagare testats med Keepsight på riktig hårdvara; enskilda enheter, som SkyEcho 2, kan bete sig annorlunda. Trafik som bara sänds via FLARM stöds inte.
+522|Slå på
+523|Öppna inställningarna och slå på <kbd>Flight data overlay (ADS-B)</kbd>.
+524|Läs meddelandet och tryck på <kbd>Agree and enable</kbd>. Först därefter frågar iOS efter din plats.
+525|Anslut till mottagarens wifi, välj typ av mottagare och ange dess adress. iOS frågar en gång om åtkomst till det lokala nätverket.
+526|Tryck på <kbd>Connect receiver</kbd>. Keepsight ansluter aldrig av sig själv.
+527|Välj <kbd>Aircraft</kbd> som motiv och rikta kameran mot flygplanet.
+528|Om flera flygplan passar kamerans blickriktning gissar Keepsight inte: tryck på <kbd>Aircraft selection required</kbd> och välj rätt.
+529|Du väljer alltid flygplanet själv, ur listan över trafikflygplan som tas emot just nu. Listan visar åldern på varje position i sekunder.
+530|Inställningarna visar anslutningens läge: ansluter, ansluten utan flygplan, tar emot eller inaktuella data. <kbd>Reconnect</kbd> startar om anslutningen.
+531|Inställningarna för flygdata visas bara medan <kbd>Aircraft</kbd> är valt motiv.
+532|Varför Keepsight behöver din plats
+533|iOS frågar efter din plats först när du slår på flygdata i bild och godkänner. Keepsight behöver den av två skäl:
+534|<strong>Kontrollera regionen:</strong> om flygdata får visas beror på vilket land du befinner dig i. Keepsight bestämmer det utifrån var din iPhone faktiskt är, på själva enheten.
+535|<strong>Känna igen flygplanet i bilden:</strong> Keepsight beräknar riktningen och vinkeln över horisonten från dig till varje flygplan och jämför dem med vart kameran pekar. Även kompassen behöver platsen för att hitta geografisk nord.
+536|Det går inte att ange en plats för hand, eftersom den regionala kontrollen då inte längre vore tillförlitlig. Om du inte använder flygdata frågar Keepsight aldrig efter din plats.
+537|Var det fungerar
+538|Keepsight bestämmer landet på din iPhone utifrån din aktuella plats. App Store-land, språk eller internetadress spelar ingen roll. Nära en gräns och till havs förblir funktionen avstängd.
+539|Varje land granskas för sig innan det godkänns. Tills dess meddelar appen att flygdata i realtid inte är tillgängliga i din region. Spårning och inspelning fungerar som vanligt.
+540|Vad som lämnar din iPhone
+541|Ingenting. Keepsight lyssnar bara på mottagaren och ändrar aldrig dess inställningar. Varken din plats eller flygdata skickas till någon server.
+542|Flygdata finns bara i iPhonens minne så länge mottagaren är ansluten. De raderas när du kopplar från, väljer ett annat motiv eller lämnar appen. Ingenting sparas eller säkerhetskopieras.
+543|Visning
+545|Flygplanstypen ingår inte i ADS-B och visas därför inte. Data som en mottagare bara skickar vidare, till exempel OGN, FLARM eller TIS-B, visas inte heller.
+546|Välj hörn, kompakt eller detaljerad vy och metriska eller brittiska enheter. Data äldre än 15 sekunder döljs i stället för att stå kvar. Varje video med flygdata bär texten ”Flight data: Local ADS-B”.
+547|Visningen skrivs in i videor som spelas in med iPhone. En kamera på gimbalen spelar in själv och får ingen visning.
+548|Om du vill vrider Keepsight gimbalen mot det valda flygplanets rapporterade position så länge det ännu inte syns i bilden. Kompassen begränsar noggrannheten.
+549|Noggrannhet
+550|Flygdata kan vara fördröjda, ofullständiga eller felaktiga. De är endast avsedda som information och lämpar sig inte för navigering, flygsäkerhet eller operativa beslut.
+551|Gratis och Pro
+552|Vad gratisversionen kan, vad Pro låser upp, köp och återställning.
+553|Gratisversionen är till för att prova: du testar följning, gester och kamera på människor innan du betalar något.
+554|Ja
+555|Gimbalstyrning, enkelbild och intervallserie
+556|Nej
+557|Alla andra motiv
+558|Videolängd
+559|60 sekunder
+560|Obegränsad
+561|Testa Pro-spårning
+562|3 × 60 sekunder
+563|Keepsight-logotyp i bilder och videor
+564|Testa Pro-spårning
+565|Tryck på ett låst motiv i spårningspanelen och välj <kbd>Start preview</kbd>. I 60 sekunder följer Keepsight motivet precis som Pro-versionen. Du har tre sådana omgångar; en som misslyckas under de första sekunderna räknas inte.
+566|I gratisversionen avslutas en video av sig själv efter 60 sekunder. Ett meddelande visas 10 sekunder före slutet.
+567|Köpa Pro
+568|Tryck på <kbd>PRO</kbd> uppe till höger och sedan på <kbd>Lås upp</kbd>. Pro är ett engångsköp utan prenumeration. App Store visar priset i din valuta och Apple sköter betalningen.
+569|Återställa ett köp
+570|På en ny iPhone eller efter ominstallation trycker du på <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Du måste vara inloggad med samma Apple-konto som vid köpet.
+571|Återbetalning
+572|Begär återbetalning från Apple på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+573|Inställningar och hjälp
+574|Språk, hjälpläge och reglagen för avancerade användare.
+575|De viktigaste reglagen finns i de två sidopanelerna. Allt annat finns i den vänstra panelen under <kbd>All settings</kbd>.
+577|Frågetecknet överst i varje sidopanel slår på hjälpläget. Under menypunkterna visas då gula tips med en kort förklaring, och för de viktiga även en teckning.
+578|Keepsight använder språket på din iPhone. Vill du välja ett annat bara för Keepsight trycker du på <kbd>Language</kbd> under <kbd>All settings</kbd>. Då öppnas iPhone-inställningarna för Keepsight. Röstkommandona byts samtidigt.
+579|Reglage för avancerade användare
+580|Hastighet ”Egen”
+581|Förstärkning, dämpning, topphastighet, acceleration och vilozon för följningen.
+582|Lägsta hastighet
+583|Endast för AK4500: det minsta kommando som gimbalen fortfarande reagerar på. Höj det om gimbalen stannar vid små avvikelser.
+584|Förutsägelse efter förlust
+585|Hur länge gimbalen fortsätter panorera när motivet är skymt.
+587|Vänd panorering eller lutning.
+589|Vilken modell som känner igen ett motiv. RF-DETR Small och YOLOX-S finns att välja på.
+591|Visar bildfrekvens, gimbalkommandon och modellens beräkningstid i sökaren.
+593|Återställer följningens reglage.
+595|Här hittar du appens version, länkar till den här webbplatsen och licenserna för de igenkänningsmodeller som används.
+596|Felsökning
+597|Vanliga problem och hur du löser dem.
+598|Gimbalen hittas inte
+599|<strong>Enhet med DockKit:</strong> är den parkopplad i iPhone-inställningarna och sitter iPhone ordentligt i hållaren? Öppna Apples Kamera-app som jämförelse. Om enheten inte följer dig där ligger felet i parkopplingen.
+600|<strong>AK4500:</strong> är gimbalen påslagen och i närheten? Stäng Feiyu-appen helt och tillåt Bluetooth under <kbd>Inställningar</kbd> → <kbd>Keepsight</kbd>.
+601|Slå av och på gimbalen och tryck på <kbd>Connect</kbd> igen.
+602|Gimbalen vrider sig bort från motivet
+603|Normalt rättar Keepsight till detta av sig själv efter en stund. Om inte, vänd den berörda axeln under <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+604|Gimbalen reagerar trögt eller skakar
+605|Trög: välj profilen Sport. Med AK4500 hjälper även en högre lägsta hastighet.
+606|Skakar eller pendlar: välj profilen Mjuk. Med lång brännvidd ser små rörelser större ut.
+607|Motivet känns inte igen
+608|Är rätt motivtyp vald?
+609|Mycket små motiv känns igen mindre säkert. Välj ett längre objektiv.
+610|Igenkänningen blir sämre i svagt ljus och starkt motljus.
+611|Röstkommandon uppfattas inte
+612|Tillåt mikrofon och taligenkänning under <kbd>Inställningar</kbd> → <kbd>Keepsight</kbd>.
+613|Säg kommandona på appens språk.
+614|Vind och bullrig omgivning stör igenkänningen. Då är gester pålitligare.
+615|Gester utlöser inte
+616|Motivet måste vara inställt på Person eller Ansikte.
+617|Håll handen stilla och väl synlig tills stapeln är full.
+618|48 MP eller RAW går inte att välja
+619|Båda finns bara i fotoläget och med ett objektiv som stöder dem. På iPhone 15 Pro är det bara huvudkameran <kbd>1×</kbd>; nyare Pro-modeller ger 48 MP även med andra objektiv. RAW kräver dessutom Keepsight Pro.
+620|Galleriet är tomt
+621|Ge Keepsight åtkomst till Bilder. Tagningar från äldre versioner av appen visas inte i galleriet, men de finns i appen Bilder.
+622|Keepsight Pro är inte aktivt efter köpet
+623|Tryck på <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> och kontrollera att du är inloggad med rätt Apple-konto.
+624|Mer hjälp
+625|Skriv till <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> och ange din iPhone-modell, iOS-version och Keepsight-version.
+626|iPhone blir varm
+627|Igenkänning, 4K-inspelning och gimbalstyrning är krävande, särskilt i solen. Keepsight skyddar enheten själv:
+628|<strong>Termometer i statusfältet:</strong> iPhone är varm och igenkänningen utvärderar bara varannan eller var tredje bild. Följningen fortsätter men reagerar lite trögare.
+629|<strong>Följningen stoppad:</strong> vid kritisk temperatur avslutar Keepsight följning och inspelning och sparar videon. Låt iPhone svalna i skuggan.
+630|Så håller den sig svalare: stäng av igenkänning och geststyrning när du inte behöver dem, 1080p i stället för 4K, 30 i stället för 60 bilder, stäng av video med överlägg och den virtuella gimbalen, ta av skalet. Därför startar iPhone 12 och äldre modeller med 1080p.
+631|Dokumentationen besvarar de flesta frågor. Om du kör fast, skriv till mig.
+632|Kontakt
+633|För att jag ska kunna hjälpa till snabbt, ange:
+634|din iPhone-modell och iOS-version
+635|Keepsight-versionen (i appen under Alla inställningar → Om och licenser)
+636|vad du gjorde och vad som hände i stället, helst med en skärmbild eller kort video
+637|Snabbhjälp
+638|<a href="docs/start.html">Kom igång</a>: behörigheter och ansluta gimbalen
+639|<a href="docs/troubleshooting.html">Felsökning</a>: vanliga problem och lösningar
+640|<a href="docs/pro.html">Gratis och Pro</a>: köp, återställning, återbetalning
+641|Integritetspolicy
+642|Senast uppdaterad: 16 november 2026. Gäller iOS-appen Keepsight och den här webbplatsen.
+643|<strong>Kort sagt:</strong> Keepsight samlar inte in uppgifter om dig. Det finns inget konto, ingen reklam, ingen spårning och ingen analys. Kamerabilder, detektering, foton och videor stannar på din iPhone.
+644|1. Ansvarig
+645|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Schweiz<br>E-post: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+646|2. Vad appen behandlar
+647|Appen behandlar uppgifter enbart på din enhet och enbart för sina funktioner. Jag som leverantör får inget av det.
+648|<strong>Kamera:</strong> kamerabilden analyseras på iPhone för att känna igen och följa motiv. Bilderna lämnar inte enheten.
+649|<strong>Ansikten:</strong> för att känna igen ansikten, leenden och blickriktning analyserar appen kamerabilden på iPhone. Den känner inte igen vem någon är och sparar inga ansiktsdrag. Porträttbilder innehåller djupdata från främre kameran; de finns bara i den bild du själv sparar.
+650|<strong>Mikrofon:</strong> för ljudet i dina videor och, om du slår på röststyrningen, för röstkommandon.
+651|<strong>Taligenkänning:</strong> röstkommandona känns igen av Apples taligenkänning. Om din iPhone och det valda språket stöder det sker det på enheten. Annars skickas ljudet till Apple för igenkänning, enligt Apples integritetspolicy. Röststyrningen är avstängd som standard.
+652|<strong>Bilder:</strong> appen sparar dina tagningar i bildbiblioteket och visar i sitt galleri bara dem som tagits med Keepsight. Om du använder iCloud-bilder överför Apple dem enligt dina iCloud-inställningar.
+653|<strong>Bluetooth:</strong> för att styra din gimbal. Endast styrkommandon och statusvärden utbyts med gimbalen.
+654|<strong>Plats och flygdata:</strong> bara om du slår på flygdata i bild och godkänner det. Keepsight använder då din plats på iPhonen för att bestämma regionen och känna igen flygplanet i bilden. Flygdata kommer från din egen ADS-B-mottagare i det lokala nätverket. Varken din plats eller flygdata lämnar iPhonen. Utan den här funktionen använder appen inte din plats.
+655|<strong>Lokalt nätverk:</strong> bara för flygdata i bild, för att nå din egen ADS-B-mottagare. Keepsight tar bara emot data från den.
+656|<strong>Inställningar:</strong> dina inställningar i appen sparas bara lokalt på iPhone.
+657|3. Köp
+658|Köpet av ”Keepsight Pro” hanteras av Apple via App Store. Jag får inga betalningsuppgifter, inget namn och ingen e-postadress, bara sammanställda försäljningssiffror från Apple.
+659|4. Testversioner (TestFlight)
+660|Om du använder en testversion via TestFlight behandlar Apple din e-postadress för inbjudan och, om du samtycker, kraschrapporter och din feedback. Jag ser feedback och kraschrapporter för att kunna rätta fel, samt e-postadresserna till de testare jag själv har bjudit in.
+661|5. Kontakt via e-post
+662|Om du skriver till mig använder jag din e-postadress och innehållet i ditt meddelande enbart för att svara. Jag raderar meddelanden när ärendet är avslutat, senast efter två år.
+663|6. Den här webbplatsen
+664|Webbplatsen använder inga cookies och ingen spårning. Typsnitt och skript ligger på samma webbplats; inget innehåll från tredje part läses in. Ditt språkval sparas bara i din webbläsare. Webbplatsen ligger hos GitHub Pages (GitHub, Inc., USA). När du besöker den behandlar GitHub tekniskt nödvändiga uppgifter, till exempel din IP-adress, i serverloggar. Mer finns i GitHubs integritetspolicy.
+665|7. Dina rättigheter
+666|Enligt den schweiziska dataskyddslagen och, i tillämpliga fall, GDPR har du rätt till tillgång, rättelse, radering, begränsning av behandlingen och dataportabilitet, samt rätt att lämna klagomål till en tillsynsmyndighet (i Schweiz FDPIC). Eftersom appen inte skickar några uppgifter till mig gäller det i praktiken bara e-post som du har skickat till mig. Skriv till <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>.
+667|8. Barn
+668|Appen riktar sig inte särskilt till barn och samlar inte in uppgifter om dem.
+669|9. Ändringar
+670|Om appen ändras så att den här policyn behöver ändras uppdateras den här. Versionen på den här sidan gäller.
+671|Leverantör
+672|E-post: <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a>
+673|Ansvar
+674|Keepsight styr en motoriserad gimbal. Se till att gimbalen kan röra sig fritt och att ingen utsätts för fara. Användningen sker på eget ansvar, i den utsträckning lagen tillåter.
+675|Varumärken
+676|Apple, iPhone, App Store, TestFlight och DockKit är varumärken som tillhör Apple Inc. FeiyuTech, AK4500, Insta360, DJI och Belkin är varumärken som tillhör respektive ägare. Keepsight är en fristående produkt utan koppling till dessa företag.
+677|Användarvillkor
+678|För appen gäller Apples standardlicensavtal för appar: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+679|Typsnitt
+680|Webbplatsen använder typsnittet Inter (SIL Open Font License 1.1).
+681|Manuella inställningar: vitbalans med symboler för ljuset, här med hjälpläget
+682|Manuella inställningar: färgton, fokus och bländare
+683|Kamerapanelen: format, zoom, virtuell gimbal, bildutlösning
+684|Format i videoläget
+685|Format i bildläget
+686|Inställningar: hastighet, gimbal, kvalitet
+687|Inställningar: igenkänningsmodell och riktning
+688|Inställningar: gester, inspelning, språk
+689|Följningspanelen med motiv, hastighet och fjärrstyrning, här med hjälpläget
+690|Området Manuell med styrspak
+691|Exempel på visningen (illustration). Med en lokal mottagare visas inte flygplanstypen.
+692|En ung kvinna filmar sig själv och sina vänner i solnedgången med en telefon på en gimbal
+693|En familj på en picknickfilt vid en sjö, filmad av en telefon på en liten gimbal
+694|En kvinna filmar en förbipasserande cyklist med en telefon på en gimbal
+695|En man filmar en springande hund och ett barn med en telefon på en gimbal
+696|En fotograf följer en rovfågel i flykten med en kamera på en gimbal
+697|En kvinna med en kamera på en gimbal och en telefon i handen medan ett flygplan passerar ovanför
+698|Flygplansspottare vid ett flygplatsstängsel filmar ett trafikflygplan med en telefon på en gimbal
+699|Flygplansspotting med en telefon på en gimbal (illustration)

@@ -51,7 +51,7 @@ HOME = {
     ],
     "cam_h": "Die volle Kamera deines iPhones",
     "cam": [("4K", "Video mit 24, 25, 30 oder 60 Bildern pro Sekunde"),
-            ("48 MP", "Fotos mit der Hauptkamera, als HEIF oder ProRAW"),
+            ("Bis 48 MP", "Fotos je nach iPhone und Objektiv, als HEIF oder ProRAW"),
             ("3", "Objektive: Ultraweitwinkel, Hauptkamera und Tele")],
     "price_h": "Gratis ausprobieren, einmal kaufen",
     "price_p": "Mit der Gratisversion testest du alles an Personen. Keepsight Pro schaltest du mit einem einmaligen Kauf frei, ohne Abo. Der App Store zeigt den Preis in deiner Währung.",
@@ -60,7 +60,7 @@ HOME = {
         ("Gesten, Sprachbefehle, Countdown", True, True),
         ("Auto-Zoom und virtueller Gimbal", True, True),
         ("Gimbal-Steuerung mit Apple DockKit", True, True),
-        ("4K-Video und 48-MP-Fotos", True, True),
+        ("4K-Video und Fotos bis 48 MP", True, True),
         ("Automatisches Auslösen: Lächeln, Blick, Motiv", False, True),
         ("Flugzeug, Vogel, Tier, Fahrzeug, Zug, Boot", False, True),
         ("Rahmen um ein beliebiges Objekt ziehen", False, True),
@@ -409,11 +409,11 @@ DOCS = [
 <h2>Objektive und Megapixel</h2>
 <table>
 <tr><th>Objektiv</th><th>Foto-Auflösung</th></tr>
-<tr><td><kbd>.5×</kbd> Ultraweitwinkel</td><td>12 MP</td></tr>
+<tr><td><kbd>.5×</kbd> Ultraweitwinkel</td><td>12 MP, ab iPhone 16 Pro bis 48 MP</td></tr>
 <tr><td><kbd>1×</kbd> Hauptkamera</td><td>12, 24 oder 48 MP, in RAW 12 oder 48 MP</td></tr>
-<tr><td><kbd>5×</kbd> Tele</td><td>12 MP</td></tr>
+<tr><td>Tele</td><td>12 MP, ab iPhone 17 Pro bis 48 MP</td></tr>
 </table>
-<p>Die Werte gelten für das iPhone 15 Pro Max. Die Format-Leiste zeigt immer nur, was das aktuelle Objektiv wirklich liefert.</p>
+<p>Das sind Apples Angaben für die Pro-Modelle ab iPhone 15 Pro. Getestet ist Keepsight bisher nur auf dem iPhone 15 Pro Max. Andere Modelle liefern mit einigen Objektiven weniger Megapixel. Das Format-Fenster zeigt immer nur, was das aktuelle Objektiv deines iPhones wirklich liefert.</p>
 <div class="tip"><p>Per Geste oder Sprache ausgelöst, schaltet Keepsight von selbst in den Foto- oder Video-Modus. Nur ein Foto, das während einer laufenden Videoaufnahme entsteht, bleibt bei rund 10 MP.</p></div>
 """),
 
@@ -715,7 +715,7 @@ DOCS = [
 <li>Halte die Hand ruhig und gut sichtbar, bis der Balken gefüllt ist.</li>
 </ul>
 <h2>48 MP oder RAW lassen sich nicht wählen</h2>
-<p>Beides gibt es nur im Foto-Modus mit der Hauptkamera <kbd>1×</kbd>. RAW braucht zusätzlich Keepsight Pro.</p>
+<p>Beides gibt es nur im Foto-Modus und mit einem Objektiv, das es unterstützt. Beim iPhone 15 Pro ist das nur die Hauptkamera <kbd>1×</kbd>; neuere Pro-Modelle bieten 48 MP auch mit anderen Objektiven. RAW braucht ausserdem Keepsight Pro.</p>
 <h2>Die Galerie ist leer</h2>
 <p>Erlaube Keepsight den Zugriff auf Fotos. Aufnahmen aus älteren Versionen der App erscheinen nicht in der Galerie, sie liegen aber in der Fotos-App.</p>
 <h2>Keepsight Pro ist nach dem Kauf nicht aktiv</h2>
