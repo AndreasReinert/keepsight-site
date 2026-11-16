@@ -379,7 +379,7 @@ DOCS = [
 <tr><td><kbd>5×</kbd> telephoto</td><td>12 MP</td></tr>
 </table>
 <p>These values apply to the iPhone 15 Pro Max. The format panel only ever shows what the current lens really delivers.</p>
-<div class="tip"><p>A photo triggered by gesture or voice in video mode has about 10 MP. Switch to photo mode for the full resolution.</p></div>
+<div class="tip"><p>Triggered by gesture or voice, Keepsight switches to photo or video mode by itself. Only a photo taken while a video is recording stays at about 10 MP.</p></div>
 """),
 
 ("zoom", "Auto zoom", "Keeps the subject at the same size without the video jumping.", """
@@ -491,6 +491,7 @@ DOCS = [
 <tr><td>“Start video” or “Start recording”</td><td>Start video recording.</td></tr>
 <tr><td>“Stop”</td><td>End the recording, the series or a running countdown.</td></tr>
 </table>
+<p>Many wordings work, for example “video”, “make a video”, “picture” or “take a photo”. If the camera is in the other mode, Keepsight switches by itself before it triggers.</p>
 <p>While voice control is on, the microphone stays active. The iPhone shows this with the orange dot.</p>
 
 <h2>Countdown, flash and sound</h2>
