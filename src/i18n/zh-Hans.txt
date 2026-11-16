@@ -88,7 +88,7 @@
 122|Keepsight 能跟上飞得很快的鸟吗？
 123|不一定。速度极快或行动难以预料的动物，可能快过云台的转动速度或 iPhone 的识别速度。
 124|你需要什么
-126|运行 iOS 17 或更高版本的 iPhone。Keepsight 在配备三个摄像头的 iPhone 15 Pro Max 上开发和测试。
+126|运行 iOS 26 或更高版本的 iPhone。Keepsight 在配备三个摄像头的 iPhone 15 Pro Max 上开发和测试。
 128|要进行跟随，需要支持 Apple DockKit 的云台或支架，例如 Insta360 Flow 2 Pro、DJI Osmo Mobile 8 或 Belkin Auto-Tracking Stand Pro。面向无反相机的 FeiyuTech AK4500 同样受支持。相机、拍照触发、手势、语音和虚拟云台在没有云台时同样可用。
 129|语言
 130|App 支持 21 种语言：英语、德语、法语、意大利语、西班牙语、葡萄牙语、荷兰语、瑞典语、波兰语、俄语、乌克兰语、土耳其语、阿拉伯语、印地语、印度尼西亚语、越南语、泰语、日语、韩语和中文（简体与繁体）。
@@ -135,7 +135,7 @@
 178|装上 iPhone 并打开 Keepsight。App 会自动识别设备，右下角的按钮显示 <kbd>Track</kbd>。
 179|选择拍摄对象并轻点 <kbd>Track</kbd>。
 180|跟踪时，Keepsight 告诉 DockKit 主体在哪里，由 DockKit 驱动电机，正如 Apple 所推荐。对于“人物”和“面部”，你也可以让 Apple 自己的跟踪接管。在 <kbd>Manual</kbd> 区域断开连接后，系统会重新接管。
-181|DockKit 需要 iOS 17 或更高版本。Keepsight 无法控制不支持 DockKit 的设备，例如同一厂商的旧型号。
+181|DockKit 需要 iOS 26 或更高版本。Keepsight 无法控制不支持 DockKit 的设备，例如同一厂商的旧型号。
 182|打开云台电源。请关闭 Feiyu 的 App，因为云台只接受一个连接。
 183|在 Keepsight 右下角轻点 <kbd>Connect</kbd>。
 184|首次使用时允许蓝牙访问。

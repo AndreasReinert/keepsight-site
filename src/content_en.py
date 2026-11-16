@@ -105,7 +105,7 @@ HOME = {
     ],
     "need_h": "What you need",
     "need": [
-        ("iPhone", "An iPhone with iOS 17 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
+        ("iPhone", "An iPhone with iOS 26 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
         ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro. The FeiyuTech AK4500 for mirrorless cameras is supported as well. Camera, photo triggers, gestures, voice and the virtual gimbal also work without a gimbal."),
         ("Languages", "The app speaks 21 languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Swedish, Polish, Russian, Ukrainian, Turkish, Arabic, Hindi, Indonesian, Vietnamese, Thai, Japanese, Korean and Chinese (Simplified and Traditional)."),
     ],
@@ -165,7 +165,7 @@ DOCS = [
 <li>Choose a subject and tap <kbd>Track</kbd>.</li>
 </ol>
 <p>While Keepsight tracks, it tells DockKit where the subject is, and DockKit moves the motors, as Apple recommends. For Person and Face you can also let Apple’s own tracking take over. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
-<p>DockKit requires iOS 17 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
+<p>DockKit requires iOS 26 or later. Keepsight cannot control devices without DockKit, such as older models from the same manufacturers.</p>
 
 <h2>FeiyuTech AK4500</h2>
 <ol>
