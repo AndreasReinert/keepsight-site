@@ -739,9 +739,9 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Privacy Policy",
-    "lead": "Last updated: 15 November 2026. Applies to the Keepsight iOS app and this website.",
+    "lead": "Last updated: 16 November 2026. Applies to the Keepsight iOS app and this website.",
     "body": f"""
-<div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone. The one exception is the optional flight data feature, which sends an approximate location to a data provider (see section 2).</p></div>
+<div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone.</p></div>
 <h2>1. Controller</h2>
 <p>{ADDRESS}<br>Email: <a href="mailto:{MAIL}">{MAIL}</a></p>
 <h2>2. What the app processes</h2>
