@@ -72,6 +72,8 @@ HOME = {
         ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
         ("Video in ProRes 422 HQ", False, True),
         ("Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme", False, True),
+        ("Apple Watch: Auslöser, Modus, Tracking, Status", True, True),
+        ("Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights", False, True),
     ],
     "price_cols": ("Funktion", "Gratis", "Pro"),
     "price_note": "In der Gratisversion sind Videos auf 60 Sekunden begrenzt und tragen das Keepsight-Logo.",
@@ -564,6 +566,30 @@ DOCS = [
 <p>Ohne Countdown gibt es einen einzelnen Blitz und Ton als Bestätigung. Der Auslöser am Bildschirm löst immer sofort aus.</p>
 """),
 
+("watch", "Apple Watch", "Fernbedienung und Status am Handgelenk.", """
+<h2>Was die Uhr kann</h2>
+<p>Die Apple Watch ist Fernbedienung und Kontrollanzeige für das iPhone auf dem Gimbal. Sie hat keine eigene Kamera, zeigt keine Galerie und speichert nichts.</p>
+<p>Öffne Keepsight zuerst auf dem iPhone, dann auf der Uhr. Die Uhr erreicht das iPhone über Bluetooth auf rund 10 m, im selben WLAN weiter. Ohne Verbindung sagt sie das, statt leere Knöpfe zu zeigen.</p>
+<h2>Gratis</h2>
+<ul>
+<li>Auslöser: Foto oder Video starten und stoppen, mit dem Countdown als Ticken am Handgelenk.</li>
+<li>Zwischen Foto und Video wechseln, Tracking starten und stoppen.</li>
+<li>Status: Modus, Aufnahmezeit in Rot, Tracking-Zustand, Gimbal und sein Akku.</li>
+<li>Doppeltippen (ab watchOS 11, Apple Watch Series 9, Ultra 2 oder neuer) löst aus. Bei der Apple Watch Ultra stellst du die Action-Taste auf «Kurzbefehl» und wählst «Keepsight-Auslöser».</li>
+</ul>
+<h2>Mit Keepsight Pro</h2>
+<ul>
+<li>Warnungen am Handgelenk: Ziel seit 2 Sekunden verloren, Aufnahme gestoppt, iPhone-Speicher fast voll, iPhone warm, Gimbal-Akku schwach, Gimbal getrennt.</li>
+<li>Steuerung: Zoom mit der Digital Crown, Schwenken und Neigen mit dem Finger, zentrieren, nächstes Motiv, Schwenk-Programm.</li>
+<li>Highlights: Ein Tipp während der Aufnahme markiert den Moment. In der Galerie erscheinen die Marken als Sterne unter dem Video; ein Tipp springt dorthin.</li>
+<li>Live-Bild: ein kleines Bild mit den Erkennungsrahmen, etwa 5 bis 8 Bilder pro Sekunde. Tippe auf eine Person, um das Ziel zu wählen. Es dient zum Kontrollieren, nicht zum Filmen, und schaltet sich bei warmem iPhone ab.</li>
+</ul>
+<p>Ein Kauf für alles: Keepsight Pro auf dem iPhone schaltet auch die Uhr frei. Die Pro-Vorschau schaltet die Uhr für ihre Dauer ebenfalls frei. In der Gratisversion gibt es nur eine Warnung: wenn eine Aufnahme am Limit von 60 Sekunden endet.</p>
+<h2>Voraussetzungen</h2>
+<p>Apple Watch mit watchOS 10 oder neuer, gekoppelt mit einem iPhone mit iOS 26 oder neuer. Keepsight kommt zusammen mit der iPhone-App auf die Uhr.</p>
+<div class="tip"><p><strong>Noch nicht auf einer Uhr getestet:</strong> Die Uhr-App folgt Apples Dokumentation. Doppeltippen, Action-Taste und Live-Bild müssen noch auf echten Uhren ausprobiert werden.</p></div>
+"""),
+
 ("recording", "Aufnahme und Galerie", "Welche Videos entstehen, wo sie liegen und wie du sie ansiehst.", """
 <h2>Video aufnehmen</h2>
 <p>Im Video-Modus startet und stoppt der rote Auslöser die Aufnahme. Oben in der Mitte läuft die Zeit in einem roten Feld mit, an der Stelle des Formats. In der Gratisversion kommt in den letzten 10 Sekunden die Restzeit dazu. Die Videos haben Ton und liegen danach in der Fotos-App.</p>
@@ -671,6 +697,8 @@ DOCS = [
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Apple Watch: Auslöser, Modus, Tracking, Status</td><td class="y">Ja</td><td class="y">Ja</td></tr>
+<tr><td>Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights</td><td>Nein</td><td class="y">Ja</td></tr>
 </table>
 
 <h2>Pro-Tracking testen</h2>
@@ -802,6 +830,7 @@ PRIVACY = {
 <li><strong>Spracherkennung:</strong> Die Sprachbefehle erkennt die Spracherkennung von Apple. Wenn dein iPhone und die gewählte Sprache es unterstützen, geschieht das auf dem Gerät. Andernfalls wird der Ton zur Erkennung an Apple übertragen. Dafür gelten die Datenschutzbestimmungen von Apple. Die Sprachsteuerung ist standardmässig ausgeschaltet.</li>
 <li><strong>Fotos:</strong> Die App speichert deine Aufnahmen in der Fotos-Mediathek und zeigt in ihrer Galerie nur die mit Keepsight gemachten Aufnahmen. Nutzt du iCloud-Fotos, überträgt Apple die Aufnahmen gemäss deinen iCloud-Einstellungen.</li>
 <li><strong>Bluetooth:</strong> zur Steuerung deines Gimbals. Es werden nur Steuerbefehle und Statuswerte mit dem Gimbal ausgetauscht.</li>
+<li><strong>Apple Watch:</strong> Die Uhr-App spricht nur mit deinem eigenen iPhone, über Apples WatchConnectivity. Status, Befehle und das kleine Live-Bild gehen direkt zwischen deinen beiden Geräten hin und her. Die Uhr speichert nichts.</li>
 <li><strong>Standort und Flugdaten:</strong> nur wenn du die Flugdaten-Einblendung einschaltest und ihr zustimmst. Keepsight nutzt dann deinen Standort auf dem iPhone, um die Region zu bestimmen und das Flugzeug im Bild zu erkennen. Die Flugdaten kommen aus deinem eigenen ADS-B-Empfänger im lokalen Netzwerk. Weder dein Standort noch Flugdaten verlassen das iPhone. Ohne diese Funktion nutzt die App deinen Standort nicht.</li>
 <li><strong>Lokales Netzwerk:</strong> nur für die Flugdaten-Einblendung, um deinen eigenen ADS-B-Empfänger zu erreichen. Keepsight empfängt von ihm nur Daten.</li>
 <li><strong>Einstellungen:</strong> Deine Einstellungen in der App werden nur lokal auf dem iPhone gespeichert.</li>

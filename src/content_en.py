@@ -72,6 +72,8 @@ HOME = {
         ("Manual camera controls for photo and video", False, True),
         ("Video in ProRes 422 HQ", False, True),
         ("Gimbal: framing, speaker and pan programs", False, True),
+        ("Apple Watch: shutter, mode, tracking, status", True, True),
+        ("Apple Watch: alerts, controls, live view, highlights", False, True),
     ],
     "price_cols": ("Feature", "Free", "Pro"),
     "price_note": "In the free version, videos are limited to 60 seconds and carry the Keepsight logo.",
@@ -563,6 +565,30 @@ DOCS = [
 <p>Without a countdown there is a single flash and tick as confirmation. The on-screen shutter always fires immediately.</p>
 """),
 
+("watch", "Apple Watch", "Remote control and status on your wrist.", """
+<h2>What the watch does</h2>
+<p>The Apple Watch is a remote control and status display for the iPhone on the gimbal. It has no camera of its own, shows no gallery and stores nothing.</p>
+<p>Open Keepsight on the iPhone, then on the watch. The watch reaches the iPhone over Bluetooth at about 10 m, further on the same Wi-Fi. Without a connection it says so instead of showing empty buttons.</p>
+<h2>Free</h2>
+<ul>
+<li>Shutter: photo, or start and stop video, with the countdown ticking on your wrist.</li>
+<li>Switch between photo and video, start and stop tracking.</li>
+<li>Status: mode, recording time in red, tracking state, gimbal and its battery.</li>
+<li>Double tap (watchOS 11 or later, Apple Watch Series 9, Ultra 2 or newer) triggers the shutter. On Apple Watch Ultra, set the Action button to Shortcut and choose Keepsight shutter.</li>
+</ul>
+<h2>With Keepsight Pro</h2>
+<ul>
+<li>Alerts on your wrist: target lost for 2 seconds, recording stopped, iPhone storage almost full, iPhone hot, gimbal battery low, gimbal disconnected.</li>
+<li>Controls: zoom with the Digital Crown, pan and tilt with your finger, centre, next subject, pan program.</li>
+<li>Highlights: a tap during recording marks the moment. In the gallery the marks appear as stars under the video; a tap jumps there.</li>
+<li>Live view: a small picture with the detection frames, about 5 to 8 images per second. Tap a person to select the target. It is for checking, not filming, and switches off when the iPhone is hot.</li>
+</ul>
+<p>One purchase unlocks everything: Keepsight Pro on the iPhone also unlocks the watch. The Pro preview unlocks the watch for its duration too. In the free version the only alert is when a recording ends at the 60-second limit.</p>
+<h2>Requirements</h2>
+<p>Apple Watch with watchOS 10 or later, paired with an iPhone with iOS 26 or later. Keepsight installs on the watch together with the iPhone app.</p>
+<div class="tip"><p><strong>Not yet tested on a watch:</strong> The watch app follows Apple’s documentation. Double tap, the Action button and the live view still need to be tried on real watches.</p></div>
+"""),
+
 ("recording", "Recording and gallery", "Which videos are created, where they are and how to view them.", """
 <h2>Recording video</h2>
 <p>In video mode the red shutter starts and stops the recording. The running time appears at the top centre in a red field, in place of the format. In the free version the remaining time is added during the last 10 seconds. Videos have sound and are saved to the Photos app.</p>
@@ -670,6 +696,8 @@ DOCS = [
 <tr><td>Manual camera controls for photo and video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Gimbal: framing, speaker and pan programs</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Apple Watch: shutter, mode, tracking, status</td><td class="y">Yes</td><td class="y">Yes</td></tr>
+<tr><td>Apple Watch: alerts, controls, live view, highlights</td><td>No</td><td class="y">Yes</td></tr>
 </table>
 
 <h2>Trying Pro tracking</h2>
@@ -801,6 +829,7 @@ PRIVACY = {
 <li><strong>Speech recognition:</strong> Voice commands are recognised by Apple’s speech recognition. If your iPhone and the selected language support it, this happens on the device. Otherwise the audio is sent to Apple for recognition, subject to Apple’s privacy policy. Voice control is off by default.</li>
 <li><strong>Photos:</strong> The app saves your captures to the photo library and shows only captures made with Keepsight in its gallery. If you use iCloud Photos, Apple transfers them according to your iCloud settings.</li>
 <li><strong>Bluetooth:</strong> to control your gimbal. Only control commands and status values are exchanged with the gimbal.</li>
+<li><strong>Apple Watch:</strong> The watch app talks only to your own iPhone through Apple’s WatchConnectivity. Status, commands and the small live image go directly between your two devices. The watch stores nothing.</li>
 <li><strong>Location and flight data:</strong> only if you switch on the flight data overlay and agree to it. Keepsight then uses your location on the iPhone to determine the region and to recognise the aircraft in the picture. The flight data comes from your own ADS-B receiver on the local network. Neither your location nor flight data leaves the iPhone. Without this feature the app does not use your location.</li>
 <li><strong>Local network:</strong> only for the flight data overlay, to reach your own ADS-B receiver. Keepsight only receives data from it.</li>
 <li><strong>Settings:</strong> Your in-app settings are stored locally on the iPhone only.</li>
