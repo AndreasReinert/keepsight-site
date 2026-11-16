@@ -72,6 +72,7 @@ HOME = {
         ("Manual camera controls for photo and video", False, True),
         ("Video in ProRes 422 HQ", False, True),
         ("Gimbal: framing, speaker and pan programs", False, True),
+        ("Gestures: group, framing, highlights, own assignment", False, True),
         ("Apple Watch: shutter, mode, tracking, status", True, True),
         ("Apple Watch: alerts, controls, live view, highlights", False, True),
     ],
@@ -535,14 +536,31 @@ DOCS = [
 ("remote", "Gestures, voice, countdown", "Operating the camera when you are in front of it yourself.", """
 <p>You find all three in the left panel under <kbd>Remote control</kbd>.</p>
 <h2>Hand gestures</h2>
-<p>Gestures work when the subject is set to Person or Face. They are the same as on the DJI Osmo Mobile 8. Hold the gesture still for about half a second; a bar fills at the top centre while you do. Only the tracked person can give gestures, or without tracking the largest person in the picture. After a gesture, the next one is ignored for 2 seconds.</p>
+<p>Gestures work when the subject is set to Person or Face. Hold a gesture still for about half a second; a bar with the gesture’s icon fills at the top centre. Only the tracked person can give gestures, or without tracking the largest person in the picture. After a gesture, the next one is ignored for 2 seconds.</p>
+<p>Keepsight understands five gestures. The first three are the same as on the DJI Osmo Mobile 8, the group gesture is the same as on the Insta360 Flow 2 Pro, and the highlight exists only in Keepsight.</p>
 <table>
-<tr><th>Gesture</th><th>Effect</th></tr>
-<tr><td>Open hand</td><td>Start or stop tracking the person showing it.</td></tr>
-<tr><td>V sign</td><td>Photo mode: take a photo. Video mode: start or stop the recording.</td></tr>
-<tr><td>Double L with both hands (a frame), shown twice</td><td>Adjust the framing: centre the person and set auto zoom to the size of the frame.</td></tr>
+<tr><th></th><th>Gesture</th><th>Effect</th><th>Version</th></tr>
+<tr><td class="gi">✋</td><td>Open hand</td><td>Start or stop tracking the person showing it.</td><td>Free</td></tr>
+<tr><td class="gi">✌️</td><td>V sign</td><td>Photo mode: take a photo. Video mode: start or stop the recording.</td><td>Free</td></tr>
+<tr><td class="gi">⌜⌟</td><td>Double L with both hands (a frame), shown twice</td><td>Adjust the framing: centre the person and set auto zoom to the size of the frame.</td><td>Pro</td></tr>
+<tr><td class="gi">☝️</td><td>Index finger up</td><td>Whole group: everyone in the picture stays in view. Show it again to go back to the person showing it.</td><td>Pro</td></tr>
+<tr><td class="gi">👍</td><td>Thumbs up</td><td>Highlight: marks the current moment in the running recording.</td><td>Pro</td></tr>
 </table>
 <p>The V sign works in the mode that is set. To switch between photo and video hands-free, use a voice command.</p>
+<h3>What a highlight is</h3>
+<p>A highlight is a bookmark in the video. While a video is recording, show 👍 or tap the star on the Apple Watch, and Keepsight remembers that moment. Later, open the video in Keepsight’s gallery: the marks appear under the video as stars with the time, for example ★ 2:14. Tap one and the video jumps there, one second earlier so you do not miss the start.</p>
+<p>Example: you film 20 minutes of training and the best jump is at 7:40. Show 👍 at that moment and find it again later with one tap.</p>
+<p>The marks are shown only in Keepsight’s gallery, not in the Photos app or in editing programs, because they are stored in Keepsight and not in the video file. If you delete Keepsight, the marks are gone; the videos stay in Photos.</p>
+<h3>Keeping a group in the picture</h3>
+<p>☝️ draws one frame around everyone in the picture. Tracking and auto zoom keep the whole group in view, for example for a family, a band or a team. Show ☝️ again and Keepsight follows only the person showing it.</p>
+<h3>Handing over</h3>
+<p>Stop tracking with ✋ and for about five seconds anyone else can take over with ✋. Useful for interviews or when people take turns in front of the camera.</p>
+<h3>Gestures from further away</h3>
+<p>When the person giving gestures is small in the picture, Keepsight looks for hands only around that person. The hands then appear larger to the detection, so gestures also work from further away. How far depends on light and lens; this is still being measured.</p>
+<h3>Your own assignment</h3>
+<p>With Keepsight Pro you can give each gesture a different action in the settings, for example ✌️ always takes a photo, or a gesture does nothing. Reset gestures restores the standard.</p>
+<h3>Confirmation</h3>
+<p>Keepsight confirms every recognised gesture with the bar in the viewfinder, light and sound. If you wear an Apple Watch with Keepsight, it taps your wrist, so you know even with your back to the iPhone. The watch also has a page with all gestures.</p>
 
 <h2>Voice commands</h2>
 <p>Switch on <kbd>Voice control</kbd> and allow the microphone and speech recognition. Speak the commands in the app’s language.</p>
@@ -574,12 +592,13 @@ DOCS = [
 <li>Shutter: photo, or start and stop video, with the countdown ticking on your wrist.</li>
 <li>Switch between photo and video, start and stop tracking.</li>
 <li>Status: mode, recording time in red, tracking state, gimbal and its battery.</li>
+<li>Gestures page: all hand gestures at a glance. The watch taps your wrist whenever the iPhone recognises a gesture.</li>
 <li>Double tap (watchOS 11 or later, Apple Watch Series 9, Ultra 2 or newer) triggers the shutter. On Apple Watch Ultra, set the Action button to Shortcut and choose Keepsight shutter.</li>
 </ul>
 <h2>With Keepsight Pro</h2>
 <ul>
 <li>Alerts on your wrist: target lost for 2 seconds, recording stopped, iPhone storage almost full, iPhone hot, gimbal battery low, gimbal disconnected.</li>
-<li>Controls: zoom with the Digital Crown, pan and tilt with your finger, centre, next subject, pan program.</li>
+<li>Controls: zoom with the Digital Crown, pan and tilt with your finger, centre, next subject, whole group, pan program.</li>
 <li>Highlights: a tap during recording marks the moment. In the gallery the marks appear as stars under the video; a tap jumps there.</li>
 <li>Live view: a small picture with the detection frames, about 5 to 8 images per second. Tap a person to select the target. It is for checking, not filming, and switches off when the iPhone is hot.</li>
 </ul>
@@ -604,6 +623,7 @@ DOCS = [
 <h2>Gallery</h2>
 <p>The thumbnail above the mode switch shows the latest capture. Tap it to open the gallery with all photos and videos you made with Keepsight, newest first.</p>
 <p>After a photo the viewfinder darkens briefly and the new picture jumps into the thumbnail. A message only appears if something goes wrong.</p>
+<p>Videos with highlights show stars with the time under the video; a tap jumps to the marked moment.</p>
 <ul>
 <li>Tap a picture for the large view and swipe to browse.</li>
 <li>Date, megapixels and image size are shown at the top.</li>
@@ -696,6 +716,7 @@ DOCS = [
 <tr><td>Manual camera controls for photo and video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Gimbal: framing, speaker and pan programs</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Gestures: group, framing, highlights, own assignment</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Apple Watch: shutter, mode, tracking, status</td><td class="y">Yes</td><td class="y">Yes</td></tr>
 <tr><td>Apple Watch: alerts, controls, live view, highlights</td><td>No</td><td class="y">Yes</td></tr>
 </table>
@@ -773,6 +794,7 @@ DOCS = [
 <li>Keep your hand still and clearly visible until the bar is full.</li>
 <li>Only the tracked person can give gestures, or without tracking the largest person in the picture.</li>
 <li>After a gesture, wait 2 seconds before the next one.</li>
+<li>For ☝️ keep the thumb against your hand; for the L spread it out. That is how Keepsight tells the two apart.</li>
 </ul>
 <h2>48 MP or RAW cannot be selected</h2>
 <p>Both are only available in photo mode and with a lens that supports them. On the iPhone 15 Pro that is only the main camera <kbd>1×</kbd>; newer Pro models also offer 48 MP with other lenses. RAW also requires Keepsight Pro.</p>

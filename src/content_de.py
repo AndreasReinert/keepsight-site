@@ -72,6 +72,7 @@ HOME = {
         ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
         ("Video in ProRes 422 HQ", False, True),
         ("Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme", False, True),
+        ("Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung", False, True),
         ("Apple Watch: Auslöser, Modus, Tracking, Status", True, True),
         ("Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights", False, True),
     ],
@@ -536,14 +537,31 @@ DOCS = [
 ("remote", "Gesten, Sprache, Countdown", "Die Kamera bedienen, wenn du selbst vor ihr stehst.", """
 <p>Alle drei findest du in der linken Leiste unter <kbd>Fernsteuerung</kbd>.</p>
 <h2>Handgesten</h2>
-<p>Gesten funktionieren, wenn als Motiv Person oder Gesicht gewählt ist. Sie sind gleich belegt wie beim DJI Osmo Mobile 8. Halte die Geste etwa eine halbe Sekunde ruhig; oben in der Mitte füllt sich dabei ein Balken. Gesten geben kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild. Nach einer Geste wird die nächste 2 Sekunden lang nicht beachtet.</p>
+<p>Gesten funktionieren, wenn als Motiv Person oder Gesicht gewählt ist. Halte eine Geste etwa eine halbe Sekunde ruhig; oben in der Mitte füllt sich ein Balken mit dem Icon der Geste. Gesten geben kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild. Nach einer Geste wird die nächste 2 Sekunden lang nicht beachtet.</p>
+<p>Keepsight versteht fünf Gesten. Die ersten drei sind gleich wie beim DJI Osmo Mobile 8, die Gruppen-Geste gleich wie beim Insta360 Flow 2 Pro, und das Highlight gibt es nur bei Keepsight.</p>
 <table>
-<tr><th>Geste</th><th>Wirkung</th></tr>
-<tr><td>Offene Hand</td><td>Tracking der Person, die sie zeigt, starten oder stoppen.</td></tr>
-<tr><td>V-Zeichen</td><td>Foto-Modus: ein Foto aufnehmen. Video-Modus: die Aufnahme starten oder stoppen.</td></tr>
-<tr><td>Doppel-L mit beiden Händen (ein Rahmen), zweimal gezeigt</td><td>Bildausschnitt anpassen: die Person zentrieren und den Auto-Zoom auf die Grösse des Rahmens stellen.</td></tr>
+<tr><th></th><th>Geste</th><th>Wirkung</th><th>Version</th></tr>
+<tr><td class="gi">✋</td><td>Offene Hand</td><td>Tracking der Person, die sie zeigt, starten oder stoppen.</td><td>Gratis</td></tr>
+<tr><td class="gi">✌️</td><td>V-Zeichen</td><td>Foto-Modus: ein Foto aufnehmen. Video-Modus: die Aufnahme starten oder stoppen.</td><td>Gratis</td></tr>
+<tr><td class="gi">⌜⌟</td><td>Doppel-L mit beiden Händen (ein Rahmen), zweimal gezeigt</td><td>Bildausschnitt anpassen: die Person zentrieren und den Auto-Zoom auf die Grösse des Rahmens stellen.</td><td>Pro</td></tr>
+<tr><td class="gi">☝️</td><td>Zeigefinger hoch</td><td>Ganze Gruppe: alle Personen im Bild bleiben drin. Nochmals zeigen: zurück zur Person, die die Geste zeigt.</td><td>Pro</td></tr>
+<tr><td class="gi">👍</td><td>Daumen hoch</td><td>Highlight: markiert den Moment in der laufenden Aufnahme.</td><td>Pro</td></tr>
 </table>
 <p>Das V-Zeichen wirkt im eingestellten Modus. Um ohne Hände zwischen Foto und Video zu wechseln, nimm einen Sprachbefehl.</p>
+<h3>Was ein Highlight ist</h3>
+<p>Ein Highlight ist ein Lesezeichen im Video. Während eine Aufnahme läuft, zeigst du 👍 oder tippst auf der Apple Watch auf den Stern, und Keepsight merkt sich diesen Moment. Später öffnest du das Video in der Galerie von Keepsight: Unter dem Video stehen die Marken als Sterne mit der Zeit, zum Beispiel ★ 2:14. Ein Tipp springt dorthin, eine Sekunde früher, damit du den Anfang nicht verpasst.</p>
+<p>Beispiel: Du filmst 20 Minuten Training, und der beste Sprung ist bei 7:40. Du zeigst in dem Moment 👍 und findest die Stelle später mit einem Tipp.</p>
+<p>Die Marken siehst du nur in der Galerie von Keepsight, nicht in der Fotos-App und nicht in Schnittprogrammen, denn sie sind in Keepsight gespeichert und nicht in der Videodatei. Löschst du Keepsight, sind die Marken weg; die Videos bleiben in Fotos.</p>
+<h3>Eine Gruppe im Bild halten</h3>
+<p>☝️ legt einen Rahmen um alle Personen im Bild. Tracking und Auto-Zoom halten die ganze Gruppe im Bild, zum Beispiel eine Familie, eine Band oder ein Team. Zeigst du ☝️ nochmals, folgt Keepsight nur noch der Person, die die Geste zeigt.</p>
+<h3>Übergeben</h3>
+<p>Stoppst du das Tracking mit ✋, kann rund fünf Sekunden lang jede andere Person mit ✋ übernehmen. Praktisch für Interviews oder wenn sich mehrere vor der Kamera abwechseln.</p>
+<h3>Gesten aus grösserer Entfernung</h3>
+<p>Ist die Person, die Gesten gibt, klein im Bild, sucht Keepsight die Hände nur in ihrem Umfeld. Die Erkennung sieht die Hände dann grösser, und Gesten funktionieren auch aus grösserer Entfernung. Wie weit, hängt von Licht und Objektiv ab; das wird noch gemessen.</p>
+<h3>Eigene Belegung</h3>
+<p>Mit Keepsight Pro gibst du jeder Geste in den Einstellungen eine andere Wirkung, zum Beispiel macht ✌️ immer ein Foto, oder eine Geste tut nichts. «Gesten zurücksetzen» stellt die Standardbelegung wieder her.</p>
+<h3>Bestätigung</h3>
+<p>Keepsight bestätigt jede erkannte Geste mit dem Balken im Sucher, Licht und Ton. Trägst du eine Apple Watch mit Keepsight, tippt sie dir aufs Handgelenk, so weisst du es auch mit dem Rücken zum iPhone. Auf der Uhr gibt es zudem eine Seite mit allen Gesten.</p>
 
 <h2>Sprachbefehle</h2>
 <p>Schalte <kbd>Sprachsteuerung</kbd> ein und erlaube Mikrofon und Spracherkennung. Die Befehle sprichst du in der Sprache der App.</p>
@@ -575,12 +593,13 @@ DOCS = [
 <li>Auslöser: Foto oder Video starten und stoppen, mit dem Countdown als Ticken am Handgelenk.</li>
 <li>Zwischen Foto und Video wechseln, Tracking starten und stoppen.</li>
 <li>Status: Modus, Aufnahmezeit in Rot, Tracking-Zustand, Gimbal und sein Akku.</li>
+<li>Seite «Gesten»: alle Handgesten auf einen Blick. Die Uhr tippt, sobald das iPhone eine Geste erkannt hat.</li>
 <li>Doppeltippen (ab watchOS 11, Apple Watch Series 9, Ultra 2 oder neuer) löst aus. Bei der Apple Watch Ultra stellst du die Action-Taste auf «Kurzbefehl» und wählst «Keepsight-Auslöser».</li>
 </ul>
 <h2>Mit Keepsight Pro</h2>
 <ul>
 <li>Warnungen am Handgelenk: Ziel seit 2 Sekunden verloren, Aufnahme gestoppt, iPhone-Speicher fast voll, iPhone warm, Gimbal-Akku schwach, Gimbal getrennt.</li>
-<li>Steuerung: Zoom mit der Digital Crown, Schwenken und Neigen mit dem Finger, zentrieren, nächstes Motiv, Schwenk-Programm.</li>
+<li>Steuerung: Zoom mit der Digital Crown, Schwenken und Neigen mit dem Finger, zentrieren, nächstes Motiv, ganze Gruppe, Schwenk-Programm.</li>
 <li>Highlights: Ein Tipp während der Aufnahme markiert den Moment. In der Galerie erscheinen die Marken als Sterne unter dem Video; ein Tipp springt dorthin.</li>
 <li>Live-Bild: ein kleines Bild mit den Erkennungsrahmen, etwa 5 bis 8 Bilder pro Sekunde. Tippe auf eine Person, um das Ziel zu wählen. Es dient zum Kontrollieren, nicht zum Filmen, und schaltet sich bei warmem iPhone ab.</li>
 </ul>
@@ -605,6 +624,7 @@ DOCS = [
 <h2>Galerie</h2>
 <p>Das Vorschaubild über dem Umschalter zeigt die letzte Aufnahme. Ein Tipp öffnet die Galerie mit allen Fotos und Videos, die du mit Keepsight gemacht hast, die neuesten zuerst.</p>
 <p>Nach einem Foto wird der Sucher kurz dunkel, und das neue Bild springt in die Miniatur. Eine Meldung erscheint nur, wenn etwas schiefgeht.</p>
+<p>Videos mit Highlights zeigen unter dem Video Sterne mit der Zeit; ein Tipp springt zum markierten Moment.</p>
 <ul>
 <li>Tippe auf ein Bild für die grosse Ansicht und wische zum Blättern.</li>
 <li>Oben stehen Datum, Megapixel und Bildgrösse.</li>
@@ -697,6 +717,7 @@ DOCS = [
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Apple Watch: Auslöser, Modus, Tracking, Status</td><td class="y">Ja</td><td class="y">Ja</td></tr>
 <tr><td>Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights</td><td>Nein</td><td class="y">Ja</td></tr>
 </table>
@@ -774,6 +795,7 @@ DOCS = [
 <li>Halte die Hand ruhig und gut sichtbar, bis der Balken gefüllt ist.</li>
 <li>Gesten geben kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild.</li>
 <li>Warte nach einer Geste 2 Sekunden bis zur nächsten.</li>
+<li>Bei ☝️ liegt der Daumen an der Hand, beim L ist er abgespreizt. Daran unterscheidet Keepsight die beiden.</li>
 </ul>
 <h2>48 MP oder RAW lassen sich nicht wählen</h2>
 <p>Beides gibt es nur im Foto-Modus und mit einem Objektiv, das es unterstützt. Beim iPhone 15 Pro ist das nur die Hauptkamera <kbd>1×</kbd>; neuere Pro-Modelle bieten 48 MP auch mit anderen Objektiven. RAW braucht ausserdem Keepsight Pro.</p>

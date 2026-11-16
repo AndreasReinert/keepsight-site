@@ -869,6 +869,130 @@
         }
       }
     },
+    "Action": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإجراء"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wirkung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Action"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "काम"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tindakan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Azione"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "動作"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "동작"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actie"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Działanie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ação"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Действие"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åtgärd"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การทำงาน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylem"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дія"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tác vụ"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动作"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "動作"
+          }
+        }
+      }
+    },
     "Active – live flight data available": {
       "localizations": {
         "ar": {
@@ -989,6 +1113,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "已啟用 – 實時航班資料可用"
+          }
+        }
+      }
+    },
+    "Adjust framing": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ضبط الإطار"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildausschnitt anpassen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustar el encuadre"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajuster le cadrage"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "फ़्रेमिंग ठीक करें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesuaikan bingkai"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regola l’inquadratura"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フレーミングを調整"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "구도 조정"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kader aanpassen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopasuj kadr"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustar o enquadramento"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настроить кадр"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Justera beskärningen"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปรับการจัดเฟรม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kadrajı ayarla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Налаштувати кадр"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉnh khung hình"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "调整构图"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "調整構圖"
           }
         }
       }
@@ -2601,6 +2849,254 @@
           "stringUnit": {
             "state": "translated",
             "value": "同時儲存原始影片"
+          }
+        }
+      }
+    },
+    "Always photo": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صورة دائمًا"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer Foto"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siempre foto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toujours photo"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हमेशा फ़ोटो"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selalu foto"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre foto"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常に写真"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "항상 사진"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altijd foto"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawsze zdjęcie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre foto"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всегда фото"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alltid foto"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ถ่ายรูปเสมอ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her zaman fotoğraf"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завжди фото"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luôn chụp ảnh"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "始终拍照"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一律拍照"
+          }
+        }
+      }
+    },
+    "Always start or stop video": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدء الفيديو أو إيقافه دائمًا"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer Video starten oder stoppen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siempre iniciar o detener vídeo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toujours démarrer ou arrêter la vidéo"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हमेशा वीडियो शुरू या बंद करें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selalu mulai atau hentikan video"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre avvia o ferma video"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常にビデオの開始・停止"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "항상 비디오 시작 또는 중지"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altijd video starten of stoppen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawsze start lub stop wideo"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre iniciar ou parar vídeo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всегда старт или стоп видео"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alltid starta eller stoppa video"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่มหรือหยุดวิดีโอเสมอ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her zaman videoyu başlat veya durdur"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завжди старт або стоп відео"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luôn bắt đầu hoặc dừng video"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "始终开始或停止视频"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一律開始或停止影片"
           }
         }
       }
@@ -4337,6 +4833,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "自動變焦讓主體在畫面中維持這個大小。它在所選鏡頭範圍內緩慢變焦，影片不會跳動。"
+          }
+        }
+      }
+    },
+    "Back to one person": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "العودة إلى شخص واحد"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zurück zu einer Person"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver a una persona"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour à une personne"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "एक व्यक्ति पर वापस"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kembali ke satu orang"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Torna a una persona"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1人に戻りました"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "한 사람으로 돌아감"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terug naar één persoon"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powrót do jednej osoby"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voltar a uma pessoa"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обратно к одному человеку"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tillbaka till en person"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลับไปที่คนเดียว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tek kişiye dön"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назад до однієї людини"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quay về một người"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "回到一个人"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "回到一個人"
           }
         }
       }
@@ -10789,6 +11409,130 @@
         }
       }
     },
+    "Distance": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المسافة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abstand"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distancia"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distance"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दूरी"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jarak"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distanza"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "距離"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "거리"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afstand"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odległość"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distância"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расстояние"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avstånd"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ระยะทาง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesafe"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відстань"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khoảng cách"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "距离"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "距離"
+          }
+        }
+      }
+    },
     "DockKit did not respond to tracking. Keepsight now controls the motors directly.": {
       "localizations": {
         "ar": {
@@ -11901,6 +12645,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "曝光：讓整個畫面變亮或變暗，相機仍會自己測光。這是入門時最容易上手的調整。"
+          }
+        }
+      }
+    },
+    "Extended range": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدى ممتد"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erweiterte Reichweite"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alcance ampliado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portée étendue"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बढ़ी हुई रेंज"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jangkauan diperluas"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portata estesa"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拡張範囲"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "확장 범위"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uitgebreid bereik"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozszerzony zasięg"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alcance estendido"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увеличенная дальность"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utökad räckvidd"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ระยะขยาย"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genişletilmiş menzil"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Збільшена дальність"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tầm mở rộng"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "扩展范围"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "延伸範圍"
           }
         }
       }
@@ -13637,6 +14505,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "對於「人物」和「臉部」，由 Apple 自己的追蹤驅動雲臺，就像在「相機」App 中一樣。點一下某人即可選擇。其他主體仍由 Keepsight 負責。"
+          }
+        }
+      }
+    },
+    "For tests only. Open Keepsight on the Apple Watch and keep both apps open. Measure at 2, 5 and 10 m, to the side, with the wrist covered and with a second person in between.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "للاختبار فقط. افتح Keepsight على Apple Watch وأبقِ التطبيقين مفتوحين. قِس على مسافة 2 و5 و10 م، ومن الجانب، والمعصم مغطى، ومع شخص ثانٍ في المنتصف."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur zum Testen. Öffne Keepsight auf der Apple Watch und lass beide Apps offen. Miss bei 2, 5 und 10 m, seitlich, mit verdecktem Handgelenk und mit einer zweiten Person dazwischen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo para pruebas. Abre Keepsight en el Apple Watch y deja ambas apps abiertas. Mide a 2, 5 y 10 m, de lado, con la muñeca tapada y con otra persona en medio."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour les tests uniquement. Ouvrez Keepsight sur l’Apple Watch et laissez les deux apps ouvertes. Mesurez à 2, 5 et 10 m, sur le côté, poignet couvert et avec une deuxième personne entre les deux."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सिर्फ़ टेस्ट के लिए। Apple Watch पर Keepsight खोलें और दोनों ऐप खुले रखें। 2, 5 और 10 मी पर, बगल से, कलाई ढककर और बीच में दूसरे व्यक्ति के साथ मापें।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hanya untuk pengujian. Buka Keepsight di Apple Watch dan biarkan kedua app terbuka. Ukur pada 2, 5, dan 10 m, dari samping, dengan pergelangan tertutup, dan dengan orang kedua di antaranya."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo per test. Apri Keepsight sull’Apple Watch e tieni aperte entrambe le app. Misura a 2, 5 e 10 m, di lato, con il polso coperto e con una seconda persona in mezzo."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テスト専用です。Apple WatchでKeepsightを開き、両方のアプリを開いたままにします。2、5、10 m、横から、手首を覆った状態、間に別の人がいる状態で測ります。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테스트 전용입니다. Apple Watch에서 Keepsight를 열고 두 앱을 모두 열어 두세요. 2, 5, 10m에서, 옆에서, 손목을 가린 채, 사이에 다른 사람이 있을 때 측정하세요."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alleen voor tests. Open Keepsight op de Apple Watch en houd beide apps open. Meet op 2, 5 en 10 m, opzij, met bedekte pols en met een tweede persoon ertussen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tylko do testów. Otwórz Keepsight na Apple Watch i zostaw obie aplikacje otwarte. Mierz przy 2, 5 i 10 m, z boku, z zakrytym nadgarstkiem i z drugą osobą pomiędzy."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Só para testes. Abra o Keepsight no Apple Watch e deixe os dois apps abertos. Meça a 2, 5 e 10 m, de lado, com o pulso coberto e com outra pessoa no meio."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только для тестов. Откройте Keepsight на Apple Watch и не закрывайте оба приложения. Измерьте на 2, 5 и 10 м, сбоку, с закрытым запястьем и со вторым человеком между вами."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endast för test. Öppna Keepsight på Apple Watch och låt båda apparna vara öppna. Mät på 2, 5 och 10 m, åt sidan, med täckt handled och med en annan person emellan."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สำหรับการทดสอบเท่านั้น เปิด Keepsight บน Apple Watch และเปิดแอปทั้งสองไว้ วัดที่ 2, 5 และ 10 ม. ด้านข้าง เมื่อข้อมือถูกบัง และเมื่อมีอีกคนยืนคั่นกลาง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca test için. Apple Watch'ta Keepsight'ı açın ve iki uygulamayı da açık tutun. 2, 5 ve 10 m'de, yandan, bilek kapalıyken ve arada ikinci bir kişiyle ölçün."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лише для тестів. Відкрийте Keepsight на Apple Watch і не закривайте обидві програми. Виміряйте на 2, 5 і 10 м, збоку, із закритим зап’ястком і з другою людиною між вами."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ để thử nghiệm. Mở Keepsight trên Apple Watch và để cả hai ứng dụng mở. Đo ở 2, 5 và 10 m, từ bên cạnh, khi che cổ tay và khi có người thứ hai ở giữa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅用于测试。在 Apple Watch 上打开 Keepsight，并保持两个 App 都打开。分别在 2、5、10 米处、侧面、手腕被遮挡以及中间隔着另一个人时测量。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "僅供測試。在 Apple Watch 上打開 Keepsight，並讓兩個 App 都保持開啟。分別在 2、5、10 公尺處、側面、手腕被遮住以及中間隔著另一個人時測量。"
           }
         }
       }
@@ -15501,6 +16493,130 @@
         }
       }
     },
+    "Gestures: group, framing, highlights, own assignment": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإيماءات: المجموعة والإطار واللحظات المميزة وتعيين خاص"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestos: grupo, encuadre, momentos destacados, asignación propia"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestes : groupe, cadrage, moments forts, attribution libre"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इशारे: समूह, फ़्रेमिंग, हाइलाइट, अपनी सेटिंग"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerakan: grup, bingkai, sorotan, penetapan sendiri"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesti: gruppo, inquadratura, momenti clou, assegnazione propria"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ジェスチャー：グループ、フレーミング、ハイライト、自由な割り当て"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "제스처: 그룹, 구도, 하이라이트, 직접 할당"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebaren: groep, kader, hoogtepunten, eigen toewijzing"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesty: grupa, kadr, wyróżnienia, własne przypisanie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestos: grupo, enquadramento, destaques, atribuição própria"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жесты: группа, кадр, яркие моменты, своё назначение"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gester: grupp, beskärning, höjdpunkter, egen tilldelning"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ท่าทาง: กลุ่ม การจัดเฟรม ไฮไลต์ การกำหนดเอง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hareketler: grup, kadraj, öne çıkan anlar, kendi atamanız"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жести: група, кадр, яскраві моменти, власне призначення"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cử chỉ: nhóm, khung hình, điểm nổi bật, tự gán"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手势：群组、构图、精彩时刻、自定分配"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手勢：群組、構圖、精彩時刻、自訂分配"
+          }
+        }
+      }
+    },
     "Gimbal": {
       "localizations": {
         "ar": {
@@ -16865,6 +17981,254 @@
         }
       }
     },
+    "Group or one person": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعة أو شخص واحد"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppe oder eine Person"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo o una persona"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groupe ou une personne"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समूह या एक व्यक्ति"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grup atau satu orang"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppo o una persona"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グループまたは1人"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그룹 또는 한 사람"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groep of één persoon"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupa lub jedna osoba"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo ou uma pessoa"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Группа или один человек"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupp eller en person"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลุ่มหรือคนเดียว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grup veya tek kişi"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Група або одна людина"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhóm hoặc một người"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "群组或一个人"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "群組或一個人"
+          }
+        }
+      }
+    },
+    "Group: everyone stays in the picture": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المجموعة: يبقى الجميع في الصورة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppe: alle bleiben im Bild"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo: todos se quedan en la imagen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groupe : tout le monde reste dans l’image"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समूह: सभी तस्वीर में रहते हैं"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grup: semua tetap di gambar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppo: tutti restano nell’immagine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グループ：全員が画面内に収まります"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그룹: 모두 화면에 남습니다"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groep: iedereen blijft in beeld"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupa: wszyscy zostają w kadrze"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo: todos ficam na imagem"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Группа: все остаются в кадре"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupp: alla stannar i bild"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลุ่ม: ทุกคนอยู่ในภาพ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grup: herkes görüntüde kalır"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Група: усі лишаються в кадрі"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhóm: mọi người đều ở trong hình"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "群组：所有人都留在画面中"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "群組：所有人都留在畫面中"
+          }
+        }
+      }
+    },
     "Help mode": {
       "localizations": {
         "ar": {
@@ -17237,250 +18601,374 @@
         }
       }
     },
-    "Hold a gesture still for half a second: open hand starts or stops tracking, V takes a photo or starts and stops video, a double L with both hands shown twice adjusts the framing. The same as on the DJI Osmo Mobile 8.": {
+    "Highlights are set during a video recording.": {
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "ثبّت الإيماءة نصف ثانية: اليد المفتوحة تبدأ التتبع أو توقفه، وعلامة V تلتقط صورة أو تبدأ الفيديو وتوقفه، وحرف L مزدوج باليدين يُعرض مرتين يضبط الإطار. كما في DJI Osmo Mobile 8."
+            "value": "تُعلَّم اللحظات المميزة أثناء تسجيل الفيديو."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Halte eine Geste eine halbe Sekunde ruhig: Offene Hand startet oder stoppt das Tracking, V macht ein Foto oder startet und stoppt das Video, ein Doppel-L mit beiden Händen, zweimal gezeigt, passt den Bildausschnitt an. Gleich wie beim DJI Osmo Mobile 8."
+            "value": "Highlights setzt du während einer Videoaufnahme."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mantén un gesto quieto medio segundo: la mano abierta inicia o detiene el seguimiento, la V hace una foto o inicia y detiene el vídeo, una doble L con ambas manos mostrada dos veces ajusta el encuadre. Igual que en el DJI Osmo Mobile 8."
+            "value": "Los momentos destacados se marcan durante una grabación de vídeo."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tenez un geste immobile une demi-seconde : la main ouverte démarre ou arrête le suivi, le V prend une photo ou démarre et arrête la vidéo, un double L avec les deux mains montré deux fois ajuste le cadrage. Comme sur le DJI Osmo Mobile 8."
+            "value": "Les moments forts se marquent pendant un enregistrement vidéo."
           }
         },
         "hi": {
           "stringUnit": {
             "state": "translated",
-            "value": "इशारे को आधा सेकंड स्थिर रखें: खुली हथेली ट्रैकिंग शुरू या बंद करती है, V फ़ोटो लेता है या वीडियो शुरू और बंद करता है, दोनों हाथों से दो बार दिखाया गया डबल L फ़्रेमिंग ठीक करता है। DJI Osmo Mobile 8 जैसा ही।"
+            "value": "हाइलाइट वीडियो रिकॉर्डिंग के दौरान लगते हैं।"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tahan gerakan diam setengah detik: telapak terbuka memulai atau menghentikan pelacakan, V mengambil foto atau memulai dan menghentikan video, L ganda dengan kedua tangan yang ditunjukkan dua kali menyesuaikan bingkai. Sama seperti DJI Osmo Mobile 8."
+            "value": "Sorotan ditandai saat merekam video."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tieni fermo un gesto per mezzo secondo: la mano aperta avvia o ferma il tracking, la V scatta una foto o avvia e ferma il video, una doppia L con entrambe le mani mostrata due volte regola l’inquadratura. Come sul DJI Osmo Mobile 8."
+            "value": "I momenti clou si segnano durante una registrazione video."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ジェスチャーを0.5秒静止させます：開いた手でトラッキングを開始・停止、Vサインで写真またはビデオの開始・停止、両手のダブルLを2回見せるとフレーミングを調整します。DJI Osmo Mobile 8と同じです。"
+            "value": "ハイライトはビデオ録画中に付けます。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "제스처를 0.5초 동안 유지하세요. 편 손은 추적을 시작하거나 멈추고, V는 사진을 찍거나 비디오를 시작·중지하며, 양손 더블 L을 두 번 보여 주면 구도를 조정합니다. DJI Osmo Mobile 8과 같습니다."
+            "value": "하이라이트는 비디오 녹화 중에 표시합니다."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Houd een gebaar een halve seconde stil: open hand start of stopt het volgen, V maakt een foto of start en stopt video, een dubbele L met beide handen twee keer getoond past het kader aan. Net als bij de DJI Osmo Mobile 8."
+            "value": "Hoogtepunten markeer je tijdens een video-opname."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Przytrzymaj gest przez pół sekundy: otwarta dłoń uruchamia lub zatrzymuje śledzenie, V robi zdjęcie albo uruchamia i zatrzymuje wideo, podwójne L obiema rękami pokazane dwa razy dopasowuje kadr. Tak samo jak w DJI Osmo Mobile 8."
+            "value": "Wyróżnienia zaznacza się podczas nagrywania wideo."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Segure um gesto parado por meio segundo: a mão aberta inicia ou para o rastreamento, o V tira uma foto ou inicia e para o vídeo, um L duplo com as duas mãos mostrado duas vezes ajusta o enquadramento. Igual ao DJI Osmo Mobile 8."
+            "value": "Os destaques são marcados durante uma gravação de vídeo."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Держите жест неподвижно полсекунды: открытая ладонь запускает или останавливает слежение, V делает фото или запускает и останавливает видео, двойная «L» обеими руками, показанная дважды, настраивает кадр. Как на DJI Osmo Mobile 8."
+            "value": "Яркие моменты отмечаются во время записи видео."
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Håll en gest stilla en halv sekund: öppen hand startar eller stoppar följningen, V tar ett foto eller startar och stoppar video, ett dubbelt L med båda händerna visat två gånger justerar beskärningen. Samma som på DJI Osmo Mobile 8."
+            "value": "Höjdpunkter markeras under en videoinspelning."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "ค้างท่าทางไว้ครึ่งวินาที: ฝ่ามือเปิดเริ่มหรือหยุดการติดตาม V ถ่ายรูปหรือเริ่มและหยุดวิดีโอ ตัว L คู่ด้วยสองมือที่ทำสองครั้งจะปรับการจัดเฟรม เหมือนกับ DJI Osmo Mobile 8"
+            "value": "ไฮไลต์จะทำเครื่องหมายระหว่างบันทึกวิดีโอ"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bir hareketi yarım saniye sabit tutun: açık el takibi başlatır veya durdurur, V fotoğraf çeker ya da videoyu başlatıp durdurur, iki elle iki kez gösterilen çift L kadrajı ayarlar. DJI Osmo Mobile 8 ile aynı."
+            "value": "Öne çıkan anlar video kaydı sırasında işaretlenir."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Тримайте жест нерухомо пів секунди: відкрита долоня запускає або зупиняє стеження, V робить фото або запускає й зупиняє відео, подвійна «L» обома руками, показана двічі, налаштовує кадр. Як на DJI Osmo Mobile 8."
+            "value": "Яскраві моменти позначаються під час запису відео."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Giữ yên cử chỉ nửa giây: bàn tay mở bắt đầu hoặc dừng theo dõi, dấu V chụp ảnh hoặc bắt đầu và dừng video, chữ L đôi bằng hai tay đưa ra hai lần sẽ chỉnh khung hình. Giống như trên DJI Osmo Mobile 8."
+            "value": "Điểm nổi bật được đánh dấu khi đang quay video."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "将手势保持静止半秒：张开手掌开始或停止跟踪，V 手势拍照或开始和停止录像，双手双 L 做两次即可调整构图。与 DJI Osmo Mobile 8 相同。"
+            "value": "精彩时刻需在录制视频时标记。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "將手勢保持靜止半秒：張開手掌開始或停止追蹤，V 手勢拍照或開始和停止錄影，雙手雙 L 做兩次即可調整構圖。與 DJI Osmo Mobile 8 相同。"
+            "value": "精彩時刻需在錄影時標記。"
           }
         }
       }
     },
-    "Hold the gesture still for about half a second. Only the tracked person, or without tracking the largest person in the picture, can control the camera. Works with Person and Face.": {
+    "Hold a gesture still for half a second: ✋ starts or stops tracking, ✌️ takes a photo or starts and stops video, a double L with both hands shown twice adjusts the framing, ☝️ keeps the whole group in the picture, 👍 sets a highlight while recording.": {
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "ثبّت الإيماءة نحو نصف ثانية. لا يتحكم بالكاميرا إلا الشخص المتتبَّع، أو أكبر شخص في الصورة عند عدم التتبع. يعمل مع الشخص والوجه."
+            "value": "ثبّت الإيماءة نصف ثانية: ✋ تبدأ التتبع أو توقفه، ✌️ تلتقط صورة أو تبدأ الفيديو وتوقفه، وحرف L مزدوج باليدين يُعرض مرتين يضبط الإطار، ☝️ تبقي المجموعة كلها في الصورة، 👍 تعلّم لحظة مميزة أثناء التسجيل."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Halte die Geste etwa eine halbe Sekunde ruhig. Steuern kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild. Funktioniert mit Person und Gesicht."
+            "value": "Halte eine Geste eine halbe Sekunde ruhig: ✋ startet oder stoppt das Tracking, ✌️ macht ein Foto oder startet und stoppt das Video, ein Doppel-L mit beiden Händen, zweimal gezeigt, passt den Bildausschnitt an, ☝️ hält die ganze Gruppe im Bild, 👍 setzt während der Aufnahme ein Highlight."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mantén el gesto quieto durante medio segundo. Solo la persona seguida, o sin seguimiento la persona más grande de la imagen, puede controlar la cámara. Funciona con Persona y Cara."
+            "value": "Mantén un gesto quieto medio segundo: ✋ inicia o detiene el seguimiento, ✌️ hace una foto o inicia y detiene el vídeo, una doble L con ambas manos mostrada dos veces ajusta el encuadre, ☝️ mantiene a todo el grupo en la imagen, 👍 marca un momento destacado durante la grabación."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tenez le geste immobile environ une demi-seconde. Seule la personne suivie, ou sans suivi la plus grande personne de l’image, peut commander l’appareil. Fonctionne avec Personne et Visage."
+            "value": "Tenez un geste immobile une demi-seconde : ✋ démarre ou arrête le suivi, ✌️ prend une photo ou démarre et arrête la vidéo, un double L avec les deux mains montré deux fois ajuste le cadrage, ☝️ garde tout le groupe dans l’image, 👍 marque un moment fort pendant l’enregistrement."
           }
         },
         "hi": {
           "stringUnit": {
             "state": "translated",
-            "value": "इशारे को लगभग आधा सेकंड स्थिर रखें। सिर्फ़ ट्रैक किया जा रहा व्यक्ति, या ट्रैकिंग न होने पर तस्वीर का सबसे बड़ा व्यक्ति, कैमरा चला सकता है। व्यक्ति और चेहरे के साथ काम करता है।"
+            "value": "इशारे को आधा सेकंड स्थिर रखें: ✋ ट्रैकिंग शुरू या बंद करता है, ✌️ फ़ोटो लेता है या वीडियो शुरू और बंद करता है, दोनों हाथों से दो बार दिखाया गया डबल L फ़्रेमिंग ठीक करता है, ☝️ पूरे समूह को तस्वीर में रखता है, 👍 रिकॉर्डिंग के दौरान हाइलाइट लगाता है।"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tahan gerakan diam sekitar setengah detik. Hanya orang yang dilacak, atau tanpa pelacakan orang terbesar di gambar, yang dapat mengendalikan kamera. Berfungsi dengan Orang dan Wajah."
+            "value": "Tahan gerakan diam setengah detik: ✋ memulai atau menghentikan pelacakan, ✌️ mengambil foto atau memulai dan menghentikan video, L ganda dengan kedua tangan yang ditunjukkan dua kali menyesuaikan bingkai, ☝️ menjaga seluruh grup di gambar, 👍 menandai sorotan saat merekam."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tieni fermo il gesto circa mezzo secondo. Solo la persona seguita, o senza tracking la persona più grande nell’immagine, può comandare la fotocamera. Funziona con Persona e Volto."
+            "value": "Tieni fermo un gesto per mezzo secondo: ✋ avvia o ferma il tracking, ✌️ scatta una foto o avvia e ferma il video, una doppia L con entrambe le mani mostrata due volte regola l’inquadratura, ☝️ tiene tutto il gruppo nell’immagine, 👍 segna un momento clou durante la registrazione."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ジェスチャーを約0.5秒静止させます。操作できるのは追跡中の人物、追跡していないときは画面内で一番大きく写っている人物だけです。人物と顔で使えます。"
+            "value": "ジェスチャーを0.5秒静止させます：✋でトラッキングを開始・停止、✌️で写真またはビデオの開始・停止、両手のダブルLを2回でフレーミングを調整、☝️でグループ全体を画面内に、👍で録画中にハイライトを付けます。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "제스처를 약 0.5초 동안 유지하세요. 추적 중인 사람만, 추적하지 않을 때는 화면에서 가장 큰 사람만 카메라를 제어할 수 있습니다. 사람과 얼굴에서 작동합니다."
+            "value": "제스처를 0.5초 동안 유지하세요. ✋는 추적을 시작하거나 멈추고, ✌️는 사진을 찍거나 비디오를 시작·중지하며, 양손 더블 L을 두 번 보여 주면 구도를 조정하고, ☝️는 그룹 전체를 화면에 담고, 👍는 녹화 중 하이라이트를 표시합니다."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Houd het gebaar ongeveer een halve seconde stil. Alleen de gevolgde persoon, of zonder volgen de grootste persoon in beeld, kan de camera bedienen. Werkt met Persoon en Gezicht."
+            "value": "Houd een gebaar een halve seconde stil: ✋ start of stopt het volgen, ✌️ maakt een foto of start en stopt video, een dubbele L met beide handen twee keer getoond past het kader aan, ☝️ houdt de hele groep in beeld, 👍 markeert een hoogtepunt tijdens de opname."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Przytrzymaj gest nieruchomo przez około pół sekundy. Sterować może tylko śledzona osoba, a bez śledzenia największa osoba w kadrze. Działa z trybami Osoba i Twarz."
+            "value": "Przytrzymaj gest przez pół sekundy: ✋ uruchamia lub zatrzymuje śledzenie, ✌️ robi zdjęcie albo uruchamia i zatrzymuje wideo, podwójne L obiema rękami pokazane dwa razy dopasowuje kadr, ☝️ trzyma całą grupę w kadrze, 👍 zaznacza wyróżnienie podczas nagrywania."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Segure o gesto parado por cerca de meio segundo. Só a pessoa rastreada, ou sem rastreamento a maior pessoa na imagem, pode controlar a câmera. Funciona com Pessoa e Rosto."
+            "value": "Segure um gesto parado por meio segundo: ✋ inicia ou para o rastreamento, ✌️ tira uma foto ou inicia e para o vídeo, um L duplo com as duas mãos mostrado duas vezes ajusta o enquadramento, ☝️ mantém o grupo todo na imagem, 👍 marca um destaque durante a gravação."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Держите жест неподвижно около полсекунды. Управлять может только отслеживаемый человек, а без слежения — самый крупный человек в кадре. Работает с режимами «Человек» и «Лицо»."
+            "value": "Держите жест неподвижно полсекунды: ✋ запускает или останавливает слежение, ✌️ делает фото или запускает и останавливает видео, двойная «L» обеими руками, показанная дважды, настраивает кадр, ☝️ держит в кадре всю группу, 👍 отмечает яркий момент во время записи."
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Håll gesten stilla i ungefär en halv sekund. Bara den följda personen, eller utan följning den största personen i bilden, kan styra kameran. Fungerar med Person och Ansikte."
+            "value": "Håll en gest stilla en halv sekund: ✋ startar eller stoppar följningen, ✌️ tar ett foto eller startar och stoppar video, ett dubbelt L med båda händerna visat två gånger justerar beskärningen, ☝️ håller hela gruppen i bild, 👍 markerar en höjdpunkt under inspelningen."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "ค้างท่าทางไว้นิ่ง ๆ ประมาณครึ่งวินาที เฉพาะบุคคลที่กำลังติดตาม หรือถ้าไม่ได้ติดตามคือบุคคลที่ใหญ่ที่สุดในภาพ เท่านั้นที่ควบคุมกล้องได้ ใช้ได้กับบุคคลและใบหน้า"
+            "value": "ค้างท่าทางไว้ครึ่งวินาที: ✋ เริ่มหรือหยุดการติดตาม ✌️ ถ่ายรูปหรือเริ่มและหยุดวิดีโอ ตัว L คู่ด้วยสองมือที่ทำสองครั้งจะปรับการจัดเฟรม ☝️ ให้ทั้งกลุ่มอยู่ในภาพ 👍 ทำเครื่องหมายไฮไลต์ระหว่างบันทึก"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hareketi yaklaşık yarım saniye sabit tutun. Kamerayı yalnızca takip edilen kişi, takip yoksa görüntüdeki en büyük kişi kontrol edebilir. Kişi ve Yüz ile çalışır."
+            "value": "Bir hareketi yarım saniye sabit tutun: ✋ takibi başlatır veya durdurur, ✌️ fotoğraf çeker ya da videoyu başlatıp durdurur, iki elle iki kez gösterilen çift L kadrajı ayarlar, ☝️ tüm grubu görüntüde tutar, 👍 kayıt sırasında öne çıkan anı işaretler."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Тримайте жест нерухомо близько пів секунди. Керувати може лише відстежувана людина, а без стеження — найбільша людина в кадрі. Працює з режимами «Людина» та «Обличчя»."
+            "value": "Тримайте жест нерухомо пів секунди: ✋ запускає або зупиняє стеження, ✌️ робить фото або запускає й зупиняє відео, подвійна «L» обома руками, показана двічі, налаштовує кадр, ☝️ тримає в кадрі всю групу, 👍 позначає яскравий момент під час запису."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Giữ yên cử chỉ khoảng nửa giây. Chỉ người đang được theo dõi, hoặc khi không theo dõi là người lớn nhất trong hình, mới điều khiển được máy ảnh. Hoạt động với Người và Khuôn mặt."
+            "value": "Giữ yên cử chỉ nửa giây: ✋ bắt đầu hoặc dừng theo dõi, ✌️ chụp ảnh hoặc bắt đầu và dừng video, chữ L đôi bằng hai tay đưa ra hai lần chỉnh khung hình, ☝️ giữ cả nhóm trong hình, 👍 đánh dấu điểm nổi bật khi đang quay."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "将手势保持静止约半秒。只有被跟踪的人，或未跟踪时画面中最大的人，才能控制相机。适用于“人物”和“人脸”。"
+            "value": "将手势保持静止半秒：✋ 开始或停止跟踪，✌️ 拍照或开始和停止录像，双手双 L 做两次可调整构图，☝️ 让整个群组都在画面中，👍 在录制时标记精彩时刻。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "將手勢保持靜止約半秒。只有被追蹤的人，或未追蹤時畫面中最大的人，才能控制相機。適用於「人物」和「臉孔」。"
+            "value": "將手勢保持靜止半秒：✋ 開始或停止追蹤，✌️ 拍照或開始和停止錄影，雙手雙 L 做兩次可調整構圖，☝️ 讓整個群組都在畫面中，👍 在錄影時標記精彩時刻。"
+          }
+        }
+      }
+    },
+    "Hold the gesture still for about half a second. Only the tracked person, or without tracking the largest person in the picture, can control the camera. After stopping with an open hand, anyone can take over with an open hand for a few seconds. Works with Person and Face. Changing the assignment needs Keepsight Pro.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبّت الإيماءة نحو نصف ثانية. لا يتحكم بالكاميرا إلا الشخص المتتبَّع، أو أكبر شخص في الصورة عند عدم التتبع. بعد الإيقاف باليد المفتوحة يمكن لأي شخص تولي التحكم باليد المفتوحة لبضع ثوانٍ. يعمل مع الشخص والوجه. تغيير التعيين يتطلب Keepsight Pro."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Halte die Geste etwa eine halbe Sekunde ruhig. Steuern kann nur die verfolgte Person, ohne Tracking die grösste Person im Bild. Nach dem Stoppen mit offener Hand kann einige Sekunden lang jede Person mit offener Hand übernehmen. Funktioniert mit Person und Gesicht. Die Belegung ändern geht mit Keepsight Pro."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantén el gesto quieto durante medio segundo. Solo la persona seguida, o sin seguimiento la persona más grande de la imagen, puede controlar la cámara. Tras detener con la mano abierta, cualquiera puede tomar el relevo con la mano abierta durante unos segundos. Funciona con Persona y Cara. Cambiar la asignación requiere Keepsight Pro."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tenez le geste immobile environ une demi-seconde. Seule la personne suivie, ou sans suivi la plus grande personne de l’image, peut commander l’appareil. Après un arrêt main ouverte, n’importe qui peut prendre le relais main ouverte pendant quelques secondes. Fonctionne avec Personne et Visage. Modifier l’attribution nécessite Keepsight Pro."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इशारे को लगभग आधा सेकंड स्थिर रखें। सिर्फ़ ट्रैक किया जा रहा व्यक्ति, या ट्रैकिंग न होने पर तस्वीर का सबसे बड़ा व्यक्ति, कैमरा चला सकता है। खुली हथेली से रोकने के बाद कुछ सेकंड तक कोई भी खुली हथेली से कमान ले सकता है। व्यक्ति और चेहरे के साथ काम करता है। इशारों का काम बदलने के लिए Keepsight Pro चाहिए।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tahan gerakan diam sekitar setengah detik. Hanya orang yang dilacak, atau tanpa pelacakan orang terbesar di gambar, yang dapat mengendalikan kamera. Setelah berhenti dengan telapak terbuka, siapa pun dapat mengambil alih dengan telapak terbuka selama beberapa detik. Berfungsi dengan Orang dan Wajah. Mengubah penetapan memerlukan Keepsight Pro."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tieni fermo il gesto per circa mezzo secondo. Solo la persona seguita, o senza tracking la persona più grande nell’immagine, può comandare la fotocamera. Dopo lo stop con la mano aperta, per qualche secondo chiunque può subentrare con la mano aperta. Funziona con Persona e Volto. Cambiare l’assegnazione richiede Keepsight Pro."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ジェスチャーを約0.5秒静止させます。操作できるのは追跡中の人物、追跡していないときは画面内で一番大きく写っている人物だけです。開いた手で停止した後の数秒間は、誰でも開いた手で引き継げます。人物と顔で使えます。割り当ての変更にはKeepsight Proが必要です。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "제스처를 약 0.5초 동안 유지하세요. 추적 중인 사람만, 추적하지 않을 때는 화면에서 가장 큰 사람만 카메라를 제어할 수 있습니다. 편 손으로 멈춘 뒤 몇 초 동안은 누구나 편 손으로 이어받을 수 있습니다. 사람과 얼굴에서 작동합니다. 할당을 바꾸려면 Keepsight Pro가 필요합니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Houd het gebaar ongeveer een halve seconde stil. Alleen de gevolgde persoon, of zonder volgen de grootste persoon in beeld, kan de camera bedienen. Na stoppen met een open hand kan enkele seconden lang iedereen met een open hand overnemen. Werkt met Persoon en Gezicht. De toewijzing wijzigen kan met Keepsight Pro."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przytrzymaj gest nieruchomo przez około pół sekundy. Sterować może tylko śledzona osoba, a bez śledzenia największa osoba w kadrze. Po zatrzymaniu otwartą dłonią przez kilka sekund każdy może przejąć sterowanie otwartą dłonią. Działa z trybami Osoba i Twarz. Zmiana przypisania wymaga Keepsight Pro."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segure o gesto parado por cerca de meio segundo. Só a pessoa rastreada, ou sem rastreamento a maior pessoa na imagem, pode controlar a câmera. Depois de parar com a mão aberta, qualquer pessoa pode assumir com a mão aberta por alguns segundos. Funciona com Pessoa e Rosto. Mudar a atribuição requer o Keepsight Pro."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Держите жест неподвижно около полсекунды. Управлять может только отслеживаемый человек, а без слежения — самый крупный человек в кадре. После остановки открытой ладонью в течение нескольких секунд любой может перехватить управление открытой ладонью. Работает с режимами «Человек» и «Лицо». Изменить назначение можно с Keepsight Pro."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Håll gesten stilla i ungefär en halv sekund. Bara den följda personen, eller utan följning den största personen i bilden, kan styra kameran. Efter stopp med öppen hand kan vem som helst ta över med öppen hand i några sekunder. Fungerar med Person och Ansikte. Att ändra tilldelningen kräver Keepsight Pro."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ค้างท่าทางไว้นิ่ง ๆ ประมาณครึ่งวินาที เฉพาะบุคคลที่กำลังติดตาม หรือถ้าไม่ได้ติดตามคือบุคคลที่ใหญ่ที่สุดในภาพ เท่านั้นที่ควบคุมกล้องได้ หลังหยุดด้วยฝ่ามือเปิด ทุกคนสามารถรับช่วงต่อด้วยฝ่ามือเปิดได้ภายในไม่กี่วินาที ใช้ได้กับบุคคลและใบหน้า การเปลี่ยนการกำหนดต้องใช้ Keepsight Pro"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hareketi yaklaşık yarım saniye sabit tutun. Kamerayı yalnızca takip edilen kişi, takip yoksa görüntüdeki en büyük kişi kontrol edebilir. Açık elle durdurduktan sonra birkaç saniye boyunca herkes açık elle devralabilir. Kişi ve Yüz ile çalışır. Atamayı değiştirmek Keepsight Pro gerektirir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тримайте жест нерухомо близько пів секунди. Керувати може лише відстежувана людина, а без стеження — найбільша людина в кадрі. Після зупинки відкритою долонею кілька секунд будь-хто може перехопити керування відкритою долонею. Працює з режимами «Людина» та «Обличчя». Змінити призначення можна з Keepsight Pro."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giữ yên cử chỉ khoảng nửa giây. Chỉ người đang được theo dõi, hoặc khi không theo dõi là người lớn nhất trong hình, mới điều khiển được máy ảnh. Sau khi dừng bằng bàn tay mở, trong vài giây bất kỳ ai cũng có thể tiếp quản bằng bàn tay mở. Hoạt động với Người và Khuôn mặt. Đổi cách gán cần Keepsight Pro."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将手势保持静止约半秒。只有被跟踪的人，或未跟踪时画面中最大的人，才能控制相机。用张开手掌停止后的几秒内，任何人都可以用张开手掌接手。适用于“人物”和“人脸”。更改手势分配需要 Keepsight Pro。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "將手勢保持靜止約半秒。只有被追蹤的人，或未追蹤時畫面中最大的人，才能控制相機。用張開手掌停止後的幾秒內，任何人都可以用張開手掌接手。適用於「人物」和「臉孔」。更改手勢分配需要 Keepsight Pro。"
           }
         }
       }
@@ -18349,6 +19837,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "免費版中，影片限時 60 秒並帶有 Keepsight 標誌。"
+          }
+        }
+      }
+    },
+    "Index finger up: whole group, again: back to one person": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "السبابة للأعلى: المجموعة كلها، ومرة أخرى: العودة إلى شخص واحد"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeigefinger hoch: ganze Gruppe, nochmals: zurück zu einer Person"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Índice arriba: todo el grupo, otra vez: volver a una persona"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Index levé : tout le groupe, encore : retour à une personne"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "तर्जनी ऊपर: पूरा समूह, फिर से: एक व्यक्ति पर वापस"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telunjuk ke atas: seluruh grup, lagi: kembali ke satu orang"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indice alzato: tutto il gruppo, di nuovo: torna a una persona"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "人差し指を上に：グループ全体、もう一度：1人に戻る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "검지 위로: 그룹 전체, 다시: 한 사람으로 돌아가기"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wijsvinger omhoog: hele groep, nog eens: terug naar één persoon"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palec wskazujący w górę: cała grupa, ponownie: powrót do jednej osoby"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indicador para cima: o grupo todo, de novo: voltar a uma pessoa"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Указательный палец вверх: вся группа, ещё раз: обратно к одному человеку"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pekfinger upp: hela gruppen, igen: tillbaka till en person"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชี้นิ้วชี้ขึ้น: ทั้งกลุ่ม ทำอีกครั้ง: กลับไปที่คนเดียว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İşaret parmağı yukarı: tüm grup, tekrar: tek kişiye dön"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вказівний палець угору: уся група, ще раз: назад до однієї людини"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngón trỏ lên: cả nhóm, lần nữa: quay về một người"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "食指向上：整个群组，再做一次：回到一个人"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "食指向上：整個群組，再做一次：回到一個人"
           }
         }
       }
@@ -22074,6 +23686,130 @@
         }
       }
     },
+    "Measuring": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جارٍ القياس"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Midiendo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesure en cours"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "माप रहा है"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mengukur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misurazione in corso"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "測定中"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "측정 중"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meten"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiar"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medindo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерение"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mäter"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กำลังวัด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ölçülüyor"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вимірювання"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang đo"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在测量"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在測量"
+          }
+        }
+      }
+    },
     "Metric": {
       "localizations": {
         "ar": {
@@ -23314,6 +25050,254 @@
         }
       }
     },
+    "Not started": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يبدأ"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht gestartet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin iniciar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non démarrée"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "शुरू नहीं हुआ"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum dimulai"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non avviata"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未開始"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시작 안 됨"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet gestart"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie uruchomiono"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não iniciada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не запущено"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inte startad"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่เริ่ม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlatılmadı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не запущено"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa bắt đầu"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未开始"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未開始"
+          }
+        }
+      }
+    },
+    "Nothing": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا شيء"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कुछ नहीं"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niente"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何もしない"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "없음"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niets"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nic"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingenting"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ทำอะไร"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiçbir şey"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нічого"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không làm gì"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無"
+          }
+        }
+      }
+    },
     "OK": {
       "localizations": {
         "ar": {
@@ -23806,6 +25790,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "一次購買，無須訂閱。"
+          }
+        }
+      }
+    },
+    "Open Keepsight on the Apple Watch.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افتح Keepsight على Apple Watch."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne Keepsight auf der Apple Watch."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Keepsight en el Apple Watch."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez Keepsight sur l’Apple Watch."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch पर Keepsight खोलें।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Keepsight di Apple Watch."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Keepsight sull’Apple Watch."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple WatchでKeepsightを開いてください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch에서 Keepsight를 여세요."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Keepsight op de Apple Watch."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz Keepsight na Apple Watch."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abra o Keepsight no Apple Watch."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Keepsight на Apple Watch."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppna Keepsight på Apple Watch."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิด Keepsight บน Apple Watch"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch'ta Keepsight'ı açın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відкрийте Keepsight на Apple Watch."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Keepsight trên Apple Watch."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在 Apple Watch 上打开 Keepsight。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請在 Apple Watch 上打開 Keepsight。"
           }
         }
       }
@@ -24798,6 +26906,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "在所選角度和時間內緩慢均勻地搖攝，適合縮時攝影、全景影片或產品拍攝。影片模式下 Keepsight 會錄製；照片模式選擇「間隔」時會拍攝系列。期間追蹤暫停。"
+          }
+        }
+      }
+    },
+    "Paused (app in background)": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "متوقف مؤقتًا (التطبيق في الخلفية)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausiert (App im Hintergrund)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pausa (app en segundo plano)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pause (app en arrière-plan)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "रुका हुआ (ऐप बैकग्राउंड में)"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dijeda (app di latar belakang)"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In pausa (app in background)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一時停止（アプリがバックグラウンド）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일시 정지됨(앱이 백그라운드에 있음)"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gepauzeerd (app op achtergrond)"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstrzymano (aplikacja w tle)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Em pausa (app em segundo plano)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пауза (приложение в фоне)"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausad (appen i bakgrunden)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หยุดชั่วคราว (แอปอยู่เบื้องหลัง)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duraklatıldı (uygulama arka planda)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пауза (програма у фоні)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạm dừng (ứng dụng chạy nền)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已暂停（App 在后台）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已暫停（App 在背景）"
           }
         }
       }
@@ -30754,6 +32986,130 @@
         }
       }
     },
+    "Reset gestures": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة ضبط الإيماءات"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesten zurücksetzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer gestos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser les gestes"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इशारे रीसेट करें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atur ulang gerakan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina gesti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ジェスチャーをリセット"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "제스처 재설정"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebaren herstellen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć gesty"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redefinir gestos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить жесты"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ gester"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รีเซ็ตท่าทาง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hareketleri sıfırla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скинути жести"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt lại cử chỉ"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置手势"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重設手勢"
+          }
+        }
+      }
+    },
     "Reset to defaults": {
       "localizations": {
         "ar": {
@@ -33978,6 +36334,130 @@
         }
       }
     },
+    "Shutter in the current mode": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زر الالتقاط في الوضع المضبوط"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auslöser im eingestellten Modus"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disparador en el modo ajustado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déclencheur dans le mode réglé"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेट मोड में शटर"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rana di mode yang diatur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scatto nella modalità impostata"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定中のモードでシャッター"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정된 모드에서 셔터"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ontspanner in de ingestelde modus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spust w ustawionym trybie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obturador no modo ajustado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спуск в выбранном режиме"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slutare i det inställda läget"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชัตเตอร์ในโหมดที่ตั้งไว้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlı modda deklanşör"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спуск у вибраному режимі"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nút chụp ở chế độ đang chọn"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前模式下按快门"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目前模式下按快門"
+          }
+        }
+      }
+    },
     "Shutter: how long each picture is exposed. Short times such as 1/1000 freeze fast movement. Longer times let in more light but blur movement.": {
       "localizations": {
         "ar": {
@@ -35338,6 +37818,254 @@
           "stringUnit": {
             "state": "translated",
             "value": "標準"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدء"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "शुरू करें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시작"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Старт"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่ม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlat"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Старт"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始"
+          }
+        }
+      }
+    },
+    "Start or stop tracking": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدء التتبع أو إيقافه"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracking starten oder stoppen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar o detener el seguimiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer ou arrêter le suivi"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ट्रैकिंग शुरू या बंद करें"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai atau hentikan pelacakan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia o ferma il tracking"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "トラッキングの開始・停止"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "추적 시작 또는 중지"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgen starten of stoppen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchom lub zatrzymaj śledzenie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar ou parar o rastreamento"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать или остановить слежение"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta eller stoppa följning"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่มหรือหยุดการติดตาม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Takibi başlat veya durdur"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Почати або зупинити стеження"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu hoặc dừng theo dõi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始或停止跟踪"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始或停止追蹤"
           }
         }
       }
@@ -39434,6 +42162,130 @@
         }
       }
     },
+    "The watch has no Ultra Wideband.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا تحتوي الساعة على النطاق فائق العرض."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Uhr hat kein Ultrabreitband."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El reloj no tiene banda ultraancha."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La montre n’a pas d’ultra large bande."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घड़ी में अल्ट्रा वाइडबैंड नहीं है।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jam tidak punya Ultra Wideband."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’orologio non ha la banda ultralarga."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watchに超広帯域無線がありません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "워치에 초광대역이 없습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het horloge heeft geen ultrabreedband."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zegarek nie ma ultraszerokiego pasma."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O relógio não tem banda ultralarga."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У часов нет сверхширокополосной связи."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klockan har inget ultrabredband."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นาฬิกาไม่มีแถบความถี่กว้างพิเศษ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saatte Ultra Geniş Bant yok."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник не має надширокосмугового зв’язку."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng hồ không có băng tần siêu rộng."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手表没有超宽带。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手錶沒有超寬頻。"
+          }
+        }
+      }
+    },
     "This device does not support Bluetooth LE": {
       "localizations": {
         "ar": {
@@ -39558,6 +42410,254 @@
         }
       }
     },
+    "This iPhone": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هذا iPhone"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses iPhone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este iPhone"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cet iPhone"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह iPhone"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone ini"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo iPhone"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このiPhone"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 iPhone"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze iPhone"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten iPhone"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este iPhone"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот iPhone"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den här iPhone"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone เครื่องนี้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu iPhone"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цей iPhone"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone này"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这台 iPhone"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 iPhone"
+          }
+        }
+      }
+    },
+    "This iPhone has no Ultra Wideband.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا يحتوي هذا iPhone على النطاق فائق العرض."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses iPhone hat kein Ultrabreitband."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este iPhone no tiene banda ultraancha."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cet iPhone n’a pas d’ultra large bande."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इस iPhone में अल्ट्रा वाइडबैंड नहीं है।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone ini tidak punya Ultra Wideband."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo iPhone non ha la banda ultralarga."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このiPhoneには超広帯域無線がありません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 iPhone에는 초광대역이 없습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze iPhone heeft geen ultrabreedband."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten iPhone nie ma ultraszerokiego pasma."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este iPhone não tem banda ultralarga."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У этого iPhone нет сверхширокополосной связи."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den här iPhone har inget ultrabredband."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone เครื่องนี้ไม่มีแถบความถี่กว้างพิเศษ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu iPhone'da Ultra Geniş Bant yok."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цей iPhone не має надширокосмугового зв’язку."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone này không có băng tần siêu rộng."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这台 iPhone 没有超宽带。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 iPhone 沒有超寬頻。"
+          }
+        }
+      }
+    },
     "This is how it works on your iPhone. Pro unlocks tracking permanently.": {
       "localizations": {
         "ar": {
@@ -39678,6 +42778,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "這就是它在你 iPhone 上的效果。Pro 可永久解鎖追蹤。"
+          }
+        }
+      }
+    },
+    "Thumbs up: highlight mark while recording": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإبهام للأعلى: لحظة مميزة أثناء التسجيل"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daumen hoch: Highlight-Marke während der Aufnahme"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulgar arriba: momento destacado durante la grabación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pouce levé : moment fort pendant l’enregistrement"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अंगूठा ऊपर: रिकॉर्डिंग के दौरान हाइलाइट"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jempol ke atas: sorotan saat merekam"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pollice in su: momento clou durante la registrazione"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "親指を上に：録画中のハイライト"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "엄지 위로: 녹화 중 하이라이트"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duim omhoog: hoogtepunt tijdens de opname"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kciuk w górę: wyróżnienie podczas nagrywania"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polegar para cima: destaque durante a gravação"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Большой палец вверх: яркий момент во время записи"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tummen upp: höjdpunkt under inspelning"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยกนิ้วโป้ง: ไฮไลต์ระหว่างบันทึก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başparmak yukarı: kayıt sırasında öne çıkan an"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Великий палець угору: яскравий момент під час запису"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngón cái lên: điểm nổi bật khi đang quay"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "竖起大拇指：录制时标记精彩时刻"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "豎起大拇指：錄影時標記精彩時刻"
           }
         }
       }
@@ -40922,6 +44146,130 @@
         }
       }
     },
+    "Tracking stopped. Anyone can take over with an open hand.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توقف التتبع. يمكن لأي شخص تولي التحكم باليد المفتوحة."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracking gestoppt. Jede Person kann mit offener Hand übernehmen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguimiento detenido. Cualquiera puede tomar el relevo con la mano abierta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivi arrêté. N’importe qui peut prendre le relais main ouverte."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ट्रैकिंग रुकी। कोई भी खुली हथेली से कमान ले सकता है।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pelacakan berhenti. Siapa pun dapat mengambil alih dengan telapak terbuka."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracking fermato. Chiunque può subentrare con la mano aperta."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "トラッキングを停止しました。誰でも開いた手で引き継げます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "추적이 멈췄습니다. 누구나 편 손으로 이어받을 수 있습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgen gestopt. Iedereen kan met een open hand overnemen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Śledzenie zatrzymane. Każdy może przejąć otwartą dłonią."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rastreamento parado. Qualquer pessoa pode assumir com a mão aberta."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слежение остановлено. Любой может перехватить открытой ладонью."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Följningen stoppad. Vem som helst kan ta över med öppen hand."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หยุดการติดตามแล้ว ทุกคนรับช่วงต่อได้ด้วยฝ่ามือเปิด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Takip durdu. Herkes açık elle devralabilir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стеження зупинено. Будь-хто може перехопити відкритою долонею."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã dừng theo dõi. Bất kỳ ai cũng có thể tiếp quản bằng bàn tay mở."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跟踪已停止。任何人都可以用张开手掌接手。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追蹤已停止。任何人都可以用張開手掌接手。"
+          }
+        }
+      }
+    },
     "Train": {
       "localizations": {
         "ar": {
@@ -41166,6 +44514,254 @@
           "stringUnit": {
             "state": "translated",
             "value": "試用 Pro 追蹤 3 × 60 秒"
+          }
+        }
+      }
+    },
+    "UWB measurement": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قياس UWB"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB-Messung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medición UWB"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesure UWB"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB माप"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengukuran UWB"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misura UWB"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB測定"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB 측정"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB-meting"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiar UWB"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medição UWB"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерение UWB"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB-mätning"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การวัด UWB"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB ölçümü"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вимірювання UWB"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đo UWB"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB 测量"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UWB 測量"
+          }
+        }
+      }
+    },
+    "Ultra Wideband is not available.": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "النطاق فائق العرض غير متاح."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultrabreitband ist nicht verfügbar."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La banda ultraancha no está disponible."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’ultra large bande n’est pas disponible."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अल्ट्रा वाइडबैंड उपलब्ध नहीं है।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultra Wideband tidak tersedia."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La banda ultralarga non è disponibile."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超広帯域無線は利用できません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "초광대역을 사용할 수 없습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultrabreedband is niet beschikbaar."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultraszerokie pasmo jest niedostępne."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A banda ultralarga não está disponível."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сверхширокополосная связь недоступна."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultrabredband är inte tillgängligt."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แถบความถี่กว้างพิเศษใช้งานไม่ได้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultra Geniş Bant kullanılamıyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Надширокосмуговий зв’язок недоступний."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Băng tần siêu rộng không khả dụng."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超宽带不可用。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超寬頻無法使用。"
           }
         }
       }
@@ -41662,6 +45258,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "以 %@ 解鎖"
+          }
+        }
+      }
+    },
+    "Updates per second": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قياسات في الثانية"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Messungen pro Sekunde"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mediciones por segundo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesures par seconde"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "प्रति सेकंड माप"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengukuran per detik"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misure al secondo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1秒あたりの測定回数"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "초당 측정 횟수"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metingen per seconde"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiary na sekundę"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medições por segundo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерений в секунду"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mätningar per sekund"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จำนวนการวัดต่อวินาที"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saniyedeki ölçüm"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вимірювань за секунду"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số lần đo mỗi giây"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每秒测量次数"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每秒測量次數"
           }
         }
       }
@@ -43278,6 +46998,254 @@
         }
       }
     },
+    "Waiting for the watch…": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بانتظار الساعة…"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warte auf die Uhr …"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esperando al reloj…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente de la montre…"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घड़ी का इंतज़ार…"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menunggu jam…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In attesa dell’orologio…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watchを待っています…"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "워치를 기다리는 중…"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wachten op het horloge…"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czekam na zegarek…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aguardando o relógio…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ожидание часов…"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Väntar på klockan …"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กำลังรอนาฬิกา…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat bekleniyor…"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очікування годинника…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang chờ đồng hồ…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在等待手表…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在等待手錶…"
+          }
+        }
+      }
+    },
+    "Watch out of range": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الساعة خارج النطاق"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uhr ausser Reichweite"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reloj fuera de alcance"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Montre hors de portée"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घड़ी रेंज से बाहर"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jam di luar jangkauan"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orologio fuori portata"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watchが範囲外です"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "워치가 범위를 벗어남"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horloge buiten bereik"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zegarek poza zasięgiem"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relógio fora de alcance"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Часы вне зоны досягаемости"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klockan utom räckhåll"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นาฬิกาอยู่นอกระยะ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat menzil dışında"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник поза зоною досяжності"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng hồ ngoài tầm"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手表超出范围"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手錶超出範圍"
+          }
+        }
+      }
+    },
     "Website and documentation": {
       "localizations": {
         "ar": {
@@ -44018,6 +47986,130 @@
           "stringUnit": {
             "state": "translated",
             "value": "為什麼需要位置？Keepsight 用它來確認你所在的地區並識別畫面中的飛機。位置只保留在你的 iPhone 上。只有在你開啟此項時，iOS 才會詢問。"
+          }
+        }
+      }
+    },
+    "With Keepsight Pro": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مع Keepsight Pro"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit Keepsight Pro"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con Keepsight Pro"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avec Keepsight Pro"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsight Pro के साथ"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dengan Keepsight Pro"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con Keepsight Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsight Proで使えます"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsight Pro에서 사용 가능"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met Keepsight Pro"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z Keepsight Pro"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com o Keepsight Pro"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "С Keepsight Pro"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med Keepsight Pro"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใช้ได้กับ Keepsight Pro"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsight Pro ile"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "З Keepsight Pro"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Với Keepsight Pro"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需要 Keepsight Pro"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需要 Keepsight Pro"
           }
         }
       }
