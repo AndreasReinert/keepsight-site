@@ -23,7 +23,8 @@ C = {lang: importlib.import_module(f"content_{lang}") for lang in FULL}
 # Textstücke, die in jeder Sprache gleich lauten (Eigennamen, Masse, Pfade und Bildnamen)
 KEEP_TEXTS = {"48 MP", "Pro", "iPhone", "Bluetooth", "Insta360 Flow Pro and Flow 2 Pro", "Apple DockKit",
               "DJI Osmo Mobile 8", "Belkin Auto-Tracking Stand Pro", "FeiyuTech AK4500", "1× (24 mm)", "12 MP",
-              "Original", "Stratux (JSON)", "GDL90 (UDP)"}
+              "Original", "Stratux (JSON)", "GDL90 (UDP)",
+              "<kbd>Auto</kbd> <kbd>Pro</kbd>", "<kbd>Off</kbd> <kbd>On</kbd>"}
 KEEP = [i for i, text in enumerate(i18n.segments(C["en"]))
         if text in KEEP_TEXTS or text.startswith("docs/") or text.startswith("story-")]
 SITE = "https://andreasreinert.github.io/keepsight-site/"

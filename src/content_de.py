@@ -69,6 +69,7 @@ HOME = {
         ("Unbegrenzte Aufnahme ohne Logo", False, True),
         ("Zweites Video mit Rahmen und Daten", False, True),
         ("Fotos in ProRAW", False, True),
+        ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
     ],
     "price_cols": ("Funktion", "Gratis", "Pro"),
     "price_note": "In der Gratisversion sind Videos auf 60 Sekunden begrenzt und tragen das Keepsight-Logo.",
@@ -345,13 +346,31 @@ DOCS = [
 <tr><th>Einstellung</th><th>Auswahl</th></tr>
 <tr><td>Auflösung</td><td>HD (1920 × 1080) oder 4K (3840 × 2160)</td></tr>
 <tr><td>Bildrate</td><td>24, 30 oder 60 Bilder pro Sekunde, für PAL 25</td></tr>
+<tr><td>Steuerung</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
+<tr><td>Gitter</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
 <h3>Foto</h3>
 <table>
 <tr><th>Einstellung</th><th>Auswahl</th></tr>
 <tr><td>Format</td><td>HEIF oder RAW (Apple ProRAW, mit Keepsight Pro)</td></tr>
 <tr><td>Auflösung</td><td>Was das Objektiv liefert, siehe unten</td></tr>
+<tr><td>Steuerung</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
+<tr><td>Gitter</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
+
+<h2 id="manual">Manuelle Einstellungen</h2>
+<p>Manuelle Einstellungen: ISO, Verschluss, Weissabgleich, Farbstich und Fokus selbst einstellen, jeden Wert einzeln. Erfordert Keepsight Pro.</p>
+<div class="tip"><p>Neu dabei? Lass alles auf Auto und probiere zuerst die Belichtung. Jede Einstellung bleibt automatisch, bis du ihren Regler bewegst. Auto gibt sie an die Kamera zurück.</p></div>
+<ul>
+<li>Belichtung: macht das ganze Bild heller oder dunkler, während die Kamera das Licht weiter selbst misst. Der einfachste Regler für den Einstieg.</li>
+<li>ISO: wie empfindlich der Sensor ist. Ein höherer Wert macht das Bild heller, aber körniger. Halte ihn so tief, wie es das Licht zulässt.</li>
+<li>Verschluss: wie lange jedes Bild belichtet wird. Kurze Zeiten wie 1/1000 frieren schnelle Bewegungen ein. Längere Zeiten lassen mehr Licht herein, verwischen aber Bewegungen.</li>
+<li>Weissabgleich: passt die Farben an das Licht an, damit Weiss weiss aussieht. Tippe auf das Symbol für Lampenlicht, Sonne, Wolken oder Schatten oder stelle den Wert in Kelvin ein.</li>
+<li>Farbstich: verschiebt die Farben zwischen Grün und Magenta. Meist nur bei Kunstlicht nötig.</li>
+<li>Fokus: legt fest, welche Entfernung scharf ist, von nah (links) bis fern (rechts).</li>
+<li>Blende: die Öffnung des Objektivs. Keepsight zeigt den Wert an, kann ihn aber noch nicht ändern, auch nicht beim iPhone 18 Pro.</li>
+</ul>
+<p>Gitter: je zwei Linien helfen dir, den Horizont gerade zu halten und dein Motiv zu platzieren. Sie werden nicht in Fotos oder Videos gespeichert.</p>
 
 <h2>Frontkamera und Selfies</h2>
 <p>Der Knopf mit den zwei Pfeilen neben dem Vorschaubild wechselt zur Frontkamera. Du siehst dich selbst, gespiegelt wie in der Kamera-App. Gespeichert wird ungespiegelt, so wie andere dich sehen; für Fotos kannst du das umstellen.</p>
@@ -607,6 +626,7 @@ DOCS = [
 <tr><td>Keepsight-Logo in Fotos und Videos</td><td>Ja</td><td class="y">Nein</td></tr>
 <tr><td>Overlay-Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Fotos in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
 </table>
 
 <h2>Pro-Tracking testen</h2>

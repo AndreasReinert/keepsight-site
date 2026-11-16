@@ -69,6 +69,7 @@ HOME = {
         ("Unlimited recording without logo", False, True),
         ("Second video with frames and data", False, True),
         ("Photos in ProRAW", False, True),
+        ("Manual camera controls for photo and video", False, True),
     ],
     "price_cols": ("Feature", "Free", "Pro"),
     "price_note": "In the free version, videos are limited to 60 seconds and carry the Keepsight logo.",
@@ -344,13 +345,31 @@ DOCS = [
 <tr><th>Setting</th><th>Options</th></tr>
 <tr><td>Resolution</td><td>HD (1920 × 1080) or 4K (3840 × 2160)</td></tr>
 <tr><td>Frame rate</td><td>24, 30 or 60 frames per second, 25 for PAL</td></tr>
+<tr><td>Controls</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
+<tr><td>Grid</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
 <h3>Photo</h3>
 <table>
 <tr><th>Setting</th><th>Options</th></tr>
 <tr><td>Format</td><td>HEIF or RAW (Apple ProRAW, with Keepsight Pro)</td></tr>
 <tr><td>Resolution</td><td>Whatever the lens delivers, see below</td></tr>
+<tr><td>Controls</td><td><kbd>Auto</kbd> <kbd>Pro</kbd></td></tr>
+<tr><td>Grid</td><td><kbd>Off</kbd> <kbd>On</kbd></td></tr>
 </table>
+
+<h2 id="manual">Manual controls</h2>
+<p>Manual controls: set ISO, shutter, white balance, tint and focus yourself, each one separately. Requires Keepsight Pro.</p>
+<div class="tip"><p>New to this? Leave everything on Auto and try Exposure first. Every setting stays automatic until you move its slider. Auto hands it back to the camera.</p></div>
+<ul>
+<li>Exposure: makes the whole picture brighter or darker while the camera keeps measuring the light itself. The easiest control to start with.</li>
+<li>ISO: how sensitive the sensor is. A higher value makes the picture brighter but grainier. Keep it as low as the light allows.</li>
+<li>Shutter: how long each picture is exposed. Short times such as 1/1000 freeze fast movement. Longer times let in more light but blur movement.</li>
+<li>White balance: matches the colours to the light so that white looks white. Tap the symbol for lamp light, sun, cloud or shade, or set the value in Kelvin.</li>
+<li>Tint: shifts the colours between green and magenta. Usually only needed under artificial light.</li>
+<li>Focus: sets the distance that is sharp, from near on the left to far on the right.</li>
+<li>Aperture: the opening of the lens. Keepsight shows the value but cannot change it yet, not even on the iPhone 18 Pro.</li>
+</ul>
+<p>Grid: two lines each way help you keep the horizon level and place your subject. They are not saved in photos or videos.</p>
 
 <h2>Front camera and selfies</h2>
 <p>The button with the two arrows next to the thumbnail switches to the front camera. You see yourself mirrored, as in Apple’s Camera app. Captures are saved unmirrored, the way others see you; for photos you can change that.</p>
@@ -606,6 +625,7 @@ DOCS = [
 <tr><td>Keepsight logo in photos and videos</td><td>Yes</td><td class="y">No</td></tr>
 <tr><td>Overlay video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Photos in ProRAW</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Manual camera controls for photo and video</td><td>No</td><td class="y">Yes</td></tr>
 </table>
 
 <h2>Trying Pro tracking</h2>
