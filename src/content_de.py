@@ -421,9 +421,11 @@ DOCS = [
 <p>Du schaltest es im Format-Fenster unter <kbd>Grid</kbd> ein. Es steht allen zur Verfügung, auch ohne Pro. Lege dein Motiv für ein ausgewogenes Bild auf einen der vier Kreuzungspunkte und halte mit den Linien Horizont und Gebäude gerade.</p>
 <h2 id="af">Schärfe: AF und Fokus, der folgt</h2>
 <p>AF: Die Taste <kbd>AF</kbd> am Ende der Objektivleiste stellt einmal scharf, auf das verfolgte Motiv oder, wenn nichts verfolgt wird, auf die Bildmitte. Für alle gratis.</p>
+<p>Tippen zum Scharfstellen: Tippe irgendwo ins Sucherbild. Keepsight stellt dort einmal scharf und belichtet, ein gelbes Quadrat zeigt die Stelle, und wählt das angetippte Motiv. Hast du Schärfe oder Belichtung von Hand eingestellt, bleibt diese Einstellung. Für alle gratis.</p>
 <p>Fokus folgt dem Motiv: Solange Keepsight ein Motiv verfolgt, bleibt die Schärfe darauf, auch wenn es an den Bildrand läuft. Einschalten in den Einstellungen unter <kbd>Kontrolle beim Filmen</kbd> → <kbd>Fokus folgt dem Motiv</kbd>. Stellst du die Schärfe von Hand ein, pausiert die Funktion. Braucht Keepsight Pro.</p>
 <h2 id="monitoring">Kontrolle beim Filmen</h2>
 <p>Die Kontrollhilfen zeigen dir, wie das Bild wirklich aussieht, so wie bei Profikameras. Sie erscheinen nur auf dem Bildschirm und landen nie in Fotos oder Videos. Einschalten in den Einstellungen unter <kbd>Kontrolle beim Filmen</kbd>. Braucht Keepsight Pro.</p>
+<p>Schnellschalter: Öffne das Kamera-Menü mit dem runden Knopf rechts. Unter <kbd>Kontrolle beim Filmen</kbd> schaltest du jede Hilfe mit einem Tippen ein und aus. Den Rahmen nochmals antippen wechselt das Format.</p>
 <table>
 <tr><th>Hilfe</th><th>Was sie zeigt</th></tr>
 <tr><td><kbd>Zebra</kbd></td><td>Weisse schräge Streifen auf Stellen, die zu hell sind und Zeichnung verlieren. Die Schwelle stellst du mit <kbd>Zebra-Schwelle</kbd> ein, von 75 bis 100 %. Siehst du Streifen im Gesicht oder am Himmel, belichte knapper.</td></tr>
