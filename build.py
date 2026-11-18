@@ -169,6 +169,8 @@ def home(lang):
 <section class="band"><h2>{c["how_h"]}</h2><ol class="steps">{how}</ol></section>
 <section class="band"><h2>{c["solo_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["solo_p"]}</p>
 <div class="rows">{solo}</div></section>
+<section class="band"><h2>{c["control_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["control_p"]}</p>
+{shots(lang, ["pro-exposure", "pro-aperture"], "../")}</section>
 <section class="band"><h2>{c["stories_h"]}</h2><div class="stories">{stories}</div>
 <p class="fine">{c["stories_note"]}</p></section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>

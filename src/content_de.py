@@ -39,6 +39,8 @@ HOME = {
         ('Virtueller Gimbal', 'Ganz ohne Motor speichert Keepsight ein zweites Video, dessen Ausschnitt dem Motiv weich folgt und von selbst zoomt.'),
         ('Freihändig', 'Starte ein Video oder mach ein Foto per Handgeste oder Stimme, mit Countdown, damit alle bereit sind.'),
     ],
+    "control_h": 'Volle Kontrolle über die Kamera',
+    "control_p": 'Mit Keepsight Pro stellst du Belichtung, ISO, Verschlusszeit, Weissabgleich, Farbstich und Fokus selbst ein, jeden Wert einzeln. Was du nicht anfasst, bleibt automatisch.',
     "stories_h": "Gemacht für deine Momente",
     "stories": [
         ("", "Creator und Freunde", "Vom ersten Vlog bis zu spontanen Momenten mit Freunden: Keepsight hilft, das Geschehen im Bild zu halten. Wähle, was zählt, filme ganz natürlich und hab mehr Spass an deinen Alltagsvideos, ohne dass jede Aufnahme zum Technikprojekt wird.", "docs/start.html", "Dein erstes Tracking"),
@@ -324,7 +326,7 @@ DOCS = [
 """),
 
 ("tracking", "Motive verfolgen", "Motivarten, eigenes Ziel, Geschwindigkeit und Verhalten bei Verdeckung.", """
-[[shots tracking-help]]
+[[shots tracking-help tracking]]
 <h2>Motiv wählen</h2>
 <p>In der linken Leiste wählst du, was Keepsight suchen soll.</p>
 <table>
@@ -410,7 +412,7 @@ DOCS = [
 
 <h2 id="manual">Manuelle Einstellungen</h2>
 <p>Manuelle Einstellungen: ISO, Verschluss, Weissabgleich, Farbstich und Fokus selbst einstellen, jeden Wert einzeln. Erfordert Keepsight Pro.</p>
-[[shots pro-wb pro-aperture]]
+[[shots pro-exposure pro-aperture]]
 <p>Zum Öffnen tippst du oben auf die Format-Anzeige und stellst <kbd>Controls</kbd> auf <kbd>Pro</kbd>. <kbd>Manual controls</kbd> findest du auch in der Kamera-Leiste; von dort geht es auch während einer Videoaufnahme.</p>
 <p>Das Fenster ist niedrig und dunkelt das Bild nicht ab, du siehst also jede Änderung sofort. Ein kleines «A» markiert jeden Wert, den die Kamera noch selbst einstellt. Sobald du einen Regler bewegst, ist dieser Wert fest. <kbd>Auto</kbd> gibt ihn an die Kamera zurück, <kbd>All auto</kbd> setzt alles zurück. Deine Werte gelten für Foto und Video und bleiben, bis du sie änderst.</p>
 <div class="tip"><p>Neu dabei? Lass alles auf Auto und probiere zuerst die Belichtung. Jede Einstellung bleibt automatisch, bis du ihren Regler bewegst. Auto gibt sie an die Kamera zurück.</p></div>
@@ -562,7 +564,7 @@ DOCS = [
 """),
 
 ("photo", "Fotos und Auslösung", "Einzelbild, Intervallserie und automatisches Auslösen im richtigen Moment.", """
-[[shots camera]]
+[[shots camera camera-zoom]]
 <p>Im Foto-Modus bestimmst du in der rechten Leiste unter <kbd>Auslösung</kbd>, wie Keepsight fotografiert.</p>
 <table>
 <tr><th>Art</th><th>Was passiert</th></tr>
@@ -798,6 +800,7 @@ DOCS = [
 
 ("settings", "Einstellungen und Hilfe", "Sprache, Hilfemodus und die Regler für Fortgeschrittene.", """
 [[shots settings settings-models]]
+[[shots settings-gestures settings-monitoring]]
 <p>Die wichtigsten Schalter liegen in den beiden Seitenleisten. Alles Weitere findest du in der linken Leiste unter <kbd>Alle Einstellungen</kbd>.</p>
 <h2>Hilfemodus</h2>
 <p>Das Fragezeichen oben in jeder Seitenleiste schaltet den Hilfemodus ein. Unter den Menüpunkten erscheinen dann gelbe Hinweise mit kurzer Erklärung, bei wichtigen Punkten mit einem Schaubild.</p>
@@ -953,4 +956,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'pro-wb': 'Manuelle Einstellungen: Weissabgleich mit Symbolen für das Licht, hier mit Hilfemodus', 'pro-aperture': 'Manuelle Einstellungen: Farbstich, Fokus und Blende', 'camera': 'Leiste Kamera: Format, Zoom, virtueller Gimbal, Auslösung', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme, Sprache', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Beispiel der Einblendung (Illustration). Mit lokalem Empfänger wird der Flugzeugtyp nicht angezeigt.', 'hero': 'Eine junge Frau filmt sich und ihre Freunde bei Sonnenuntergang mit einem Handy auf einem Gimbal', 'story-family': 'Eine Familie auf einer Picknickdecke am See, gefilmt von einem Handy auf einem kleinen Gimbal', 'story-sport': 'Eine Frau filmt einen vorbeifahrenden Velofahrer mit einem Handy auf einem Gimbal', 'story-pets': 'Ein Mann filmt einen rennenden Hund und ein Kind mit einem Handy auf einem Gimbal', 'story-birds': 'Ein Fotograf folgt einem Greifvogel im Flug mit einer Kamera auf einem Gimbal', 'story-pro': 'Eine Frau mit einer Kamera auf einem Gimbal und einem Handy in der Hand, während ein Flugzeug vorbeifliegt', 'story-aviation': 'Plane Spotter am Flughafenzaun filmen ein Linienflugzeug mit einem Handy auf einem Gimbal', 'plane-spotting': 'Plane Spotting mit einem Handy auf einem Gimbal (Illustration)'}
+SHOTS = {'pro-exposure': 'Manuelle Einstellungen: Belichtung, ISO und Verschlusszeit, hier mit Hilfemodus', 'pro-aperture': 'Manuelle Einstellungen: Weissabgleich, Farbstich, Fokus und Blende', 'camera': 'Leiste Kamera: Format, manuelle Einstellungen und Monitoring', 'camera-zoom': 'Leiste Kamera: Monitoring, Auto-Zoom und virtueller Gimbal', 'format-video': 'Format im Video-Modus', 'format-photo': 'Format im Foto-Modus', 'settings': 'Einstellungen: Geschwindigkeit, Gimbal, Qualität', 'settings-models': 'Einstellungen: Erkennungsmodell und Richtung', 'settings-gestures': 'Einstellungen: Gesten, Aufnahme und Dual Capture', 'settings-monitoring': 'Einstellungen: Aufnahme, Dual Capture und Monitoring', 'tracking-help': 'Leiste Tracking mit Motiv, Geschwindigkeit und Fernsteuerung, hier mit Hilfemodus', 'tracking': 'Leiste Tracking: Erkennung, Motiv, Tempo und Fernsteuerung', 'manual': 'Bereich Manuell mit Joystick', 'flight-demo': 'Beispiel der Einblendung (Illustration). Mit lokalem Empfänger wird der Flugzeugtyp nicht angezeigt.', 'hero': 'Eine junge Frau filmt sich und ihre Freunde bei Sonnenuntergang mit einem Handy auf einem Gimbal', 'story-family': 'Eine Familie auf einer Picknickdecke am See, gefilmt von einem Handy auf einem kleinen Gimbal', 'story-sport': 'Eine Frau filmt einen vorbeifahrenden Velofahrer mit einem Handy auf einem Gimbal', 'story-pets': 'Ein Mann filmt einen rennenden Hund und ein Kind mit einem Handy auf einem Gimbal', 'story-birds': 'Ein Fotograf folgt einem Greifvogel im Flug mit einer Kamera auf einem Gimbal', 'story-pro': 'Eine Frau mit einer Kamera auf einem Gimbal und einem Handy in der Hand, während ein Flugzeug vorbeifliegt', 'story-aviation': 'Plane Spotter am Flughafenzaun filmen ein Linienflugzeug mit einem Handy auf einem Gimbal', 'plane-spotting': 'Plane Spotting mit einem Handy auf einem Gimbal (Illustration)'}

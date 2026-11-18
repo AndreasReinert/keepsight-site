@@ -39,6 +39,8 @@ HOME = {
         ('Virtual gimbal', 'Without any motor, Keepsight saves a second video whose frame follows the subject smoothly and zooms by itself.'),
         ('Hands-free', 'Start a video or take a photo with a hand gesture or your voice, with a countdown so everyone is ready.'),
     ],
+    "control_h": 'Full control over the camera',
+    "control_p": 'With Keepsight Pro you set exposure, ISO, shutter, white balance, tint and focus yourself, each one separately. Whatever you leave alone stays automatic.',
     "stories_h": "Made for your moments",
     "stories": [
         ("", "Creators and friends", "From your first vlog to spontaneous moments with friends, Keepsight helps keep the action in the frame. Choose what matters, film naturally and make your everyday videos more fun, without turning every shot into a technical project.", "docs/start.html", "Your first tracking"),
@@ -323,7 +325,7 @@ DOCS = [
 """),
 
 ("tracking", "Tracking subjects", "Subject types, custom target, speed and behaviour when the subject is hidden.", """
-[[shots tracking-help]]
+[[shots tracking-help tracking]]
 <h2>Choosing a subject</h2>
 <p>In the left panel you choose what Keepsight should look for.</p>
 <table>
@@ -409,7 +411,7 @@ DOCS = [
 
 <h2 id="manual">Manual controls</h2>
 <p>Manual controls: set ISO, shutter, white balance, tint and focus yourself, each one separately. Requires Keepsight Pro.</p>
-[[shots pro-wb pro-aperture]]
+[[shots pro-exposure pro-aperture]]
 <p>To open them, tap the format display at the top and switch <kbd>Controls</kbd> to <kbd>Pro</kbd>. You also find <kbd>Manual controls</kbd> in the camera panel; from there it also works while a video is recording.</p>
 <p>The window is low and does not darken the picture, so you see every change at once. A small “A” marks each value the camera still sets itself. As soon as you move a slider, that value is fixed. <kbd>Auto</kbd> hands it back to the camera, <kbd>All auto</kbd> resets everything. Your values apply to photo and video and are kept until you change them.</p>
 <div class="tip"><p>New to this? Leave everything on Auto and try Exposure first. Every setting stays automatic until you move its slider. Auto hands it back to the camera.</p></div>
@@ -561,7 +563,7 @@ DOCS = [
 """),
 
 ("photo", "Photos and triggers", "Single shot, interval series and automatic capture at the right moment.", """
-[[shots camera]]
+[[shots camera camera-zoom]]
 <p>In photo mode, the right panel under <kbd>Photo trigger</kbd> sets how Keepsight takes pictures.</p>
 <table>
 <tr><th>Type</th><th>What happens</th></tr>
@@ -797,6 +799,7 @@ DOCS = [
 
 ("settings", "Settings and help", "Language, help mode and the controls for advanced users.", """
 [[shots settings settings-models]]
+[[shots settings-gestures settings-monitoring]]
 <p>The most important switches are in the two side panels. Everything else is in the left panel under <kbd>All settings</kbd>.</p>
 <h2>Help mode</h2>
 <p>The question mark at the top of each side panel switches help mode on. Yellow hints with a short explanation then appear under the menu items, with a diagram for the important ones.</p>
@@ -952,4 +955,4 @@ IMPRINT = {
 }
 
 # Bildunterschriften der Bildschirmfotos
-SHOTS = {'pro-wb': 'Manual controls: white balance with symbols for the light, shown with help mode', 'pro-aperture': 'Manual controls: tint, focus and aperture', 'camera': 'Camera panel: format, zoom, virtual gimbal, photo trigger', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording, language', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'manual': 'Manual section with joystick', 'flight-demo': 'Example of the overlay (illustration). With a local receiver the aircraft type is not shown.', 'hero': 'A young woman films herself and her friends with a phone on a gimbal at sunset', 'story-family': 'A family on a picnic blanket by a lake, filmed by a phone on a small gimbal', 'story-sport': 'A woman films a passing cyclist with a phone on a gimbal', 'story-pets': 'A man films a running dog and a child with a phone on a gimbal', 'story-birds': 'A photographer follows a bird of prey in flight with a camera on a gimbal', 'story-pro': 'A woman with a camera on a gimbal and a phone in her hand while an aircraft passes overhead', 'story-aviation': 'Plane spotters at an airport fence film an airliner with a phone on a gimbal', 'plane-spotting': 'Plane spotting with a phone on a gimbal (illustration)'}
+SHOTS = {'pro-exposure': 'Manual controls: exposure, ISO and shutter, shown with help mode', 'pro-aperture': 'Manual controls: white balance, tint, focus and aperture', 'camera': 'Camera panel: format, manual controls and monitoring', 'camera-zoom': 'Camera panel: monitoring, auto zoom and virtual gimbal', 'format-video': 'Format in video mode', 'format-photo': 'Format in photo mode', 'settings': 'Settings: speed, gimbal, quality', 'settings-models': 'Settings: detection model and direction', 'settings-gestures': 'Settings: gestures, recording and dual capture', 'settings-monitoring': 'Settings: recording, dual capture and monitoring', 'tracking-help': 'Tracking panel with subject, speed and remote control, shown with help mode', 'tracking': 'Tracking panel: detection, subject, speed and remote control', 'manual': 'Manual section with joystick', 'flight-demo': 'Example of the overlay (illustration). With a local receiver the aircraft type is not shown.', 'hero': 'A young woman films herself and her friends with a phone on a gimbal at sunset', 'story-family': 'A family on a picnic blanket by a lake, filmed by a phone on a small gimbal', 'story-sport': 'A woman films a passing cyclist with a phone on a gimbal', 'story-pets': 'A man films a running dog and a child with a phone on a gimbal', 'story-birds': 'A photographer follows a bird of prey in flight with a camera on a gimbal', 'story-pro': 'A woman with a camera on a gimbal and a phone in her hand while an aircraft passes overhead', 'story-aviation': 'Plane spotters at an airport fence film an airliner with a phone on a gimbal', 'plane-spotting': 'Plane spotting with a phone on a gimbal (illustration)'}
