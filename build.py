@@ -171,6 +171,8 @@ def home(lang):
 <div class="rows">{solo}</div></section>
 <section class="band"><h2>{c["control_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["control_p"]}</p>
 {shots(lang, ["pro-exposure", "pro-aperture"], "../")}</section>
+<section class="band"><h2>{c["sound_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["sound_p"]}</p>
+{shots(lang, ["sound"], "../")}</section>
 <section class="band"><h2>{c["stories_h"]}</h2><div class="stories">{stories}</div>
 <p class="fine">{c["stories_note"]}</p></section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>
