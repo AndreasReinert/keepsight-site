@@ -21,15 +21,15 @@ UI = {
 HOME = {
     "title": "Keepsight: Erleb den Moment, Keepsight hält ihn im Bild",
     "description": "Coole Videos und spontane Schnappschüsse mit intelligenter Motivverfolgung und einfacher Bedienung. Die Erkennung läuft auf deinem iPhone.",
-    "h1": "Erleb den Moment. Keepsight hält ihn im Bild.",
-    "lead": 'Coole Videos und spontane Schnappschüsse – mit intelligenter Motivverfolgung und einfacher Bedienung: aus der Hand, auf dem Stativ oder mit einem unterstützten Gimbal.',
+    "h1": 'Stell das iPhone hin. Keepsight filmt dich.',
+    "lead": 'Stell es auf einen Tisch, ein Stativ oder einen Gimbal und tritt ins Bild. Keepsight hält dich im Bild, während du dich bewegst.',
     "cta": "Dokumentation lesen",
     "note": "Keepsight ist zurzeit im Betatest und noch nicht im App Store erhältlich.",
     "how_h": "So funktioniert es",
     "how": [
-        ("Motiv wählen", "Wähle, wem oder was die Kamera folgt: einer Person oder einem Gesicht, mit Pro auch Tieren, Fahrzeugen oder Flugzeugen."),
-        ("Tracking starten", "Keepsight hält dein Motiv im Bild. Ein unterstützter Gimbal dreht das iPhone mit; ohne Gimbal folgt der virtuelle Gimbal innerhalb des Bilds."),
-        ("Festhalten, was zählt", "Filme oder fotografiere per Tipp, Handzeichen oder Stimme."),
+        ('Hinstellen', 'Lehn das iPhone irgendwo an, nimm ein Stativ oder setz es in einen Gimbal.'),
+        ('Ins Bild treten', 'Keepsight erkennt dich und folgt dir. Ohne Gimbal wandert der Bildausschnitt des Videos mit dir mit.'),
+        ('Aufnehmen und teilen', 'Drück auf Aufnahme und teile das fertige Video direkt aus der App.'),
     ],
     "solo_h": 'Kein Gimbal? Kein Problem.',
     "solo_p": 'Keepsight ist auch ohne Gimbal eine vollständige Kamera-App, aus der Hand oder auf einem kleinen Stativ. Gemacht für Vlogs, Selfies und Gruppenfotos.',
@@ -65,42 +65,43 @@ HOME = {
     "cam": [("4K", "Video mit 24, 25, 30 oder 60 Bildern pro Sekunde"),
             ("Bis 48 MP", "Fotos je nach iPhone und Objektiv, als HEIF oder ProRAW"),
             ("3", "Objektive: Ultraweitwinkel, Hauptkamera und Tele")],
-    "price_h": "Gratis ausprobieren, einmal kaufen",
-    "price_p": "Mit der Gratisversion testest du alles an Personen. Keepsight Pro schaltest du mit einem einmaligen Kauf frei, ohne Abo. Der App Store zeigt den Preis in deiner Währung.",
+    "price_h": 'Menschen filmen ist gratis',
+    "price_p": 'Folge Personen und Gesichtern so lange du willst, in 1080p mit kleinem Logo. Keepsight Pro ist für alle, die mehr Qualität wollen: 4K ohne Logo, mehr Motive und die Profi-Werkzeuge. Ein Kauf, kein Abo.',
     "price_rows": [
-        ("Person und Gesicht verfolgen", True, True),
-        ("Gesten, Sprachbefehle, Countdown", True, True),
-        ("Auto-Zoom und virtueller Gimbal", True, True),
-        ("Gimbal-Steuerung mit Apple DockKit", True, True),
-        ("4K-Video und Fotos bis 48 MP", True, True),
-        ("Automatisches Auslösen: Lächeln, Blick, Motiv", False, True),
-        ("Flugzeug, Vogel, Tier, Fahrzeug, Zug, Boot", False, True),
-        ("Rahmen um ein beliebiges Objekt ziehen", False, True),
-        ("Video bis 60 Sekunden, mit Logo", True, True),
-        ("Pro-Tracking zum Testen: 3 × 60 Sekunden", True, True),
-        ("Unbegrenzte Aufnahme ohne Logo", False, True),
-        ("Zweites Video mit Rahmen und Daten", False, True),
-        ("Fotos in ProRAW", False, True),
-        ("Manuelle Kamera-Einstellungen für Foto und Video", False, True),
-        ("Video in ProRes 422 HQ", False, True),
-        ("Fokus folgt dem Motiv, Zebra, Peaking, Histogramm, Tonpegel, Formatrahmen", False, True),
-        ("Dual Capture: Video mit Selfie-Bild", False, True),
-        ("Hitze-Sparmodus beim Filmen, AF-Taste", True, True),
-        ("Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme", False, True),
-        ("Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung", False, True),
-        ("Apple Watch: Auslöser, Modus, Tracking, Status", True, True),
-        ("Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights", False, True),
+        ('Person und Gesicht verfolgen', True, True),
+        ('Unbegrenzt aufnehmen in 1080p, mit kleinem Logo', True, True),
+        ('Auto-Zoom und virtueller Gimbal', True, True),
+        ('Gimbal-Steuerung mit Apple DockKit', True, True),
+        ('Gesten, Sprachbefehle, Countdown', True, True),
+        ('Pro-Test: 3 Durchgänge zu je 3 Minuten', True, True),
+        ('4K-Video ohne Logo', False, True),
+        ('Flugzeug, Vogel, Tier, Fahrzeug, Zug, Boot', False, True),
+        ('Rahmen um ein beliebiges Objekt ziehen', False, True),
+        ('FeiyuTech AK4500 und manuelle Gimbal-Steuerung', False, True),
+        ('Automatisches Auslösen: Lächeln, Blick, Motiv', False, True),
+        ('Manuelle Kamera-Einstellungen für Foto und Video', False, True),
+        ('Fokus folgt dem Motiv, Zebra, Peaking, Histogramm, Tonpegel, Formatrahmen', False, True),
+        ('Ton-Menü: Mikrofon, AirPods, räumlicher Ton', False, True),
+        ('Dual Capture: Video mit Selfie-Bild', False, True),
+        ('Zweites Video mit Rahmen und Daten', False, True),
+        ('Fotos in ProRAW', False, True),
+        ('Video in ProRes 422 HQ', False, True),
+        ('Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme', False, True),
+        ('Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung', False, True),
+        ('Hitze-Sparmodus beim Filmen, AF-Taste', True, True),
+        ('Apple Watch: Auslöser, Modus, Tracking, Status', True, True),
+        ('Apple Watch: Warnungen, Steuerung, Live-Bild, Highlights', False, True),
     ],
     "price_cols": ("Funktion", "Gratis", "Pro"),
-    "price_note": "In der Gratisversion sind Videos auf 60 Sekunden begrenzt und tragen das Keepsight-Logo.",
-    "free_line": "Bis zu 60 Sekunden gratis filmen.",
+    "price_note": 'Die Gratisversion filmt Personen in 1080p mit einem kleinen Keepsight-Logo, ohne Zeitlimit.',
+    "free_line": 'Menschen filmen ist gratis und unbegrenzt.',
     "try_h": "Keepsight gratis ausprobieren",
     "try": [
-        "Videos bis 60 Sekunden mit Keepsight-Logo, so oft du willst.",
-        "Pro-Tracking zum Testen: 3 Durchgänge à 60 Sekunden mit einem Pro-Motiv deiner Wahl.",
+        'Die Gratisversion filmt Personen in 1080p mit einem kleinen Keepsight-Logo, ohne Zeitlimit.',
+        'Pro-Test: 3 Durchgänge zu je 3 Minuten. Die Zeit läuft nur, während Keepsight ein Motiv verfolgt.',
         "Teste dein Motiv und deinen Gimbal vor dem Kauf.",
     ],
-    "pro_card": "Einmal kaufen. Dauerhaft freischalten. Keine laufenden Abo-Kosten.",
+    "pro_card": 'Für mehr Qualität: 4K ohne Logo, Tiere, Fahrzeuge und Flugzeuge sowie alle Profi-Werkzeuge. Einmal kaufen, kein Abo.',
     "campaign": {
         "prelaunch": "Geplant zum Start im Schweizer App Store: CHF 15.00 als Einmalkauf.",
         # Nicht mehr verwendet (Stufenpreis verworfen), bleibt für die Nummerierung der Übersetzungen
@@ -114,7 +115,7 @@ HOME = {
     "faq": [
         ('Brauche ich einen Gimbal?', 'Nein. Kamera, Auto-Capture, Dual Capture, Gesten, Sprachbefehle und der virtuelle Gimbal funktionieren aus der Hand oder auf dem Stativ. Ein Gimbal bringt echte Kamerabewegung dazu.'),
         ("Zahle ich einmal oder laufend?", "Einmal. Keepsight Pro ist ein Einmalkauf, ohne Abo und ohne laufende Kosten."),
-        ("Was kann ich gratis tun?", "Personen und Gesichter verfolgen, Gesten, Sprachbefehle, Auto-Zoom und den virtuellen Gimbal nutzen und Videos bis 60 Sekunden mit Keepsight-Logo filmen. Dazu kannst du das Pro-Tracking dreimal 60 Sekunden lang testen."),
+        ("Was kann ich gratis tun?", 'Personen und Gesichtern ohne Zeitlimit folgen, mit Gesten, Sprachbefehlen, dem virtuellen Gimbal und jedem DockKit-Gimbal. Videos werden in 1080p mit kleinem Logo gespeichert. Pro kannst du zudem dreimal für 3 Minuten testen.'),
         ("Wie stelle ich meinen Kauf wieder her?", "Öffne in der App die Pro-Seite und wähle das Wiederherstellen des Kaufs. Du musst mit dem Apple Account angemeldet sein, mit dem du gekauft hast."),
         ("Warum ist der Preis in meinem Land anders?", "Apple legt den Preis je Land und Währung fest, inklusive Steuern. Es gilt der Preis, den dein App Store anzeigt."),
         ("Funktioniert Keepsight ohne Internet?", "Ja. Erkennung und Tracking laufen auf dem iPhone. Internet braucht es nur für den Kauf."),
@@ -157,6 +158,7 @@ DOCS = [
 <div class="tip"><p>Der Gimbal muss sich frei drehen können. Halte Finger, Kabel und Gegenstände aus seinem Schwenkbereich.</p></div>
 
 <h2>Das erste Tracking</h2>
+<p>Im einfachen Modus gibt es nichts einzurichten: Tritt vor die Kamera und drück auf Aufnahme. Die folgenden Schritte gelten für die volle Ansicht.</p>
 <ol>
 <li>Öffne die linke Leiste und wähle das Motiv <kbd>Person</kbd>.</li>
 <li>Stell dich vor die Kamera. Um dich erscheint ein Rahmen, oben links steht „Ziel erfasst“.</li>
@@ -673,7 +675,7 @@ DOCS = [
 <li>Highlights: Ein Tipp während der Aufnahme markiert den Moment. In der Galerie erscheinen die Marken als Sterne unter dem Video; ein Tipp springt dorthin.</li>
 <li>Live-Bild: ein kleines Bild mit den Erkennungsrahmen, etwa 5 bis 8 Bilder pro Sekunde. Tippe auf eine Person, um das Ziel zu wählen. Es dient zum Kontrollieren, nicht zum Filmen, und schaltet sich bei warmem iPhone ab.</li>
 </ul>
-<p>Ein Kauf für alles: Keepsight Pro auf dem iPhone schaltet auch die Uhr frei. Die Pro-Vorschau schaltet die Uhr für ihre Dauer ebenfalls frei. In der Gratisversion gibt es nur eine Warnung: wenn eine Aufnahme am Limit von 60 Sekunden endet.</p>
+<p>Ein Kauf für alles: Keepsight Pro auf dem iPhone schaltet auch die Uhr frei. Die Pro-Vorschau schaltet die Uhr für ihre Dauer ebenfalls frei.</p>
 <h2>Voraussetzungen</h2>
 <p>Apple Watch mit watchOS 10 oder neuer, gekoppelt mit einem iPhone mit iOS 26 oder neuer. Keepsight kommt zusammen mit der iPhone-App auf die Uhr.</p>
 <div class="tip"><p><strong>Noch nicht auf einer Uhr getestet:</strong> Die Uhr-App folgt Apples Dokumentation. Doppeltippen, Action-Taste und Live-Bild müssen noch auf echten Uhren ausprobiert werden.</p></div>
@@ -681,7 +683,7 @@ DOCS = [
 
 ("recording", "Aufnahme und Galerie", "Welche Videos entstehen, wo sie liegen und wie du sie ansiehst.", """
 <h2>Video aufnehmen</h2>
-<p>Im Video-Modus startet und stoppt der rote Auslöser die Aufnahme. Oben in der Mitte läuft die Zeit in einem roten Feld mit, an der Stelle des Formats. In der Gratisversion kommt in den letzten 10 Sekunden die Restzeit dazu. Die Videos haben Ton und liegen danach in der Fotos-App.</p>
+<p>Im Video-Modus startet und stoppt der rote Auslöser die Aufnahme. Oben in der Mitte läuft die Zeit in einem roten Feld mit, an der Stelle des Formats. Die Videos haben Ton und liegen danach in der Fotos-App.</p>
 
 <h2>Welche Videos entstehen</h2>
 <table>
@@ -769,7 +771,9 @@ DOCS = [
 """),
 
 ("pro", "Gratis und Pro", "Was die Gratisversion kann, was Pro freischaltet, Kauf und Wiederherstellen.", """
-<p>Die Gratisversion ist zum Ausprobieren gedacht: Du testest das Nachführen, die Gesten und die Kamera an Personen, bevor du etwas bezahlst.</p>
+<p>Die Gratisversion filmt Personen in 1080p mit einem kleinen Keepsight-Logo, ohne Zeitlimit.</p>
+<h2 id="simple">Einfacher Modus</h2>
+<p>Neue Installationen starten im einfachen Modus: Auslöser, Kamera wechseln, Foto und Video, sonst nichts. <kbd>Pro</kbd> oben rechts öffnet die volle Ansicht mit beiden Seitenleisten. Zurück gelangst du über <kbd>All settings</kbd> und den Schalter <kbd>Simple mode</kbd>.</p>
 <table>
 <tr><th>Funktion</th><th>Gratis</th><th>Pro</th></tr>
 <tr><td>Person und Gesicht verfolgen</td><td class="y">Ja</td><td class="y">Ja</td></tr>
@@ -779,9 +783,11 @@ DOCS = [
 <tr><td>Automatisches Auslösen: Lächeln, Blick, Motiv</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Alle weiteren Motive</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Rahmen um ein beliebiges Objekt ziehen</td><td>Nein</td><td class="y">Ja</td></tr>
-<tr><td>Videolänge</td><td>60 Sekunden</td><td class="y">Unbegrenzt</td></tr>
-<tr><td>Pro-Tracking zum Testen</td><td>3 × 60 Sekunden</td><td class="y">Unbegrenzt</td></tr>
+<tr><td>Video-Auflösung</td><td>1080p</td><td class="y">4K</td></tr>
+<tr><td>Pro-Tracking zum Testen</td><td>3 × 3 Minuten</td><td class="y">Unbegrenzt</td></tr>
 <tr><td>Keepsight-Logo in Fotos und Videos</td><td>Ja</td><td class="y">Nein</td></tr>
+<tr><td>FeiyuTech AK4500 und manuelle Gimbal-Steuerung</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Ton-Menü: Mikrofon, AirPods, räumlicher Ton</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Overlay-Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Fotos in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
@@ -796,8 +802,7 @@ DOCS = [
 </table>
 
 <h2>Pro-Tracking testen</h2>
-<p>Tippe in der Tracking-Leiste auf ein gesperrtes Motiv und wähle <kbd>Start preview</kbd>. 60 Sekunden lang verfolgt Keepsight dieses Motiv genau wie die Pro-Version. Du hast drei solche Durchgänge; einer, der in den ersten Sekunden scheitert, zählt nicht.</p>
-<p>In der Gratisversion endet ein Video nach 60 Sekunden von selbst. 10 Sekunden vor Schluss erscheint ein Hinweis.</p>
+<p>Tippe in der Tracking-Leiste auf ein gesperrtes Motiv und wähle <kbd>Start preview</kbd>. 3 Minuten lang folgt Keepsight diesem Motiv genau wie die Pro-Version. Die Zeit läuft nur, solange ein Motiv verfolgt wird; Warten kostet also nichts. Du hast drei solche Durchgänge; einer, der in den ersten Sekunden scheitert, zählt nicht. Um den FeiyuTech AK4500 zu testen, tippe auf <kbd>Connect</kbd> und starte dort einen Test.</p>
 <p>Ist der Speicher des iPhones fast voll, startet Keepsight keine Aufnahme und stoppt und speichert eine laufende Aufnahme rechtzeitig.</p>
 
 <h2>Pro kaufen</h2>
