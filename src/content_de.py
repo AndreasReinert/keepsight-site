@@ -451,9 +451,17 @@ DOCS = [
 <tr><td><kbd>Zebra</kbd></td><td>Weisse schräge Streifen auf Stellen, die zu hell sind und Zeichnung verlieren. Die Schwelle stellst du mit <kbd>Zebra-Schwelle</kbd> ein, von 75 bis 100 %. Siehst du Streifen im Gesicht oder am Himmel, belichte knapper.</td></tr>
 <tr><td><kbd>Focus Peaking</kbd></td><td>Färbt die Kanten, die scharf sind. Praktisch beim Scharfstellen von Hand: Dreh die Schärfe, bis dein Motiv aufleuchtet. Wähle die Farbe, die am besten auffällt: Grün, Rot, Blau oder Gelb.</td></tr>
 <tr><td><kbd>Histogramm</kbd></td><td>Wie sich die Helligkeit verteilt, links dunkel, rechts hell. Ein Berg, der am rechten Rand klebt, heisst überbelichtet, am linken Rand unterbelichtet.</td></tr>
-<tr><td><kbd>Tonpegel</kbd></td><td>Die Lautstärke je Mikrofonkanal von −45 bis +3 dB, grün, ab −12 dB gelb, ab −3 dB rot. Sichtbar, solange das Mikrofon läuft, also bei der Aufnahme oder mit Sprachsteuerung.</td></tr>
+<tr><td><kbd>Tonpegel</kbd></td><td>Kachel Audio: zeigt den Tonpegel beim Sprechen, schon vor der Aufnahme. Grün ist gut, Gelb ist kräftig, Rot ist zu laut. Eine Warnung erscheint, wenn der Ton zu leise, zu laut oder verzerrt ist. Die Anzeige erscheint nie im Video.</td></tr>
 <tr><td><kbd>Formatrahmen</kbd></td><td>Dunkelt alles ausserhalb des gewählten Formats ab: 9:16 für Reels und Shorts, 4:5 und 1:1 für Beiträge, 4:3, 16:9 und die Kinoformate 1,85:1 und 2,39:1. Das Video selbst behält sein volles Format, du kannst es später zuschneiden.</td></tr>
 </table>
+<h2 id="sound">Ton</h2>
+<p>Guter Ton ist so wichtig wie ein gutes Bild, besonders wenn du in die Kamera sprichst. Du findest diese Einstellungen im Kamera-Menü unter <kbd>Ton</kbd>, im Video-Modus. Benötigt Keepsight Pro.</p>
+<table>
+<tr><th>Einstellung</th><th>Bedeutung</th></tr>
+<tr><td><kbd>AirPods als Mikrofon</kbd></td><td>Nimmt deine Stimme über die AirPods statt über das iPhone-Mikrofon auf, in hoher Qualität. Gut, wenn du weit vom iPhone entfernt stehst.</td></tr>
+<tr><td><kbd>Räumlicher Ton</kbd></td><td>Nimmt den Ton räumlich auf. Danach kannst du in Fotos mit dem Audio-Mix Stimme und Umgebung trennen. Braucht ein iPhone 16 oder neuer und die eingebauten Mikrofone.</td></tr>
+</table>
+<p>AirPods als Mikrofon braucht iOS 26 und AirPods mit H2-Chip, zum Beispiel AirPods Pro 2 oder AirPods 4. Räumlicher Ton und AirPods als Mikrofon lassen sich nicht zusammen nutzen. Das Overlay-Video und das Video des virtuellen Gimbals behalten normalen Stereo-Ton.</p>
 <h2 id="dual">Dual Capture: Video mit Selfie-Bild</h2>
 <p>Dual Capture: Die Rückkamera filmt und verfolgt dein Motiv, die Frontkamera filmt gleichzeitig dich. Dein Selfie erscheint als kleines Bild unten rechts im Video.</p>
 <p>Einschalten im Video-Modus mit der Kachel <kbd>Dual</kbd> in der Kamera-Leiste. Mit <kbd>Selfie-Video zusätzlich speichern</kbd> in den Einstellungen wird dein Selfie auch als eigenes Video gespeichert, damit du es später selbst schneiden kannst. Solange Dual Capture an ist, zeigt der Sucher dein Selfie oben rechts, im Querformat unten links.</p>
