@@ -153,6 +153,7 @@ def home(lang):
     tries = "".join(f"<li>{t}</li>" for t in c["try"])
     faq = "".join(f'<div class="row"><h3>{q}</h3><p>{a}</p></div>' for q, a in c["faq"])
     how = "".join(f"<li><h3>{t}</h3><p>{p}</p></li>" for t, p in c["how"])
+    solo = "".join(f'<div class="row"><h3>{t}</h3><p>{p}</p></div>' for t, p in c["solo"])
     stories = ""
     for image, title, text, href, label in c["stories"]:
         figure = (f'<figure>{picture(lang, image, "../", "(max-width: 860px) 100vw, 560px")}</figure>'
@@ -166,6 +167,8 @@ def home(lang):
 <figure class="heroimg">{picture(lang, "hero", "../", "(max-width: 860px) 100vw, 640px", eager=True)}</figure>
 </section>
 <section class="band"><h2>{c["how_h"]}</h2><ol class="steps">{how}</ol></section>
+<section class="band"><h2>{c["solo_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["solo_p"]}</p>
+<div class="rows">{solo}</div></section>
 <section class="band"><h2>{c["stories_h"]}</h2><div class="stories">{stories}</div>
 <p class="fine">{c["stories_note"]}</p></section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>

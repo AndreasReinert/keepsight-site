@@ -22,7 +22,7 @@ HOME = {
     "title": "Keepsight: stay in the moment, keep the shot",
     "description": "Make cool videos and memorable snapshots with smart subject tracking and easy controls. Detection runs on your iPhone.",
     "h1": "Stay in the moment. Keep the shot.",
-    "lead": "Make cool videos and memorable snapshots with smart subject tracking, easy controls and supported gimbals.",
+    "lead": 'Make cool videos and memorable snapshots with smart subject tracking and easy controls – handheld, on a tripod or with a supported gimbal.',
     "cta": "Read the documentation",
     "note": "Keepsight is currently in beta testing and not yet available on the App Store.",
     "how_h": "How it works",
@@ -30,6 +30,14 @@ HOME = {
         ("Pick a subject", "Choose who or what to follow: a person or a face, and with Pro also animals, vehicles or aircraft."),
         ("Start tracking", "Keepsight keeps your subject in the frame. A supported gimbal turns the iPhone along; without one, the virtual gimbal follows inside the picture."),
         ("Capture what matters", "Film or take photos with a tap, a hand gesture or your voice."),
+    ],
+    "solo_h": 'No gimbal? No problem.',
+    "solo_p": 'Keepsight is a complete camera app even without a gimbal, handheld or on a small tripod. Made for vlogs, selfies and group photos.',
+    "solo": [
+        ('Auto capture', 'Put the iPhone down and step into the picture. With Keepsight Pro the app takes the photo by itself when everyone smiles or looks at the camera.'),
+        ('Dual capture', 'Film what happens in front of you and your own reaction at the same time. With Keepsight Pro your selfie appears as a small picture in the video.'),
+        ('Virtual gimbal', 'Without any motor, Keepsight saves a second video whose frame follows the subject smoothly and zooms by itself.'),
+        ('Hands-free', 'Start a video or take a photo with a hand gesture or your voice, with a countdown so everyone is ready.'),
     ],
     "stories_h": "Made for your moments",
     "stories": [
@@ -100,6 +108,7 @@ HOME = {
     },
     "faq_h": "Questions and answers",
     "faq": [
+        ('Do I need a gimbal?', 'No. Camera, auto capture, dual capture, gestures, voice commands and the virtual gimbal work handheld or on a tripod. A gimbal adds real camera movement.'),
         ("Do I pay once or regularly?", "Once. Keepsight Pro is a one-time purchase, with no subscription and no recurring costs."),
         ("What can I do for free?", "Follow people and faces, use gestures, voice commands, auto zoom and the virtual gimbal, and film videos of up to 60 seconds with the Keepsight logo. You can also try Pro tracking three times for 60 seconds."),
         ("How do I restore my purchase?", "In the app, open the Pro screen and choose to restore the purchase. You must be signed in with the Apple Account you bought with."),
@@ -112,7 +121,7 @@ HOME = {
     ],
     "need_h": "What you need",
     "need": [
-        ("iPhone", "An iPhone with iOS 26 or later. Keepsight is developed and tested on the iPhone 15 Pro Max with three cameras."),
+        ("iPhone", "An iPhone with iOS 26 or later. Keepsight is developed and tested on the iPhone 15 Pro Max and iPhone 17 Pro Max with three cameras."),
         ("Gimbal", "For following, a gimbal or stand with Apple DockKit, such as the Insta360 Flow 2 Pro, DJI Osmo Mobile 8 or Belkin Auto-Tracking Stand Pro. The FeiyuTech AK4500 for mirrorless cameras is supported as well. Camera, photo triggers, gestures, voice and the virtual gimbal also work without a gimbal."),
         ("Languages", "The app speaks 21 languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Swedish, Polish, Russian, Ukrainian, Turkish, Arabic, Hindi, Indonesian, Vietnamese, Thai, Japanese, Korean and Chinese (Simplified and Traditional)."),
     ],
@@ -310,7 +319,7 @@ DOCS = [
 <li><strong>Tap</strong> a white frame to make that subject the target.</li>
 <li><strong>Drag a frame</strong> with your finger to follow any object, even one Keepsight does not know. This requires Keepsight Pro.</li>
 </ul>
-<p>Keepsight rotates its interface when you turn the iPhone to landscape. During a video recording the image format stays fixed.</p>
+<p>Keepsight rotates its interface when you turn the iPhone to landscape, even when the orientation lock is on, like Apple’s Camera app. During a video recording the image format stays fixed.</p>
 """),
 
 ("tracking", "Tracking subjects", "Subject types, custom target, speed and behaviour when the subject is hidden.", """
@@ -444,11 +453,11 @@ DOCS = [
 </table>
 <h2 id="dual">Dual capture: video with selfie picture</h2>
 <p>Dual capture: the rear camera films and tracks your subject, the front camera films you at the same time. Your selfie appears as a small picture at the bottom right of the video.</p>
-<p>Switch it on in the settings under <kbd>Dual capture</kbd>. With <kbd>Save selfie video separately</kbd> your selfie is also saved as its own video, so you can edit it yourself later. While dual capture is on, the viewfinder shows your selfie at the top right.</p>
+<p>Switch it on in video mode with the <kbd>Dual</kbd> tile in the Camera panel. With <kbd>Save selfie video separately</kbd> in the settings your selfie is also saved as its own video, so you can edit it yourself later. While dual capture is on, the viewfinder shows your selfie at the top right, in landscape at the bottom left.</p>
 <ul>
 <li>Both cameras record at up to 1080p with 30 frames per second, without 4K or ProRes. The rear camera uses the main lens, zoom is digital.</li>
 <li>Tracking, gestures, voice commands and the gimbal keep working.</li>
-<li>Only in video mode. Switching to photo mode or to the front camera ends dual capture.</li>
+<li>Only in video mode. In photo mode dual capture pauses and comes back when you return to video mode. Switching to the front camera ends it.</li>
 <li>If the iPhone gets hot, the selfie picture switches off by itself.</li>
 <li>Requires Keepsight Pro and an iPhone that can film with both cameras at once. If yours cannot, Keepsight tells you.</li>
 </ul>
@@ -487,7 +496,7 @@ DOCS = [
 <tr><td><kbd>1×</kbd> main camera</td><td>12, 24 or 48 MP; in RAW 12 or 48 MP</td></tr>
 <tr><td>Telephoto</td><td>12 MP; up to 48 MP from iPhone 17 Pro</td></tr>
 </table>
-<p>These are Apple’s specifications for the Pro models from iPhone 15 Pro. Keepsight has only been tested on the iPhone 15 Pro Max so far. Other models deliver fewer megapixels with some lenses. The format panel only ever shows what the current lens of your iPhone really delivers.</p>
+<p>These are Apple’s specifications for the Pro models from iPhone 15 Pro. Keepsight has only been tested on the iPhone 15 Pro Max and iPhone 17 Pro Max so far. Other models deliver fewer megapixels with some lenses. The format panel only ever shows what the current lens of your iPhone really delivers.</p>
 <div class="tip"><p>Triggered by voice, Keepsight switches to photo or video mode by itself; gestures work in the mode that is set. Only a photo taken while a video is recording stays at about 10 MP.</p></div>
 """),
 
@@ -773,6 +782,7 @@ DOCS = [
 <h2>Trying Pro tracking</h2>
 <p>Tap a locked subject in the tracking panel and choose <kbd>Start preview</kbd>. For 60 seconds Keepsight follows this subject exactly as the Pro version does. You have three such sessions; one that fails within the first seconds does not count.</p>
 <p>In the free version a video ends by itself after 60 seconds. A note appears 10 seconds before the end.</p>
+<p>If the iPhone’s storage is almost full, Keepsight does not start a recording, and it stops and saves a running recording in time.</p>
 
 <h2>Buying Pro</h2>
 <p>Tap <kbd>PRO</kbd> at the top right and then <kbd>Unlock</kbd>. Pro is a one-time purchase without a subscription. The App Store shows the price in your currency and Apple handles the payment.</p>
@@ -802,7 +812,6 @@ DOCS = [
 <tr><td>Prediction after loss</td><td>How long the gimbal keeps panning when the subject is hidden.</td></tr>
 <tr><td>Direction</td><td>Invert pan or tilt.</td></tr>
 <tr><td>Detection model</td><td>Which model detects a subject. RF-DETR Small and YOLOX-S are available.</td></tr>
-<tr><td>Developer info</td><td>Shows frame rate, gimbal commands and model timing in the viewfinder.</td></tr>
 <tr><td>Reset to defaults</td><td>Restores the tracking controls.</td></tr>
 </table>
 
@@ -869,6 +878,7 @@ SUPPORT = {
     "body": f"""
 <h2>Contact</h2>
 <p><a href="mailto:{MAIL}">{MAIL}</a></p>
+<p>In the app, <kbd>Send feedback</kbd> in the settings prepares this email with the technical details for you.</p>
 <p>So I can help quickly, please include:</p>
 <ul>
 <li>your iPhone model and iOS version</li>
@@ -886,7 +896,7 @@ SUPPORT = {
 
 PRIVACY = {
     "title": "Privacy Policy",
-    "lead": "Last updated: 16 November 2026. Applies to the Keepsight iOS app and this website.",
+    "lead": "Last updated: 18 November 2026. Applies to the Keepsight iOS app and this website.",
     "body": f"""
 <div class="tip"><p><strong>In short:</strong> Keepsight does not collect data about you. There is no account, no advertising, no tracking and no analytics. Camera images, detection, photos and videos stay on your iPhone.</p></div>
 <h2>1. Controller</h2>
@@ -911,6 +921,7 @@ PRIVACY = {
 <p>If you use a test version through TestFlight, Apple processes your email address for the invitation and, if you agree, crash reports and your feedback. I see feedback and crash reports in order to fix problems, and the email addresses of testers I invited myself.</p>
 <h2>5. Contact by email</h2>
 <p>If you write to me, I use your email address and the content of your message only to reply. I delete messages once the matter is resolved, after two years at the latest.</p>
+<p>The feedback function in the app only prepares an email with technical details such as app version, iPhone model, iOS version and gimbal type. You see the whole text and send it yourself.</p>
 <h2>6. This website</h2>
 <p>This website sets no cookies and uses no tracking. Fonts and scripts are served from the same site; no third-party content is loaded. Your language choice is stored only in your browser. The site is hosted on GitHub Pages (GitHub, Inc., USA). When you visit, GitHub processes technically necessary data such as your IP address in server logs. See GitHub’s privacy statement for details.</p>
 <h2>7. Your rights</h2>
