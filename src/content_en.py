@@ -90,9 +90,10 @@ HOME = {
     ],
     "pro_card": "Buy once. Unlock for good. No recurring subscription costs.",
     "campaign": {
-        "prelaunch": "Planned for the launch in the Swiss App Store: CHF 14.90 as a one-time purchase until 31 March 2027 inclusive, CHF 19.90 from 1 April 2027.",
+        "prelaunch": "Planned for the launch in the Swiss App Store: CHF 15.00 as a one-time purchase.",
+        # Nicht mehr verwendet (Stufenpreis verworfen), bleibt für die Nummerierung der Übersetzungen
         "intro": ("Launch price: CHF 14.90 – one-time, no subscription.", "Only until 31 March 2027 inclusive.", "From 1 April 2027: CHF 19.90."),
-        "regular": "Keepsight Pro – CHF 19.90 one-time. No subscription.",
+        "regular": "Keepsight Pro – CHF 15.00 one-time. No subscription.",
         "unverified": "The App Store shows the current price in your currency.",
         "swiss": "Prices in Swiss francs apply to the Swiss App Store. In other countries the App Store shows the price in your currency.",
         "store": "Download on the App Store",

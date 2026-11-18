@@ -113,11 +113,10 @@ with open(os.path.join(os.path.dirname(__file__), "campaign.json"), encoding="ut
 
 
 def campaign(c):
-    """Preisauftritt nach Zustand: PRELAUNCH, UNVERIFIED, INTRO_ACTIVE oder REGULAR.
+    """Preisauftritt nach Zustand: PRELAUNCH, UNVERIFIED oder REGULAR.
 
-    Eine Stelle (campaign.json). Der Wechsel vom Einführungs- zum Normalpreis geschieht beim Aufruf
-    der Seite nach Schweizer Datum, ohne neuen Build. Kein Countdown, kein durchgestrichener Preis,
-    keine Ersparnis in Prozent. Ohne geprüften Preis steht nur, dass der App Store den Preis zeigt.
+    Eine Stelle (campaign.json). Ein einziger Preis (CHF 15.00 im Schweizer App Store), keine Preisstufen.
+    Ohne geprüften Preis steht nur, dass der App Store den Preis zeigt.
     """
     t = c["campaign"]
     url = CAMPAIGN.get("appStoreUrl")
@@ -128,16 +127,7 @@ def campaign(c):
     button = f'<p><a class="cta" href="{html.escape(url)}">{t["store"]}</a></p>'
     if not CAMPAIGN.get("priceVerified"):
         return f'<div class="offer" data-campaign="UNVERIFIED"><p>{t["unverified"]}</p>{button}</div>'
-    intro = t["intro"]
-    return (f'<div class="offer" data-campaign="DATED" data-intro-ends="{CAMPAIGN["introEndsInclusive"]}" '
-            f'data-zone="{CAMPAIGN["timeZone"]}">'
-            f'<div data-state="none"><p>{t["unverified"]}</p></div>'
-            f'<div data-state="INTRO_ACTIVE" hidden><p><strong>{intro[0]}</strong></p><p>{intro[1]} {intro[2]}</p>{swiss}</div>'
-            f'<div data-state="REGULAR" hidden><p><strong>{t["regular"]}</strong></p>{swiss}</div>{button}</div>'
-            """<script>(function(){var e=document.querySelector('[data-campaign="DATED"]');if(!e)return;
-try{var d=new Intl.DateTimeFormat('en-CA',{timeZone:e.dataset.zone}).format(new Date());
-var s=d<=e.dataset.introEnds?'INTRO_ACTIVE':'REGULAR';
-e.querySelectorAll('[data-state]').forEach(function(n){n.hidden=n.dataset.state!==s});}catch(x){}})();</script>""")
+    return (f'<div class="offer" data-campaign="REGULAR"><p><strong>{t["regular"]}</strong></p>{swiss}{button}</div>')
 
 
 def picture(lang, name, up, sizes, eager=False):

@@ -90,9 +90,10 @@ HOME = {
     ],
     "pro_card": "Einmal kaufen. Dauerhaft freischalten. Keine laufenden Abo-Kosten.",
     "campaign": {
-        "prelaunch": "Geplant zum Start im Schweizer App Store: CHF 14.90 als Einmalkauf bis einschliesslich 31. März 2027, CHF 19.90 ab 1. April 2027.",
+        "prelaunch": "Geplant zum Start im Schweizer App Store: CHF 15.00 als Einmalkauf.",
+        # Nicht mehr verwendet (Stufenpreis verworfen), bleibt für die Nummerierung der Übersetzungen
         "intro": ("Einführungspreis: CHF 14.90 – einmalig, kein Abo.", "Nur bis einschliesslich 31. März 2027.", "Ab 1. April 2027: CHF 19.90."),
-        "regular": "Keepsight Pro – CHF 19.90 einmalig. Kein Abo.",
+        "regular": "Keepsight Pro – CHF 15.00 einmalig. Kein Abo.",
         "unverified": "Der App Store zeigt den aktuellen Preis in deiner Währung.",
         "swiss": "Preise in Schweizer Franken gelten für den Schweizer App Store. In anderen Ländern zeigt der App Store den Preis in deiner Währung.",
         "store": "Im App Store laden",
