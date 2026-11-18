@@ -138,545 +138,551 @@
 185|Scegli un soggetto e tocca <kbd>Track</kbd>.
 186|Durante il tracking, Keepsight dice a DockKit dove si trova il soggetto e DockKit muove i motori, come consiglia Apple. Per Persona e Volto puoi anche lasciare che subentri il tracking di Apple. Se disconnetti nell’area <kbd>Manual</kbd>, riprende il controllo il sistema.
 187|DockKit richiede iOS 26 o successivo. Keepsight non può controllare dispositivi senza DockKit, come i modelli precedenti degli stessi produttori.
-188|Accendi il gimbal. Chiudi l’app Feiyu, perché il gimbal accetta una sola connessione.
-189|Tocca <kbd>Connect</kbd> in basso a destra in Keepsight.
-190|La prima volta consenti l’accesso al Bluetooth.
-191|L’AK4500 reagisce solo oltre una certa intensità di comando. Keepsight lo compensa con l’impostazione <kbd>Velocità minima</kbd>, vedi il capitolo Impostazioni.
-192|Tasti del gimbal
-193|I tasti di un gimbal DockKit funzionano in Keepsight come nell’app Fotocamera di Apple: il pulsante di scatto scatta una foto o avvia e ferma un video, il tasto di cambio passa tra fotocamera posteriore e anteriore e la rotella dello zoom zooma a piccoli passi. Lo zoom automatico si spegne quando zoomi a mano.
-194|Impostazioni del gimbal nel pannello Tracking
-195|Le trovi sotto <kbd>Gimbal</kbd> nel pannello Tracking. <kbd>Framing</kbd> e <kbd>Search when lost</kbd> funzionano con ogni gimbal. Le altre impostazioni compaiono appena un dispositivo DockKit è collegato, insieme al livello della sua batteria.
-210|Prima della panoramica il gimbal si porta al punto di partenza; la registrazione inizia solo quando è lì. L’area di rotazione vale anche per il programma.
-211|<kbd>Framing</kbd>, <kbd>Follow the speaker</kbd> e il programma di panoramica fanno parte di Keepsight Pro.
-212|<strong>Non ancora provato:</strong> queste funzioni DockKit seguono la documentazione di Apple, ma non sono ancora state provate con un gimbal DockKit. Se qualcosa si comporta diversamente, manda un messaggio con il modello esatto.
-213|Muovere a mano
-214|L’area <kbd>Manual</kbd> in basso nell’app serve a verificare il collegamento.
-215|<strong>Joystick:</strong> muove il gimbal a sinistra, a destra, in alto e in basso.
-216|<strong>Velocità:</strong> imposta quanto velocemente ruota.
-217|<strong>Collega e scollega</strong>, oltre allo stato attuale del collegamento.
-218|Se qui il gimbal si muove nel verso sbagliato, inverti l’asse in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
-219|Senza gimbal
-220|Fotocamera, foto, scatto automatico, gesti, comandi vocali e gimbal virtuale funzionano anche senza gimbal, a mano libera o su treppiede.
-221|Riprendere con la fotocamera grande
-222|La configurazione per cui Keepsight è pensato: la fotocamera registra, l’iPhone insegue.
-223|Un gimbal robusto porta la tua mirrorless. L’iPhone sta sopra, guarda nella stessa direzione e fa da occhio: riconosce il soggetto e comanda i motori. La fotocamera sotto realizza la ripresa, con il suo sensore, i suoi obiettivi e la sua risoluzione, per esempio in 8K con una Lumix S1RII.
-224|Parte
-225|Compito
-226|Registra il video o le foto che userai in seguito.
-227|iPhone con Keepsight
-228|Riconosce il soggetto, lo tiene al centro e guida il gimbal.
-229|Porta entrambi e segue.
-230|<strong>Un gimbal per fotocamere che Keepsight controlla.</strong> Al momento è il FeiyuTech AK4500. Secondo il produttore porta fino a 4,6&nbsp;kg. I gimbal con Apple DockKit sono fatti per il solo iPhone e non reggono una fotocamera.
-231|<strong>Un supporto per telefono</strong> per la slitta della fotocamera o per una filettatura del gimbal. Deve potersi inclinare e bloccare saldamente.
-232|<strong>Fotocamera e obiettivo</strong> che, insieme a iPhone e supporto, restino sotto il carico massimo.
-233|Montare e allineare
-234|Monta la fotocamera con l’obiettivo che intendi usare e inserisci l’iPhone nel supporto, con le fotocamere posteriori rivolte in avanti.
-235|Bilancia il gimbal con tutto ciò che porta, iPhone compreso. Accendilo solo dopo.
-236|Punta la fotocamera su un punto lontano e ben riconoscibile, come la punta di un campanile, in modo che stia al centro dell’immagine della fotocamera.
-237|Apri Keepsight e regola il supporto finché lo stesso punto si trova sulla croce al centro del mirino. Blocca il supporto.
-238|Collega il gimbal, vedi il capitolo Gimbal supportati.
-239|L’iPhone sta qualche centimetro sopra l’obiettivo. Per soggetti lontani come gli aerei non ha importanza. Per soggetti a pochi metri, il soggetto appare leggermente più in alto nella fotocamera che nell’iPhone. In quel caso allinea su un punto alla tua distanza di lavoro abituale.
-240|Scegliere l’obiettivo dell’iPhone
-241|Keepsight tiene il soggetto al centro dell’immagine dell’iPhone. Più stretto è l’angolo di campo dell’iPhone, più preciso è il centro, e più difficile è per l’app trovare un soggetto che non è ancora nell’immagine.
-242|Lunghezza focale sulla fotocamera (pieno formato)
-243|Obiettivo sull’iPhone
-244|Fino a circa 35 mm
-246|Da circa 35 a 100 mm
-247|1× o il teleobiettivo
-248|Oltre 100 mm
-249|Teleobiettivo (5× su iPhone 15 Pro Max, 120 mm)
-250|In questa configurazione lascia disattivato lo zoom automatico. Modifica solo l’immagine dell’iPhone, non quella della fotocamera.
-252|Scegli il soggetto in Keepsight e tocca <kbd>Track</kbd>.
-253|Avvia la registrazione sulla fotocamera stessa. Keepsight non fa scattare la fotocamera.
-254|Imposta fuoco ed esposizione sulla fotocamera, meglio se con il suo autofocus a riconoscimento del soggetto.
-255|Per riprendere anche con l’iPhone, premi anche il suo pulsante di scatto. Il video con sovrimpressione, con riquadri e dati del gimbal, è utile per verificare dopo quanto è stato preciso l’inseguimento.
-256|Velocità con un carico pesante
-257|Inizia con <kbd>Smooth</kbd> o <kbd>Standard</kbd>. Una fotocamera pesante oscilla più a lungo dopo comandi bruschi.
-258|Per soggetti veloci come aerei a bassa quota scegli <kbd>Sport</kbd> e verifica che il gimbal resti stabile.
-259|Se il gimbal oscilla attorno al soggetto, riduci il guadagno in <kbd>Custom</kbd> o allarga la zona di quiete.
-260|Più lunga è la focale della fotocamera, più ogni correzione si nota nell’immagine. Le focali lunghe richiedono un’impostazione più morbida.
-261|Il mirino
-262|I comandi nell’immagine e i tre pannelli.
-263|Il mirino mostra l’immagine della fotocamera quasi senza comandi. Tutto il resto sta in tre pannelli che fai comparire quando servono.
-264|Nel mirino
-265|Elemento
-266|Significato
-267|Stato, in alto a sinistra
-268|Ricerca, Obiettivo agganciato, Previsione o Obiettivo perso. «Riconoscimento disattivato» significa che il riconoscimento è spento. Un termometro indica che l’iPhone è caldo.
-269|Formato, in alto al centro
-270|Risoluzione e frequenza fotogrammi attuali; in modalità foto, tipo di file e megapixel. Tocca per aprire il pannello Formato.
-271|Riquadro verde
-272|L’obiettivo che Keepsight segue. I riquadri bianchi sono altri soggetti riconosciuti.
-273|Obiettivi
-274|<kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> e, in modalità video, <kbd>A</kbd> per lo zoom automatico.
-275|Pulsante di scatto
-276|Rosso in modalità video, bianco in modalità foto.
-277|Selettore a sinistra
-278|Passa da video a foto.
-280|Il pulsante rotondo accanto alla miniatura passa dalla fotocamera posteriore a quella anteriore.
-281|Miniatura
-282|L’ultima ripresa. Tocca per aprire la galleria.
-283|Pulsante a destra
-284|Collega, Segui o Stop.
-285|I tre pannelli
-286|<strong>A sinistra, Tracciamento:</strong> soggetto, velocità, gesti, controllo vocale, conto alla rovescia e collegamento del gimbal.
-287|<strong>A destra, Fotocamera:</strong> formato, zoom automatico, gimbal virtuale, scatto foto e video con sovrimpressione.
-288|<strong>In basso, Formato:</strong> risoluzione e frequenza fotogrammi per i video, tipo di file e megapixel per le foto.
-289|Apri i pannelli laterali con le strette maniglie al bordo dell’immagine, toccando o scorrendo. In orizzontale, la maniglia del pannello Fotocamera è un pulsante in cima alla colonna di destra. Tocca accanto a un pannello per chiuderlo.
-290|Scegliere l’obiettivo nell’immagine
-291|<strong>Tocca</strong> un riquadro bianco per rendere quel soggetto l’obiettivo.
-292|<strong>Traccia un riquadro</strong> con il dito per seguire qualsiasi oggetto, anche uno che Keepsight non conosce. Richiede Keepsight Pro.
-293|Keepsight ruota l’interfaccia quando giri l’iPhone in orizzontale. Durante una registrazione video il formato dell’immagine resta fisso.
-294|Tipi di soggetto, obiettivo personalizzato, velocità e comportamento quando il soggetto è coperto.
-295|Scegliere un soggetto
-296|Nel pannello di sinistra scegli cosa deve cercare Keepsight.
-298|Versione
-299|Nota
-301|Il corpo intero. Adatto a sport e movimento.
-303|Per primi piani, vlog e selfie. Keepsight punta agli occhi: al centro dell’immagine sta la linea degli occhi, non il naso.
-305|Funziona al meglio in cielo con il teleobiettivo.
-308|Cani, gatti, cavalli e altri.
-310|Auto, moto, autobus, camion.
-313|Se nell’immagine ci sono più soggetti adatti, Keepsight prende quello più vicino al centro. Tocca un altro riquadro per cambiare.
-314|Attivare e disattivare il riconoscimento
-315|Il riconoscimento richiede potenza di calcolo e scalda l’iPhone. Keepsight calcola quindi solo quanto serve:
-316|<strong>Piena frequenza:</strong> finché tracciamento, zoom automatico, gimbal virtuale, scatto automatico, gesti o un obiettivo personalizzato hanno bisogno del riconoscimento.
-317|<strong>Anteprima:</strong> altrimenti circa cinque fotogrammi al secondo, così vedi i riquadri e puoi scegliere un obiettivo.
-318|<strong>Spento:</strong> l’interruttore <kbd>Detection</kbd> in cima al pannello Tracciamento lo spegne del tutto. Si avvia da solo appena una delle funzioni citate ne ha bisogno.
-319|Il riquadro verde resta sempre dentro l’immagine visibile, anche quando il soggetto è più grande della vista.
-321|Se tracci un riquadro attorno a un oggetto, Keepsight segue proprio quell’oggetto, qualunque sia il tipo di soggetto. Il pannello di sinistra mostra allora il pulsante <kbd>Custom target</kbd>. Toccalo per annullare la selezione.
-323|Profilo
-324|Comportamento
-326|Avvio dolce, metà della velocità massima, i piccoli movimenti vengono ignorati. Per riprese tranquille.
-328|Bilanciato. Il punto di partenza giusto per la maggior parte dei soggetti.
-330|Reagisce più in fretta. Per rapidi cambi di direzione.
-332|Imposti tu tutti i valori del regolatore, vedi il capitolo Impostazioni.
-333|Quando il soggetto scompare
-334|<strong>Previsione:</strong> se il soggetto è coperto per poco, il gimbal continua a ruotare nella stessa direzione. La durata si imposta in <kbd>All settings</kbd>; il valore predefinito è 1,5 secondi.
-335|<strong>Obiettivo perso:</strong> dopo, il gimbal si ferma finché il soggetto non viene riconosciuto di nuovo.
-336|Gli animali molto veloci o imprevedibili, soprattutto gli uccelli piccoli e veloci, non sempre possono essere seguiti in modo affidabile.
-337|La riuscita del tracking dipende dalla velocità con cui il soggetto attraversa l’immagine, dalla sua distanza e dimensione, dalla luce e da quanto stabilmente l’iPhone lo riconosce. Soprattutto dipende dal tuo gimbal: dalla velocità massima di pan e tilt, dall’accelerazione e dal ritardo.
-338|La velocità <kbd>Sport</kbd> non può spingere un gimbal oltre i suoi limiti meccanici. Senza gimbal segue solo il gimbal virtuale, all’interno dell’immagine che la fotocamera vede già.
-339|Tieni più distanza o riduci lo zoom: il soggetto attraversa così l’immagine più lentamente.
-340|Scegli <kbd>Sport</kbd> per i cambi di direzione rapidi.
-341|Una buona luce e uno sfondo tranquillo aiutano il riconoscimento.
-342|Fotocamera e formato
-343|Modalità video e foto, risoluzione, frequenza fotogrammi, obiettivi.
-344|Video o foto
-345|Il selettore a sinistra del pulsante di scatto cambia modalità. La fotocamera si riconfigura, come nell’app Fotocamera di Apple.
-346|<strong>Modalità video:</strong> zoom continuo su tutti e tre gli obiettivi, e zoom automatico.
-347|<strong>Modalità foto:</strong> la piena risoluzione fotografica dell’obiettivo selezionato. L’immagine del mirino è in 4:3.
-348|Impostare il formato
-349|Tocca l’indicazione del formato in alto al centro. Durante una registrazione il pannello è bloccato.
-351|Impostazione
-352|Opzioni
-354|HD (1920 × 1080) o 4K (3840 × 2160)
-356|24, 30 o 60 fotogrammi al secondo, 25 per PAL
-358|HEVC; ProRes 422 HQ con Keepsight Pro
-365|HEIF o RAW (Apple ProRAW, con Keepsight Pro)
-366|Ciò che offre l’obiettivo, vedi sotto
-369|Per aprirli, tocca l’indicazione del formato in alto e imposta <kbd>Controls</kbd> su <kbd>Pro</kbd>. Trovi <kbd>Manual controls</kbd> anche nel pannello Fotocamera; da lì funziona anche durante la registrazione di un video.
-370|La finestra è bassa e non scurisce l’immagine, quindi vedi subito ogni cambiamento. Una piccola «A» indica ogni valore che la fotocamera imposta ancora da sola. Appena muovi un cursore, quel valore è fisso. <kbd>Auto</kbd> lo restituisce alla fotocamera, <kbd>All auto</kbd> ripristina tutto. I tuoi valori valgono per foto e video e restano finché non li cambi.
-374|Usala quando l’immagine risulta troppo scura o troppo chiara, per esempio un soggetto contro un cielo luminoso, la neve o un palco. Più schiarisce, meno scurisce, a terzi di stop da −3 a +3. Funziona anche mentre ISO o otturatore sono fissi.
-377|Scegli un ISO basso alla luce del giorno per l’immagine più pulita e alzalo in interni o al crepuscolo. Se fissi solo l’ISO, Keepsight regola da solo il tempo di posa perché la luminosità resti corretta.
-379|Usa 1/1000 o più breve per uccelli, sport e aerei, così restano nitidi. Per un video dall’aspetto naturale usa circa il doppio della frequenza dei fotogrammi, per esempio 1/60 a 30 fotogrammi al secondo. Se fissi solo l’otturatore, Keepsight regola da solo l’ISO. Nel video il tempo non può essere più lungo di un fotogramma; in modalità foto arriva a 1/4 di secondo.
-382|Fissalo quando i colori cambiano durante una ripresa, per esempio quando la fotocamera passa dal sole all’ombra, o quando la luce di una lampada sembra troppo gialla. I simboli impostano 3200 K per le lampadine, 4000 K per la luce fluorescente, 5600 K per il sole, 6500 K per il cielo nuvoloso e 7500 K per l’ombra. Il cursore va da 2500 K a 10000 K.
-385|Usala quando la pelle o le pareti bianche appaiono verdastre o rosate, cosa frequente sotto lampade LED o fluorescenti. Sposta il cursore finché il bianco torna neutro. Quando il bilanciamento del bianco è fisso e la tinta è su Auto, la tinta mantiene l’ultimo valore misurato, e viceversa.
-388|Usalo quando l’autofocus va avanti e indietro, per esempio attraverso una recinzione, una finestra o dei rami, o con un soggetto piccolo contro il cielo. Imposta la distanza una volta e resta lì. I soggetti lontani, come gli aerei, sono all’estremità destra del cursore.
-392|Attivala nel pannello del formato sotto <kbd>Grid</kbd>. È disponibile per tutti, anche senza Pro. Metti il soggetto su uno dei quattro punti di incrocio per un’immagine equilibrata e usa le linee per tenere dritti orizzonte ed edifici.
-393|Nitidezza: AF e messa a fuoco che segue
-394|AF: il tasto <kbd>AF</kbd> alla fine della barra degli obiettivi mette a fuoco una volta sul soggetto seguito, o al centro dell’immagine se non segui nulla. Gratuito per tutti.
-395|Tocca per mettere a fuoco: tocca un punto qualsiasi del mirino. Keepsight mette a fuoco ed espone lì una volta, indicato da un quadrato giallo, e seleziona il soggetto toccato. Se hai impostato a mano messa a fuoco o esposizione, quell’impostazione resta. Gratuito per tutti.
-396|La messa a fuoco segue il soggetto: finché Keepsight segue un soggetto, la nitidezza resta su di esso, anche quando va verso il bordo. Attivala nelle impostazioni in <kbd>Monitoring</kbd> → <kbd>Focus follows the subject</kbd>. Si mette in pausa appena regoli la messa a fuoco a mano. Richiede Keepsight Pro.
-397|Strumenti di controllo
-398|Gli strumenti di controllo mostrano com’è davvero l’immagine, come nelle videocamere professionali. Appaiono solo sullo schermo e non finiscono mai in foto o video. Attivali nelle impostazioni in <kbd>Monitoring</kbd>. Richiede Keepsight Pro.
-399|Interruttori rapidi: apri il menu fotocamera con il pulsante rotondo a destra. In <kbd>Monitoring</kbd> accendi e spegni ogni strumento con un tocco. Tocca di nuovo la tessera Cornice per cambiare formato.
-400|Strumento
-401|Cosa mostra
-402|<kbd>Zebra</kbd>
-403|Strisce bianche diagonali sulle zone troppo chiare che perdono dettaglio. Imposta la soglia con <kbd>Zebra level</kbd>, da 75 a 100 %. Se vedi strisce su un volto o sul cielo, riduci l’esposizione.
-404|<kbd>Focus peaking</kbd>
-405|Colora i bordi nitidi. Utile con la messa a fuoco manuale: gira la messa a fuoco finché il soggetto si illumina. Scegli il colore che risalta di più: verde, rosso, blu o giallo.
-406|<kbd>Histogram</kbd>
-407|Come si distribuisce la luminosità, dal buio a sinistra al chiaro a destra. Una montagna attaccata al bordo destro indica sovraesposizione, al bordo sinistro sottoesposizione.
-408|<kbd>Audio meters</kbd>
-409|Il livello sonoro di ogni canale del microfono da −45 a +3 dB: verde, giallo da −12 dB, rosso da −3 dB. Visibile finché il microfono è attivo, cioè durante la registrazione o con il controllo vocale.
-410|<kbd>Frame guide</kbd>
-411|Scurisce tutto ciò che è fuori dal formato scelto: 9:16 per Reels e Shorts, 4:5 e 1:1 per i post, 4:3, 16:9 e i formati cinema 1,85:1 e 2,39:1. Il video mantiene il formato completo, così puoi ritagliarlo dopo.
-412|Doppia ripresa: la fotocamera posteriore riprende e segue il soggetto, quella anteriore riprende te nello stesso momento. Il tuo selfie appare come piccola immagine in basso a destra nel video.
-413|Attivala nelle impostazioni in <kbd>Dual capture</kbd>. Con <kbd>Save selfie video separately</kbd> il selfie viene salvato anche come video a parte, da montare tu più tardi. Con la doppia ripresa attiva, il mirino mostra il tuo selfie in alto a destra.
-414|Entrambe le fotocamere registrano al massimo in 1080p a 30 fotogrammi al secondo, senza 4K né ProRes. La posteriore usa l’obiettivo principale, lo zoom è digitale.
-415|Tracking, gesti, comandi vocali e gimbal continuano a funzionare.
-416|Solo in modalità video. Passare alla modalità foto o alla fotocamera anteriore termina la doppia ripresa.
-417|Se l’iPhone si scalda, l’immagine selfie si spegne da sola.
-418|Richiede Keepsight Pro e un iPhone in grado di riprendere con entrambe le fotocamere insieme. Se il tuo non può, Keepsight te lo dice.
-419|Ridurre il calore durante la registrazione
-420|Le registrazioni lunghe al sole scaldano ogni iPhone. Con <kbd>Save heat while recording</kbd> Keepsight risparmia energia durante la registrazione e ripristina tutto quando ti fermi. È attivo di serie e gratuito per tutti.
-421|Lo schermo si oscura dopo 10 secondi. Toccalo per riattivarlo. La registrazione continua.
-422|Finché il soggetto sta fermo, il rilevamento calcola meno spesso. Appena si muove, torna a piena velocità.
-423|I gesti vengono controllati meno spesso, il controllo vocale resta attivo.
-424|Gli strumenti di controllo e l’immagine dal vivo sull’Apple Watch si aggiornano meno spesso.
-425|Se l’iPhone si scalda comunque, Keepsight fa un passo in più: prima si spegne l’immagine selfie, poi si mette in pausa il video con overlay, poi il rilevamento rallenta. Se l’iPhone è troppo caldo, il tracking si ferma e la registrazione viene salvata.
-426|Fotocamera anteriore e selfie
-427|Il pulsante con le due frecce accanto alla miniatura passa alla fotocamera anteriore. Ti vedi specchiato, come nell’app Fotocamera di Apple. Le riprese vengono salvate non specchiate, come ti vedono gli altri; per le foto puoi cambiarlo.
-428|<strong>Video e foto:</strong> video fino a 4K, foto alla piena risoluzione della fotocamera anteriore.
-429|<strong>Soggetto:</strong> al cambio, Keepsight passa a <kbd>Face</kbd> e punta ai tuoi occhi. Con un gimbal ti segue anche davanti alla fotocamera anteriore.
-430|<strong>Barra selfie in modalità foto:</strong> sopra il pulsante di scatto scegli <kbd>Single</kbd>, <kbd>Smile</kbd> o <kbd>Look</kbd>. Sorriso e Sguardo sono attivi appena li tocchi: Keepsight scatta da solo quando tutti sorridono o guardano in camera. Entrambi fanno parte di Keepsight Pro.
-431|<strong>Conto alla rovescia:</strong> con la fotocamera anteriore lampeggia lo schermo al posto della luce.
-432|<strong>Non disponibile:</strong> scelta dell’obiettivo e zoom automatico, perché la fotocamera anteriore ha un solo obiettivo.
-434|<kbd>Portrait</kbd>, nella barra selfie o nel pannello Fotocamera, fa parte di Keepsight Pro.
-435|<strong>Foto:</strong> Keepsight salva l’immagine con i dati di profondità della fotocamera anteriore. Poi regoli la sfocatura dello sfondo nell’app Foto. Le foto ritratto sono in HEIF a 12 MP; ProRAW qui non è possibile.
-436|<strong>Video:</strong> Keepsight sceglie un formato che supporta l’effetto Ritratto di Apple, di solito 1080p a 30 fotogrammi. L’effetto si attiva nel Centro di Controllo sotto <kbd>Video effects</kbd>; Keepsight lo apre per te. A seconda dell’iPhone vi trovi anche Luce set fotografico e Inquadratura automatica.
-437|<kbd>Mirror selfies</kbd>, nel pannello Fotocamera, salva i selfie così come ti vedi nel mirino.
-438|Durante una registrazione video non è possibile cambiare fotocamera.
-439|Obiettivi e megapixel
-440|Obiettivo
-441|Risoluzione foto
-442|<kbd>.5×</kbd> ultra-grandangolo
-443|12 MP; fino a 48 MP da iPhone 16 Pro
-444|<kbd>1×</kbd> fotocamera principale
-445|12, 24 o 48 MP; in RAW 12 o 48 MP
-446|Teleobiettivo
-447|12 MP; fino a 48 MP da iPhone 17 Pro
-448|Sono le specifiche di Apple per i modelli Pro a partire da iPhone 15 Pro. Finora Keepsight è stato provato solo su iPhone 15 Pro Max. Altri modelli offrono meno megapixel con alcuni obiettivi. Il pannello del formato mostra sempre solo ciò che l’obiettivo attuale del tuo iPhone offre davvero.
-449|Con lo scatto a voce, Keepsight passa da solo alla modalità foto o video; i gesti agiscono nella modalità impostata. Solo una foto scattata durante una registrazione video resta a circa 10 MP.
-451|Mantiene il soggetto alla stessa dimensione senza che il video salti.
-452|Lo zoom automatico mantiene il soggetto alla dimensione che imposti. Se si allontana, la fotocamera ingrandisce lentamente. Se si avvicina, riduce.
-453|Attivarlo
-454|Passa alla modalità video.
-455|Seleziona l’obiettivo di cui usare l’intervallo.
-456|Tocca <kbd>A</kbd>. Il pulsante mostra lo zoom attuale, per esempio «A 2,3×».
-457|Perché il video non salta
-458|Quando una fotocamera di iPhone cambia obiettivo durante lo zoom, l’immagine si sposta visibilmente. Lo zoom automatico resta quindi sull’obiettivo selezionato e si muove solo minimamente a ogni fotogramma.
-459|Obiettivo selezionato
-460|Intervallo di zoom
-461|Da 0,5× a poco meno di 1×
-462|Da 1× a poco meno di 4×
-463|Da 5× a 10×
-465|<strong>Dimensione del soggetto:</strong> quanta parte dell’immagine deve occupare il soggetto, dal 15 al 60 per cento.
-466|<strong>Velocità dello zoom:</strong> quanto velocemente può muoversi lo zoom, dall’8 al 60 per cento al secondo. Valori bassi risultano più tranquilli.
-467|Comportamento in casi particolari
-468|Lo zoom parte solo dopo che il soggetto è stato riconosciuto stabilmente per poco meno di un secondo.
-469|Se il soggetto raggiunge il bordo dell’immagine, la fotocamera riduce invece di ingrandire.
-470|Se il soggetto è coperto per poco, lo zoom resta fermo. Solo dopo un secondo e mezzo senza soggetto torna lentamente indietro.
-472|Un secondo video con un riquadro che segue e zooma con fluidità.
-473|Il gimbal virtuale ritaglia dall’immagine completa un riquadro che segue il soggetto e zooma da solo. Il risultato è un video finito e stabile, disponibile subito dopo la registrazione.
-474|Apri il pannello di destra e attiva <kbd>Virtual gimbal</kbd>.
-475|Scegli un soggetto. Nel mirino vedi il riquadro come un contorno chiaro; l’area esterna è scurita.
-476|Avvia la registrazione.
-477|Non serve un gimbal vero. Puoi tenere l’iPhone in mano o metterlo su un treppiede. Insieme a un gimbal e allo zoom automatico l’immagine diventa ancora più stabile.
-478|Regolazione
-479|Effetto
-481|Dal 10 al 40 per cento. Più spazio risulta più tranquillo, meno spazio avvicina il soggetto.
-483|Da 1,5× a 4×. Registrando in 4K, la nitidezza resta piena fino a 2×.
-485|Con quanta calma segue il riquadro. Valori più alti rendono il movimento più morbido.
-487|Salva il video completo oltre a quello ritagliato.
-488|Cosa viene salvato
-489|Il video ritagliato in 1080p.
-490|Facoltativamente, l’originale nella risoluzione scelta.
-491|Se Keepsight perde il soggetto, il riquadro torna lentamente all’immagine intera.
-492|Il gimbal virtuale mantiene fermo il soggetto nel riquadro. Non compensa forti scossoni dello sfondo.
-493|Scatto singolo, serie a intervalli e scatto automatico al momento giusto.
-494|In modalità foto, il pannello di destra sotto <kbd>Photo trigger</kbd> stabilisce come Keepsight scatta.
-495|Tipo
-496|Cosa succede
-498|Una foto a ogni pressione del pulsante di scatto.
-500|Una serie a intervallo fisso fino al numero massimo.
-501|Sorriso (Pro)
-502|Scatta quando tutti i volti nell’immagine sorridono con gli occhi aperti.
-503|Sguardo (Pro)
-504|Scatta quando tutti sono rivolti verso la fotocamera.
-505|Soggetto (Pro)
-506|Scatta quando il soggetto scelto è agganciato e abbastanza grande nell’inquadratura.
-507|Scatto singolo e intervallo fanno parte della versione gratuita. I tre tipi automatici richiedono Keepsight Pro; nella versione gratuita mostrano un lucchetto.
-508|Eseguire una serie
-509|Scegli il tipo di scatto.
-510|Imposta <kbd>Interval</kbd> e <kbd>Maximum photos</kbd>.
-511|Premi il pulsante di scatto. Con i tipi automatici Keepsight ora è pronto e attende il momento.
-512|L’indicazione in alto al centro conta le foto, per esempio «3 / 30». Una seconda pressione del pulsante di scatto termina la serie.
-513|<strong>Intervallo:</strong> da 1 a 30 secondi. Con i tipi automatici è la distanza minima tra due foto.
-514|<strong>Numero massimo di foto:</strong> da 2 a 100.
-515|Per uccelli e altri animali funziona bene «Soggetto» con un intervallo breve: Keepsight scatta appena l’animale è grande nell’inquadratura e continua finché resta lì. L’app non riconosce dove guarda un animale.
-516|Le foto a 48 MP e in ProRAW richiedono più tempo per il salvataggio. Con un intervallo molto breve la distanza effettiva può quindi essere maggiore.
-517|Gesti, voce, conto alla rovescia
-518|Usare la fotocamera quando sei tu stesso davanti all’obiettivo.
-519|Trovi tutti e tre nel pannello di sinistra sotto <kbd>Remote control</kbd>.
-520|Gesti della mano
-521|I gesti funzionano quando il soggetto è Persona o Volto. Tieni fermo un gesto per circa mezzo secondo; in alto al centro si riempie una barra con l’icona del gesto. Solo la persona seguita può fare gesti, o senza tracking la persona più grande nell’immagine. Dopo un gesto, il successivo viene ignorato per 2 secondi.
-522|Keepsight capisce cinque gesti. I primi tre sono uguali a quelli del DJI Osmo Mobile 8, il gesto di gruppo è uguale a quello dell’Insta360 Flow 2 Pro, e il momento clou esiste solo in Keepsight.
-523|Gesto
-524|Mano aperta
-525|Avvia o ferma il tracking della persona che la mostra.
-526|Segno V
-527|Modalità foto: scatta una foto. Modalità video: avvia o ferma la registrazione.
-528|Doppia L con entrambe le mani (una cornice), mostrata due volte
-529|Regola l’inquadratura: centra la persona e imposta lo zoom automatico sulla dimensione della cornice.
-530|Indice alzato
-531|Tutto il gruppo: tutte le persone restano nell’immagine. Mostralo di nuovo: torna alla persona che fa il gesto.
-532|Pollice in su
-533|Momento clou: segna l’istante nella registrazione in corso.
-534|Il segno V agisce nella modalità impostata. Per passare tra foto e video senza mani, usa un comando vocale.
-535|Cos’è un momento clou
-536|Un momento clou è un segnalibro nel video. Durante una registrazione mostri 👍 o tocchi la stella sull’Apple Watch, e Keepsight ricorda quell’istante. Poi apri il video nella galleria di Keepsight: sotto il video i segni appaiono come stelle con l’ora, ad esempio ★ 2:14. Un tocco salta lì, un secondo prima per non perdere l’inizio.
-537|Esempio: filmi 20 minuti di allenamento e il salto migliore è a 7:40. Mostri 👍 in quel momento e lo ritrovi poi con un tocco.
-538|I segni si vedono solo nella galleria di Keepsight, non nell’app Foto né nei programmi di montaggio, perché sono salvati in Keepsight e non nel file video. Se elimini Keepsight, i segni spariscono; i video restano in Foto.
-539|Tenere un gruppo nell’immagine
-540|☝️ traccia una cornice intorno a tutte le persone nell’immagine. Tracking e zoom automatico tengono in vista tutto il gruppo, ad esempio una famiglia, una band o una squadra. Mostra di nuovo ☝️ e Keepsight segue solo la persona che fa il gesto.
-541|Passare il comando
-542|Ferma il tracking con ✋ e per circa cinque secondi chiunque altro può subentrare con ✋. Utile per interviste o quando più persone si alternano davanti alla camera.
-543|Gesti da più lontano
-544|Quando la persona che fa i gesti è piccola nell’immagine, Keepsight cerca le mani solo intorno a lei. Il rilevamento vede così le mani più grandi e i gesti funzionano anche da più lontano. Quanto lontano dipende da luce e obiettivo; lo stiamo ancora misurando.
-545|La tua assegnazione
-546|Con Keepsight Pro assegni a ogni gesto un’altra azione nelle impostazioni, ad esempio ✌️ scatta sempre una foto, oppure un gesto non fa nulla. «Ripristina gesti» torna all’assegnazione standard.
-547|Conferma
-548|Keepsight conferma ogni gesto riconosciuto con la barra nel mirino, luce e suono. Se indossi un Apple Watch con Keepsight, ti tocca il polso: lo sai anche di spalle all’iPhone. L’orologio ha anche una pagina con tutti i gesti.
-549|Comandi vocali
-550|Attiva <kbd>Voice control</kbd> e consenti microfono e riconoscimento vocale. Pronuncia i comandi nella lingua dell’app.
-551|Tu dici
-552|«Scatta una foto»
-553|Scattare una foto.
-554|«Avvia video» o «Avvia registrazione»
-555|Avviare la registrazione video.
-556|«Stop»
-557|Terminare la registrazione, la serie o un conto alla rovescia in corso.
-558|Foto e video richiedono almeno due parole, ad esempio «fai un video», «inizia a registrare», «fai una foto» o «fammi una foto». Una parola da sola non attiva nulla, quindi una normale conversazione non fa scattare la fotocamera. Uno «stop» da solo funziona solo durante una registrazione, una serie o un conto alla rovescia. Se la fotocamera è nell’altra modalità, Keepsight cambia da solo prima di scattare.
-559|Finché il controllo vocale è attivo, il microfono resta acceso. L’iPhone lo segnala con il punto arancione.
-560|Conto alla rovescia, flash e suono
-561|Quando scatti con un gesto o con la voce, prima parte un conto alla rovescia, così hai il tempo di metterti in posa.
-562|<strong>Conto alla rovescia:</strong> disattivato, 3, 5 o 10 secondi. I secondi compaiono in grande nell’immagine.
-563|<strong>Flash di conferma:</strong> il LED lampeggia a intervalli sempre più brevi fino allo scatto.
-564|<strong>Suono di conferma:</strong> un breve tic a ogni lampo.
-565|Senza conto alla rovescia c’è un solo lampo e un solo tic di conferma. Il pulsante di scatto sullo schermo scatta sempre subito.
-566|Apple Watch
-567|Telecomando e stato al polso.
-568|Cosa fa l’orologio
-569|L’Apple Watch è telecomando e display di controllo per l’iPhone sul gimbal. Non ha una fotocamera propria, non mostra una galleria e non salva nulla.
-570|Apri Keepsight sull’iPhone, poi sull’orologio. L’orologio raggiunge l’iPhone via Bluetooth a circa 10 m, più lontano sulla stessa rete Wi-Fi. Senza connessione lo dice, invece di mostrare pulsanti vuoti.
-571|Scatto: foto, oppure avvio e arresto del video, con il conto alla rovescia che ticchetta al polso.
-572|Passare tra foto e video, avviare e fermare il tracking.
-573|Stato: modalità, tempo di registrazione in rosso, stato del tracking, gimbal e batteria.
-574|Pagina Gesti: tutti i gesti della mano a colpo d’occhio. L’orologio tocca il polso appena l’iPhone riconosce un gesto.
-575|Il doppio tocco (watchOS 11 o successivo, Apple Watch Series 9, Ultra 2 o più recente) scatta. Su Apple Watch Ultra imposta il tasto Azione su Comando rapido e scegli Scatto Keepsight.
-576|Con Keepsight Pro
-577|Avvisi al polso: bersaglio perso da 2 secondi, registrazione interrotta, spazio dell’iPhone quasi esaurito, iPhone caldo, batteria del gimbal scarica, gimbal scollegato.
-578|Comandi: zoom con la Digital Crown, panoramica e inclinazione con il dito, centra, soggetto successivo, tutto il gruppo, programma panoramica.
-579|Momenti clou: un tocco durante la registrazione segna l’istante. Nella galleria i segni appaiono come stelle sotto il video; un tocco salta lì.
-580|Immagine dal vivo: una piccola immagine con i riquadri di rilevamento, circa 5–8 immagini al secondo. Tocca una persona per scegliere il bersaglio. Serve per controllare, non per filmare, e si spegne quando l’iPhone è caldo.
-581|Un solo acquisto per tutto: Keepsight Pro sull’iPhone sblocca anche l’orologio. Anche la prova Pro sblocca l’orologio per la sua durata. Nella versione gratuita l’unico avviso è quando una registrazione termina al limite di 60 secondi.
-582|Requisiti
-583|Apple Watch con watchOS 10 o successivo, abbinato a un iPhone con iOS 26 o successivo. Keepsight si installa sull’orologio insieme all’app per iPhone.
-584|<strong>Non ancora provato su un orologio:</strong> l’app per orologio segue la documentazione di Apple. Doppio tocco, tasto Azione e immagine dal vivo devono ancora essere provati su orologi veri.
-585|Registrazione e galleria
-586|Quali video vengono creati, dove si trovano e come guardarli.
-587|Registrare un video
-588|In modalità video il pulsante rosso avvia e ferma la registrazione. Il tempo trascorso compare in alto al centro in un riquadro rosso, al posto del formato. Nella versione gratuita, negli ultimi 10 secondi si aggiunge il tempo rimanente. I video hanno l’audio e vengono salvati nell’app Foto.
-589|Quali video vengono creati
-590|Contenuto
-591|Quando
-593|L’immagine pulita della fotocamera nella risoluzione scelta.
-594|Sempre, a meno che tu non lo disattivi per il gimbal virtuale.
-595|Il riquadro che segue, in 1080p.
-596|Quando il gimbal virtuale è attivo.
-598|L’immagine con riquadri, tempo, soggetto, stato e dati del gimbal, in 1080p.
-599|Con Keepsight Pro, quando <kbd>Overlay video</kbd> è attivo.
-601|La miniatura sopra il selettore di modalità mostra l’ultima ripresa. Toccala per aprire la galleria con tutte le foto e i video fatti con Keepsight, dai più recenti.
-602|Dopo una foto il mirino si scurisce un attimo e la nuova immagine salta nella miniatura. Un messaggio compare solo se qualcosa va storto.
-603|I video con momenti clou mostrano sotto il video stelle con l’ora; un tocco salta all’istante segnato.
-604|Tocca un’immagine per vederla in grande e scorri per sfogliare.
-605|In alto compaiono data, megapixel e dimensioni dell’immagine.
-606|Il cestino elimina la ripresa anche dall’app Foto. L’iPhone chiede prima conferma.
-607|Per eliminarne più di una alla volta, tocca <kbd>Select</kbd> in alto a sinistra, tocca le foto e i video che vuoi oppure <kbd>Select all</kbd>, poi il cestino in basso. L’iPhone chiede una sola volta per tutte.
-608|La galleria ha bisogno dell’accesso in lettura a Foto. Con «Accesso limitato» Keepsight vede comunque le proprie riprese.
-609|Se un riquadro mostra una nuvola, l’originale è in iCloud ed è in fase di download. Succede quando Foto di iCloud è attivo con «Ottimizza spazio iPhone». Un segnale di avviso indica che il file non si può leggere; la vista ingrandita mostra allora il nome del file.
-610|Dati di volo in tempo reale nel video dal tuo ricevitore ADS-B: cosa ti serve, dove funziona, privacy.
-611|<strong>Disponibilità:</strong> i dati di volo in tempo reale sono disponibili solo nei paesi e nelle regioni approvati e richiedono il tuo ricevitore ADS-B. Al momento nessuna regione è approvata, quindi la funzione resta disattivata ovunque.
-612|Con la sovrimpressione dei dati di volo, Keepsight mostra numero di volo, quota e velocità dell’aereo di linea che stai seguendo, nel mirino e nel video registrato dall’iPhone. I dati arrivano dal tuo ricevitore ADS-B sulla stessa rete Wi-Fi. Non sono coinvolti né Internet né fornitori di dati di volo.
-613|Keepsight segue gli aerei a vista, senza alcun ricevitore. Il ricevitore serve solo per la sovrimpressione e non fa parte dell’app: lo acquisti o lo costruisci a parte.
-614|<strong>Un ricevitore:</strong> uno Stratux, ad esempio un Raspberry Pi 3 con una chiavetta USB ricevente a 1090 MHz e un’antenna, oppure un altro dispositivo che invia GDL90 via Wi-Fi.
-615|<strong>Non basta la chiavetta:</strong> una chiavetta USB ricevente come la FlightAware Pro Stick ha bisogno di un host, ad esempio un Raspberry Pi con Stratux. Un’installazione PiAware standard invia dati a FlightAware e non è adatta.
-616|<strong>La stessa rete Wi-Fi:</strong> l’iPhone si collega al Wi-Fi del ricevitore. Questa rete di solito non ha Internet; va bene così.
-617|<strong>Una regione approvata:</strong> ricevere i dati da te non significa di per sé che la funzione sia consentita in un paese.
-618|Stratux o GDL90
-619|Ricevitore
-620|Testato con Keepsight
-622|WebSocket verso il ricevitore, di solito a 192.168.10.1
-623|Non ancora
-625|Il ricevitore invia alla porta 4000 dell’iPhone
-626|Entrambi sono supportati a livello di protocollo. Finora nessun ricevitore è stato testato con Keepsight su hardware reale; singoli dispositivi, come lo SkyEcho 2, possono comportarsi diversamente. Il traffico trasmesso solo tramite FLARM non è supportato.
-627|Attivazione
-628|Apri le impostazioni e attiva <kbd>Flight data overlay (ADS-B)</kbd>.
-629|Leggi l'avviso e tocca <kbd>Agree and enable</kbd>. Solo allora iOS chiede la tua posizione.
-630|Collegati al Wi-Fi del ricevitore, scegli il tipo di ricevitore e inserisci il suo indirizzo. iOS chiede una volta l’accesso alla rete locale.
-631|Tocca <kbd>Connect receiver</kbd>. Keepsight non si connette mai da solo.
-632|Scegli <kbd>Aircraft</kbd> come soggetto e punta la fotocamera verso l'aereo.
-633|Se più aerei corrispondono alla direzione in cui guarda la fotocamera, Keepsight non tira a indovinare: tocca <kbd>Aircraft selection required</kbd> e scegli quello giusto.
-634|Scegli sempre tu l’aereo, dall’elenco degli aerei di linea ricevuti in quel momento. L’elenco mostra l’età di ogni posizione in secondi.
-635|Le impostazioni mostrano lo stato della connessione: connessione in corso, connesso senza aerei, ricezione oppure dati non aggiornati. <kbd>Reconnect</kbd> riavvia la connessione.
-636|Le impostazioni dei dati di volo compaiono solo quando <kbd>Aircraft</kbd> è il soggetto selezionato.
-637|Perché Keepsight ha bisogno della tua posizione
-638|iOS chiede la tua posizione solo quando attivi la sovrimpressione dei dati di volo e acconsenti. Keepsight ne ha bisogno per due motivi:
-639|<strong>Verificare la regione:</strong> la possibilità di mostrare i dati di volo dipende dal paese in cui ti trovi. Keepsight lo determina da dove si trova realmente l'iPhone, sul dispositivo stesso.
-640|<strong>Riconoscere l'aereo nell'immagine:</strong> Keepsight calcola la direzione e l'angolo sopra l'orizzonte da te a ciascun aereo e li confronta con la direzione in cui punta la fotocamera. Anche la bussola ha bisogno della posizione per trovare il nord geografico.
-641|L'inserimento manuale di un luogo non è previsto, perché la verifica regionale non sarebbe più affidabile. Se non usi i dati di volo, Keepsight non chiede mai la tua posizione.
-642|Dove funziona
-643|Keepsight determina il paese sul tuo iPhone in base alla posizione attuale. Il paese dell'App Store, la lingua o l'indirizzo internet non contano. Vicino a un confine e in mare la funzione resta disattivata.
-644|Ogni paese viene verificato singolarmente prima di essere approvato. Fino ad allora l'app ti comunica che i dati di volo in tempo reale non sono disponibili nella tua regione. Tracking e registrazione funzionano come sempre.
-645|Che cosa lascia il tuo iPhone
-646|Niente. Keepsight si limita ad ascoltare il ricevitore e non ne modifica mai le impostazioni. Né la tua posizione né i dati di volo vengono inviati a un server.
-647|I dati di volo esistono solo nella memoria dell’iPhone finché il ricevitore è connesso. Vengono eliminati quando ti disconnetti, scegli un altro soggetto o esci dall’app. Nulla viene salvato né incluso nei backup.
-648|Visualizzazione
-650|Il tipo di aereo non fa parte dell’ADS-B e quindi non viene mostrato. Nemmeno i dati che un ricevitore si limita a inoltrare, come OGN, FLARM o TIS-B, vengono mai mostrati.
-651|Scegli l’angolo, la versione compatta o dettagliata e le unità metriche o imperiali. I dati più vecchi di 15 secondi vengono nascosti invece di restare fermi. Ogni video con dati di volo riporta la dicitura «Flight data: Local ADS-B».
-652|La sovrimpressione viene scritta nei video registrati con l'iPhone. Una fotocamera sul gimbal registra per conto proprio e non riceve alcuna sovrimpressione.
-653|Se vuoi, Keepsight ruota il gimbal verso la posizione segnalata dell’aereo scelto finché non è ancora visibile nell’immagine. La bussola limita la precisione.
-654|Precisione
-655|I dati di volo possono essere in ritardo, incompleti o errati. Servono solo a scopo informativo e non sono adatti alla navigazione, alla sicurezza del volo o a decisioni operative.
-656|Gratis e Pro
-657|Cosa fa la versione gratuita, cosa sblocca Pro, acquisto e ripristino.
-658|La versione gratuita serve per provare: verifichi inseguimento, gesti e fotocamera sulle persone prima di pagare qualcosa.
-659|Sì
-660|Controllo del gimbal, scatto singolo e serie a intervalli
-661|No
-662|Tutti gli altri soggetti
-663|Durata dei video
-664|60 secondi
-665|Illimitata
-666|Prova del tracking Pro
-667|3 × 60 secondi
-668|Logo Keepsight su foto e video
-669|Provare il tracking Pro
-670|Tocca un soggetto bloccato nel pannello di tracking e scegli <kbd>Start preview</kbd>. Per 60 secondi Keepsight segue questo soggetto esattamente come la versione Pro. Hai tre sessioni; una che fallisce nei primi secondi non conta.
-671|Nella versione gratuita un video termina da solo dopo 60 secondi. Un avviso compare 10 secondi prima della fine.
-672|Acquistare Pro
-673|Tocca <kbd>PRO</kbd> in alto a destra e poi <kbd>Sblocca</kbd>. Pro è un acquisto unico senza abbonamento. L’App Store mostra il prezzo nella tua valuta e Apple gestisce il pagamento.
-674|Ripristinare un acquisto
-675|Su un nuovo iPhone o dopo una reinstallazione tocca <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Devi aver effettuato l’accesso con lo stesso Apple Account usato per l’acquisto.
-676|Hai un codice per Keepsight Pro? Tocca <kbd>PRO</kbd> → <kbd>Redeem code</kbd> e inseriscilo. Apple verifica il codice, che sblocca Pro come un acquisto.
-677|Rimborsi
-678|Richiedi un rimborso ad Apple su <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
-679|Impostazioni e aiuto
-680|Lingua, modalità aiuto e regolazioni per utenti esperti.
-681|Gli interruttori più importanti sono nei due pannelli laterali. Tutto il resto è nel pannello di sinistra sotto <kbd>All settings</kbd>.
-683|Il punto interrogativo in cima a ogni pannello laterale attiva la modalità aiuto. Sotto le voci del menu compaiono allora note gialle con una breve spiegazione, e per quelle importanti uno schema.
-684|Keepsight usa la lingua del tuo iPhone. Per sceglierne un’altra solo per Keepsight, tocca <kbd>Language</kbd> sotto <kbd>All settings</kbd>. Si aprono le impostazioni dell’iPhone per Keepsight. Cambiano anche i comandi vocali.
-685|Regolazioni per utenti esperti
-686|Velocità «Personalizzato»
-687|Guadagno, smorzamento, velocità massima, accelerazione e zona di quiete dell’inseguimento.
-688|Velocità minima
-689|Solo per l’AK4500: il comando più piccolo a cui il gimbal reagisce ancora. Aumentalo se il gimbal si ferma con piccoli scostamenti.
-690|Previsione dopo la perdita
-691|Per quanto tempo il gimbal continua a ruotare quando il soggetto è coperto.
-693|Inverti rotazione o inclinazione.
-695|Quale modello riconosce un soggetto. Sono disponibili RF-DETR Small e YOLOX-S.
-697|Mostra nel mirino frequenza fotogrammi, comandi del gimbal e tempo di calcolo del modello.
-699|Ripristina le regolazioni dell’inseguimento.
-701|Qui trovi la versione dell’app, i link a questo sito e le licenze dei modelli di riconoscimento usati.
-702|Risoluzione dei problemi
-703|Problemi frequenti e come risolverli.
-704|Il gimbal non viene trovato
-705|<strong>Dispositivo con DockKit:</strong> è abbinato nelle impostazioni dell’iPhone, e l’iPhone è inserito bene nel supporto? Per confronto apri l’app Fotocamera di Apple. Se lì il dispositivo non ti segue, il problema è l’abbinamento.
-706|<strong>AK4500:</strong> il gimbal è acceso e vicino? Chiudi del tutto l’app Feiyu e consenti il Bluetooth in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
-707|Spegni e riaccendi il gimbal e tocca di nuovo <kbd>Connect</kbd>.
-708|Il gimbal si allontana dal soggetto
-709|Di norma Keepsight lo corregge da solo dopo un attimo. In caso contrario, inverti l’asse interessato in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
-710|Il gimbal reagisce lentamente o trema
-711|Lento: scegli il profilo Sport. Con l’AK4500 aiuta anche una velocità minima più alta.
-712|Tremolii o oscillazioni: scegli il profilo Fluido. Con una focale lunga i piccoli movimenti sembrano più grandi.
-713|Il soggetto non viene riconosciuto
-714|È selezionato il tipo di soggetto giusto?
-715|I soggetti molto piccoli vengono riconosciuti con meno sicurezza. Scegli un obiettivo più lungo.
-716|Il riconoscimento cala con poca luce e in forte controluce.
-717|I comandi vocali non vengono capiti
-718|Consenti microfono e riconoscimento vocale in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
-719|Pronuncia i comandi nella lingua dell’app.
-720|Per foto e video di' almeno due parole, ad esempio «scatta una foto» o «avvia video».
-721|Vento e ambienti rumorosi disturbano il riconoscimento. In quei casi i gesti sono più affidabili.
-722|I gesti non fanno scattare
-723|Il soggetto deve essere impostato su Persona o Volto.
-724|Tieni la mano ferma e ben visibile finché la barra è piena.
-725|Solo la persona seguita può fare gesti, o senza tracking la persona più grande nell’immagine.
-726|Dopo un gesto, aspetta 2 secondi prima del successivo.
-727|Per ☝️ tieni il pollice contro la mano; per la L allargalo. Così Keepsight li distingue.
-728|Non si possono scegliere 48 MP o RAW
-729|Entrambi sono disponibili solo in modalità foto e con un obiettivo che li supporta. Su iPhone 15 Pro è solo la fotocamera principale <kbd>1×</kbd>; i modelli Pro più recenti offrono 48 MP anche con altri obiettivi. Il RAW richiede inoltre Keepsight Pro.
-730|La galleria è vuota
-731|Consenti a Keepsight l’accesso a Foto. Le riprese fatte con versioni precedenti dell’app non compaiono nella galleria, ma sono nell’app Foto.
-732|Keepsight Pro non è attivo dopo l’acquisto
-733|Tocca <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> e verifica di aver effettuato l’accesso con l’Apple Account giusto.
-734|Altro aiuto
-735|Scrivi a <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a> indicando il modello di iPhone, la versione di iOS e la versione di Keepsight.
-736|L’iPhone si scalda
-737|Riconoscimento, registrazione in 4K e controllo del gimbal sono impegnativi, soprattutto al sole. Keepsight protegge il dispositivo da solo:
-738|<strong>Termometro nel campo di stato:</strong> l’iPhone è caldo e il riconoscimento analizza solo un fotogramma su due o su tre. L’inseguimento continua, ma reagisce un po’ più lentamente.
-739|<strong>Inseguimento fermato:</strong> a temperatura critica Keepsight termina inseguimento e registrazione e salva il video. Lascia raffreddare l’iPhone all’ombra.
-740|Per tenerlo più fresco: disattiva riconoscimento e controllo a gesti quando non ti servono, 1080p invece di 4K, 30 fotogrammi invece di 60, disattiva il video con sovrimpressione e il gimbal virtuale, togli la custodia. Per questo iPhone 12 e i modelli precedenti partono in 1080p.
-741|La documentazione risponde alla maggior parte delle domande. Se ti blocchi, scrivimi.
-742|Contatto
-743|Per aiutarti in fretta, indica:
-744|il modello di iPhone e la versione di iOS
-745|la versione di Keepsight (nell’app sotto Tutte le impostazioni → Info e licenze)
-746|cosa hai fatto e cosa è successo invece, meglio se con uno screenshot o un breve video
-747|Aiuto rapido
-748|<a href="docs/start.html">Primi passi</a>: autorizzazioni e collegamento del gimbal
-749|<a href="docs/troubleshooting.html">Risoluzione dei problemi</a>: problemi frequenti e come risolverli
-750|<a href="docs/pro.html">Gratis e Pro</a>: acquisto, ripristino, rimborsi
-751|Informativa sulla privacy
-752|Ultimo aggiornamento: 16 novembre 2026. Vale per l’app iOS Keepsight e per questo sito web.
-753|<strong>In breve:</strong> Keepsight non raccoglie dati su di te. Non ci sono account, pubblicità, tracciamento né strumenti di analisi. Le immagini della fotocamera, il rilevamento, le foto e i video restano sul tuo iPhone.
-754|1. Titolare del trattamento
-755|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Svizzera<br>E-mail: <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>
-756|2. Cosa elabora l’app
-757|L’app elabora i dati solo sul tuo dispositivo e solo per le sue funzioni. Io, come fornitore, non ne ricevo nessuno.
-758|<strong>Fotocamera:</strong> l’immagine viene analizzata sull’iPhone per riconoscere e seguire i soggetti. Le immagini non lasciano il dispositivo.
-759|<strong>Volti:</strong> per riconoscere volti, sorrisi e direzione dello sguardo, l’app analizza l’immagine della fotocamera sull’iPhone. Non riconosce chi sia una persona e non memorizza caratteristiche del volto. Le foto ritratto contengono dati di profondità della fotocamera anteriore; esistono solo nella foto che salvi tu.
-760|<strong>Microfono:</strong> per l’audio dei tuoi video e, se attivi il controllo vocale, per i comandi vocali.
-761|<strong>Riconoscimento vocale:</strong> i comandi vocali sono riconosciuti dal riconoscimento vocale di Apple. Se il tuo iPhone e la lingua scelta lo supportano, avviene sul dispositivo. Altrimenti l’audio viene inviato ad Apple per il riconoscimento, secondo l’informativa sulla privacy di Apple. Il controllo vocale è disattivato per impostazione predefinita.
-762|<strong>Foto:</strong> l’app salva le tue riprese nella libreria foto e mostra nella sua galleria solo quelle fatte con Keepsight. Se usi Foto di iCloud, Apple le trasferisce secondo le tue impostazioni iCloud.
-763|<strong>Bluetooth:</strong> per controllare il gimbal. Con il gimbal vengono scambiati solo comandi e valori di stato.
-764|<strong>Apple Watch:</strong> l’app dell’orologio comunica solo con il tuo iPhone, tramite WatchConnectivity di Apple. Stato, comandi e la piccola immagine dal vivo passano direttamente tra i tuoi due dispositivi. L’orologio non salva nulla.
-765|<strong>Posizione e dati di volo:</strong> solo se attivi la sovrimpressione dei dati di volo e acconsenti. Keepsight usa allora la tua posizione sull’iPhone per determinare la regione e riconoscere l’aereo nell’immagine. I dati di volo arrivano dal tuo ricevitore ADS-B sulla rete locale. Né la tua posizione né i dati di volo lasciano l’iPhone. Senza questa funzione l’app non usa la tua posizione.
-766|<strong>Rete locale:</strong> solo per la sovrimpressione dei dati di volo, per raggiungere il tuo ricevitore ADS-B. Keepsight ne riceve soltanto i dati.
-767|<strong>Impostazioni:</strong> le tue impostazioni nell’app sono salvate solo localmente sull’iPhone.
-768|3. Acquisti
-769|L’acquisto di «Keepsight Pro» è gestito da Apple tramite l’App Store. Non ricevo dati di pagamento, nome o indirizzo e-mail, solo cifre di vendita aggregate da Apple.
-770|4. Versioni di prova (TestFlight)
-771|Se usi una versione di prova tramite TestFlight, Apple tratta il tuo indirizzo e-mail per l’invito e, se acconsenti, i rapporti sugli arresti anomali e il tuo feedback. Vedo feedback e rapporti per correggere i problemi, e gli indirizzi e-mail dei tester che ho invitato io.
-772|5. Contatto via e-mail
-773|Se mi scrivi, uso il tuo indirizzo e-mail e il contenuto del messaggio solo per risponderti. Cancello i messaggi quando la richiesta è risolta, al più tardi dopo due anni.
-774|6. Questo sito web
-775|Questo sito non imposta cookie e non usa tracciamento. Caratteri e script sono serviti dallo stesso sito; non viene caricato alcun contenuto di terzi. La scelta della lingua è salvata solo nel tuo browser. Il sito è ospitato su GitHub Pages (GitHub, Inc., USA). Quando lo visiti, GitHub tratta dati tecnicamente necessari, come il tuo indirizzo IP, nei log del server. Per i dettagli vedi l’informativa sulla privacy di GitHub.
-776|7. I tuoi diritti
-777|In base alla legge svizzera sulla protezione dei dati e, ove applicabile, al GDPR, hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento e portabilità dei dati, nonché il diritto di proporre reclamo a un’autorità di controllo (in Svizzera l’IFPDT). Poiché l’app non mi trasmette dati, in pratica ciò riguarda solo le e-mail che mi hai inviato. Scrivi a <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>.
-778|8. Minori
-779|L’app non è rivolta specificamente ai minori e non raccoglie loro dati.
-780|9. Modifiche
-781|Se l’app cambia in modo da richiedere modifiche a questa informativa, verrà aggiornata qui. Vale la versione presente in questa pagina.
-782|Fornitore
-783|E-mail: <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>
-784|Responsabilità
-785|Keepsight controlla un gimbal motorizzato. Assicurati che il gimbal possa muoversi liberamente e che nessuno sia messo in pericolo. L’uso avviene sotto la tua responsabilità, nei limiti consentiti dalla legge.
-786|Marchi
-787|Apple, iPhone, App Store, TestFlight e DockKit sono marchi di Apple Inc. FeiyuTech, AK4500, Insta360, DJI e Belkin sono marchi dei rispettivi proprietari. Keepsight è un prodotto indipendente e non è affiliato a queste aziende.
-788|Condizioni d’uso
-789|L’app è concessa in licenza secondo il contratto di licenza standard di Apple per le app: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
-790|Carattere
-791|Questo sito usa il carattere Inter (SIL Open Font License 1.1).
-792|Controlli manuali: bilanciamento del bianco con simboli per la luce, qui con la modalità aiuto
-793|Controlli manuali: tinta, fuoco e diaframma
-794|Pannello Fotocamera: formato, zoom, gimbal virtuale, scatto foto
-795|Formato in modalità video
-796|Formato in modalità foto
-797|Impostazioni: velocità, gimbal, qualità
-798|Impostazioni: modello di riconoscimento e direzione
-799|Impostazioni: gesti, registrazione, lingua
-800|Pannello Tracciamento con soggetto, velocità e controllo remoto, qui con la modalità aiuto
-801|Sezione Manuale con joystick
-802|Esempio della sovrimpressione (illustrazione). Con un ricevitore locale il tipo di aereo non viene mostrato.
-803|Una giovane donna filma sé stessa e i suoi amici al tramonto con un telefono su un gimbal
-804|Una famiglia su una coperta da picnic in riva a un lago, ripresa da un telefono su un piccolo gimbal
-805|Una donna filma un ciclista di passaggio con un telefono su un gimbal
-806|Un uomo filma un cane che corre e una bambina con un telefono su un gimbal
-807|Un fotografo segue un rapace in volo con una fotocamera su un gimbal
-808|Una donna con una fotocamera su un gimbal e un telefono in mano mentre un aereo passa in cielo
-809|Plane spotter alla recinzione di un aeroporto filmano un aereo di linea con un telefono su un gimbal
-810|Plane spotting con un telefono su un gimbal (illustrazione)
+188|Esempio: DJI Osmo Mobile 8
+189|Aggiorna una volta il firmware del gimbal con l’app DJI Mimo, poi chiudi del tutto DJI Mimo.
+190|Attiva il Bluetooth su iPhone e accendi il gimbal.
+191|Sblocca l’iPhone e tienilo contro l’area NFC dell’impugnatura finché compare la richiesta di abbinamento. Confermala e attendi che compaia «Fine». La prima preparazione può richiedere un po’ di tempo.
+192|Inserisci l’iPhone nel supporto. Solo allora il gimbal si collega e Keepsight lo mostra come connesso.
+193|La ricerca Bluetooth di Keepsight serve solo per il FeiyuTech AK4500. Un gimbal DockKit non vi compare; si collega da solo appena l’iPhone è nel supporto.
+194|Accendi il gimbal. Chiudi l’app Feiyu, perché il gimbal accetta una sola connessione.
+195|Tocca <kbd>Connect</kbd> in basso a destra in Keepsight.
+196|La prima volta consenti l’accesso al Bluetooth.
+197|L’AK4500 reagisce solo oltre una certa intensità di comando. Keepsight lo compensa con l’impostazione <kbd>Velocità minima</kbd>, vedi il capitolo Impostazioni.
+198|Tasti del gimbal
+199|I tasti di un gimbal DockKit funzionano in Keepsight come nell’app Fotocamera di Apple: il pulsante di scatto scatta una foto o avvia e ferma un video, il tasto di cambio passa tra fotocamera posteriore e anteriore e la rotella dello zoom zooma a piccoli passi. Lo zoom automatico si spegne quando zoomi a mano.
+200|Impostazioni del gimbal nel pannello Tracking
+201|Le trovi sotto <kbd>Gimbal</kbd> nel pannello Tracking. <kbd>Framing</kbd> e <kbd>Search when lost</kbd> funzionano con ogni gimbal. Le altre impostazioni compaiono appena un dispositivo DockKit è collegato, insieme al livello della sua batteria.
+216|Prima della panoramica il gimbal si porta al punto di partenza; la registrazione inizia solo quando è lì. L’area di rotazione vale anche per il programma.
+217|<kbd>Framing</kbd>, <kbd>Follow the speaker</kbd> e il programma di panoramica fanno parte di Keepsight Pro.
+218|<strong>Non ancora provato:</strong> queste funzioni DockKit seguono la documentazione di Apple, ma non sono ancora state provate con un gimbal DockKit. Se qualcosa si comporta diversamente, manda un messaggio con il modello esatto.
+219|Muovere a mano
+220|L’area <kbd>Manual</kbd> in basso nell’app serve a verificare il collegamento.
+221|<strong>Joystick:</strong> muove il gimbal a sinistra, a destra, in alto e in basso.
+222|<strong>Velocità:</strong> imposta quanto velocemente ruota.
+223|<strong>Collega e scollega</strong>, oltre allo stato attuale del collegamento.
+224|Se qui il gimbal si muove nel verso sbagliato, inverti l’asse in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+225|Senza gimbal
+226|Fotocamera, foto, scatto automatico, gesti, comandi vocali e gimbal virtuale funzionano anche senza gimbal, a mano libera o su treppiede.
+227|Riprendere con la fotocamera grande
+228|La configurazione per cui Keepsight è pensato: la fotocamera registra, l’iPhone insegue.
+229|Un gimbal robusto porta la tua mirrorless. L’iPhone sta sopra, guarda nella stessa direzione e fa da occhio: riconosce il soggetto e comanda i motori. La fotocamera sotto realizza la ripresa, con il suo sensore, i suoi obiettivi e la sua risoluzione, per esempio in 8K con una Lumix S1RII.
+230|Parte
+231|Compito
+232|Registra il video o le foto che userai in seguito.
+233|iPhone con Keepsight
+234|Riconosce il soggetto, lo tiene al centro e guida il gimbal.
+235|Porta entrambi e segue.
+236|<strong>Un gimbal per fotocamere che Keepsight controlla.</strong> Al momento è il FeiyuTech AK4500. Secondo il produttore porta fino a 4,6&nbsp;kg. I gimbal con Apple DockKit sono fatti per il solo iPhone e non reggono una fotocamera.
+237|<strong>Un supporto per telefono</strong> per la slitta della fotocamera o per una filettatura del gimbal. Deve potersi inclinare e bloccare saldamente.
+238|<strong>Fotocamera e obiettivo</strong> che, insieme a iPhone e supporto, restino sotto il carico massimo.
+239|Montare e allineare
+240|Monta la fotocamera con l’obiettivo che intendi usare e inserisci l’iPhone nel supporto, con le fotocamere posteriori rivolte in avanti.
+241|Bilancia il gimbal con tutto ciò che porta, iPhone compreso. Accendilo solo dopo.
+242|Punta la fotocamera su un punto lontano e ben riconoscibile, come la punta di un campanile, in modo che stia al centro dell’immagine della fotocamera.
+243|Apri Keepsight e regola il supporto finché lo stesso punto si trova sulla croce al centro del mirino. Blocca il supporto.
+244|Collega il gimbal, vedi il capitolo Gimbal supportati.
+245|L’iPhone sta qualche centimetro sopra l’obiettivo. Per soggetti lontani come gli aerei non ha importanza. Per soggetti a pochi metri, il soggetto appare leggermente più in alto nella fotocamera che nell’iPhone. In quel caso allinea su un punto alla tua distanza di lavoro abituale.
+246|Scegliere l’obiettivo dell’iPhone
+247|Keepsight tiene il soggetto al centro dell’immagine dell’iPhone. Più stretto è l’angolo di campo dell’iPhone, più preciso è il centro, e più difficile è per l’app trovare un soggetto che non è ancora nell’immagine.
+248|Lunghezza focale sulla fotocamera (pieno formato)
+249|Obiettivo sull’iPhone
+250|Fino a circa 35 mm
+252|Da circa 35 a 100 mm
+253|1× o il teleobiettivo
+254|Oltre 100 mm
+255|Teleobiettivo (5× su iPhone 15 Pro Max, 120 mm)
+256|In questa configurazione lascia disattivato lo zoom automatico. Modifica solo l’immagine dell’iPhone, non quella della fotocamera.
+258|Scegli il soggetto in Keepsight e tocca <kbd>Track</kbd>.
+259|Avvia la registrazione sulla fotocamera stessa. Keepsight non fa scattare la fotocamera.
+260|Imposta fuoco ed esposizione sulla fotocamera, meglio se con il suo autofocus a riconoscimento del soggetto.
+261|Per riprendere anche con l’iPhone, premi anche il suo pulsante di scatto. Il video con sovrimpressione, con riquadri e dati del gimbal, è utile per verificare dopo quanto è stato preciso l’inseguimento.
+262|Velocità con un carico pesante
+263|Inizia con <kbd>Smooth</kbd> o <kbd>Standard</kbd>. Una fotocamera pesante oscilla più a lungo dopo comandi bruschi.
+264|Per soggetti veloci come aerei a bassa quota scegli <kbd>Sport</kbd> e verifica che il gimbal resti stabile.
+265|Se il gimbal oscilla attorno al soggetto, riduci il guadagno in <kbd>Custom</kbd> o allarga la zona di quiete.
+266|Più lunga è la focale della fotocamera, più ogni correzione si nota nell’immagine. Le focali lunghe richiedono un’impostazione più morbida.
+267|Il mirino
+268|I comandi nell’immagine e i tre pannelli.
+269|Il mirino mostra l’immagine della fotocamera quasi senza comandi. Tutto il resto sta in tre pannelli che fai comparire quando servono.
+270|Nel mirino
+271|Elemento
+272|Significato
+273|Stato, in alto a sinistra
+274|Ricerca, Obiettivo agganciato, Previsione o Obiettivo perso. «Riconoscimento disattivato» significa che il riconoscimento è spento. Un termometro indica che l’iPhone è caldo.
+275|Formato, in alto al centro
+276|Risoluzione e frequenza fotogrammi attuali; in modalità foto, tipo di file e megapixel. Tocca per aprire il pannello Formato.
+277|Riquadro verde
+278|L’obiettivo che Keepsight segue. I riquadri bianchi sono altri soggetti riconosciuti.
+279|Obiettivi
+280|<kbd>.5×</kbd>, <kbd>1×</kbd>, <kbd>5×</kbd> e, in modalità video, <kbd>A</kbd> per lo zoom automatico.
+281|Pulsante di scatto
+282|Rosso in modalità video, bianco in modalità foto.
+283|Selettore a sinistra
+284|Passa da video a foto.
+286|Il pulsante rotondo accanto alla miniatura passa dalla fotocamera posteriore a quella anteriore.
+287|Miniatura
+288|L’ultima ripresa. Tocca per aprire la galleria.
+289|Pulsante a destra
+290|Collega, Segui o Stop.
+291|I tre pannelli
+292|<strong>A sinistra, Tracciamento:</strong> soggetto, velocità, gesti, controllo vocale, conto alla rovescia e collegamento del gimbal.
+293|<strong>A destra, Fotocamera:</strong> formato, zoom automatico, gimbal virtuale, scatto foto e video con sovrimpressione.
+294|<strong>In basso, Formato:</strong> risoluzione e frequenza fotogrammi per i video, tipo di file e megapixel per le foto.
+295|Apri i pannelli laterali con le strette maniglie al bordo dell’immagine, toccando o scorrendo. In orizzontale, la maniglia del pannello Fotocamera è un pulsante in cima alla colonna di destra. Tocca accanto a un pannello per chiuderlo.
+296|Scegliere l’obiettivo nell’immagine
+297|<strong>Tocca</strong> un riquadro bianco per rendere quel soggetto l’obiettivo.
+298|<strong>Traccia un riquadro</strong> con il dito per seguire qualsiasi oggetto, anche uno che Keepsight non conosce. Richiede Keepsight Pro.
+299|Keepsight ruota l’interfaccia quando giri l’iPhone in orizzontale. Durante una registrazione video il formato dell’immagine resta fisso.
+300|Tipi di soggetto, obiettivo personalizzato, velocità e comportamento quando il soggetto è coperto.
+301|Scegliere un soggetto
+302|Nel pannello di sinistra scegli cosa deve cercare Keepsight.
+304|Versione
+305|Nota
+307|Il corpo intero. Adatto a sport e movimento.
+309|Per primi piani, vlog e selfie. Keepsight punta agli occhi: al centro dell’immagine sta la linea degli occhi, non il naso.
+311|Funziona al meglio in cielo con il teleobiettivo.
+314|Cani, gatti, cavalli e altri.
+316|Auto, moto, autobus, camion.
+319|Se nell’immagine ci sono più soggetti adatti, Keepsight prende quello più vicino al centro. Tocca un altro riquadro per cambiare.
+320|Attivare e disattivare il riconoscimento
+321|Il riconoscimento richiede potenza di calcolo e scalda l’iPhone. Keepsight calcola quindi solo quanto serve:
+322|<strong>Piena frequenza:</strong> finché tracciamento, zoom automatico, gimbal virtuale, scatto automatico, gesti o un obiettivo personalizzato hanno bisogno del riconoscimento.
+323|<strong>Anteprima:</strong> altrimenti circa cinque fotogrammi al secondo, così vedi i riquadri e puoi scegliere un obiettivo.
+324|<strong>Spento:</strong> l’interruttore <kbd>Detection</kbd> in cima al pannello Tracciamento lo spegne del tutto. Si avvia da solo appena una delle funzioni citate ne ha bisogno.
+325|Il riquadro verde resta sempre dentro l’immagine visibile, anche quando il soggetto è più grande della vista.
+327|Se tracci un riquadro attorno a un oggetto, Keepsight segue proprio quell’oggetto, qualunque sia il tipo di soggetto. Il pannello di sinistra mostra allora il pulsante <kbd>Custom target</kbd>. Toccalo per annullare la selezione.
+329|Profilo
+330|Comportamento
+332|Avvio dolce, metà della velocità massima, i piccoli movimenti vengono ignorati. Per riprese tranquille.
+334|Bilanciato. Il punto di partenza giusto per la maggior parte dei soggetti.
+336|Reagisce più in fretta. Per rapidi cambi di direzione.
+338|Imposti tu tutti i valori del regolatore, vedi il capitolo Impostazioni.
+339|Quando il soggetto scompare
+340|<strong>Previsione:</strong> se il soggetto è coperto per poco, il gimbal continua a ruotare nella stessa direzione. La durata si imposta in <kbd>All settings</kbd>; il valore predefinito è 1,5 secondi.
+341|<strong>Obiettivo perso:</strong> dopo, il gimbal si ferma finché il soggetto non viene riconosciuto di nuovo.
+342|Gli animali molto veloci o imprevedibili, soprattutto gli uccelli piccoli e veloci, non sempre possono essere seguiti in modo affidabile.
+343|La riuscita del tracking dipende dalla velocità con cui il soggetto attraversa l’immagine, dalla sua distanza e dimensione, dalla luce e da quanto stabilmente l’iPhone lo riconosce. Soprattutto dipende dal tuo gimbal: dalla velocità massima di pan e tilt, dall’accelerazione e dal ritardo.
+344|La velocità <kbd>Sport</kbd> non può spingere un gimbal oltre i suoi limiti meccanici. Senza gimbal segue solo il gimbal virtuale, all’interno dell’immagine che la fotocamera vede già.
+345|Tieni più distanza o riduci lo zoom: il soggetto attraversa così l’immagine più lentamente.
+346|Scegli <kbd>Sport</kbd> per i cambi di direzione rapidi.
+347|Una buona luce e uno sfondo tranquillo aiutano il riconoscimento.
+348|Fotocamera e formato
+349|Modalità video e foto, risoluzione, frequenza fotogrammi, obiettivi.
+350|Video o foto
+351|Il selettore a sinistra del pulsante di scatto cambia modalità. La fotocamera si riconfigura, come nell’app Fotocamera di Apple.
+352|<strong>Modalità video:</strong> zoom continuo su tutti e tre gli obiettivi, e zoom automatico.
+353|<strong>Modalità foto:</strong> la piena risoluzione fotografica dell’obiettivo selezionato. L’immagine del mirino è in 4:3.
+354|Impostare il formato
+355|Tocca l’indicazione del formato in alto al centro. Durante una registrazione il pannello è bloccato.
+357|Impostazione
+358|Opzioni
+360|HD (1920 × 1080) o 4K (3840 × 2160)
+362|24, 30 o 60 fotogrammi al secondo, 25 per PAL
+364|HEVC; ProRes 422 HQ con Keepsight Pro
+371|HEIF o RAW (Apple ProRAW, con Keepsight Pro)
+372|Ciò che offre l’obiettivo, vedi sotto
+375|Per aprirli, tocca l’indicazione del formato in alto e imposta <kbd>Controls</kbd> su <kbd>Pro</kbd>. Trovi <kbd>Manual controls</kbd> anche nel pannello Fotocamera; da lì funziona anche durante la registrazione di un video.
+376|La finestra è bassa e non scurisce l’immagine, quindi vedi subito ogni cambiamento. Una piccola «A» indica ogni valore che la fotocamera imposta ancora da sola. Appena muovi un cursore, quel valore è fisso. <kbd>Auto</kbd> lo restituisce alla fotocamera, <kbd>All auto</kbd> ripristina tutto. I tuoi valori valgono per foto e video e restano finché non li cambi.
+380|Usala quando l’immagine risulta troppo scura o troppo chiara, per esempio un soggetto contro un cielo luminoso, la neve o un palco. Più schiarisce, meno scurisce, a terzi di stop da −3 a +3. Funziona anche mentre ISO o otturatore sono fissi.
+383|Scegli un ISO basso alla luce del giorno per l’immagine più pulita e alzalo in interni o al crepuscolo. Se fissi solo l’ISO, Keepsight regola da solo il tempo di posa perché la luminosità resti corretta.
+385|Usa 1/1000 o più breve per uccelli, sport e aerei, così restano nitidi. Per un video dall’aspetto naturale usa circa il doppio della frequenza dei fotogrammi, per esempio 1/60 a 30 fotogrammi al secondo. Se fissi solo l’otturatore, Keepsight regola da solo l’ISO. Nel video il tempo non può essere più lungo di un fotogramma; in modalità foto arriva a 1/4 di secondo.
+388|Fissalo quando i colori cambiano durante una ripresa, per esempio quando la fotocamera passa dal sole all’ombra, o quando la luce di una lampada sembra troppo gialla. I simboli impostano 3200 K per le lampadine, 4000 K per la luce fluorescente, 5600 K per il sole, 6500 K per il cielo nuvoloso e 7500 K per l’ombra. Il cursore va da 2500 K a 10000 K.
+391|Usala quando la pelle o le pareti bianche appaiono verdastre o rosate, cosa frequente sotto lampade LED o fluorescenti. Sposta il cursore finché il bianco torna neutro. Quando il bilanciamento del bianco è fisso e la tinta è su Auto, la tinta mantiene l’ultimo valore misurato, e viceversa.
+394|Usalo quando l’autofocus va avanti e indietro, per esempio attraverso una recinzione, una finestra o dei rami, o con un soggetto piccolo contro il cielo. Imposta la distanza una volta e resta lì. I soggetti lontani, come gli aerei, sono all’estremità destra del cursore.
+398|Attivala nel pannello del formato sotto <kbd>Grid</kbd>. È disponibile per tutti, anche senza Pro. Metti il soggetto su uno dei quattro punti di incrocio per un’immagine equilibrata e usa le linee per tenere dritti orizzonte ed edifici.
+399|Nitidezza: AF e messa a fuoco che segue
+400|AF: il tasto <kbd>AF</kbd> alla fine della barra degli obiettivi mette a fuoco una volta sul soggetto seguito, o al centro dell’immagine se non segui nulla. Gratuito per tutti.
+401|Tocca per mettere a fuoco: tocca un punto qualsiasi del mirino. Keepsight mette a fuoco ed espone lì una volta, indicato da un quadrato giallo, e seleziona il soggetto toccato. Se hai impostato a mano messa a fuoco o esposizione, quell’impostazione resta. Gratuito per tutti.
+402|La messa a fuoco segue il soggetto: finché Keepsight segue un soggetto, la nitidezza resta su di esso, anche quando va verso il bordo. Attivala nelle impostazioni in <kbd>Monitoring</kbd> → <kbd>Focus follows the subject</kbd>. Si mette in pausa appena regoli la messa a fuoco a mano. Richiede Keepsight Pro.
+403|Strumenti di controllo
+404|Gli strumenti di controllo mostrano com’è davvero l’immagine, come nelle videocamere professionali. Appaiono solo sullo schermo e non finiscono mai in foto o video. Attivali nelle impostazioni in <kbd>Monitoring</kbd>. Richiede Keepsight Pro.
+405|Interruttori rapidi: apri il menu fotocamera con il pulsante rotondo a destra. In <kbd>Monitoring</kbd> accendi e spegni ogni strumento con un tocco. Tocca di nuovo la tessera Cornice per cambiare formato.
+406|Strumento
+407|Cosa mostra
+408|<kbd>Zebra</kbd>
+409|Strisce bianche diagonali sulle zone troppo chiare che perdono dettaglio. Imposta la soglia con <kbd>Zebra level</kbd>, da 75 a 100 %. Se vedi strisce su un volto o sul cielo, riduci l’esposizione.
+410|<kbd>Focus peaking</kbd>
+411|Colora i bordi nitidi. Utile con la messa a fuoco manuale: gira la messa a fuoco finché il soggetto si illumina. Scegli il colore che risalta di più: verde, rosso, blu o giallo.
+412|<kbd>Histogram</kbd>
+413|Come si distribuisce la luminosità, dal buio a sinistra al chiaro a destra. Una montagna attaccata al bordo destro indica sovraesposizione, al bordo sinistro sottoesposizione.
+414|<kbd>Audio meters</kbd>
+415|Il livello sonoro di ogni canale del microfono da −45 a +3 dB: verde, giallo da −12 dB, rosso da −3 dB. Visibile finché il microfono è attivo, cioè durante la registrazione o con il controllo vocale.
+416|<kbd>Frame guide</kbd>
+417|Scurisce tutto ciò che è fuori dal formato scelto: 9:16 per Reels e Shorts, 4:5 e 1:1 per i post, 4:3, 16:9 e i formati cinema 1,85:1 e 2,39:1. Il video mantiene il formato completo, così puoi ritagliarlo dopo.
+418|Doppia ripresa: la fotocamera posteriore riprende e segue il soggetto, quella anteriore riprende te nello stesso momento. Il tuo selfie appare come piccola immagine in basso a destra nel video.
+419|Attivala nelle impostazioni in <kbd>Dual capture</kbd>. Con <kbd>Save selfie video separately</kbd> il selfie viene salvato anche come video a parte, da montare tu più tardi. Con la doppia ripresa attiva, il mirino mostra il tuo selfie in alto a destra.
+420|Entrambe le fotocamere registrano al massimo in 1080p a 30 fotogrammi al secondo, senza 4K né ProRes. La posteriore usa l’obiettivo principale, lo zoom è digitale.
+421|Tracking, gesti, comandi vocali e gimbal continuano a funzionare.
+422|Solo in modalità video. Passare alla modalità foto o alla fotocamera anteriore termina la doppia ripresa.
+423|Se l’iPhone si scalda, l’immagine selfie si spegne da sola.
+424|Richiede Keepsight Pro e un iPhone in grado di riprendere con entrambe le fotocamere insieme. Se il tuo non può, Keepsight te lo dice.
+425|Ridurre il calore durante la registrazione
+426|Le registrazioni lunghe al sole scaldano ogni iPhone. Con <kbd>Save heat while recording</kbd> Keepsight risparmia energia durante la registrazione e ripristina tutto quando ti fermi. È attivo di serie e gratuito per tutti.
+427|Lo schermo si oscura dopo 10 secondi. Toccalo per riattivarlo. La registrazione continua.
+428|Finché il soggetto sta fermo, il rilevamento calcola meno spesso. Appena si muove, torna a piena velocità.
+429|I gesti vengono controllati meno spesso, il controllo vocale resta attivo.
+430|Gli strumenti di controllo e l’immagine dal vivo sull’Apple Watch si aggiornano meno spesso.
+431|Se l’iPhone si scalda comunque, Keepsight fa un passo in più: prima si spegne l’immagine selfie, poi si mette in pausa il video con overlay, poi il rilevamento rallenta. Se l’iPhone è troppo caldo, il tracking si ferma e la registrazione viene salvata.
+432|Fotocamera anteriore e selfie
+433|Il pulsante con le due frecce accanto alla miniatura passa alla fotocamera anteriore. Ti vedi specchiato, come nell’app Fotocamera di Apple. Le riprese vengono salvate non specchiate, come ti vedono gli altri; per le foto puoi cambiarlo.
+434|<strong>Video e foto:</strong> video fino a 4K, foto alla piena risoluzione della fotocamera anteriore.
+435|<strong>Soggetto:</strong> al cambio, Keepsight passa a <kbd>Face</kbd> e punta ai tuoi occhi. Con un gimbal ti segue anche davanti alla fotocamera anteriore.
+436|<strong>Barra selfie in modalità foto:</strong> sopra il pulsante di scatto scegli <kbd>Single</kbd>, <kbd>Smile</kbd> o <kbd>Look</kbd>. Sorriso e Sguardo sono attivi appena li tocchi: Keepsight scatta da solo quando tutti sorridono o guardano in camera. Entrambi fanno parte di Keepsight Pro.
+437|<strong>Conto alla rovescia:</strong> con la fotocamera anteriore lampeggia lo schermo al posto della luce.
+438|<strong>Non disponibile:</strong> scelta dell’obiettivo e zoom automatico, perché la fotocamera anteriore ha un solo obiettivo.
+440|<kbd>Portrait</kbd>, nella barra selfie o nel pannello Fotocamera, fa parte di Keepsight Pro.
+441|<strong>Foto:</strong> Keepsight salva l’immagine con i dati di profondità della fotocamera anteriore. Poi regoli la sfocatura dello sfondo nell’app Foto. Le foto ritratto sono in HEIF a 12 MP; ProRAW qui non è possibile.
+442|<strong>Video:</strong> Keepsight sceglie un formato che supporta l’effetto Ritratto di Apple, di solito 1080p a 30 fotogrammi. L’effetto si attiva nel Centro di Controllo sotto <kbd>Video effects</kbd>; Keepsight lo apre per te. A seconda dell’iPhone vi trovi anche Luce set fotografico e Inquadratura automatica.
+443|<kbd>Mirror selfies</kbd>, nel pannello Fotocamera, salva i selfie così come ti vedi nel mirino.
+444|Durante una registrazione video non è possibile cambiare fotocamera.
+445|Obiettivi e megapixel
+446|Obiettivo
+447|Risoluzione foto
+448|<kbd>.5×</kbd> ultra-grandangolo
+449|12 MP; fino a 48 MP da iPhone 16 Pro
+450|<kbd>1×</kbd> fotocamera principale
+451|12, 24 o 48 MP; in RAW 12 o 48 MP
+452|Teleobiettivo
+453|12 MP; fino a 48 MP da iPhone 17 Pro
+454|Sono le specifiche di Apple per i modelli Pro a partire da iPhone 15 Pro. Finora Keepsight è stato provato solo su iPhone 15 Pro Max. Altri modelli offrono meno megapixel con alcuni obiettivi. Il pannello del formato mostra sempre solo ciò che l’obiettivo attuale del tuo iPhone offre davvero.
+455|Con lo scatto a voce, Keepsight passa da solo alla modalità foto o video; i gesti agiscono nella modalità impostata. Solo una foto scattata durante una registrazione video resta a circa 10 MP.
+457|Mantiene il soggetto alla stessa dimensione senza che il video salti.
+458|Lo zoom automatico mantiene il soggetto alla dimensione che imposti. Se si allontana, la fotocamera ingrandisce lentamente. Se si avvicina, riduce.
+459|Attivarlo
+460|Passa alla modalità video.
+461|Seleziona l’obiettivo di cui usare l’intervallo.
+462|Tocca <kbd>A</kbd>. Il pulsante mostra lo zoom attuale, per esempio «A 2,3×».
+463|Perché il video non salta
+464|Quando una fotocamera di iPhone cambia obiettivo durante lo zoom, l’immagine si sposta visibilmente. Lo zoom automatico resta quindi sull’obiettivo selezionato e si muove solo minimamente a ogni fotogramma.
+465|Obiettivo selezionato
+466|Intervallo di zoom
+467|Da 0,5× a poco meno di 1×
+468|Da 1× a poco meno di 4×
+469|Da 5× a 10×
+471|<strong>Dimensione del soggetto:</strong> quanta parte dell’immagine deve occupare il soggetto, dal 15 al 60 per cento.
+472|<strong>Velocità dello zoom:</strong> quanto velocemente può muoversi lo zoom, dall’8 al 60 per cento al secondo. Valori bassi risultano più tranquilli.
+473|Comportamento in casi particolari
+474|Lo zoom parte solo dopo che il soggetto è stato riconosciuto stabilmente per poco meno di un secondo.
+475|Se il soggetto raggiunge il bordo dell’immagine, la fotocamera riduce invece di ingrandire.
+476|Se il soggetto è coperto per poco, lo zoom resta fermo. Solo dopo un secondo e mezzo senza soggetto torna lentamente indietro.
+478|Un secondo video con un riquadro che segue e zooma con fluidità.
+479|Il gimbal virtuale ritaglia dall’immagine completa un riquadro che segue il soggetto e zooma da solo. Il risultato è un video finito e stabile, disponibile subito dopo la registrazione.
+480|Apri il pannello di destra e attiva <kbd>Virtual gimbal</kbd>.
+481|Scegli un soggetto. Nel mirino vedi il riquadro come un contorno chiaro; l’area esterna è scurita.
+482|Avvia la registrazione.
+483|Non serve un gimbal vero. Puoi tenere l’iPhone in mano o metterlo su un treppiede. Insieme a un gimbal e allo zoom automatico l’immagine diventa ancora più stabile.
+484|Regolazione
+485|Effetto
+487|Dal 10 al 40 per cento. Più spazio risulta più tranquillo, meno spazio avvicina il soggetto.
+489|Da 1,5× a 4×. Registrando in 4K, la nitidezza resta piena fino a 2×.
+491|Con quanta calma segue il riquadro. Valori più alti rendono il movimento più morbido.
+493|Salva il video completo oltre a quello ritagliato.
+494|Cosa viene salvato
+495|Il video ritagliato in 1080p.
+496|Facoltativamente, l’originale nella risoluzione scelta.
+497|Se Keepsight perde il soggetto, il riquadro torna lentamente all’immagine intera.
+498|Il gimbal virtuale mantiene fermo il soggetto nel riquadro. Non compensa forti scossoni dello sfondo.
+499|Scatto singolo, serie a intervalli e scatto automatico al momento giusto.
+500|In modalità foto, il pannello di destra sotto <kbd>Photo trigger</kbd> stabilisce come Keepsight scatta.
+501|Tipo
+502|Cosa succede
+504|Una foto a ogni pressione del pulsante di scatto.
+506|Una serie a intervallo fisso fino al numero massimo.
+507|Sorriso (Pro)
+508|Scatta quando tutti i volti nell’immagine sorridono con gli occhi aperti.
+509|Sguardo (Pro)
+510|Scatta quando tutti sono rivolti verso la fotocamera.
+511|Soggetto (Pro)
+512|Scatta quando il soggetto scelto è agganciato e abbastanza grande nell’inquadratura.
+513|Scatto singolo e intervallo fanno parte della versione gratuita. I tre tipi automatici richiedono Keepsight Pro; nella versione gratuita mostrano un lucchetto.
+514|Eseguire una serie
+515|Scegli il tipo di scatto.
+516|Imposta <kbd>Interval</kbd> e <kbd>Maximum photos</kbd>.
+517|Premi il pulsante di scatto. Con i tipi automatici Keepsight ora è pronto e attende il momento.
+518|L’indicazione in alto al centro conta le foto, per esempio «3 / 30». Una seconda pressione del pulsante di scatto termina la serie.
+519|<strong>Intervallo:</strong> da 1 a 30 secondi. Con i tipi automatici è la distanza minima tra due foto.
+520|<strong>Numero massimo di foto:</strong> da 2 a 100.
+521|Per uccelli e altri animali funziona bene «Soggetto» con un intervallo breve: Keepsight scatta appena l’animale è grande nell’inquadratura e continua finché resta lì. L’app non riconosce dove guarda un animale.
+522|Le foto a 48 MP e in ProRAW richiedono più tempo per il salvataggio. Con un intervallo molto breve la distanza effettiva può quindi essere maggiore.
+523|Gesti, voce, conto alla rovescia
+524|Usare la fotocamera quando sei tu stesso davanti all’obiettivo.
+525|Trovi tutti e tre nel pannello di sinistra sotto <kbd>Remote control</kbd>.
+526|Gesti della mano
+527|I gesti funzionano quando il soggetto è Persona o Volto. Tieni fermo un gesto per circa mezzo secondo; in alto al centro si riempie una barra con l’icona del gesto. Solo la persona seguita può fare gesti, o senza tracking la persona più grande nell’immagine. Dopo un gesto, il successivo viene ignorato per 2 secondi.
+528|Keepsight capisce cinque gesti. I primi tre sono uguali a quelli del DJI Osmo Mobile 8, il gesto di gruppo è uguale a quello dell’Insta360 Flow 2 Pro, e il momento clou esiste solo in Keepsight.
+529|Gesto
+530|Mano aperta
+531|Avvia o ferma il tracking della persona che la mostra.
+532|Segno V
+533|Modalità foto: scatta una foto. Modalità video: avvia o ferma la registrazione.
+534|Doppia L con entrambe le mani (una cornice), mostrata due volte
+535|Regola l’inquadratura: centra la persona e imposta lo zoom automatico sulla dimensione della cornice.
+536|Indice alzato
+537|Tutto il gruppo: tutte le persone restano nell’immagine. Mostralo di nuovo: torna alla persona che fa il gesto.
+538|Pollice in su
+539|Momento clou: segna l’istante nella registrazione in corso.
+540|Il segno V agisce nella modalità impostata. Per passare tra foto e video senza mani, usa un comando vocale.
+541|Cos’è un momento clou
+542|Un momento clou è un segnalibro nel video. Durante una registrazione mostri 👍 o tocchi la stella sull’Apple Watch, e Keepsight ricorda quell’istante. Poi apri il video nella galleria di Keepsight: sotto il video i segni appaiono come stelle con l’ora, ad esempio ★ 2:14. Un tocco salta lì, un secondo prima per non perdere l’inizio.
+543|Esempio: filmi 20 minuti di allenamento e il salto migliore è a 7:40. Mostri 👍 in quel momento e lo ritrovi poi con un tocco.
+544|I segni si vedono solo nella galleria di Keepsight, non nell’app Foto né nei programmi di montaggio, perché sono salvati in Keepsight e non nel file video. Se elimini Keepsight, i segni spariscono; i video restano in Foto.
+545|Tenere un gruppo nell’immagine
+546|☝️ traccia una cornice intorno a tutte le persone nell’immagine. Tracking e zoom automatico tengono in vista tutto il gruppo, ad esempio una famiglia, una band o una squadra. Mostra di nuovo ☝️ e Keepsight segue solo la persona che fa il gesto.
+547|Passare il comando
+548|Ferma il tracking con ✋ e per circa cinque secondi chiunque altro può subentrare con ✋. Utile per interviste o quando più persone si alternano davanti alla camera.
+549|Gesti da più lontano
+550|Quando la persona che fa i gesti è piccola nell’immagine, Keepsight cerca le mani solo intorno a lei. Il rilevamento vede così le mani più grandi e i gesti funzionano anche da più lontano. Quanto lontano dipende da luce e obiettivo; lo stiamo ancora misurando.
+551|La tua assegnazione
+552|Con Keepsight Pro assegni a ogni gesto un’altra azione nelle impostazioni, ad esempio ✌️ scatta sempre una foto, oppure un gesto non fa nulla. «Ripristina gesti» torna all’assegnazione standard.
+553|Conferma
+554|Keepsight conferma ogni gesto riconosciuto con la barra nel mirino, luce e suono. Se indossi un Apple Watch con Keepsight, ti tocca il polso: lo sai anche di spalle all’iPhone. L’orologio ha anche una pagina con tutti i gesti.
+555|Comandi vocali
+556|Attiva <kbd>Voice control</kbd> e consenti microfono e riconoscimento vocale. Pronuncia i comandi nella lingua dell’app.
+557|Tu dici
+558|«Scatta una foto»
+559|Scattare una foto.
+560|«Avvia video» o «Avvia registrazione»
+561|Avviare la registrazione video.
+562|«Stop»
+563|Terminare la registrazione, la serie o un conto alla rovescia in corso.
+564|Foto e video richiedono almeno due parole, ad esempio «fai un video», «inizia a registrare», «fai una foto» o «fammi una foto». Una parola da sola non attiva nulla, quindi una normale conversazione non fa scattare la fotocamera. Uno «stop» da solo funziona solo durante una registrazione, una serie o un conto alla rovescia. Se la fotocamera è nell’altra modalità, Keepsight cambia da solo prima di scattare.
+565|Finché il controllo vocale è attivo, il microfono resta acceso. L’iPhone lo segnala con il punto arancione.
+566|Conto alla rovescia, flash e suono
+567|Quando scatti con un gesto o con la voce, prima parte un conto alla rovescia, così hai il tempo di metterti in posa.
+568|<strong>Conto alla rovescia:</strong> disattivato, 3, 5 o 10 secondi. I secondi compaiono in grande nell’immagine.
+569|<strong>Flash di conferma:</strong> il LED lampeggia a intervalli sempre più brevi fino allo scatto.
+570|<strong>Suono di conferma:</strong> un breve tic a ogni lampo.
+571|Senza conto alla rovescia c’è un solo lampo e un solo tic di conferma. Il pulsante di scatto sullo schermo scatta sempre subito.
+572|Apple Watch
+573|Telecomando e stato al polso.
+574|Cosa fa l’orologio
+575|L’Apple Watch è telecomando e display di controllo per l’iPhone sul gimbal. Non ha una fotocamera propria, non mostra una galleria e non salva nulla.
+576|Apri Keepsight sull’iPhone, poi sull’orologio. L’orologio raggiunge l’iPhone via Bluetooth a circa 10 m, più lontano sulla stessa rete Wi-Fi. Senza connessione lo dice, invece di mostrare pulsanti vuoti.
+577|Scatto: foto, oppure avvio e arresto del video, con il conto alla rovescia che ticchetta al polso.
+578|Passare tra foto e video, avviare e fermare il tracking.
+579|Stato: modalità, tempo di registrazione in rosso, stato del tracking, gimbal e batteria.
+580|Pagina Gesti: tutti i gesti della mano a colpo d’occhio. L’orologio tocca il polso appena l’iPhone riconosce un gesto.
+581|Il doppio tocco (watchOS 11 o successivo, Apple Watch Series 9, Ultra 2 o più recente) scatta. Su Apple Watch Ultra imposta il tasto Azione su Comando rapido e scegli Scatto Keepsight.
+582|Con Keepsight Pro
+583|Avvisi al polso: bersaglio perso da 2 secondi, registrazione interrotta, spazio dell’iPhone quasi esaurito, iPhone caldo, batteria del gimbal scarica, gimbal scollegato.
+584|Comandi: zoom con la Digital Crown, panoramica e inclinazione con il dito, centra, soggetto successivo, tutto il gruppo, programma panoramica.
+585|Momenti clou: un tocco durante la registrazione segna l’istante. Nella galleria i segni appaiono come stelle sotto il video; un tocco salta lì.
+586|Immagine dal vivo: una piccola immagine con i riquadri di rilevamento, circa 5–8 immagini al secondo. Tocca una persona per scegliere il bersaglio. Serve per controllare, non per filmare, e si spegne quando l’iPhone è caldo.
+587|Un solo acquisto per tutto: Keepsight Pro sull’iPhone sblocca anche l’orologio. Anche la prova Pro sblocca l’orologio per la sua durata. Nella versione gratuita l’unico avviso è quando una registrazione termina al limite di 60 secondi.
+588|Requisiti
+589|Apple Watch con watchOS 10 o successivo, abbinato a un iPhone con iOS 26 o successivo. Keepsight si installa sull’orologio insieme all’app per iPhone.
+590|<strong>Non ancora provato su un orologio:</strong> l’app per orologio segue la documentazione di Apple. Doppio tocco, tasto Azione e immagine dal vivo devono ancora essere provati su orologi veri.
+591|Registrazione e galleria
+592|Quali video vengono creati, dove si trovano e come guardarli.
+593|Registrare un video
+594|In modalità video il pulsante rosso avvia e ferma la registrazione. Il tempo trascorso compare in alto al centro in un riquadro rosso, al posto del formato. Nella versione gratuita, negli ultimi 10 secondi si aggiunge il tempo rimanente. I video hanno l’audio e vengono salvati nell’app Foto.
+595|Quali video vengono creati
+596|Contenuto
+597|Quando
+599|L’immagine pulita della fotocamera nella risoluzione scelta.
+600|Sempre, a meno che tu non lo disattivi per il gimbal virtuale.
+601|Il riquadro che segue, in 1080p.
+602|Quando il gimbal virtuale è attivo.
+604|L’immagine con riquadri, tempo, soggetto, stato e dati del gimbal, in 1080p.
+605|Con Keepsight Pro, quando <kbd>Overlay video</kbd> è attivo.
+607|La miniatura sopra il selettore di modalità mostra l’ultima ripresa. Toccala per aprire la galleria con tutte le foto e i video fatti con Keepsight, dai più recenti.
+608|Dopo una foto il mirino si scurisce un attimo e la nuova immagine salta nella miniatura. Un messaggio compare solo se qualcosa va storto.
+609|I video con momenti clou mostrano sotto il video stelle con l’ora; un tocco salta all’istante segnato.
+610|Tocca un’immagine per vederla in grande e scorri per sfogliare.
+611|In alto compaiono data, megapixel e dimensioni dell’immagine.
+612|Il cestino elimina la ripresa anche dall’app Foto. L’iPhone chiede prima conferma.
+613|Per eliminarne più di una alla volta, tocca <kbd>Select</kbd> in alto a sinistra, tocca le foto e i video che vuoi oppure <kbd>Select all</kbd>, poi il cestino in basso. L’iPhone chiede una sola volta per tutte.
+614|La galleria ha bisogno dell’accesso in lettura a Foto. Con «Accesso limitato» Keepsight vede comunque le proprie riprese.
+615|Se un riquadro mostra una nuvola, l’originale è in iCloud ed è in fase di download. Succede quando Foto di iCloud è attivo con «Ottimizza spazio iPhone». Un segnale di avviso indica che il file non si può leggere; la vista ingrandita mostra allora il nome del file.
+616|Dati di volo in tempo reale nel video dal tuo ricevitore ADS-B: cosa ti serve, dove funziona, privacy.
+617|<strong>Disponibilità:</strong> i dati di volo in tempo reale sono disponibili solo nei paesi e nelle regioni approvati e richiedono il tuo ricevitore ADS-B. Al momento nessuna regione è approvata, quindi la funzione resta disattivata ovunque.
+618|Con la sovrimpressione dei dati di volo, Keepsight mostra numero di volo, quota e velocità dell’aereo di linea che stai seguendo, nel mirino e nel video registrato dall’iPhone. I dati arrivano dal tuo ricevitore ADS-B sulla stessa rete Wi-Fi. Non sono coinvolti né Internet né fornitori di dati di volo.
+619|Keepsight segue gli aerei a vista, senza alcun ricevitore. Il ricevitore serve solo per la sovrimpressione e non fa parte dell’app: lo acquisti o lo costruisci a parte.
+620|<strong>Un ricevitore:</strong> uno Stratux, ad esempio un Raspberry Pi 3 con una chiavetta USB ricevente a 1090 MHz e un’antenna, oppure un altro dispositivo che invia GDL90 via Wi-Fi.
+621|<strong>Non basta la chiavetta:</strong> una chiavetta USB ricevente come la FlightAware Pro Stick ha bisogno di un host, ad esempio un Raspberry Pi con Stratux. Un’installazione PiAware standard invia dati a FlightAware e non è adatta.
+622|<strong>La stessa rete Wi-Fi:</strong> l’iPhone si collega al Wi-Fi del ricevitore. Questa rete di solito non ha Internet; va bene così.
+623|<strong>Una regione approvata:</strong> ricevere i dati da te non significa di per sé che la funzione sia consentita in un paese.
+624|Stratux o GDL90
+625|Ricevitore
+626|Testato con Keepsight
+628|WebSocket verso il ricevitore, di solito a 192.168.10.1
+629|Non ancora
+631|Il ricevitore invia alla porta 4000 dell’iPhone
+632|Entrambi sono supportati a livello di protocollo. Finora nessun ricevitore è stato testato con Keepsight su hardware reale; singoli dispositivi, come lo SkyEcho 2, possono comportarsi diversamente. Il traffico trasmesso solo tramite FLARM non è supportato.
+633|Attivazione
+634|Apri le impostazioni e attiva <kbd>Flight data overlay (ADS-B)</kbd>.
+635|Leggi l'avviso e tocca <kbd>Agree and enable</kbd>. Solo allora iOS chiede la tua posizione.
+636|Collegati al Wi-Fi del ricevitore, scegli il tipo di ricevitore e inserisci il suo indirizzo. iOS chiede una volta l’accesso alla rete locale.
+637|Tocca <kbd>Connect receiver</kbd>. Keepsight non si connette mai da solo.
+638|Scegli <kbd>Aircraft</kbd> come soggetto e punta la fotocamera verso l'aereo.
+639|Se più aerei corrispondono alla direzione in cui guarda la fotocamera, Keepsight non tira a indovinare: tocca <kbd>Aircraft selection required</kbd> e scegli quello giusto.
+640|Scegli sempre tu l’aereo, dall’elenco degli aerei di linea ricevuti in quel momento. L’elenco mostra l’età di ogni posizione in secondi.
+641|Le impostazioni mostrano lo stato della connessione: connessione in corso, connesso senza aerei, ricezione oppure dati non aggiornati. <kbd>Reconnect</kbd> riavvia la connessione.
+642|Le impostazioni dei dati di volo compaiono solo quando <kbd>Aircraft</kbd> è il soggetto selezionato.
+643|Perché Keepsight ha bisogno della tua posizione
+644|iOS chiede la tua posizione solo quando attivi la sovrimpressione dei dati di volo e acconsenti. Keepsight ne ha bisogno per due motivi:
+645|<strong>Verificare la regione:</strong> la possibilità di mostrare i dati di volo dipende dal paese in cui ti trovi. Keepsight lo determina da dove si trova realmente l'iPhone, sul dispositivo stesso.
+646|<strong>Riconoscere l'aereo nell'immagine:</strong> Keepsight calcola la direzione e l'angolo sopra l'orizzonte da te a ciascun aereo e li confronta con la direzione in cui punta la fotocamera. Anche la bussola ha bisogno della posizione per trovare il nord geografico.
+647|L'inserimento manuale di un luogo non è previsto, perché la verifica regionale non sarebbe più affidabile. Se non usi i dati di volo, Keepsight non chiede mai la tua posizione.
+648|Dove funziona
+649|Keepsight determina il paese sul tuo iPhone in base alla posizione attuale. Il paese dell'App Store, la lingua o l'indirizzo internet non contano. Vicino a un confine e in mare la funzione resta disattivata.
+650|Ogni paese viene verificato singolarmente prima di essere approvato. Fino ad allora l'app ti comunica che i dati di volo in tempo reale non sono disponibili nella tua regione. Tracking e registrazione funzionano come sempre.
+651|Che cosa lascia il tuo iPhone
+652|Niente. Keepsight si limita ad ascoltare il ricevitore e non ne modifica mai le impostazioni. Né la tua posizione né i dati di volo vengono inviati a un server.
+653|I dati di volo esistono solo nella memoria dell’iPhone finché il ricevitore è connesso. Vengono eliminati quando ti disconnetti, scegli un altro soggetto o esci dall’app. Nulla viene salvato né incluso nei backup.
+654|Visualizzazione
+656|Il tipo di aereo non fa parte dell’ADS-B e quindi non viene mostrato. Nemmeno i dati che un ricevitore si limita a inoltrare, come OGN, FLARM o TIS-B, vengono mai mostrati.
+657|Scegli l’angolo, la versione compatta o dettagliata e le unità metriche o imperiali. I dati più vecchi di 15 secondi vengono nascosti invece di restare fermi. Ogni video con dati di volo riporta la dicitura «Flight data: Local ADS-B».
+658|La sovrimpressione viene scritta nei video registrati con l'iPhone. Una fotocamera sul gimbal registra per conto proprio e non riceve alcuna sovrimpressione.
+659|Se vuoi, Keepsight ruota il gimbal verso la posizione segnalata dell’aereo scelto finché non è ancora visibile nell’immagine. La bussola limita la precisione.
+660|Precisione
+661|I dati di volo possono essere in ritardo, incompleti o errati. Servono solo a scopo informativo e non sono adatti alla navigazione, alla sicurezza del volo o a decisioni operative.
+662|Gratis e Pro
+663|Cosa fa la versione gratuita, cosa sblocca Pro, acquisto e ripristino.
+664|La versione gratuita serve per provare: verifichi inseguimento, gesti e fotocamera sulle persone prima di pagare qualcosa.
+665|Sì
+666|Controllo del gimbal, scatto singolo e serie a intervalli
+667|No
+668|Tutti gli altri soggetti
+669|Durata dei video
+670|60 secondi
+671|Illimitata
+672|Prova del tracking Pro
+673|3 × 60 secondi
+674|Logo Keepsight su foto e video
+675|Provare il tracking Pro
+676|Tocca un soggetto bloccato nel pannello di tracking e scegli <kbd>Start preview</kbd>. Per 60 secondi Keepsight segue questo soggetto esattamente come la versione Pro. Hai tre sessioni; una che fallisce nei primi secondi non conta.
+677|Nella versione gratuita un video termina da solo dopo 60 secondi. Un avviso compare 10 secondi prima della fine.
+678|Acquistare Pro
+679|Tocca <kbd>PRO</kbd> in alto a destra e poi <kbd>Sblocca</kbd>. Pro è un acquisto unico senza abbonamento. L’App Store mostra il prezzo nella tua valuta e Apple gestisce il pagamento.
+680|Ripristinare un acquisto
+681|Su un nuovo iPhone o dopo una reinstallazione tocca <kbd>PRO</kbd> → <kbd>Restore purchase</kbd>. Devi aver effettuato l’accesso con lo stesso Apple Account usato per l’acquisto.
+682|Hai un codice per Keepsight Pro? Tocca <kbd>PRO</kbd> → <kbd>Redeem code</kbd> e inseriscilo. Apple verifica il codice, che sblocca Pro come un acquisto.
+683|Rimborsi
+684|Richiedi un rimborso ad Apple su <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.
+685|Impostazioni e aiuto
+686|Lingua, modalità aiuto e regolazioni per utenti esperti.
+687|Gli interruttori più importanti sono nei due pannelli laterali. Tutto il resto è nel pannello di sinistra sotto <kbd>All settings</kbd>.
+689|Il punto interrogativo in cima a ogni pannello laterale attiva la modalità aiuto. Sotto le voci del menu compaiono allora note gialle con una breve spiegazione, e per quelle importanti uno schema.
+690|Keepsight usa la lingua del tuo iPhone. Per sceglierne un’altra solo per Keepsight, tocca <kbd>Language</kbd> sotto <kbd>All settings</kbd>. Si aprono le impostazioni dell’iPhone per Keepsight. Cambiano anche i comandi vocali.
+691|Regolazioni per utenti esperti
+692|Velocità «Personalizzato»
+693|Guadagno, smorzamento, velocità massima, accelerazione e zona di quiete dell’inseguimento.
+694|Velocità minima
+695|Solo per l’AK4500: il comando più piccolo a cui il gimbal reagisce ancora. Aumentalo se il gimbal si ferma con piccoli scostamenti.
+696|Previsione dopo la perdita
+697|Per quanto tempo il gimbal continua a ruotare quando il soggetto è coperto.
+699|Inverti rotazione o inclinazione.
+701|Quale modello riconosce un soggetto. Sono disponibili RF-DETR Small e YOLOX-S.
+703|Mostra nel mirino frequenza fotogrammi, comandi del gimbal e tempo di calcolo del modello.
+705|Ripristina le regolazioni dell’inseguimento.
+707|Qui trovi la versione dell’app, i link a questo sito e le licenze dei modelli di riconoscimento usati.
+708|Risoluzione dei problemi
+709|Problemi frequenti e come risolverli.
+710|Il gimbal non viene trovato
+711|<strong>Dispositivo con DockKit:</strong> è abbinato nelle impostazioni dell’iPhone, e l’iPhone è inserito bene nel supporto? Per confronto apri l’app Fotocamera di Apple. Se lì il dispositivo non ti segue, il problema è l’abbinamento.
+712|<strong>AK4500:</strong> il gimbal è acceso e vicino? Chiudi del tutto l’app Feiyu e consenti il Bluetooth in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
+713|Spegni e riaccendi il gimbal e tocca di nuovo <kbd>Connect</kbd>.
+714|Il gimbal si allontana dal soggetto
+715|Di norma Keepsight lo corregge da solo dopo un attimo. In caso contrario, inverti l’asse interessato in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
+716|Il gimbal reagisce lentamente o trema
+717|Lento: scegli il profilo Sport. Con l’AK4500 aiuta anche una velocità minima più alta.
+718|Tremolii o oscillazioni: scegli il profilo Fluido. Con una focale lunga i piccoli movimenti sembrano più grandi.
+719|Il soggetto non viene riconosciuto
+720|È selezionato il tipo di soggetto giusto?
+721|I soggetti molto piccoli vengono riconosciuti con meno sicurezza. Scegli un obiettivo più lungo.
+722|Il riconoscimento cala con poca luce e in forte controluce.
+723|I comandi vocali non vengono capiti
+724|Consenti microfono e riconoscimento vocale in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
+725|Pronuncia i comandi nella lingua dell’app.
+726|Per foto e video di' almeno due parole, ad esempio «scatta una foto» o «avvia video».
+727|Vento e ambienti rumorosi disturbano il riconoscimento. In quei casi i gesti sono più affidabili.
+728|I gesti non fanno scattare
+729|Il soggetto deve essere impostato su Persona o Volto.
+730|Tieni la mano ferma e ben visibile finché la barra è piena.
+731|Solo la persona seguita può fare gesti, o senza tracking la persona più grande nell’immagine.
+732|Dopo un gesto, aspetta 2 secondi prima del successivo.
+733|Per ☝️ tieni il pollice contro la mano; per la L allargalo. Così Keepsight li distingue.
+734|Non si possono scegliere 48 MP o RAW
+735|Entrambi sono disponibili solo in modalità foto e con un obiettivo che li supporta. Su iPhone 15 Pro è solo la fotocamera principale <kbd>1×</kbd>; i modelli Pro più recenti offrono 48 MP anche con altri obiettivi. Il RAW richiede inoltre Keepsight Pro.
+736|La galleria è vuota
+737|Consenti a Keepsight l’accesso a Foto. Le riprese fatte con versioni precedenti dell’app non compaiono nella galleria, ma sono nell’app Foto.
+738|Keepsight Pro non è attivo dopo l’acquisto
+739|Tocca <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> e verifica di aver effettuato l’accesso con l’Apple Account giusto.
+740|Altro aiuto
+741|Scrivi a <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a> indicando il modello di iPhone, la versione di iOS e la versione di Keepsight.
+742|L’iPhone si scalda
+743|Riconoscimento, registrazione in 4K e controllo del gimbal sono impegnativi, soprattutto al sole. Keepsight protegge il dispositivo da solo:
+744|<strong>Termometro nel campo di stato:</strong> l’iPhone è caldo e il riconoscimento analizza solo un fotogramma su due o su tre. L’inseguimento continua, ma reagisce un po’ più lentamente.
+745|<strong>Inseguimento fermato:</strong> a temperatura critica Keepsight termina inseguimento e registrazione e salva il video. Lascia raffreddare l’iPhone all’ombra.
+746|Per tenerlo più fresco: disattiva riconoscimento e controllo a gesti quando non ti servono, 1080p invece di 4K, 30 fotogrammi invece di 60, disattiva il video con sovrimpressione e il gimbal virtuale, togli la custodia. Per questo iPhone 12 e i modelli precedenti partono in 1080p.
+747|La documentazione risponde alla maggior parte delle domande. Se ti blocchi, scrivimi.
+748|Contatto
+749|Per aiutarti in fretta, indica:
+750|il modello di iPhone e la versione di iOS
+751|la versione di Keepsight (nell’app sotto Tutte le impostazioni → Info e licenze)
+752|cosa hai fatto e cosa è successo invece, meglio se con uno screenshot o un breve video
+753|Aiuto rapido
+754|<a href="docs/start.html">Primi passi</a>: autorizzazioni e collegamento del gimbal
+755|<a href="docs/troubleshooting.html">Risoluzione dei problemi</a>: problemi frequenti e come risolverli
+756|<a href="docs/pro.html">Gratis e Pro</a>: acquisto, ripristino, rimborsi
+757|Informativa sulla privacy
+758|Ultimo aggiornamento: 16 novembre 2026. Vale per l’app iOS Keepsight e per questo sito web.
+759|<strong>In breve:</strong> Keepsight non raccoglie dati su di te. Non ci sono account, pubblicità, tracciamento né strumenti di analisi. Le immagini della fotocamera, il rilevamento, le foto e i video restano sul tuo iPhone.
+760|1. Titolare del trattamento
+761|Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Svizzera<br>E-mail: <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>
+762|2. Cosa elabora l’app
+763|L’app elabora i dati solo sul tuo dispositivo e solo per le sue funzioni. Io, come fornitore, non ne ricevo nessuno.
+764|<strong>Fotocamera:</strong> l’immagine viene analizzata sull’iPhone per riconoscere e seguire i soggetti. Le immagini non lasciano il dispositivo.
+765|<strong>Volti:</strong> per riconoscere volti, sorrisi e direzione dello sguardo, l’app analizza l’immagine della fotocamera sull’iPhone. Non riconosce chi sia una persona e non memorizza caratteristiche del volto. Le foto ritratto contengono dati di profondità della fotocamera anteriore; esistono solo nella foto che salvi tu.
+766|<strong>Microfono:</strong> per l’audio dei tuoi video e, se attivi il controllo vocale, per i comandi vocali.
+767|<strong>Riconoscimento vocale:</strong> i comandi vocali sono riconosciuti dal riconoscimento vocale di Apple. Se il tuo iPhone e la lingua scelta lo supportano, avviene sul dispositivo. Altrimenti l’audio viene inviato ad Apple per il riconoscimento, secondo l’informativa sulla privacy di Apple. Il controllo vocale è disattivato per impostazione predefinita.
+768|<strong>Foto:</strong> l’app salva le tue riprese nella libreria foto e mostra nella sua galleria solo quelle fatte con Keepsight. Se usi Foto di iCloud, Apple le trasferisce secondo le tue impostazioni iCloud.
+769|<strong>Bluetooth:</strong> per controllare il gimbal. Con il gimbal vengono scambiati solo comandi e valori di stato.
+770|<strong>Apple Watch:</strong> l’app dell’orologio comunica solo con il tuo iPhone, tramite WatchConnectivity di Apple. Stato, comandi e la piccola immagine dal vivo passano direttamente tra i tuoi due dispositivi. L’orologio non salva nulla.
+771|<strong>Posizione e dati di volo:</strong> solo se attivi la sovrimpressione dei dati di volo e acconsenti. Keepsight usa allora la tua posizione sull’iPhone per determinare la regione e riconoscere l’aereo nell’immagine. I dati di volo arrivano dal tuo ricevitore ADS-B sulla rete locale. Né la tua posizione né i dati di volo lasciano l’iPhone. Senza questa funzione l’app non usa la tua posizione.
+772|<strong>Rete locale:</strong> solo per la sovrimpressione dei dati di volo, per raggiungere il tuo ricevitore ADS-B. Keepsight ne riceve soltanto i dati.
+773|<strong>Impostazioni:</strong> le tue impostazioni nell’app sono salvate solo localmente sull’iPhone.
+774|3. Acquisti
+775|L’acquisto di «Keepsight Pro» è gestito da Apple tramite l’App Store. Non ricevo dati di pagamento, nome o indirizzo e-mail, solo cifre di vendita aggregate da Apple.
+776|4. Versioni di prova (TestFlight)
+777|Se usi una versione di prova tramite TestFlight, Apple tratta il tuo indirizzo e-mail per l’invito e, se acconsenti, i rapporti sugli arresti anomali e il tuo feedback. Vedo feedback e rapporti per correggere i problemi, e gli indirizzi e-mail dei tester che ho invitato io.
+778|5. Contatto via e-mail
+779|Se mi scrivi, uso il tuo indirizzo e-mail e il contenuto del messaggio solo per risponderti. Cancello i messaggi quando la richiesta è risolta, al più tardi dopo due anni.
+780|6. Questo sito web
+781|Questo sito non imposta cookie e non usa tracciamento. Caratteri e script sono serviti dallo stesso sito; non viene caricato alcun contenuto di terzi. La scelta della lingua è salvata solo nel tuo browser. Il sito è ospitato su GitHub Pages (GitHub, Inc., USA). Quando lo visiti, GitHub tratta dati tecnicamente necessari, come il tuo indirizzo IP, nei log del server. Per i dettagli vedi l’informativa sulla privacy di GitHub.
+782|7. I tuoi diritti
+783|In base alla legge svizzera sulla protezione dei dati e, ove applicabile, al GDPR, hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento e portabilità dei dati, nonché il diritto di proporre reclamo a un’autorità di controllo (in Svizzera l’IFPDT). Poiché l’app non mi trasmette dati, in pratica ciò riguarda solo le e-mail che mi hai inviato. Scrivi a <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>.
+784|8. Minori
+785|L’app non è rivolta specificamente ai minori e non raccoglie loro dati.
+786|9. Modifiche
+787|Se l’app cambia in modo da richiedere modifiche a questa informativa, verrà aggiornata qui. Vale la versione presente in questa pagina.
+788|Fornitore
+789|E-mail: <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a>
+790|Responsabilità
+791|Keepsight controlla un gimbal motorizzato. Assicurati che il gimbal possa muoversi liberamente e che nessuno sia messo in pericolo. L’uso avviene sotto la tua responsabilità, nei limiti consentiti dalla legge.
+792|Marchi
+793|Apple, iPhone, App Store, TestFlight e DockKit sono marchi di Apple Inc. FeiyuTech, AK4500, Insta360, DJI e Belkin sono marchi dei rispettivi proprietari. Keepsight è un prodotto indipendente e non è affiliato a queste aziende.
+794|Condizioni d’uso
+795|L’app è concessa in licenza secondo il contratto di licenza standard di Apple per le app: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.
+796|Carattere
+797|Questo sito usa il carattere Inter (SIL Open Font License 1.1).
+798|Controlli manuali: bilanciamento del bianco con simboli per la luce, qui con la modalità aiuto
+799|Controlli manuali: tinta, fuoco e diaframma
+800|Pannello Fotocamera: formato, zoom, gimbal virtuale, scatto foto
+801|Formato in modalità video
+802|Formato in modalità foto
+803|Impostazioni: velocità, gimbal, qualità
+804|Impostazioni: modello di riconoscimento e direzione
+805|Impostazioni: gesti, registrazione, lingua
+806|Pannello Tracciamento con soggetto, velocità e controllo remoto, qui con la modalità aiuto
+807|Sezione Manuale con joystick
+808|Esempio della sovrimpressione (illustrazione). Con un ricevitore locale il tipo di aereo non viene mostrato.
+809|Una giovane donna filma sé stessa e i suoi amici al tramonto con un telefono su un gimbal
+810|Una famiglia su una coperta da picnic in riva a un lago, ripresa da un telefono su un piccolo gimbal
+811|Una donna filma un ciclista di passaggio con un telefono su un gimbal
+812|Un uomo filma un cane che corre e una bambina con un telefono su un gimbal
+813|Un fotografo segue un rapace in volo con una fotocamera su un gimbal
+814|Una donna con una fotocamera su un gimbal e un telefono in mano mentre un aereo passa in cielo
+815|Plane spotter alla recinzione di un aeroporto filmano un aereo di linea con un telefono su un gimbal
+816|Plane spotting con un telefono su un gimbal (illustrazione)

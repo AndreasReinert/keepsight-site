@@ -174,6 +174,14 @@ DOCS = [
 </ol>
 <p>Während Keepsight verfolgt, sagt es DockKit, wo das Motiv ist, und DockKit bewegt die Motoren, so wie Apple es empfiehlt. Bei Person und Gesicht kannst du auch Apples eigenes Tracking übernehmen lassen. Trennst du im Bereich <kbd>Manual</kbd>, übernimmt wieder das System.</p>
 <p>DockKit braucht iOS 26 oder neuer. Geräte ohne DockKit, zum Beispiel ältere Modelle derselben Hersteller, kann Keepsight nicht steuern.</p>
+<h3>Beispiel: DJI Osmo Mobile 8</h3>
+<ol>
+<li>Aktualisiere die Firmware des Gimbals einmal mit der App DJI Mimo und schliesse DJI Mimo danach ganz.</li>
+<li>Schalte Bluetooth am iPhone ein und schalte den Gimbal ein.</li>
+<li>Entsperre das iPhone und halte es an die NFC-Fläche am Griff, bis die Kopplungsanfrage erscheint. Bestätige sie und warte, bis «Fertig» steht. Die erste Vorbereitung kann eine Weile dauern.</li>
+<li>Setze das iPhone in die Halterung. Erst dann verbindet sich der Gimbal, und Keepsight zeigt ihn als verbunden.</li>
+</ol>
+<p>Die Bluetooth-Suche in Keepsight ist nur für den FeiyuTech AK4500. Ein DockKit-Gimbal erscheint dort nicht; er verbindet sich von selbst, sobald das iPhone in der Halterung sitzt.</p>
 
 <h2>FeiyuTech AK4500</h2>
 <ol>
