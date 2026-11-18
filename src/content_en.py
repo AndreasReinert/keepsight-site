@@ -1,6 +1,6 @@
 """English content of the Keepsight website."""
 
-MAIL = "ar.orca@gmail.com"
+MAIL = "keepsight.support@gmail.com"
 ADDRESS = "Andreas Reinert<br>Heuweg 14<br>4665 Oftringen<br>Switzerland"
 
 UI = {
@@ -844,7 +844,7 @@ DOCS = [
 <h2>Keepsight Pro is not active after purchase</h2>
 <p>Tap <kbd>PRO</kbd> → <kbd>Restore purchase</kbd> and check that you are signed in with the right Apple Account.</p>
 <h2>More help</h2>
-<p>Write to <a href="mailto:ar.orca@gmail.com">ar.orca@gmail.com</a> and include your iPhone model, iOS version and the Keepsight version.</p>
+<p>Write to <a href="mailto:keepsight.support@gmail.com">keepsight.support@gmail.com</a> and include your iPhone model, iOS version and the Keepsight version.</p>
 <h2>The iPhone gets hot</h2>
 <p>Detection, 4K recording and gimbal control are demanding, especially in the sun. Keepsight protects the device by itself:</p>
 <ul>
