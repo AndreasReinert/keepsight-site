@@ -443,7 +443,7 @@ DOCS = [
 <p>Tap to focus: tap anywhere in the viewfinder. Keepsight focuses and exposes there once, shown by a yellow square, and selects the subject you tapped. If you set focus or exposure by hand, that setting stays. Free for everyone.</p>
 <p>Focus follows the subject: while Keepsight tracks a subject, the focus stays on it, even when it moves to the edge of the picture. Switch it on in the settings under <kbd>Monitoring</kbd> → <kbd>Focus follows the subject</kbd>. It is paused as soon as you set the focus by hand. Requires Keepsight Pro.</p>
 <h2 id="monitoring">Monitoring tools</h2>
-<p>Monitoring tools show you what the picture really looks like, the way professional cameras do. They appear only on the screen and are never saved in photos or videos. Switch them on in the settings under <kbd>Monitoring</kbd>. Requires Keepsight Pro.</p>
+<p>Monitoring tools show you what the picture really looks like, the way professional cameras do. They appear only on the screen and are never saved in photos or videos. Requires Keepsight Pro.</p>
 <p>Quick switches: open the camera menu with the round button on the right. Under <kbd>Monitoring</kbd> you switch each tool on and off with one tap. Tap the frame tile again to change the format.</p>
 <table>
 <tr><th>Tool</th><th>What it shows</th></tr>
