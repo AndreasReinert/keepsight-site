@@ -177,7 +177,7 @@ def home(lang):
 <p class="fine">{c["stories_note"]}</p></section>
 <section class="band"><h2>{c["what_h"]}</h2><div class="rows">{rows}</div></section>
 <section class="band"><h2>{c["cam_h"]}</h2><div class="lens">{cam}</div></section>
-<section class="band"><h2>{c["shots_h"]}</h2>{shots(lang, ["tracking-help", "camera", "format-video"], "../")}</section>
+<section class="band"><h2>{c["shots_h"]}</h2>{shots(lang, ["simple", "simple-menu", "tracking-help"] if os.path.exists(f"img/simple-{lang}.webp") else ["tracking-help", "camera", "format-video"], "../")}</section>
 <section class="band"><h2>{c["price_h"]}</h2><p style="max-width:62ch;color:var(--soft)">{c["price_p"]}</p>
 <table><tr><th>{cols[0]}</th><th>{cols[1]}</th><th>{cols[2]}</th></tr>{price}</table>
 <p style="color:var(--soft)">{c["price_note"]}</p>
@@ -276,6 +276,10 @@ def shots(lang, names, up):
     """Bildschirmfotos nebeneinander. Bild der Sprache, wenn vorhanden, sonst das englische."""
     caps = C[lang].SHOTS
     out = []
+    # Bilder, die es weder in dieser Sprache noch englisch gibt, entfallen
+    names = [n for n in names if os.path.exists(f"img/{n}-{lang}.webp") or os.path.exists(f"img/{n}-en.webp")]
+    if not names:
+        return ""
     for name in names:
         file = f"{name}-{lang}.webp" if os.path.exists(f"img/{name}-{lang}.webp") else f"{name}-en.webp"
         cap = html.escape(caps[name])
