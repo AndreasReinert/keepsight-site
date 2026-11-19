@@ -152,7 +152,7 @@ DOCS = [
 <h2>Connecting the gimbal</h2>
 <ul>
 <li><strong>Gimbal or stand with Apple DockKit:</strong> Pair the device with your iPhone once, as the manufacturer describes. After that, Keepsight connects by itself when you mount the iPhone.</li>
-<li><strong>FeiyuTech AK4500:</strong> Switch the gimbal on and tap the yellow gimbal symbol at the bottom right in Keepsight. This works in the full view only.</li>
+<li><strong>FeiyuTech AK4500:</strong> Switch the gimbal on. In the full view, touch and hold the gimbal symbol in the bar at the bottom and choose FeiyuTech AK4500.</li>
 </ul>
 <p>Once connected, the gimbal symbol turns green. Details are in the chapter <a href="gimbals.html">Supported gimbals</a>.</p>
 <div class="tip"><p>The gimbal must be able to turn freely. Keep fingers, cables and objects out of its range of movement.</p></div>
@@ -162,7 +162,7 @@ DOCS = [
 <ol>
 <li>Open the left panel and choose the subject <kbd>Person</kbd>.</li>
 <li>Step in front of the camera. A frame appears around you and the status at the top left reads “Target locked”.</li>
-<li>Tap the tracking button at the bottom right. It turns green and the gimbal follows you. Tap it again to stop.</li>
+<li>Tracking is on by default: <kbd>Tracking</kbd> in the bar at the bottom is green and the gimbal follows you. Tap it to switch tracking off; it then turns yellow.</li>
 </ol>
 <p>If the gimbal turns away from the subject instead of towards it, Keepsight notices it after a moment and reverses the direction by itself. You can also invert an axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>
 """),
@@ -183,7 +183,7 @@ DOCS = [
 <h2>Gimbal with Apple DockKit</h2>
 <ol>
 <li>Pair the device with your iPhone once. Usually you hold the iPhone against the mount and confirm the request. The manufacturer’s instructions describe the exact steps.</li>
-<li>Mount the iPhone and open Keepsight. The app detects the device by itself and the gimbal symbol at the bottom right turns green.</li>
+<li>Mount the iPhone and open Keepsight. The app detects the device by itself: the gimbal symbol in the bar at the bottom turns green and reads DockKit.</li>
 <li>Choose the subject in Keepsight and tap the tracking button.</li>
 </ol>
 <p>While Keepsight tracks, it tells DockKit where the subject is, and DockKit moves the motors, as Apple recommends. For Person and Face you can also let Apple’s own tracking take over. If you disconnect in the <kbd>Manual</kbd> area, the system takes over again.</p>
@@ -200,7 +200,7 @@ DOCS = [
 <h2>FeiyuTech AK4500</h2>
 <ol>
 <li>Switch the gimbal on. Close the Feiyu app, because the gimbal accepts only one connection.</li>
-<li>Tap the yellow gimbal symbol at the bottom right in Keepsight.</li>
+<li>Touch and hold the gimbal symbol in the bar at the bottom and choose FeiyuTech AK4500.</li>
 <li>Allow Bluetooth access the first time.</li>
 </ol>
 <p>The AK4500 only reacts above a certain command strength. Keepsight compensates for this with the <kbd>Minimum speed</kbd> setting, see the Settings chapter.</p>
@@ -309,7 +309,7 @@ DOCS = [
 <tr><td>Switch on the left</td><td>Changes between video and photo.</td></tr>
 <tr><td>Switch camera</td><td>The round button next to the thumbnail changes between rear and front camera.</td></tr>
 <tr><td>Thumbnail</td><td>The latest capture. Tap to open the gallery.</td></tr>
-<tr><td>Button on the right</td><td>Gimbal symbol: green when connected, yellow when not. Tracking button: green while Keepsight follows the subject.</td></tr>
+<tr><td>Bar at the bottom</td><td>Tracking and gimbal: green is on, yellow is off, a tap switches. Below the gimbal symbol you see what is in use: Virtual, DockKit or Bluetooth.</td></tr>
 </table>
 
 <h2>The three panels</h2>
@@ -803,7 +803,7 @@ DOCS = [
 </table>
 
 <h2>Trying Pro tracking</h2>
-<p>Tap a locked subject in the tracking panel and choose <kbd>Start preview</kbd>. For 3 minutes Keepsight follows this subject exactly as the Pro version does. The time only runs while a subject is being followed, so waiting costs nothing. You have three such sessions; one that fails within the first seconds does not count. To test the FeiyuTech AK4500, tap the yellow gimbal symbol in the full view and start a preview there.</p>
+<p>Tap a locked subject in the tracking panel and choose <kbd>Start preview</kbd>. For 3 minutes Keepsight follows this subject exactly as the Pro version does. The time only runs while a subject is being followed, so waiting costs nothing. You have three such sessions; one that fails within the first seconds does not count. To test the FeiyuTech AK4500, touch and hold the gimbal symbol in the full view, choose FeiyuTech AK4500 and start a preview there.</p>
 <p>If the iPhone’s storage is almost full, Keepsight does not start a recording, and it stops and saves a running recording in time.</p>
 
 <h2>Buying Pro</h2>
@@ -847,7 +847,7 @@ DOCS = [
 <ul>
 <li><strong>Device with DockKit:</strong> Is it paired in the iPhone settings and is the iPhone seated properly in the mount? For comparison, open Apple’s Camera app. If the device does not follow you there, the pairing is the problem.</li>
 <li><strong>AK4500:</strong> Is the gimbal switched on and nearby? Close the Feiyu app completely and allow Bluetooth under <kbd>Settings</kbd> → <kbd>Keepsight</kbd>.</li>
-<li>Switch the gimbal off and on again and tap the gimbal symbol once more.</li>
+<li>Switch the gimbal off and on again and connect once more.</li>
 </ul>
 <h2>The gimbal turns away from the subject</h2>
 <p>Keepsight normally corrects this by itself after a moment. If not, invert the affected axis under <kbd>All settings</kbd> → <kbd>Direction</kbd>.</p>

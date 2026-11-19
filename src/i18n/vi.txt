@@ -127,13 +127,13 @@
 174|Nếu bạn đã từ chối một quyền, bạn có thể cho phép sau trong <kbd>Cài đặt</kbd> → <kbd>Keepsight</kbd>.
 175|Kết nối gimbal
 176|<strong>Gimbal hoặc chân đế có Apple DockKit:</strong> Ghép đôi thiết bị với iPhone một lần, theo hướng dẫn của nhà sản xuất. Sau đó, Keepsight tự kết nối khi bạn gắn iPhone.
-177|<strong>FeiyuTech AK4500:</strong> Bật gimbal và chạm vào biểu tượng gimbal màu vàng ở góc dưới bên phải trong Keepsight. Việc này chỉ hoạt động ở chế độ xem đầy đủ.
+177|<strong>FeiyuTech AK4500:</strong> Bật gimbal. Trong chế độ xem đầy đủ, chạm và giữ biểu tượng gimbal trên thanh phía dưới rồi chọn FeiyuTech AK4500.
 178|Khi đã kết nối, biểu tượng gimbal chuyển sang màu xanh lá. Chi tiết có trong chương <a href="gimbals.html">Gimbal được hỗ trợ</a>.
 179|Gimbal phải xoay được tự do. Giữ ngón tay, dây cáp và đồ vật ngoài phạm vi chuyển động của nó.
 180|Ở chế độ đơn giản không cần thiết lập gì: đứng trước camera và nhấn quay. Các bước dưới đây dành cho giao diện đầy đủ.
 181|Mở bảng bên trái và chọn chủ thể <kbd>Person</kbd>.
 182|Bước ra trước camera. Một khung xuất hiện quanh bạn và trạng thái ở góc trên bên trái ghi “Đã khóa mục tiêu”.
-183|Chạm vào nút theo dõi ở góc dưới bên phải. Nút chuyển sang màu xanh lá và gimbal đi theo bạn. Chạm lần nữa để dừng.
+183|Theo dõi được bật sẵn: <kbd>Tracking</kbd> trên thanh phía dưới có màu xanh lá và gimbal đi theo bạn. Chạm vào để tắt theo dõi; khi đó nó chuyển sang màu vàng.
 184|Nếu gimbal quay ra xa chủ thể thay vì hướng về phía chủ thể, Keepsight sẽ nhận ra sau giây lát và tự đảo chiều. Bạn cũng có thể đảo một trục trong <kbd>All settings</kbd> → <kbd>Direction</kbd>.
 185|Gimbal được hỗ trợ
 186|Keepsight điều khiển những thiết bị nào, cách kết nối và cách di chuyển bằng tay.
@@ -146,7 +146,7 @@
 198|Nếu thiết bị không phản hồi như mong đợi, vui lòng gửi tin nhắn kèm đúng tên kiểu máy.
 199|Gimbal có Apple DockKit
 200|Ghép đôi thiết bị với iPhone một lần. Thường thì bạn áp iPhone vào giá đỡ và xác nhận yêu cầu. Hướng dẫn của nhà sản xuất mô tả các bước chính xác.
-201|Gắn iPhone và mở Keepsight. Ứng dụng tự nhận ra thiết bị và biểu tượng gimbal ở góc dưới bên phải chuyển sang màu xanh lá.
+201|Gắn iPhone và mở Keepsight. Ứng dụng tự nhận ra thiết bị: biểu tượng gimbal trên thanh phía dưới chuyển sang màu xanh lá và hiện chữ DockKit.
 202|Chọn chủ thể trong Keepsight và chạm vào nút theo dõi.
 203|Khi theo dõi, Keepsight cho DockKit biết chủ thể ở đâu và DockKit điều khiển động cơ, đúng như Apple khuyến nghị. Với Người và Khuôn mặt, bạn cũng có thể để tính năng theo dõi của Apple đảm nhận. Nếu ngắt kết nối trong phần <kbd>Manual</kbd>, hệ thống sẽ đảm nhận lại.
 204|DockKit yêu cầu iOS 26 trở lên. Keepsight không thể điều khiển các thiết bị không có DockKit, chẳng hạn các mẫu cũ hơn của cùng nhà sản xuất.
@@ -157,7 +157,7 @@
 209|Đặt iPhone vào giá đỡ. Chỉ khi đó gimbal mới kết nối và Keepsight hiển thị là đã kết nối.
 210|Tính năng tìm Bluetooth trong Keepsight chỉ dành cho FeiyuTech AK4500. Gimbal DockKit không xuất hiện ở đó; nó tự kết nối ngay khi iPhone nằm trong giá đỡ.
 211|Bật gimbal. Đóng ứng dụng Feiyu, vì gimbal chỉ nhận một kết nối.
-212|Chạm vào biểu tượng gimbal màu vàng ở góc dưới bên phải trong Keepsight.
+212|Chạm và giữ biểu tượng gimbal trên thanh phía dưới rồi chọn FeiyuTech AK4500.
 213|Cho phép truy cập Bluetooth ở lần đầu tiên.
 214|AK4500 chỉ phản ứng khi lệnh vượt quá một cường độ nhất định. Keepsight bù lại bằng cài đặt <kbd>Tốc độ tối thiểu</kbd>, xem chương Cài đặt.
 215|Nút trên gimbal
@@ -233,8 +233,8 @@
 302|Nút tròn cạnh ảnh thu nhỏ chuyển giữa camera sau và camera trước.
 303|Ảnh thu nhỏ
 304|Ảnh hoặc video mới nhất. Chạm để mở thư viện.
-305|Nút bên phải
-306|Biểu tượng gimbal: xanh lá khi đã kết nối, vàng khi chưa. Nút theo dõi: xanh lá trong lúc Keepsight đi theo chủ thể.
+305|Thanh phía dưới
+306|Theo dõi và gimbal: xanh lá là bật, vàng là tắt, chạm để chuyển. Bên dưới biểu tượng gimbal hiện thứ đang dùng: Ảo, DockKit hoặc Bluetooth.
 307|Ba bảng
 308|<strong>Trái, Theo dõi:</strong> chủ thể, tốc độ, cử chỉ, điều khiển giọng nói, đếm ngược và kết nối gimbal.
 309|<strong>Phải, Camera:</strong> định dạng, zoom tự động, gimbal ảo, kích hoạt chụp ảnh và video lớp phủ.
@@ -570,7 +570,7 @@
 699|Không giới hạn
 700|Logo Keepsight trong ảnh và video
 701|Dùng thử theo dõi Pro
-702|Chạm vào một chủ thể bị khóa trong bảng theo dõi rồi chọn <kbd>Start preview</kbd>. Trong 3 phút, Keepsight bám theo chủ thể này đúng như bản Pro. Thời gian chỉ chạy khi có chủ thể đang được bám theo, nên chờ đợi không mất gì. Bạn có ba lượt như vậy; lượt bị lỗi trong vài giây đầu không được tính. Để thử FeiyuTech AK4500, hãy chạm vào biểu tượng gimbal màu vàng trong chế độ xem đầy đủ và bắt đầu dùng thử ở đó.
+702|Chạm vào một chủ thể bị khóa trong bảng theo dõi rồi chọn <kbd>Start preview</kbd>. Trong 3 phút, Keepsight bám theo chủ thể này đúng như bản Pro. Thời gian chỉ chạy khi có chủ thể đang được bám theo, nên chờ đợi không mất gì. Bạn có ba lượt như vậy; lượt bị lỗi trong vài giây đầu không được tính. Để thử FeiyuTech AK4500, hãy chạm và giữ biểu tượng gimbal trong chế độ xem đầy đủ, chọn FeiyuTech AK4500 và bắt đầu dùng thử ở đó.
 703|Nếu bộ nhớ iPhone gần đầy, Keepsight sẽ không bắt đầu quay, đồng thời dừng và lưu kịp thời bản ghi đang quay.
 704|Mua Pro
 705|Chạm <kbd>PRO</kbd> ở góc trên bên phải rồi chạm <kbd>Mở khóa</kbd>. Pro là giao dịch mua một lần, không thuê bao. App Store hiển thị giá theo đơn vị tiền tệ của bạn và Apple xử lý việc thanh toán.
@@ -600,7 +600,7 @@
 734|Không tìm thấy gimbal
 735|<strong>Thiết bị có DockKit:</strong> Thiết bị đã được ghép đôi trong cài đặt iPhone chưa và iPhone đã nằm đúng trong giá đỡ chưa? Để so sánh, hãy mở ứng dụng Camera của Apple. Nếu ở đó thiết bị cũng không bám theo bạn, vấn đề nằm ở việc ghép đôi.
 736|<strong>AK4500:</strong> Gimbal đã bật và ở gần chưa? Đóng hẳn ứng dụng Feiyu và cho phép Bluetooth trong <kbd>Cài đặt</kbd> → <kbd>Keepsight</kbd>.
-737|Tắt rồi bật lại gimbal và chạm vào biểu tượng gimbal một lần nữa.
+737|Tắt rồi bật lại gimbal và kết nối lại một lần nữa.
 738|Gimbal quay ra xa chủ thể
 739|Thông thường Keepsight tự sửa việc này sau giây lát. Nếu không, hãy đảo trục liên quan trong <kbd>All settings</kbd> → <kbd>Direction</kbd>.
 740|Gimbal phản ứng chậm hoặc rung

@@ -127,13 +127,13 @@
 174|Bir erişimi reddettiyseniz, sonradan <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında izin verebilirsiniz.
 175|Gimbal’ı bağlama
 176|<strong>Apple DockKit’li gimbal veya stand:</strong> cihazı, üreticinin anlattığı gibi iPhone’unuzla bir kez eşleyin. Bundan sonra iPhone’u yerleştirdiğinizde Keepsight kendiliğinden bağlanır.
-177|<strong>FeiyuTech AK4500:</strong> Gimbalı açın ve Keepsight'ta sağ alttaki sarı gimbal simgesine dokunun. Bu yalnızca tam görünümde çalışır.
+177|<strong>FeiyuTech AK4500:</strong> Gimbalı açın. Tam görünümde alttaki çubukta gimbal simgesini basılı tutun ve FeiyuTech AK4500'ü seçin.
 178|Bağlantı kurulunca gimbal simgesi yeşile döner. Ayrıntılar <a href="gimbals.html">Desteklenen gimballar</a> bölümündedir.
 179|Gimbal serbestçe dönebilmelidir. Parmakları, kabloları ve nesneleri hareket alanından uzak tutun.
 180|Basit modda ayarlanacak bir şey yoktur: kameranın önüne geçin ve kayda basın. Aşağıdaki adımlar tam görünüm içindir.
 181|Sol paneli açın ve <kbd>Person</kbd> konusunu seçin.
 182|Kameranın önüne geçin. Çevrenizde bir çerçeve belirir ve sol üstteki durum “Hedef kilitlendi” yazar.
-183|Sağ alttaki takip düğmesine dokunun. Yeşile döner ve gimbal sizi izler. Durdurmak için yeniden dokunun.
+183|Takip baştan açıktır: alttaki çubukta <kbd>Tracking</kbd> yeşildir ve gimbal sizi izler. Kapatmak için dokunun; o zaman sarıya döner.
 184|Gimbal özneye doğru değil de ondan uzağa dönerse Keepsight bunu kısa süre sonra fark eder ve yönü kendiliğinden tersine çevirir. Bir ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altından da ters çevirebilirsiniz.
 185|Desteklenen gimbal’lar
 186|Keepsight hangi cihazları kontrol eder, nasıl bağlanır ve elle nasıl hareket ettirilir.
@@ -146,7 +146,7 @@
 198|Bir cihaz beklendiği gibi tepki vermezse, tam modeliyle birlikte bana yazın.
 199|Apple DockKit’li gimbal
 200|Cihazı iPhone’unuzla bir kez eşleyin. Genellikle iPhone’u tutucuya yaklaştırır ve isteği onaylarsınız. Tam adımlar üreticinin kılavuzunda anlatılır.
-201|iPhone'u takın ve Keepsight'ı açın. Uygulama cihazı kendiliğinden algılar ve sağ alttaki gimbal simgesi yeşile döner.
+201|iPhone'u takın ve Keepsight'ı açın. Uygulama cihazı kendiliğinden algılar: alttaki çubukta gimbal simgesi yeşile döner ve DockKit yazar.
 202|Keepsight'ta konuyu seçin ve takip düğmesine dokunun.
 203|Keepsight takip sırasında konunun nerede olduğunu DockKit’e bildirir, DockKit de motorları Apple’ın önerdiği gibi hareket ettirir. Kişi ve Yüz için kontrolü Apple’ın kendi takibine de bırakabilirsiniz. <kbd>Manual</kbd> bölümünde bağlantıyı keserseniz kontrol yeniden sisteme geçer.
 204|DockKit için iOS 26 veya sonrası gerekir. Keepsight, aynı üreticilerin eski modelleri gibi DockKit’siz cihazları kontrol edemez.
@@ -157,7 +157,7 @@
 209|iPhone’u tutucuya yerleştirin. Gimbal ancak o zaman bağlanır ve Keepsight onu bağlı olarak gösterir.
 210|Keepsight’taki Bluetooth araması yalnızca FeiyuTech AK4500 içindir. DockKit gimbal orada görünmez; iPhone tutucuya oturur oturmaz kendiliğinden bağlanır.
 211|Gimbal’ı açın. Gimbal yalnızca tek bir bağlantı kabul ettiği için Feiyu uygulamasını kapatın.
-212|Keepsight'ta sağ alttaki sarı gimbal simgesine dokunun.
+212|Alttaki çubukta gimbal simgesini basılı tutun ve FeiyuTech AK4500'ü seçin.
 213|İlk seferde Bluetooth erişimine izin verin.
 214|AK4500 yalnızca belirli bir komut gücünün üzerinde tepki verir. Keepsight bunu <kbd>En düşük hız</kbd> ayarıyla dengeler; Ayarlar bölümüne bakın.
 215|Gimbal üzerindeki tuşlar
@@ -233,8 +233,8 @@
 302|Küçük resmin yanındaki yuvarlak düğme arka ve ön kamera arasında geçiş yapar.
 303|Küçük resim
 304|Son çekim. Galeriyi açmak için dokunun.
-305|Sağdaki düğme
-306|Gimbal simgesi: bağlıyken yeşil, değilken sarı. Takip düğmesi: Keepsight konuyu izlediği sürece yeşil.
+305|Alttaki çubuk
+306|Takip ve gimbal: yeşil açık, sarı kapalı demektir; dokunmak durumu değiştirir. Gimbal simgesinin altında neyin kullanıldığı yazar: Sanal, DockKit veya Bluetooth.
 307|Üç panel
 308|<strong>Sol, Takip:</strong> konu, hız, hareketler, sesle kontrol, geri sayım ve gimbal bağlantısı.
 309|<strong>Sağ, Kamera:</strong> biçim, otomatik zoom, sanal gimbal, fotoğraf tetikleme ve bilgi katmanlı video.
@@ -570,7 +570,7 @@
 699|Sınırsız
 700|Fotoğraf ve videolarda Keepsight logosu
 701|Pro takibi deneme
-702|Takip panelinde kilitli bir özneye dokunun ve <kbd>Start preview</kbd> seçeneğini seçin. Keepsight 3 dakika boyunca bu özneyi tam olarak Pro sürümündeki gibi takip eder. Süre yalnızca bir özne takip edilirken işler; beklemek bir şey kaybettirmez. Böyle üç oturumunuz vardır; ilk saniyelerde başarısız olan oturum sayılmaz. FeiyuTech AK4500'ü denemek için tam görünümde sarı gimbal simgesine dokunun ve orada bir deneme başlatın.
+702|Takip panelinde kilitli bir özneye dokunun ve <kbd>Start preview</kbd> seçeneğini seçin. Keepsight 3 dakika boyunca bu özneyi tam olarak Pro sürümündeki gibi takip eder. Süre yalnızca bir özne takip edilirken işler; beklemek bir şey kaybettirmez. Böyle üç oturumunuz vardır; ilk saniyelerde başarısız olan oturum sayılmaz. FeiyuTech AK4500'ü denemek için tam görünümde gimbal simgesini basılı tutun, FeiyuTech AK4500'ü seçin ve orada bir deneme başlatın.
 703|iPhone’un depolama alanı neredeyse doluysa Keepsight kayıt başlatmaz, süren bir kaydı da zamanında durdurup kaydeder.
 704|Pro’yu satın alma
 705|Sağ üstteki <kbd>PRO</kbd> düğmesine, ardından <kbd>Kilidi aç</kbd> düğmesine dokunun. Pro, aboneliksiz tek seferlik bir satın almadır. App Store fiyatı kendi para biriminizde gösterir ve ödemeyi Apple yürütür.
@@ -600,7 +600,7 @@
 734|Gimbal bulunamıyor
 735|<strong>DockKit’li cihaz:</strong> iPhone ayarlarında eşlenmiş mi ve iPhone tutucuya düzgün oturuyor mu? Karşılaştırmak için Apple’ın Kamera uygulamasını açın. Cihaz orada da sizi takip etmiyorsa sorun eşlemededir.
 736|<strong>AK4500:</strong> gimbal açık ve yakında mı? Feiyu uygulamasını tamamen kapatın ve <kbd>Ayarlar</kbd> → <kbd>Keepsight</kbd> altında Bluetooth’a izin verin.
-737|Gimbalı kapatıp yeniden açın ve gimbal simgesine bir kez daha dokunun.
+737|Gimbalı kapatıp yeniden açın ve bir kez daha bağlayın.
 738|Gimbal konudan uzaklaşıyor
 739|Keepsight bunu genellikle kısa süre sonra kendiliğinden düzeltir. Düzeltmezse ilgili ekseni <kbd>All settings</kbd> → <kbd>Direction</kbd> altından ters çevirin.
 740|Gimbal ağır tepki veriyor veya titriyor

@@ -127,13 +127,13 @@
 174|Se hai negato un accesso, puoi consentirlo in seguito in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
 175|Collegare il gimbal
 176|<strong>Gimbal o supporto con Apple DockKit:</strong> abbina il dispositivo una volta al tuo iPhone, come indica il produttore. Dopo, Keepsight si collega da solo quando inserisci l’iPhone.
-177|<strong>FeiyuTech AK4500:</strong> accendi il gimbal e tocca il simbolo giallo del gimbal in basso a destra in Keepsight. Funziona solo nella vista completa.
+177|<strong>FeiyuTech AK4500:</strong> accendi il gimbal. Nella vista completa tieni premuto il simbolo del gimbal nella barra in basso e scegli FeiyuTech AK4500.
 178|Appena il collegamento è attivo, il simbolo del gimbal diventa verde. I dettagli sono nel capitolo <a href="gimbals.html">Gimbal supportati</a>.
 179|Il gimbal deve potersi muovere liberamente. Tieni dita, cavi e oggetti fuori dal suo raggio di movimento.
 180|In modalità semplice non c’è nulla da impostare: mettiti davanti alla fotocamera e premi registra. I passaggi qui sotto valgono per la vista completa.
 181|Apri il pannello di sinistra e scegli il soggetto <kbd>Person</kbd>.
 182|Mettiti davanti alla fotocamera. Attorno a te compare un riquadro e lo stato in alto a sinistra indica «Obiettivo agganciato».
-183|Tocca il pulsante di tracking in basso a destra. Diventa verde e il gimbal ti segue. Toccalo di nuovo per fermarlo.
+183|Il tracking è attivo fin dall’inizio: <kbd>Tracking</kbd> nella barra in basso è verde e il gimbal ti segue. Toccalo per disattivarlo; diventa giallo.
 184|Se il gimbal si allontana dal soggetto invece di avvicinarsi, Keepsight se ne accorge dopo un attimo e inverte da solo la direzione. Puoi anche invertire un asse in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
 185|Gimbal supportati
 186|Quali dispositivi controlla Keepsight, come collegarli e muoverli a mano.
@@ -146,7 +146,7 @@
 198|Se un dispositivo non risponde come previsto, scrivimi indicando il modello esatto.
 199|Gimbal con Apple DockKit
 200|Abbina il dispositivo una volta al tuo iPhone. Di solito avvicini l’iPhone al supporto e confermi la richiesta. Le istruzioni del produttore descrivono i passaggi esatti.
-201|Monta l’iPhone e apri Keepsight. L’app riconosce il dispositivo da sola e il simbolo del gimbal in basso a destra diventa verde.
+201|Monta l’iPhone e apri Keepsight. L’app riconosce il dispositivo da sola: il simbolo del gimbal nella barra in basso diventa verde e indica DockKit.
 202|Scegli il soggetto in Keepsight e tocca il pulsante di tracking.
 203|Durante il tracking, Keepsight dice a DockKit dove si trova il soggetto e DockKit muove i motori, come consiglia Apple. Per Persona e Volto puoi anche lasciare che subentri il tracking di Apple. Se disconnetti nell’area <kbd>Manual</kbd>, riprende il controllo il sistema.
 204|DockKit richiede iOS 26 o successivo. Keepsight non può controllare dispositivi senza DockKit, come i modelli precedenti degli stessi produttori.
@@ -157,7 +157,7 @@
 209|Inserisci l’iPhone nel supporto. Solo allora il gimbal si collega e Keepsight lo mostra come connesso.
 210|La ricerca Bluetooth di Keepsight serve solo per il FeiyuTech AK4500. Un gimbal DockKit non vi compare; si collega da solo appena l’iPhone è nel supporto.
 211|Accendi il gimbal. Chiudi l’app Feiyu, perché il gimbal accetta una sola connessione.
-212|Tocca il simbolo giallo del gimbal in basso a destra in Keepsight.
+212|Tieni premuto il simbolo del gimbal nella barra in basso e scegli FeiyuTech AK4500.
 213|La prima volta consenti l’accesso al Bluetooth.
 214|L’AK4500 reagisce solo oltre una certa intensità di comando. Keepsight lo compensa con l’impostazione <kbd>Velocità minima</kbd>, vedi il capitolo Impostazioni.
 215|Tasti del gimbal
@@ -233,8 +233,8 @@
 302|Il pulsante rotondo accanto alla miniatura passa dalla fotocamera posteriore a quella anteriore.
 303|Miniatura
 304|L’ultima ripresa. Tocca per aprire la galleria.
-305|Pulsante a destra
-306|Simbolo del gimbal: verde se collegato, altrimenti giallo. Pulsante di tracking: verde finché Keepsight segue il soggetto.
+305|Barra in basso
+306|Tracking e gimbal: verde è attivo, giallo è spento, un tocco cambia stato. Sotto il simbolo del gimbal leggi che cosa è in uso: Virtuale, DockKit o Bluetooth.
 307|I tre pannelli
 308|<strong>A sinistra, Tracciamento:</strong> soggetto, velocità, gesti, controllo vocale, conto alla rovescia e collegamento del gimbal.
 309|<strong>A destra, Fotocamera:</strong> formato, zoom automatico, gimbal virtuale, scatto foto e video con sovrimpressione.
@@ -570,7 +570,7 @@
 699|Illimitata
 700|Logo Keepsight su foto e video
 701|Provare il tracking Pro
-702|Tocca un soggetto bloccato nel pannello di tracking e scegli <kbd>Start preview</kbd>. Per 3 minuti Keepsight segue quel soggetto esattamente come la versione Pro. Il tempo scorre solo mentre un soggetto viene seguito, quindi aspettare non costa nulla. Hai tre sessioni; una che fallisce nei primi secondi non conta. Per provare il FeiyuTech AK4500, tocca il simbolo giallo del gimbal nella vista completa e avvia lì una prova.
+702|Tocca un soggetto bloccato nel pannello di tracking e scegli <kbd>Start preview</kbd>. Per 3 minuti Keepsight segue quel soggetto esattamente come la versione Pro. Il tempo scorre solo mentre un soggetto viene seguito, quindi aspettare non costa nulla. Hai tre sessioni; una che fallisce nei primi secondi non conta. Per provare il FeiyuTech AK4500, tieni premuto il simbolo del gimbal nella vista completa, scegli FeiyuTech AK4500 e avvia lì una prova.
 703|Se lo spazio dell’iPhone è quasi esaurito, Keepsight non avvia la registrazione e interrompe e salva in tempo quella in corso.
 704|Acquistare Pro
 705|Tocca <kbd>PRO</kbd> in alto a destra e poi <kbd>Sblocca</kbd>. Pro è un acquisto unico senza abbonamento. L’App Store mostra il prezzo nella tua valuta e Apple gestisce il pagamento.
@@ -600,7 +600,7 @@
 734|Il gimbal non viene trovato
 735|<strong>Dispositivo con DockKit:</strong> è abbinato nelle impostazioni dell’iPhone, e l’iPhone è inserito bene nel supporto? Per confronto apri l’app Fotocamera di Apple. Se lì il dispositivo non ti segue, il problema è l’abbinamento.
 736|<strong>AK4500:</strong> il gimbal è acceso e vicino? Chiudi del tutto l’app Feiyu e consenti il Bluetooth in <kbd>Impostazioni</kbd> → <kbd>Keepsight</kbd>.
-737|Spegni e riaccendi il gimbal e tocca di nuovo il simbolo del gimbal.
+737|Spegni e riaccendi il gimbal e collegalo di nuovo.
 738|Il gimbal si allontana dal soggetto
 739|Di norma Keepsight lo corregge da solo dopo un attimo. In caso contrario, inverti l’asse interessato in <kbd>All settings</kbd> → <kbd>Direction</kbd>.
 740|Il gimbal reagisce lentamente o trema
