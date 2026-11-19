@@ -84,7 +84,8 @@ HOME = {
         ('Ton-Menü: Mikrofon, AirPods, räumlicher Ton', False, True),
         ('Dual Capture: Video mit Selfie-Bild', False, True),
         ('Zweites Video mit Rahmen und Daten', False, True),
-        ('Fotos in ProRAW', False, True),
+        ('Fotos in 12 MP', True, True),
+        ('Fotos bis 48 MP und in ProRAW', False, True),
         ('Video in ProRes 422 HQ', False, True),
         ('Gimbal: Bildaufteilung, Sprecher und Schwenk-Programme', False, True),
         ('Gesten: Gruppe, Bildausschnitt, Highlights, eigene Belegung', False, True),
@@ -152,9 +153,9 @@ DOCS = [
 <h2>Gimbal verbinden</h2>
 <ul>
 <li><strong>Gimbal oder Ständer mit Apple DockKit:</strong> Kopple das Gerät einmal mit dem iPhone, wie es der Hersteller beschreibt. Setzt du das iPhone danach ein, verbindet sich Keepsight von selbst.</li>
-<li><strong>FeiyuTech AK4500:</strong> Schalte den Gimbal ein und tippe in Keepsight unten rechts auf <kbd>Verbinden</kbd>.</li>
+<li><strong>FeiyuTech AK4500:</strong> Schalte den Gimbal ein und tippe in Keepsight unten rechts auf das gelbe Gimbal-Zeichen. Das geht nur in der vollen Ansicht.</li>
 </ul>
-<p>Sobald die Verbindung steht, wird aus dem Knopf <kbd>Tracken</kbd>. Die Einzelheiten stehen im Kapitel <a href="gimbals.html">Unterstützte Gimbals</a>.</p>
+<p>Sobald die Verbindung steht, wird das Gimbal-Zeichen grün. Die Einzelheiten stehen im Kapitel <a href="gimbals.html">Unterstützte Gimbals</a>.</p>
 <div class="tip"><p>Der Gimbal muss sich frei drehen können. Halte Finger, Kabel und Gegenstände aus seinem Schwenkbereich.</p></div>
 
 <h2>Das erste Tracking</h2>
@@ -162,8 +163,7 @@ DOCS = [
 <ol>
 <li>Öffne die linke Leiste und wähle das Motiv <kbd>Person</kbd>.</li>
 <li>Stell dich vor die Kamera. Um dich erscheint ein Rahmen, oben links steht „Ziel erfasst“.</li>
-<li>Tippe auf <kbd>Tracken</kbd>. Der Gimbal folgt dir.</li>
-<li>Mit <kbd>Stopp</kbd> beendest du das Nachführen.</li>
+<li>Tippe unten rechts auf den Tracking-Knopf. Er wird grün, und der Gimbal folgt dir. Nochmals tippen beendet das Nachführen.</li>
 </ol>
 <p>Dreht der Gimbal vom Motiv weg statt zu ihm hin, bemerkt Keepsight das nach einem Moment und kehrt die Richtung von selbst um. Du kannst eine Achse auch unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> umkehren.</p>
 """),
@@ -184,8 +184,8 @@ DOCS = [
 <h2>Gimbal mit Apple DockKit</h2>
 <ol>
 <li>Kopple das Gerät einmal mit deinem iPhone. Meist hältst du das iPhone dazu an die Halterung und bestätigst die Anfrage. Die Anleitung des Herstellers beschreibt den genauen Weg.</li>
-<li>Setze das iPhone ein und öffne Keepsight. Die App erkennt das Gerät von selbst, der Knopf unten rechts zeigt <kbd>Tracken</kbd>.</li>
-<li>Wähle ein Motiv und tippe auf <kbd>Tracken</kbd>.</li>
+<li>Setze das iPhone ein und öffne Keepsight. Die App erkennt das Gerät von selbst, das Gimbal-Zeichen unten rechts wird grün.</li>
+<li>Wähle in Keepsight das Motiv und tippe auf den Tracking-Knopf.</li>
 </ol>
 <p>Während Keepsight verfolgt, sagt es DockKit, wo das Motiv ist, und DockKit bewegt die Motoren, so wie Apple es empfiehlt. Bei Person und Gesicht kannst du auch Apples eigenes Tracking übernehmen lassen. Trennst du im Bereich <kbd>Manual</kbd>, übernimmt wieder das System.</p>
 <p>DockKit braucht iOS 26 oder neuer. Geräte ohne DockKit, zum Beispiel ältere Modelle derselben Hersteller, kann Keepsight nicht steuern.</p>
@@ -201,7 +201,7 @@ DOCS = [
 <h2>FeiyuTech AK4500</h2>
 <ol>
 <li>Schalte den Gimbal ein. Schliesse die Feiyu-App, denn der Gimbal nimmt nur eine Verbindung an.</li>
-<li>Tippe in Keepsight unten rechts auf <kbd>Verbinden</kbd>.</li>
+<li>Tippe in Keepsight unten rechts auf das gelbe Gimbal-Zeichen.</li>
 <li>Erlaube beim ersten Mal den Zugriff auf Bluetooth.</li>
 </ol>
 <p>Der AK4500 reagiert erst ab einer gewissen Befehlsstärke. Keepsight gleicht das mit der Einstellung <kbd>Mindestgeschwindigkeit</kbd> aus, siehe Kapitel Einstellungen.</p>
@@ -281,7 +281,7 @@ DOCS = [
 
 <h2>Aufnehmen</h2>
 <ol>
-<li>Wähle in Keepsight das Motiv und tippe auf <kbd>Tracken</kbd>.</li>
+<li>Wähle in Keepsight das Motiv und tippe auf den Tracking-Knopf.</li>
 <li>Starte die Aufnahme an der Kamera selbst. Keepsight löst die Systemkamera nicht aus.</li>
 <li>Stelle Schärfe und Belichtung an der Kamera ein, am besten mit ihrem eigenen Autofokus mit Motiverkennung.</li>
 </ol>
@@ -310,7 +310,7 @@ DOCS = [
 <tr><td>Umschalter links</td><td>Wechselt zwischen Video und Foto.</td></tr>
 <tr><td>Kamera wechseln</td><td>Der runde Knopf neben dem Vorschaubild schaltet zwischen Rück- und Frontkamera um.</td></tr>
 <tr><td>Vorschaubild</td><td>Die letzte Aufnahme. Tippen öffnet die Galerie.</td></tr>
-<tr><td>Knopf rechts</td><td>Verbinden, Tracken oder Stopp.</td></tr>
+<tr><td>Knopf rechts</td><td>Gimbal-Zeichen: grün, wenn verbunden, sonst gelb. Tracking-Knopf: grün, solange Keepsight dem Motiv folgt.</td></tr>
 </table>
 
 <h2>Die drei Leisten</h2>
@@ -774,6 +774,7 @@ DOCS = [
 <p>Die Gratisversion filmt Personen in 1080p mit einem kleinen Keepsight-Logo, ohne Zeitlimit.</p>
 <h2 id="simple">Einfacher Modus</h2>
 <p>Neue Installationen starten im einfachen Modus: Auslöser, Kamera wechseln, Foto und Video, sonst nichts. <kbd>Pro</kbd> oben rechts öffnet die volle Ansicht mit beiden Seitenleisten. Zurück gelangst du über <kbd>All settings</kbd> und den Schalter <kbd>Simple mode</kbd>.</p>
+<p>Links bietet ein kleines Menü <kbd>Person</kbd> und <kbd>Gesicht</kbd>. Der einfache Modus arbeitet nur mit DockKit-Gimbals. Der FeiyuTech AK4500 und der Tab <kbd>Manuell</kbd> gehören zur vollen Ansicht.</p>
 <table>
 <tr><th>Funktion</th><th>Gratis</th><th>Pro</th></tr>
 <tr><td>Person und Gesicht verfolgen</td><td class="y">Ja</td><td class="y">Ja</td></tr>
@@ -789,7 +790,8 @@ DOCS = [
 <tr><td>FeiyuTech AK4500 und manuelle Gimbal-Steuerung</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Ton-Menü: Mikrofon, AirPods, räumlicher Ton</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Overlay-Video</td><td>Nein</td><td class="y">Ja</td></tr>
-<tr><td>Fotos in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
+<tr><td>Fotos in 12 MP</td><td class="y">Ja</td><td class="y">Ja</td></tr>
+<tr><td>Fotos bis 48 MP und in ProRAW</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Manuelle Kamera-Einstellungen für Foto und Video</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Video in ProRes 422 HQ</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Fokus folgt dem Motiv, Zebra, Peaking, Histogramm, Tonpegel, Formatrahmen</td><td>Nein</td><td class="y">Ja</td></tr>
@@ -802,7 +804,7 @@ DOCS = [
 </table>
 
 <h2>Pro-Tracking testen</h2>
-<p>Tippe in der Tracking-Leiste auf ein gesperrtes Motiv und wähle <kbd>Start preview</kbd>. 3 Minuten lang folgt Keepsight diesem Motiv genau wie die Pro-Version. Die Zeit läuft nur, solange ein Motiv verfolgt wird; Warten kostet also nichts. Du hast drei solche Durchgänge; einer, der in den ersten Sekunden scheitert, zählt nicht. Um den FeiyuTech AK4500 zu testen, tippe auf <kbd>Connect</kbd> und starte dort einen Test.</p>
+<p>Tippe in der Tracking-Leiste auf ein gesperrtes Motiv und wähle <kbd>Start preview</kbd>. 3 Minuten lang folgt Keepsight diesem Motiv genau wie die Pro-Version. Die Zeit läuft nur, solange ein Motiv verfolgt wird; Warten kostet also nichts. Du hast drei solche Durchgänge; einer, der in den ersten Sekunden scheitert, zählt nicht. Um den FeiyuTech AK4500 zu testen, tippe in der vollen Ansicht auf das gelbe Gimbal-Zeichen und starte dort einen Test.</p>
 <p>Ist der Speicher des iPhones fast voll, startet Keepsight keine Aufnahme und stoppt und speichert eine laufende Aufnahme rechtzeitig.</p>
 
 <h2>Pro kaufen</h2>
@@ -846,7 +848,7 @@ DOCS = [
 <ul>
 <li><strong>Gerät mit DockKit:</strong> Ist es in den iPhone-Einstellungen gekoppelt und sitzt das iPhone richtig in der Halterung? Öffne zum Vergleich die Kamera-App von Apple. Folgt das Gerät dir dort nicht, liegt es an der Kopplung.</li>
 <li><strong>AK4500:</strong> Ist der Gimbal eingeschaltet und in der Nähe? Schliesse die Feiyu-App ganz und erlaube Bluetooth unter <kbd>Einstellungen</kbd> → <kbd>Keepsight</kbd>.</li>
-<li>Schalte den Gimbal aus und wieder ein und tippe erneut auf <kbd>Verbinden</kbd>.</li>
+<li>Schalte den Gimbal aus und wieder ein und tippe erneut auf das Gimbal-Zeichen.</li>
 </ul>
 <h2>Der Gimbal dreht vom Motiv weg</h2>
 <p>Normalerweise korrigiert Keepsight das nach einem Moment von selbst. Wenn nicht, kehre die betroffene Achse unter <kbd>Alle Einstellungen</kbd> → <kbd>Richtung</kbd> um.</p>
@@ -877,7 +879,7 @@ DOCS = [
 <li>Bei ☝️ liegt der Daumen an der Hand, beim L ist er abgespreizt. Daran unterscheidet Keepsight die beiden.</li>
 </ul>
 <h2>48 MP oder RAW lassen sich nicht wählen</h2>
-<p>Beides gibt es nur im Foto-Modus und mit einem Objektiv, das es unterstützt. Beim iPhone 15 Pro ist das nur die Hauptkamera <kbd>1×</kbd>; neuere Pro-Modelle bieten 48 MP auch mit anderen Objektiven. RAW braucht ausserdem Keepsight Pro.</p>
+<p>Beides gibt es nur im Foto-Modus und mit einem Objektiv, das es unterstützt. Beim iPhone 15 Pro ist das nur die Hauptkamera <kbd>1×</kbd>; neuere Pro-Modelle bieten 48 MP auch mit anderen Objektiven. 48 MP und RAW brauchen ausserdem Keepsight Pro.</p>
 <h2>Die Galerie ist leer</h2>
 <p>Erlaube Keepsight den Zugriff auf Fotos. Aufnahmen aus älteren Versionen der App erscheinen nicht in der Galerie, sie liegen aber in der Fotos-App.</p>
 <h2>Keepsight Pro ist nach dem Kauf nicht aktiv</h2>
