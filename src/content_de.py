@@ -36,7 +36,7 @@ HOME = {
     "solo": [
         ('Auto-Capture', 'Stell das iPhone hin und geh mit ins Bild. Mit Keepsight Pro löst die App von selbst aus, wenn alle lächeln oder in die Kamera schauen.'),
         ('Dual Capture', 'Filme, was vor dir passiert, und gleichzeitig deine eigene Reaktion. Mit Keepsight Pro erscheint dein Selfie als kleines Bild im Video.'),
-        ('Virtueller Gimbal', 'Ganz ohne Motor speichert Keepsight ein zweites Video, dessen Ausschnitt dem Motiv weich folgt und von selbst zoomt.'),
+        ('Virtueller Gimbal', 'Ganz ohne Motor speichert Keepsight ein Video, dessen Ausschnitt dem Motiv weich folgt, mit Keepsight Pro in 2K. Das funktioniert auch aus der Hand.'),
         ('Freihändig', 'Starte ein Video oder mach ein Foto per Handgeste oder Stimme, mit Countdown, damit alle bereit sind.'),
     ],
     "control_h": 'Volle Kontrolle über die Kamera',
@@ -58,7 +58,7 @@ HOME = {
     "what": [
         ("Nachführen", "Wähle ein Motiv: Person, Gesicht, Flugzeug, Vogel, Tier, Fahrzeug, Zug oder Boot. Keepsight hält es in der Bildmitte und steuert den Gimbal. Verdeckt eine Wolke das Flugzeug, rechnet die App die Bahn kurz weiter."),
         ("Zoomen", "Der Auto-Zoom hält das Motiv in der Grösse, die du einstellst. Er bewegt sich in winzigen Schritten und bleibt im gewählten Objektiv, damit das Video nie springt."),
-        ("Rahmen", "Der virtuelle Gimbal speichert ein zweites Video, dessen Ausschnitt dem Motiv weich folgt und von selbst zoomt. Das funktioniert auch ohne Gimbal aus der Hand."),
+        ("Rahmen", "Ganz ohne Motor speichert Keepsight ein Video, dessen Ausschnitt dem Motiv weich folgt, mit Keepsight Pro in 2K. Das funktioniert auch aus der Hand."),
         ("Auslösen", "Mit Keepsight Pro fotografiert die App von selbst, wenn alle lächeln, wenn alle zur Kamera schauen oder wenn das Motiv gross genug im Bild ist. Intervallserien, Handgesten und Sprachbefehle mit Countdown gehören schon zur Gratisversion."),
     ],
     "cam_h": "Die volle Kamera deines iPhones",
@@ -550,32 +550,32 @@ DOCS = [
 </ul>
 """),
 
-("virtual-gimbal", "Virtueller Gimbal", "Ein zweites Video mit weich nachgeführtem, zoomendem Ausschnitt.", """
-<p>Der virtuelle Gimbal schneidet aus dem vollen Kamerabild einen Ausschnitt, der dem Motiv folgt und von selbst zoomt. Das Ergebnis ist ein fertiges, ruhiges Video, sofort nach der Aufnahme.</p>
+("virtual-gimbal", "Virtueller Gimbal", "Ein weich nachgeführter Ausschnitt, mit Keepsight Pro in 2K.", """
+<p>Der virtuelle Gimbal schneidet aus dem vollen Kamerabild einen Ausschnitt, der dem Motiv folgt. Der Ausschnitt behält seine Grösse, das Bild bleibt dadurch ruhig. Das Video ist sofort nach der Aufnahme fertig.</p>
 <h2>Einschalten</h2>
 <ol>
-<li>Öffne die rechte Leiste und schalte <kbd>Virtueller Gimbal</kbd> ein.</li>
+<li>Tippe in der Leiste unten auf das Gimbal-Zeichen, bis es grün ist und darunter Virtuell steht.</li>
 <li>Wähle ein Motiv. Im Sucher siehst du den Ausschnitt als hellen Rahmen, der Bereich ausserhalb ist abgedunkelt.</li>
 <li>Starte die Aufnahme.</li>
 </ol>
-<p>Ein echter Gimbal ist dafür nicht nötig. Du kannst das iPhone in der Hand halten oder auf ein Stativ stellen. Mit Gimbal und Auto-Zoom zusammen wird das Bild noch ruhiger.</p>
+<p>Ein echter Gimbal ist dafür nicht nötig. Du kannst das iPhone in der Hand halten oder auf ein Stativ stellen. Sobald ein Gimbal verbunden ist, ruht der virtuelle Gimbal: Dann führt der Gimbal nach, und das volle Bild wird gespeichert.</p>
 
 <h2>Einstellungen</h2>
 <table>
 <tr><th>Regler</th><th>Wirkung</th></tr>
-<tr><td>Freier Rand ums Motiv</td><td>10 bis 40 Prozent. Mehr Rand wirkt ruhiger, weniger Rand holt das Motiv näher heran.</td></tr>
-<tr><td>Maximaler Zoom</td><td>1,5× bis 4×. Bei 4K-Aufnahme bleibt bis 2× die volle Schärfe erhalten.</td></tr>
-<tr><td>Ruhe</td><td>Wie gemächlich der Ausschnitt folgt. Grössere Werte glätten stärker.</td></tr>
+<tr><td><kbd>Weich</kbd>, <kbd>Standard</kbd>, <kbd>Sport</kbd></td><td>Wie schnell der Ausschnitt folgt, in der rechten Leiste der vollen Ansicht.</td></tr>
 <tr><td>Original zusätzlich speichern</td><td>Legt neben dem Ausschnitt auch das volle Video ab.</td></tr>
 </table>
 
 <h2>Was gespeichert wird</h2>
 <ul>
-<li>Das Video mit Ausschnitt in 1080p.</li>
+<li>Das Video mit Ausschnitt: mit Keepsight Pro in 2K (2560 × 1440), wenn du in 4K aufnimmst, sonst in 1080p.</li>
 <li>Auf Wunsch das Original in der gewählten Auflösung.</li>
 </ul>
-<p>Verliert Keepsight das Motiv, fährt der Ausschnitt langsam auf das volle Bild zurück.</p>
-<div class="tip"><p>Der virtuelle Gimbal hält das Motiv ruhig im Bild. Starkes Verwackeln des Hintergrunds gleicht er nicht aus.</p></div>
+<p>Verliert Keepsight das Motiv, fährt der Ausschnitt langsam zur Mitte zurück. Passt das Motiv nicht mehr hinein, öffnet sich der Ausschnitt.</p>
+<div class="tip"><p>Der virtuelle Gimbal eignet sich für wenig Bewegung, etwa Vlogs, Kochen oder Training am Platz. Wenn du durch den Raum läufst, nimm einen Gimbal.</p></div>
+<h2>Bildstabilisierung</h2>
+<p>Keepsight nutzt für Videos die Bildstabilisierung von iOS: mit virtuellem Gimbal eine stärkere Stufe, sonst die Standardstufe. Ausschalten kannst du sie unter <kbd>Alle Einstellungen</kbd>.</p>
 """),
 
 ("photo", "Fotos und Auslösung", "Einzelbild, Intervallserie und automatisches Auslösen im richtigen Moment.", """
@@ -688,8 +688,8 @@ DOCS = [
 <h2>Welche Videos entstehen</h2>
 <table>
 <tr><th>Video</th><th>Inhalt</th><th>Wann</th></tr>
-<tr><td>Original</td><td>Das saubere Kamerabild in der gewählten Auflösung.</td><td>Immer, ausser du schaltest es beim virtuellen Gimbal ab.</td></tr>
-<tr><td>Virtueller Gimbal</td><td>Der nachgeführte Ausschnitt in 1080p.</td><td>Wenn der virtuelle Gimbal an ist.</td></tr>
+<tr><td>Original</td><td>Das saubere Kamerabild in der gewählten Auflösung.</td><td>Ohne virtuellen Gimbal immer. Mit ihm nur, wenn <kbd>Original zusätzlich speichern</kbd> an ist.</td></tr>
+<tr><td>Virtueller Gimbal</td><td>Der nachgeführte Ausschnitt, mit Keepsight Pro in 2K, sonst in 1080p.</td><td>Wenn der virtuelle Gimbal an ist.</td></tr>
 <tr><td>Overlay-Video</td><td>Das Bild mit Rahmen, Uhrzeit, Motiv, Status und Gimbal-Daten in 1080p.</td><td>Mit Keepsight Pro, wenn <kbd>Overlay-Video</kbd> an ist.</td></tr>
 </table>
 
@@ -786,6 +786,7 @@ DOCS = [
 <tr><td>Alle weiteren Motive</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Rahmen um ein beliebiges Objekt ziehen</td><td>Nein</td><td class="y">Ja</td></tr>
 <tr><td>Video-Auflösung</td><td>1080p</td><td class="y">4K</td></tr>
+<tr><td>Virtueller Gimbal</td><td>1080p</td><td class="y">2K</td></tr>
 <tr><td>Pro-Tracking zum Testen</td><td>3 × 3 Minuten</td><td class="y">Unbegrenzt</td></tr>
 <tr><td>Keepsight-Logo in Fotos und Videos</td><td>Ja</td><td class="y">Nein</td></tr>
 <tr><td>FeiyuTech AK4500 und manuelle Gimbal-Steuerung</td><td>Nein</td><td class="y">Ja</td></tr>
