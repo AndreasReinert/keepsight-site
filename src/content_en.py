@@ -81,7 +81,7 @@ HOME = {
         ('Auto capture: smile, look, subject', False, True),
         ('Manual camera controls for photo and video', False, True),
         ('Focus follows the subject, zebra, peaking, histogram, audio meters, frame guides', False, True),
-        ('Sound menu: microphone, AirPods, spatial audio', False, True),
+        ('Sound menu: microphone, headphones, spatial audio', False, True),
         ('Dual capture: video with selfie picture', False, True),
         ('Second video with frames and data', False, True),
         ('Photos in 12 MP', True, True),
@@ -444,6 +444,7 @@ DOCS = [
 <p>Switch it on in the format panel under <kbd>Grid</kbd>. It is available to everyone, also without Pro. Place your subject on one of the four crossing points for a balanced picture, and use the lines to keep the horizon and buildings straight.</p>
 <h2 id="af">Focus: AF and following focus</h2>
 <p>AF: the button <kbd>AF</kbd> at the end of the lens bar focuses once on the tracked subject, or on the centre of the picture when nothing is tracked. Free for everyone.</p>
+<p>Light: the flashlight symbol at the end of the lens bar switches on a light with three brightness levels; a fourth tap switches it off. With the rear camera the light of the iPhone shines. With the front camera a bright border on the screen lights your face; it never appears in the video. If the iPhone gets too warm, iOS switches the light off. Free for everyone.</p>
 <p>Tap to focus: tap anywhere in the viewfinder. Keepsight focuses and exposes there once, shown by a yellow square, and selects the subject you tapped. If you set focus or exposure by hand, that setting stays. Free for everyone.</p>
 <p>Focus follows the subject: while Keepsight tracks a subject, the focus stays on it, even when it moves to the edge of the picture. Switch it on in the settings under <kbd>Monitoring</kbd> → <kbd>Focus follows the subject</kbd>. It is paused as soon as you set the focus by hand. Requires Keepsight Pro.</p>
 <h2 id="monitoring">Monitoring tools</h2>
@@ -462,12 +463,12 @@ DOCS = [
 [[shots sound]]
 <table>
 <tr><th>Setting</th><th>Meaning</th></tr>
-<tr><td><kbd>Microphone</kbd></td><td>Shows every microphone the iPhone can use right now, for example AirPods or a wireless microphone on the USB-C port.</td></tr>
-<tr><td><kbd>AirPods as microphone</kbd></td><td>Records your voice with the AirPods instead of the iPhone microphone, in high quality. Good when you stand far from the iPhone.</td></tr>
+<tr><td><kbd>Microphone</kbd></td><td>Shows every microphone the iPhone can use right now, for example headphones or a wireless microphone on the USB-C port.</td></tr>
+<tr><td><kbd>Headphones as microphone</kbd></td><td>Records your voice with the microphone of your headphones instead of the iPhone. Good when you stand far from the iPhone. High quality needs AirPods Pro 2, AirPods 4 or newer; other headphones sound like a phone call.</td></tr>
 <tr><td><kbd>Spatial audio</kbd></td><td>Records the sound in 3D. Afterwards you can separate voice and background in Photos with Audio Mix. Needs an iPhone 16 or later and the built-in microphones.</td></tr>
 </table>
 <p>Wireless microphones with a USB-C receiver, for example from DJI or Rode, work like any external microphone: plug in the receiver and choose it under <kbd>Microphone</kbd>.</p>
-<p>AirPods as microphone needs iOS 26 and AirPods with the H2 chip, for example AirPods Pro 2 or AirPods 4. Spatial audio and AirPods as microphone cannot be used together. The overlay video and the virtual gimbal video keep normal stereo sound.</p>
+<p>High quality with <kbd>Headphones as microphone</kbd> needs iOS 26 and AirPods with the H2 chip, for example AirPods Pro 2 or AirPods 4. Other Bluetooth headphones such as Beats work too, but sound like a phone call. Spatial audio and headphones as microphone cannot be used together. The overlay video and the virtual gimbal video keep normal stereo sound.</p>
 <h2 id="dual">Dual capture: video with selfie picture</h2>
 <p>Dual capture: the rear camera films and tracks your subject, the front camera films you at the same time. Your selfie appears as a small picture at the bottom right of the video.</p>
 <p>Switch it on in video mode with the <kbd>Dual</kbd> tile in the Camera panel. With <kbd>Save selfie video separately</kbd> in the settings your selfie is also saved as its own video, so you can edit it yourself later. While dual capture is on, the viewfinder shows your selfie at the top right, in landscape at the bottom left.</p>
@@ -481,7 +482,7 @@ DOCS = [
 <h2 id="heat">Heat saver while recording</h2>
 <p>Long recordings in the sun make every iPhone warm. With <kbd>Save heat while recording</kbd> Keepsight saves energy during a recording and gives everything back when you stop. It is on by default and free for everyone.</p>
 <ul>
-<li>The screen dims after 10 seconds. Tap it to wake it. The recording continues.</li>
+<li>The screen dims after 10 seconds. Tap it to wake it. The recording continues. To see the picture all the time, for example at a concert, switch off <kbd>Dim screen while recording</kbd> under <kbd>All settings</kbd>.</li>
 <li>While your subject stands still, detection runs less often. As soon as it moves, it runs at full speed again.</li>
 <li>Gestures are checked less often, voice control stays on.</li>
 <li>Monitoring tools and the live view on the Apple Watch update less often.</li>
@@ -789,7 +790,7 @@ DOCS = [
 <tr><td>Pro tracking preview</td><td>3 × 3 minutes</td><td class="y">Unlimited</td></tr>
 <tr><td>Keepsight logo in photos and videos</td><td>Yes</td><td class="y">No</td></tr>
 <tr><td>FeiyuTech AK4500 and manual gimbal control</td><td>No</td><td class="y">Yes</td></tr>
-<tr><td>Sound menu: microphone, AirPods, spatial audio</td><td>No</td><td class="y">Yes</td></tr>
+<tr><td>Sound menu: microphone, headphones, spatial audio</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Overlay video</td><td>No</td><td class="y">Yes</td></tr>
 <tr><td>Photos in 12 MP</td><td class="y">Yes</td><td class="y">Yes</td></tr>
 <tr><td>Photos up to 48 MP and in ProRAW</td><td>No</td><td class="y">Yes</td></tr>
